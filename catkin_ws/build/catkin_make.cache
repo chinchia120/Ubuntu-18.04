@@ -1,2 +1,2 @@
-beginner_tutorials
+beginner_tutorials:my_turtle_package
 -DCATKIN_DEVEL_PREFIX=/home/chinchia120/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/chinchia120/catkin_ws/install -G Unix Makefiles
