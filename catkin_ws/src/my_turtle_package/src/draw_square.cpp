@@ -24,6 +24,7 @@ int main(int argc, char *argv[])
         
         cnt++;
         //ROS_INFO("%d", cnt);
+        
         if(cnt > 0 && cnt <= 200000)
         {   
             vel_cmd.linear.x = 2.0;
@@ -45,6 +46,7 @@ int main(int argc, char *argv[])
             vel_cmd.angular.y = 0.0;
             vel_cmd.angular.z = 0.0;
         }
+
         if(cnt > 400000 && cnt <= 600000)
         {   
             vel_cmd.linear.x = -2.0;
@@ -55,6 +57,7 @@ int main(int argc, char *argv[])
             vel_cmd.angular.y = 0.0;
             vel_cmd.angular.z = 0.0;
         }
+
         if(cnt > 600000&& cnt <= 800000)
         {   
             vel_cmd.linear.x = 0.0;
@@ -69,7 +72,68 @@ int main(int argc, char *argv[])
         {
             cnt = 0;
         }
+        
+        /*
+        if(cnt > 0 && cnt < 200000)
+        {   
+            vel_cmd.linear.x = 2.0;
+            vel_cmd.linear.y = 0.0;
+            vel_cmd.linear.z = 0.0;
 
+            vel_cmd.angular.x = 0.0;
+            vel_cmd.angular.y = 0.0;
+            vel_cmd.angular.z = PI;
+        }
+        
+        if(cnt > 200000 && cnt < 400000)
+        {
+            vel_cmd.linear.x = 2.0;
+            vel_cmd.linear.y = 0.0;
+            vel_cmd.linear.z = 0.0;
+
+            vel_cmd.angular.x = 0.0;
+            vel_cmd.angular.y = 0.0;
+            vel_cmd.angular.z = 0.0;
+        }
+
+        if(cnt > 400000 && cnt < 600000)
+        {   
+            vel_cmd.linear.x = 2.0;
+            vel_cmd.linear.y = 0.0;
+            vel_cmd.linear.z = 0.0;
+
+            vel_cmd.angular.x = 0.0;
+            vel_cmd.angular.y = 0.0;
+            vel_cmd.angular.z = 0.0;
+        }
+
+        if(cnt > 600000&& cnt < 800000)
+        {   
+            vel_cmd.linear.x = 2.0;
+            vel_cmd.linear.y = 0.0;
+            vel_cmd.linear.z = 0.0;
+
+            vel_cmd.angular.x = 0.0;
+            vel_cmd.angular.y = 0.0;
+            vel_cmd.angular.z = 0.0;
+        }
+
+        if(cnt == 800000)
+        {
+            cnt = 0;
+        }
+
+        if(cnt%200000 == 0)
+        {
+            vel_cmd.linear.x = 0.0;
+            vel_cmd.linear.y = 0.0;
+            vel_cmd.linear.z = 0.0;
+
+            vel_cmd.angular.x = 0.0;
+            vel_cmd.angular.y = 0.0;
+            vel_cmd.angular.z = PI;
+        }
+        */
 
         vel_pub.publish(vel_cmd); //After assignment, it is sent to the topic "/ cmd_vel". The core node of the robot will receive and send the past speed value from this topic and forward it to the hardware body for execution
  
