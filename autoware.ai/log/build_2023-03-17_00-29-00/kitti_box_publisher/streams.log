@@ -1,0 +1,60 @@
+[0.053s] Invoking command in '/home/chinchia120/autoware.ai/build/kitti_box_publisher': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/chinchia120/autoware.ai/src/autoware/utilities/kitti_box_publisher -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/chinchia120/autoware.ai/install/kitti_box_publisher
+[0.183s] -- The C compiler identification is GNU 7.5.0
+[0.326s] -- The CXX compiler identification is GNU 7.5.0
+[0.338s] -- Check for working C compiler: /usr/bin/cc
+[0.498s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.498s] -- Detecting C compiler ABI info
+[0.651s] -- Detecting C compiler ABI info - done
+[0.667s] -- Detecting C compile features
+[1.096s] -- Detecting C compile features - done
+[1.101s] -- Check for working CXX compiler: /usr/bin/c++
+[1.285s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.286s] -- Detecting CXX compiler ABI info
+[1.486s] -- Detecting CXX compiler ABI info - done
+[1.511s] -- Detecting CXX compile features
+[2.267s] -- Detecting CXX compile features - done
+[2.271s] -- Using CATKIN_DEVEL_PREFIX: /home/chinchia120/autoware.ai/build/kitti_box_publisher/devel
+[2.272s] -- Using CMAKE_PREFIX_PATH: /home/chinchia120/autoware.ai/install/autoware_msgs;/home/chinchia120/catkin_ws/devel;/opt/ros/melodic
+[2.272s] -- This workspace overlays: /home/chinchia120/autoware.ai/install/autoware_msgs;/home/chinchia120/catkin_ws/devel;/opt/ros/melodic
+[2.298s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[2.298s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[2.298s] -- Using Debian Python package layout
+[2.299s] -- Using empy: /usr/bin/empy
+[2.564s] -- Using CATKIN_ENABLE_TESTING: ON
+[2.565s] -- Call enable_testing()
+[2.568s] -- Using CATKIN_TEST_RESULTS_DIR: /home/chinchia120/autoware.ai/build/kitti_box_publisher/test_results
+[2.597s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[2.597s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[2.618s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[2.620s] -- Looking for pthread.h
+[2.771s] -- Looking for pthread.h - found
+[2.772s] -- Looking for pthread_create
+[2.915s] -- Looking for pthread_create - not found
+[2.916s] -- Looking for pthread_create in pthreads
+[3.032s] -- Looking for pthread_create in pthreads - not found
+[3.032s] -- Looking for pthread_create in pthread
+[3.191s] -- Looking for pthread_create in pthread - found
+[3.193s] -- Found Threads: TRUE  
+[3.201s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[3.297s] -- catkin 0.7.29
+[3.297s] -- BUILD_SHARED_LIBS is on
+[3.595s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[3.955s] -- Configuring done
+[4.003s] -- Generating done
+[4.013s] -- Build files have been written to: /home/chinchia120/autoware.ai/build/kitti_box_publisher
+[4.020s] Invoked command in '/home/chinchia120/autoware.ai/build/kitti_box_publisher' returned '0': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/chinchia120/autoware.ai/src/autoware/utilities/kitti_box_publisher -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/chinchia120/autoware.ai/install/kitti_box_publisher
+[4.025s] Invoking command in '/home/chinchia120/autoware.ai/build/kitti_box_publisher': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/kitti_box_publisher -- -j4 -l4
+[4.125s] Invoked command in '/home/chinchia120/autoware.ai/build/kitti_box_publisher' returned '0': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/kitti_box_publisher -- -j4 -l4
+[4.308s] Invoking command in '/home/chinchia120/autoware.ai/build/kitti_box_publisher': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/kitti_box_publisher --target tests -- -j4 -l4
+[4.429s] [35m[1mScanning dependencies of target tests[0m
+[4.458s] Built target tests
+[4.480s] Invoked command in '/home/chinchia120/autoware.ai/build/kitti_box_publisher' returned '0': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/kitti_box_publisher --target tests -- -j4 -l4
+[4.678s] Invoking command in '/home/chinchia120/autoware.ai/build/kitti_box_publisher': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/kitti_box_publisher --target install -- -j4 -l4
+[4.786s] [36mInstall the project...[0m
+[4.805s] -- Install configuration: "Release"
+[4.805s] -- Installing: /home/chinchia120/autoware.ai/install/kitti_box_publisher/lib/pkgconfig/kitti_box_publisher.pc
+[4.807s] -- Installing: /home/chinchia120/autoware.ai/install/kitti_box_publisher/share/kitti_box_publisher/cmake/kitti_box_publisherConfig.cmake
+[4.808s] -- Installing: /home/chinchia120/autoware.ai/install/kitti_box_publisher/share/kitti_box_publisher/cmake/kitti_box_publisherConfig-version.cmake
+[4.808s] -- Installing: /home/chinchia120/autoware.ai/install/kitti_box_publisher/share/kitti_box_publisher/package.xml
+[4.809s] -- Installing: /home/chinchia120/autoware.ai/install/kitti_box_publisher/lib/kitti_box_publisher/kitti_box_publisher.py
+[4.815s] Invoked command in '/home/chinchia120/autoware.ai/build/kitti_box_publisher' returned '0': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/kitti_box_publisher --target install -- -j4 -l4

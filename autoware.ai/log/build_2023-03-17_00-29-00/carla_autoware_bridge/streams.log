@@ -1,0 +1,86 @@
+[0.031s] Invoking command in '/home/chinchia120/autoware.ai/build/carla_autoware_bridge': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/chinchia120/autoware.ai/src/autoware/simulation/carla_simulator_bridge/carla_autoware_bridge -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/chinchia120/autoware.ai/install/carla_autoware_bridge
+[0.202s] -- The C compiler identification is GNU 7.5.0
+[0.351s] -- The CXX compiler identification is GNU 7.5.0
+[0.362s] -- Check for working C compiler: /usr/bin/cc
+[0.527s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.528s] -- Detecting C compiler ABI info
+[0.683s] -- Detecting C compiler ABI info - done
+[0.709s] -- Detecting C compile features
+[1.175s] -- Detecting C compile features - done
+[1.184s] -- Check for working CXX compiler: /usr/bin/c++
+[1.338s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.339s] -- Detecting CXX compiler ABI info
+[1.528s] -- Detecting CXX compiler ABI info - done
+[1.545s] -- Detecting CXX compile features
+[2.383s] -- Detecting CXX compile features - done
+[2.389s] -- Using CATKIN_DEVEL_PREFIX: /home/chinchia120/autoware.ai/build/carla_autoware_bridge/devel
+[2.390s] -- Using CMAKE_PREFIX_PATH: /home/chinchia120/autoware.ai/install/autoware_msgs;/home/chinchia120/catkin_ws/devel;/opt/ros/melodic
+[2.391s] -- This workspace overlays: /home/chinchia120/autoware.ai/install/autoware_msgs;/home/chinchia120/catkin_ws/devel;/opt/ros/melodic
+[2.424s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[2.425s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[2.425s] -- Using Debian Python package layout
+[2.426s] -- Using empy: /usr/bin/empy
+[2.740s] -- Using CATKIN_ENABLE_TESTING: ON
+[2.741s] -- Call enable_testing()
+[2.746s] -- Using CATKIN_TEST_RESULTS_DIR: /home/chinchia120/autoware.ai/build/carla_autoware_bridge/test_results
+[2.814s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[2.814s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[2.848s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[2.851s] -- Looking for pthread.h
+[3.006s] -- Looking for pthread.h - found
+[3.008s] -- Looking for pthread_create
+[3.175s] -- Looking for pthread_create - not found
+[3.176s] -- Looking for pthread_create in pthreads
+[3.293s] -- Looking for pthread_create in pthreads - not found
+[3.294s] -- Looking for pthread_create in pthread
+[3.459s] -- Looking for pthread_create in pthread - found
+[3.463s] -- Found Threads: TRUE  
+[3.474s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[3.585s] -- catkin 0.7.29
+[3.585s] -- BUILD_SHARED_LIBS is on
+[4.083s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[5.398s] -- Configuring done
+[5.448s] -- Generating done
+[5.460s] -- Build files have been written to: /home/chinchia120/autoware.ai/build/carla_autoware_bridge
+[5.468s] Invoked command in '/home/chinchia120/autoware.ai/build/carla_autoware_bridge' returned '0': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/chinchia120/autoware.ai/src/autoware/simulation/carla_simulator_bridge/carla_autoware_bridge -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/chinchia120/autoware.ai/install/carla_autoware_bridge
+[5.476s] Invoking command in '/home/chinchia120/autoware.ai/build/carla_autoware_bridge': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/carla_autoware_bridge -- -j4 -l4
+[5.573s] Invoked command in '/home/chinchia120/autoware.ai/build/carla_autoware_bridge' returned '0': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/carla_autoware_bridge -- -j4 -l4
+[5.755s] Invoking command in '/home/chinchia120/autoware.ai/build/carla_autoware_bridge': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/carla_autoware_bridge --target tests -- -j4 -l4
+[5.905s] [35m[1mScanning dependencies of target tests[0m
+[5.938s] Built target tests
+[5.970s] Invoked command in '/home/chinchia120/autoware.ai/build/carla_autoware_bridge' returned '0': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/carla_autoware_bridge --target tests -- -j4 -l4
+[6.210s] Invoking command in '/home/chinchia120/autoware.ai/build/carla_autoware_bridge': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/carla_autoware_bridge --target install -- -j4 -l4
+[6.370s] [36mInstall the project...[0m
+[6.397s] -- Install configuration: "Release"
+[6.402s] + cd /home/chinchia120/autoware.ai/src/autoware/simulation/carla_simulator_bridge/carla_autoware_bridge
+[6.402s] + mkdir -p /home/chinchia120/autoware.ai/install/carla_autoware_bridge/lib/python2.7/dist-packages
+[6.409s] + /usr/bin/env PYTHONPATH=/home/chinchia120/autoware.ai/install/carla_autoware_bridge/lib/python2.7/dist-packages:/home/chinchia120/autoware.ai/build/carla_autoware_bridge/lib/python2.7/dist-packages:/home/chinchia120/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages CATKIN_BINARY_DIR=/home/chinchia120/autoware.ai/build/carla_autoware_bridge /usr/bin/python2 /home/chinchia120/autoware.ai/src/autoware/simulation/carla_simulator_bridge/carla_autoware_bridge/setup.py build --build-base /home/chinchia120/autoware.ai/build/carla_autoware_bridge install --root=/ --install-layout=deb --prefix=/home/chinchia120/autoware.ai/install/carla_autoware_bridge --install-scripts=/home/chinchia120/autoware.ai/install/carla_autoware_bridge/bin
+[6.530s] running build
+[6.530s] running build_py
+[6.535s] creating /home/chinchia120/autoware.ai/build/carla_autoware_bridge/lib.linux-x86_64-2.7
+[6.535s] creating /home/chinchia120/autoware.ai/build/carla_autoware_bridge/lib.linux-x86_64-2.7/carla_autoware_bridge
+[6.535s] copying src/carla_autoware_bridge/__init__.py -> /home/chinchia120/autoware.ai/build/carla_autoware_bridge/lib.linux-x86_64-2.7/carla_autoware_bridge
+[6.536s] running install
+[6.536s] running install_lib
+[6.537s] creating /home/chinchia120/autoware.ai/install/carla_autoware_bridge/lib/python2.7/dist-packages/carla_autoware_bridge
+[6.537s] copying /home/chinchia120/autoware.ai/build/carla_autoware_bridge/lib.linux-x86_64-2.7/carla_autoware_bridge/__init__.py -> /home/chinchia120/autoware.ai/install/carla_autoware_bridge/lib/python2.7/dist-packages/carla_autoware_bridge
+[6.537s] byte-compiling /home/chinchia120/autoware.ai/install/carla_autoware_bridge/lib/python2.7/dist-packages/carla_autoware_bridge/__init__.py to __init__.pyc
+[6.542s] running install_egg_info
+[6.543s] Writing /home/chinchia120/autoware.ai/install/carla_autoware_bridge/lib/python2.7/dist-packages/carla_autoware_bridge-0.0.0.egg-info
+[6.553s] -- Installing: /home/chinchia120/autoware.ai/install/carla_autoware_bridge/lib/pkgconfig/carla_autoware_bridge.pc
+[6.553s] -- Installing: /home/chinchia120/autoware.ai/install/carla_autoware_bridge/share/carla_autoware_bridge/cmake/carla_autoware_bridgeConfig.cmake
+[6.554s] -- Installing: /home/chinchia120/autoware.ai/install/carla_autoware_bridge/share/carla_autoware_bridge/cmake/carla_autoware_bridgeConfig-version.cmake
+[6.554s] -- Installing: /home/chinchia120/autoware.ai/install/carla_autoware_bridge/share/carla_autoware_bridge/package.xml
+[6.554s] -- Installing: /home/chinchia120/autoware.ai/install/carla_autoware_bridge/lib/carla_autoware_bridge/carla_to_autoware_vehicle_status
+[6.555s] -- Installing: /home/chinchia120/autoware.ai/install/carla_autoware_bridge/lib/carla_autoware_bridge/carla_to_autoware_waypoints
+[6.555s] -- Installing: /home/chinchia120/autoware.ai/install/carla_autoware_bridge/lib/carla_autoware_bridge/odometry_to_posestamped
+[6.556s] -- Installing: /home/chinchia120/autoware.ai/install/carla_autoware_bridge/lib/carla_autoware_bridge/vehiclecmd_to_ackermanndrive
+[6.556s] -- Installing: /home/chinchia120/autoware.ai/install/carla_autoware_bridge/lib/carla_autoware_bridge/carla_to_autoware_detected_objects
+[6.557s] -- Installing: /home/chinchia120/autoware.ai/install/carla_autoware_bridge/share/carla_autoware_bridge/launch
+[6.560s] -- Installing: /home/chinchia120/autoware.ai/install/carla_autoware_bridge/share/carla_autoware_bridge/launch/carla_autoware_bridge_common.launch
+[6.561s] -- Installing: /home/chinchia120/autoware.ai/install/carla_autoware_bridge/share/carla_autoware_bridge/launch/carla_autoware_bridge.launch
+[6.561s] -- Installing: /home/chinchia120/autoware.ai/install/carla_autoware_bridge/share/carla_autoware_bridge/launch/carla_autoware_bridge_with_manual_control.launch
+[6.562s] -- Installing: /home/chinchia120/autoware.ai/install/carla_autoware_bridge/share/carla_autoware_bridge/launch/tf.launch
+[6.564s] -- Installing: /home/chinchia120/autoware.ai/install/carla_autoware_bridge/share/carla_autoware_bridge/config
+[6.566s] -- Installing: /home/chinchia120/autoware.ai/install/carla_autoware_bridge/share/carla_autoware_bridge/config/sensors.json
+[6.576s] Invoked command in '/home/chinchia120/autoware.ai/build/carla_autoware_bridge' returned '0': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/carla_autoware_bridge --target install -- -j4 -l4

@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/chinchia120/autoware.ai/build/decision_maker_panel/devel/setup.sh

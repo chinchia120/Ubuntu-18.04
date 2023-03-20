@@ -1,0 +1,194 @@
+[0.048s] Invoking command in '/home/chinchia120/autoware.ai/build/ndt_cpu': /usr/bin/cmake /home/chinchia120/autoware.ai/src/autoware/core_perception/ndt_cpu -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/chinchia120/autoware.ai/install/ndt_cpu
+[0.272s] -- The C compiler identification is GNU 7.5.0
+[0.428s] -- The CXX compiler identification is GNU 7.5.0
+[0.439s] -- Check for working C compiler: /usr/bin/cc
+[0.612s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.614s] -- Detecting C compiler ABI info
+[0.776s] -- Detecting C compiler ABI info - done
+[0.790s] -- Detecting C compile features
+[1.303s] -- Detecting C compile features - done
+[1.308s] -- Check for working CXX compiler: /usr/bin/c++
+[1.491s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.493s] -- Detecting CXX compiler ABI info
+[1.681s] -- Detecting CXX compiler ABI info - done
+[1.707s] -- Detecting CXX compile features
+[2.594s] -- Detecting CXX compile features - done
+[2.598s] -- Using CATKIN_DEVEL_PREFIX: /home/chinchia120/autoware.ai/build/ndt_cpu/devel
+[2.598s] -- Using CMAKE_PREFIX_PATH: /home/chinchia120/catkin_ws/devel;/opt/ros/melodic
+[2.598s] -- This workspace overlays: /home/chinchia120/catkin_ws/devel;/opt/ros/melodic
+[2.630s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[2.631s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[2.632s] -- Using Debian Python package layout
+[2.633s] -- Using empy: /usr/bin/empy
+[2.981s] -- Using CATKIN_ENABLE_TESTING: ON
+[2.982s] -- Call enable_testing()
+[2.987s] -- Using CATKIN_TEST_RESULTS_DIR: /home/chinchia120/autoware.ai/build/ndt_cpu/test_results
+[3.024s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[3.024s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[3.053s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[3.057s] -- Looking for pthread.h
+[3.220s] -- Looking for pthread.h - found
+[3.221s] -- Looking for pthread_create
+[3.388s] -- Looking for pthread_create - not found
+[3.389s] -- Looking for pthread_create in pthreads
+[3.530s] -- Looking for pthread_create in pthreads - not found
+[3.530s] -- Looking for pthread_create in pthread
+[3.688s] -- Looking for pthread_create in pthread - found
+[3.691s] -- Found Threads: TRUE  
+[3.708s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[3.783s] -- catkin 0.7.29
+[3.784s] -- BUILD_SHARED_LIBS is on
+[4.024s] -- Checking for module 'eigen3'
+[4.106s] --   Found eigen3, version 3.3.7
+[4.211s] -- Found eigen: /usr/local/include/eigen3  
+[4.409s] -- Boost version: 1.65.1
+[4.410s] -- Found the following Boost libraries:
+[4.410s] --   system
+[4.410s] --   filesystem
+[4.410s] --   thread
+[4.410s] --   date_time
+[4.410s] --   iostreams
+[4.411s] --   serialization
+[4.411s] --   chrono
+[4.411s] --   atomic
+[4.411s] --   regex
+[4.416s] -- Checking for module 'libopenni'
+[4.480s] --   Found libopenni, version 1.5.4.0
+[4.599s] -- Found openni: /usr/lib/libOpenNI.so  
+[4.602s] -- Checking for module 'libopenni2'
+[4.647s] --   Found libopenni2, version 2.2.0.3
+[4.783s] -- Found OpenNI2: /usr/lib/libOpenNI2.so  
+[4.792s] -- Could NOT find ensenso (missing: ENSENSO_LIBRARY ENSENSO_INCLUDE_DIR) 
+[4.793s] ** WARNING ** io features related to ensenso will be disabled
+[4.798s] -- Could NOT find DAVIDSDK (missing: DAVIDSDK_LIBRARY DAVIDSDK_INCLUDE_DIR) 
+[4.798s] ** WARNING ** io features related to davidSDK will be disabled
+[4.801s] -- Could NOT find DSSDK (missing: _DSSDK_LIBRARIES) 
+[4.802s] ** WARNING ** io features related to dssdk will be disabled
+[4.803s] ** WARNING ** io features related to pcap will be disabled
+[4.803s] ** WARNING ** io features related to png will be disabled
+[4.989s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[4.989s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[4.990s] but this file does not exist.  Possible reasons include:
+[4.990s] * The file was deleted, renamed, or moved to another location.
+[4.990s] * An install or uninstall procedure did not complete successfully.
+[4.990s] * The installation package was faulty and contained
+[4.991s]    "/usr/lib/cmake/vtk-6.3/VTKTargets.cmake"
+[4.991s] but not all the files it references.
+[4.991s] 
+[4.992s] -- The imported target "vtk" references the file
+[4.992s]    "/usr/bin/vtk"
+[4.992s] but this file does not exist.  Possible reasons include:
+[4.993s] * The file was deleted, renamed, or moved to another location.
+[4.993s] * An install or uninstall procedure did not complete successfully.
+[4.993s] * The installation package was faulty and contained
+[4.993s]    "/usr/lib/cmake/vtk-6.3/VTKTargets.cmake"
+[4.993s] but not all the files it references.
+[4.994s] 
+[5.313s] -- Found libusb-1.0: /usr/include  
+[5.314s] ** WARNING ** io features related to libusb-1.0 will be disabled
+[5.315s] -- Checking for module 'flann'
+[5.364s] --   Found flann, version 1.9.1
+[5.510s] -- Found Flann: /usr/lib/x86_64-linux-gnu/libflann_cpp_s.a  
+[5.625s] -- Could NOT find ensenso (missing: ENSENSO_LIBRARY ENSENSO_INCLUDE_DIR) 
+[5.625s] ** WARNING ** visualization features related to ensenso will be disabled
+[5.629s] -- Could NOT find DAVIDSDK (missing: DAVIDSDK_LIBRARY DAVIDSDK_INCLUDE_DIR) 
+[5.629s] ** WARNING ** visualization features related to davidSDK will be disabled
+[5.631s] -- Could NOT find DSSDK (missing: _DSSDK_LIBRARIES) 
+[5.631s] ** WARNING ** visualization features related to dssdk will be disabled
+[5.632s] -- Could NOT find RSSDK (missing: _RSSDK_LIBRARIES) 
+[5.633s] ** WARNING ** visualization features related to rssdk will be disabled
+[5.726s] -- Found qhull: /usr/lib/x86_64-linux-gnu/libqhull.so  
+[5.809s] -- looking for PCL_COMMON
+[5.812s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[5.812s] -- looking for PCL_OCTREE
+[5.816s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[5.816s] -- looking for PCL_IO
+[5.819s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[5.820s] -- looking for PCL_KDTREE
+[5.824s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[5.825s] -- looking for PCL_SEARCH
+[5.829s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[5.829s] -- looking for PCL_SAMPLE_CONSENSUS
+[5.832s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[5.833s] -- looking for PCL_FILTERS
+[5.836s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[5.837s] -- looking for PCL_2D
+[5.839s] -- Found PCL_2D: /usr/include/pcl-1.8  
+[5.839s] -- looking for PCL_GEOMETRY
+[5.840s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.8  
+[5.841s] -- looking for PCL_FEATURES
+[5.843s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[5.844s] -- looking for PCL_ML
+[5.848s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[5.849s] -- looking for PCL_SEGMENTATION
+[5.853s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[5.855s] -- looking for PCL_VISUALIZATION
+[5.861s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[5.863s] -- looking for PCL_SURFACE
+[5.865s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[5.866s] -- looking for PCL_REGISTRATION
+[5.870s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[5.872s] -- looking for PCL_KEYPOINTS
+[5.875s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[5.877s] -- looking for PCL_TRACKING
+[5.881s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[5.883s] -- looking for PCL_RECOGNITION
+[5.888s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[5.891s] -- looking for PCL_STEREO
+[5.895s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[5.896s] -- looking for PCL_APPS
+[5.899s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[5.905s] -- looking for PCL_IN_HAND_SCANNER
+[5.907s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.8  
+[5.907s] -- looking for PCL_MODELER
+[5.909s] -- Found PCL_MODELER: /usr/include/pcl-1.8  
+[5.910s] -- looking for PCL_POINT_CLOUD_EDITOR
+[5.914s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.8  
+[5.914s] -- looking for PCL_OUTOFCORE
+[5.919s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[5.920s] -- looking for PCL_PEOPLE
+[5.925s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[5.989s] -- Found PCL: /usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_thread.so;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;/usr/lib/x86_64-linux-gnu/libboost_serialization.so;/usr/lib/x86_64-linux-gnu/libboost_chrono.so;/usr/lib/x86_64-linux-gnu/libboost_atomic.so;/usr/lib/x86_64-linux-gnu/libboost_regex.so;/usr/lib/x86_64-linux-gnu/libpthread.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_common.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_common.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_octree.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_octree.so;/usr/lib/libOpenNI.so;/usr/lib/libOpenNI2.so;vtkChartsCore;vtkCommonColor;vtkCommonDataModel;vtkCommonMath;vtkCommonCore;vtksys;vtkCommonMisc;vtkCommonSystem;vtkCommonTransforms;vtkInfovisCore;vtkFiltersExtraction;vtkCommonExecutionModel;vtkFiltersCore;vtkFiltersGeneral;vtkCommonComputationalGeometry;vtkFiltersStatistics;vtkImagingFourier;vtkImagingCore;vtkalglib;vtkRenderingContext2D;vtkRenderingCore;vtkFiltersGeometry;vtkFiltersSources;vtkRenderingFreeType;/usr/lib/x86_64-linux-gnu/libfreetype.so;/usr/lib/x86_64-linux-gnu/libz.so;vtkftgl;vtkDICOMParser;vtkDomainsChemistry;vtkIOXML;vtkIOGeometry;vtkIOCore;vtkIOXMLParser;/usr/lib/x86_64-linux-gnu/libexpat.so;vtkFiltersAMR;vtkParallelCore;vtkIOLegacy;vtkFiltersFlowPaths;vtkFiltersGeneric;vtkFiltersHybrid;vtkImagingSources;vtkFiltersHyperTree;vtkFiltersImaging;vtkImagingGeneral;vtkFiltersModeling;vtkFiltersParallel;vtkFiltersParallelFlowPaths;vtkParallelMPI;vtkFiltersParallelGeometry;vtkFiltersParallelImaging;vtkFiltersParallelMPI;vtkFiltersParallelStatistics;vtkFiltersProgrammable;vtkFiltersPython;/usr/lib/x86_64-linux-gnu/libpython2.7.so;vtkWrappingPythonCore;vtkWrappingTools;vtkFiltersReebGraph;vtkFiltersSMP;vtkFiltersSelection;vtkFiltersTexture;vtkFiltersVerdict;verdict;vtkGUISupportQt;vtkInteractionStyle;vtkRenderingOpenGL;vtkImagingHybrid;vtkIOImage;vtkmetaio;/usr/lib/x86_64-linux-gnu/libjpeg.so;/usr/lib/x86_64-linux-gnu/libpng.so;/usr/lib/x86_64-linux-gnu/libtiff.so;vtkGUISupportQtOpenGL;vtkGUISupportQtSQL;vtkIOSQL;sqlite3;vtkGUISupportQtWebkit;vtkViewsQt;vtkViewsInfovis;vtkInfovisLayout;vtkInfovisBoostGraphAlgorithms;vtkRenderingLabel;vtkViewsCore;vtkInteractionWidgets;vtkRenderingAnnotation;vtkImagingColor;vtkRenderingVolume;vtkGeovisCore;/usr/lib/x86_64-linux-gnu/libproj.so;vtkIOAMR;/usr/lib/x86_64-linux-gnu/hdf5/openmpi/libhdf5.so;/usr/lib/x86_64-linux-gnu/libsz.so;/usr/lib/x86_64-linux-gnu/libdl.so;/usr/lib/x86_64-linux-gnu/libm.so;/usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so;vtkIOEnSight;vtkIOExodus;vtkexoIIc;/usr/lib/x86_64-linux-gnu/libnetcdf_c++.so;/usr/lib/x86_64-linux-gnu/libnetcdf.so;vtkIOExport;vtkRenderingGL2PS;vtkRenderingContextOpenGL;/usr/lib/x86_64-linux-gnu/libgl2ps.so;vtkIOFFMPEG;vtkIOMovie;/usr/lib/x86_64-linux-gnu/libtheoraenc.so;/usr/lib/x86_64-linux-gnu/libtheoradec.so;/usr/lib/x86_64-linux-gnu/libogg.so;vtkIOGDAL;vtkIOGeoJSON;vtkIOImport;vtkIOInfovis;/usr/lib/x86_64-linux-gnu/libxml2.so;vtkIOLSDyna;vtkIOMINC;vtkIOMPIImage;vtkIOMPIParallel;vtkIOParallel;vtkIONetCDF;/usr/lib/x86_64-linux-gnu/libjsoncpp.so;vtkIOMySQL;vtkIOODBC;vtkIOPLY;vtkIOParallelExodus;vtkIOParallelLSDyna;vtkIOParallelNetCDF;vtkIOParallelXML;vtkIOPostgreSQL;vtkIOVPIC;VPIC;vtkIOVideo;vtkIOXdmf2;vtkxdmf2;vtkImagingMath;vtkImagingMorphological;vtkImagingStatistics;vtkImagingStencil;vtkInteractionImage;vtkLocalExample;vtkParallelMPI4Py;vtkPythonInterpreter;vtkRenderingExternal;vtkRenderingFreeTypeFontConfig;vtkRenderingImage;vtkRenderingLIC;vtkRenderingLOD;vtkRenderingMatplotlib;vtkRenderingParallel;vtkRenderingParallelLIC;vtkRenderingQt;vtkRenderingVolumeAMR;vtkRenderingVolumeOpenGL;vtkTestingGenericBridge;vtkTestingIOSQL;vtkTestingRendering;vtkViewsContext2D;vtkViewsGeovis;vtkWrappingJava;optimized;/usr/lib/x86_64-linux-gnu/libpcl_io.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_io.so;optimized;/usr/lib/x86_64-linux-gnu/libflann_cpp_s.a;debug;/usr/lib/x86_64-linux-gnu/libflann_cpp_s.a;optimized;/usr/lib/x86_64-linux-gnu/libpcl_kdtree.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_kdtree.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_search.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_search.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_filters.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_filters.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_features.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_features.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_ml.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_ml.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_segmentation.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_segmentation.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_visualization.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_visualization.so;optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_surface.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_surface.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_registration.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_registration.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_keypoints.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_keypoints.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_tracking.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_tracking.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_recognition.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_recognition.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_stereo.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_stereo.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_apps.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_apps.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_outofcore.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_outofcore.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_people.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_people.so;/usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_thread.so;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;/usr/lib/x86_64-linux-gnu/libboost_serialization.so;/usr/lib/x86_64-linux-gnu/libboost_chrono.so;/usr/lib/x86_64-linux-gnu/libboost_atomic.so;/usr/lib/x86_64-linux-gnu/libboost_regex.so;/usr/lib/x86_64-linux-gnu/libpthread.so;optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so;/usr/lib/libOpenNI.so;/usr/lib/libOpenNI2.so;optimized;/usr/lib/x86_64-linux-gnu/libflann_cpp_s.a;debug;/usr/lib/x86_64-linux-gnu/libflann_cpp_s.a;vtkChartsCore;vtkCommonColor;vtkCommonDataModel;vtkCommonMath;vtkCommonCore;vtksys;vtkCommonMisc;vtkCommonSystem;vtkCommonTransforms;vtkInfovisCore;vtkFiltersExtraction;vtkCommonExecutionModel;vtkFiltersCore;vtkFiltersGeneral;vtkCommonComputationalGeometry;vtkFiltersStatistics;vtkImagingFourier;vtkImagingCore;vtkalglib;vtkRenderingContext2D;vtkRenderingCore;vtkFiltersGeometry;vtkFiltersSources;vtkRenderingFreeType;/usr/lib/x86_64-linux-gnu/libfreetype.so;/usr/lib/x86_64-linux-gnu/libz.so;vtkftgl;vtkDICOMParser;vtkDomainsChemistry;vtkIOXML;vtkIOGeometry;vtkIOCore;vtkIOXMLParser;/usr/lib/x86_64-linux-gnu/libexpat.so;vtkFiltersAMR;vtkParallelCore;vtkIOLegacy;vtkFiltersFlowPaths;vtkFiltersGeneric;vtkFiltersHybrid;vtkImagingSources;vtkFiltersHyperTree;vtkFiltersImaging;vtkImagingGeneral;vtkFiltersModeling;vtkFiltersParallel;vtkFiltersParallelFlowPaths;vtkParallelMPI;vtkFiltersParallelGeometry;vtkFiltersParallelImaging;vtkFiltersParallelMPI;vtkFiltersParallelStatistics;vtkFiltersProgrammable;vtkFiltersPython;/usr/lib/x86_64-linux-gnu/libpython2.7.so;vtkWrappingPythonCore;vtkWrappingTools;vtkFiltersReebGraph;vtkFiltersSMP;vtkFiltersSelection;vtkFiltersTexture;vtkFiltersVerdict;verdict;vtkGUISupportQt;vtkInteractionStyle;vtkRenderingOpenGL;vtkImagingHybrid;vtkIOImage;vtkmetaio;/usr/lib/x86_64-linux-gnu/libjpeg.so;/usr/lib/x86_64-linux-gnu/libpng.so;/usr/lib/x86_64-linux-gnu/libtiff.so;vtkGUISupportQtOpenGL;vtkGUISupportQtSQL;vtkIOSQL;sqlite3;vtkGUISupportQtWebkit;vtkViewsQt;vtkViewsInfovis;vtkInfovisLayout;vtkInfovisBoostGraphAlgorithms;vtkRenderingLabel;vtkViewsCore;vtkInteractionWidgets;vtkRenderingAnnotation;vtkImagingColor;vtkRenderingVolume;vtkGeovisCore;/usr/lib/x86_64-linux-gnu/libproj.so;vtkIOAMR;/usr/lib/x86_64-linux-gnu/hdf5/openmpi/libhdf5.so;/usr/lib/x86_64-linux-gnu/libsz.so;/usr/lib/x86_64-linux-gnu/libdl.so;/usr/lib/x86_64-linux-gnu/libm.so;/usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so;vtkIOEnSight;vtkIOExodus;vtkexoIIc;/usr/lib/x86_64-linux-gnu/libnetcdf_c++.so;/usr/lib/x86_64-linux-gnu/libnetcdf.so;vtkIOExport;vtkRenderingGL2PS;vtkRenderingContextOpenGL;/usr/lib/x86_64-linux-gnu/libgl2ps.so;vtkIOFFMPEG;vtkIOMovie;/usr/lib/x86_64-linux-gnu/libtheoraenc.so;/usr/lib/x86_64-linux-gnu/libtheoradec.so;/usr/lib/x86_64-linux-gnu/libogg.so;vtkIOGDAL;vtkIOGeoJSON;vtkIOImport;vtkIOInfovis;/usr/lib/x86_64-linux-gnu/libxml2.so;vtkIOLSDyna;vtkIOMINC;vtkIOMPIImage;vtkIOMPIParallel;vtkIOParallel;vtkIONetCDF;/usr/lib/x86_64-linux-gnu/libjsoncpp.so;vtkIOMySQL;vtkIOODBC;vtkIOPLY;vtkIOParallelExodus;vtkIOParallelLSDyna;vtkIOParallelNetCDF;vtkIOParallelXML;vtkIOPostgreSQL;vtkIOVPIC;VPIC;vtkIOVideo;vtkIOXdmf2;vtkxdmf2;vtkImagingMath;vtkImagingMorphological;vtkImagingStatistics;vtkImagingStencil;vtkInteractionImage;vtkLocalExample;vtkParallelMPI4Py;vtkPythonInterpreter;vtkRenderingExternal;vtkRenderingFreeTypeFontConfig;vtkRenderingImage;vtkRenderingLIC;vtkRenderingLOD;vtkRenderingMatplotlib;vtkRenderingParallel;vtkRenderingParallelLIC;vtkRenderingQt;vtkRenderingVolumeAMR;vtkRenderingVolumeOpenGL;vtkTestingGenericBridge;vtkTestingIOSQL;vtkTestingRendering;vtkViewsContext2D;vtkViewsGeovis;vtkWrappingJava  
+[6.658s] CMake Warning at CMakeLists.txt:49 (message):
+[6.658s]   Adding 'EIGEN_DISABLE_UNALIGNED_ARRAY_ASSERT' macro to prevent
+[6.659s]   ndt_matching's runtime error in debug mode.
+[6.660s] 
+[6.660s]     The bug reasons and solutions are written in http://eigen.tuxfamily.org/dox-devel/group__TopicUnalignedArrayAssert.html .
+[6.660s]     This workaround was discussed on https://gitlab.com/autowarefoundation/autoware.ai/core_perception/merge_requests/57 .
+[6.660s] 
+[6.660s] 
+[6.668s] -- Configuring done
+[6.824s] -- Generating done
+[6.829s] -- Build files have been written to: /home/chinchia120/autoware.ai/build/ndt_cpu
+[6.841s] Invoked command in '/home/chinchia120/autoware.ai/build/ndt_cpu' returned '0': /usr/bin/cmake /home/chinchia120/autoware.ai/src/autoware/core_perception/ndt_cpu -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/chinchia120/autoware.ai/install/ndt_cpu
+[6.848s] Invoking command in '/home/chinchia120/autoware.ai/build/ndt_cpu': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/ndt_cpu -- -j4 -l4
+[6.949s] [35m[1mScanning dependencies of target ndt_cpu[0m
+[7.173s] [ 20%] [32mBuilding CXX object CMakeFiles/ndt_cpu.dir/src/NormalDistributionsTransform.cpp.o[0m
+[25.634s] [ 40%] [32mBuilding CXX object CMakeFiles/ndt_cpu.dir/src/Octree.cpp.o[0m
+[32.083s] [ 60%] [32mBuilding CXX object CMakeFiles/ndt_cpu.dir/src/VoxelGrid.cpp.o[0m
+[40.098s] [ 80%] [32mBuilding CXX object CMakeFiles/ndt_cpu.dir/src/Registration.cpp.o[0m
+[44.488s] [100%] [32m[1mLinking CXX shared library devel/lib/libndt_cpu.so[0m
+[45.438s] [100%] Built target ndt_cpu
+[45.463s] Invoked command in '/home/chinchia120/autoware.ai/build/ndt_cpu' returned '0': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/ndt_cpu -- -j4 -l4
+[45.571s] Invoking command in '/home/chinchia120/autoware.ai/build/ndt_cpu': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/ndt_cpu --target tests -- -j4 -l4
+[45.695s] [35m[1mScanning dependencies of target tests[0m
+[45.717s] Built target tests
+[45.738s] Invoked command in '/home/chinchia120/autoware.ai/build/ndt_cpu' returned '0': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/ndt_cpu --target tests -- -j4 -l4
+[45.864s] Invoking command in '/home/chinchia120/autoware.ai/build/ndt_cpu': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/ndt_cpu --target install -- -j4 -l4
+[46.032s] [100%] Built target ndt_cpu
+[46.081s] [36mInstall the project...[0m
+[46.098s] -- Install configuration: "Release"
+[46.099s] -- Installing: /home/chinchia120/autoware.ai/install/ndt_cpu/lib/pkgconfig/ndt_cpu.pc
+[46.100s] -- Installing: /home/chinchia120/autoware.ai/install/ndt_cpu/share/ndt_cpu/cmake/ndt_cpuConfig.cmake
+[46.100s] -- Installing: /home/chinchia120/autoware.ai/install/ndt_cpu/share/ndt_cpu/cmake/ndt_cpuConfig-version.cmake
+[46.100s] -- Installing: /home/chinchia120/autoware.ai/install/ndt_cpu/share/ndt_cpu/package.xml
+[46.101s] -- Installing: /home/chinchia120/autoware.ai/install/ndt_cpu/include/ndt_cpu
+[46.101s] -- Installing: /home/chinchia120/autoware.ai/install/ndt_cpu/include/ndt_cpu/Registration.h
+[46.101s] -- Installing: /home/chinchia120/autoware.ai/install/ndt_cpu/include/ndt_cpu/NormalDistributionsTransform.h
+[46.102s] -- Installing: /home/chinchia120/autoware.ai/install/ndt_cpu/include/ndt_cpu/VoxelGrid.h
+[46.102s] -- Installing: /home/chinchia120/autoware.ai/install/ndt_cpu/include/ndt_cpu/SymmetricEigenSolver.h
+[46.102s] -- Installing: /home/chinchia120/autoware.ai/install/ndt_cpu/include/ndt_cpu/debug.h
+[46.103s] -- Installing: /home/chinchia120/autoware.ai/install/ndt_cpu/include/ndt_cpu/Octree.h
+[46.103s] -- Installing: /home/chinchia120/autoware.ai/install/ndt_cpu/lib/libndt_cpu.so
+[46.105s] -- Set runtime path of "/home/chinchia120/autoware.ai/install/ndt_cpu/lib/libndt_cpu.so" to ""
+[46.111s] Invoked command in '/home/chinchia120/autoware.ai/build/ndt_cpu' returned '0': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/ndt_cpu --target install -- -j4 -l4

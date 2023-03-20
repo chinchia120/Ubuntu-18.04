@@ -1,0 +1,15 @@
+/home/chinchia120/autoware.ai/install/lgsvl_simulator_bridge/lib/pkgconfig/lgsvl_simulator_bridge.pc
+/home/chinchia120/autoware.ai/install/lgsvl_simulator_bridge/share/lgsvl_simulator_bridge/cmake/lgsvl_simulator_bridgeConfig.cmake
+/home/chinchia120/autoware.ai/install/lgsvl_simulator_bridge/share/lgsvl_simulator_bridge/cmake/lgsvl_simulator_bridgeConfig-version.cmake
+/home/chinchia120/autoware.ai/install/lgsvl_simulator_bridge/share/lgsvl_simulator_bridge/package.xml
+/home/chinchia120/autoware.ai/install/lgsvl_simulator_bridge/share/lgsvl_simulator_bridge/launch/bridge.launch
+/home/chinchia120/autoware.ai/install/lgsvl_simulator_bridge/share/lgsvl_simulator_bridge/launch/lgsvl_simulator.launch
+/home/chinchia120/autoware.ai/install/lgsvl_simulator_bridge/share/lgsvl_simulator_bridge/rviz/lgsvl_simulator.rviz
+/home/chinchia120/autoware.ai/install/lgsvl_simulator_bridge/share/lgsvl_simulator_bridge/config/sample.json
+/home/chinchia120/autoware.ai/install/lgsvl_simulator_bridge/share/lgsvl_simulator_bridge/media/lgsvl_simulator_bridge.png
+/home/chinchia120/autoware.ai/install/lgsvl_simulator_bridge/share/lgsvl_simulator_bridge/media/autoware.png
+/home/chinchia120/autoware.ai/install/lgsvl_simulator_bridge/share/lgsvl_simulator_bridge/resource/LgsvlSimulatorConfigratorPlugin.ui
+/home/chinchia120/autoware.ai/install/lgsvl_simulator_bridge/lib/lgsvl_simulator_bridge/launch_sim.bash
+/home/chinchia120/autoware.ai/install/lgsvl_simulator_bridge/lib/lgsvl_simulator_bridge/__init__.py
+/home/chinchia120/autoware.ai/install/lgsvl_simulator_bridge/lib/lgsvl_simulator_bridge/configurator.py
+/home/chinchia120/autoware.ai/install/lgsvl_simulator_bridge/share/lgsvl_simulator_bridge/plugin.xml

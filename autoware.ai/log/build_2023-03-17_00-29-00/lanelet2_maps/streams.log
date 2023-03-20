@@ -1,0 +1,74 @@
+[0.059s] Invoking command in '/home/chinchia120/autoware.ai/build/lanelet2_maps': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/lanelet2_core:/home/chinchia120/autoware.ai/install/mrt_cmake_modules:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/chinchia120/autoware.ai/install/lanelet2_core/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/lanelet2_core/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_core/lib/pkgconfig:/home/chinchia120/autoware.ai/install/mrt_cmake_modules/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/mrt_cmake_modules/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/mrt_cmake_modules/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/lanelet2_core/share:/home/chinchia120/autoware.ai/install/mrt_cmake_modules/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/chinchia120/autoware.ai/src/vendor/lanelet2/lanelet2_maps -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/chinchia120/autoware.ai/install/lanelet2_maps
+[0.257s] -- The C compiler identification is GNU 7.5.0
+[0.440s] -- The CXX compiler identification is GNU 7.5.0
+[0.453s] -- Check for working C compiler: /usr/bin/cc
+[0.622s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.624s] -- Detecting C compiler ABI info
+[0.814s] -- Detecting C compiler ABI info - done
+[0.837s] -- Detecting C compile features
+[1.419s] -- Detecting C compile features - done
+[1.427s] -- Check for working CXX compiler: /usr/bin/c++
+[1.873s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.873s] -- Detecting CXX compiler ABI info
+[2.178s] -- Detecting CXX compiler ABI info - done
+[2.202s] -- Detecting CXX compile features
+[3.553s] -- Detecting CXX compile features - done
+[3.560s] -- MRT_ARCH not set and X86 target detected (x86_64)
+[3.561s] -- Setting -march to sandybridge
+[4.245s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[4.507s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[4.510s] -- Found OpenMP: TRUE (found version "4.5")  
+[4.523s] -- Performing Test FLAG_AVAILABLE
+[4.785s] -- Performing Test FLAG_AVAILABLE - Success
+[4.792s] -- Using CATKIN_DEVEL_PREFIX: /home/chinchia120/autoware.ai/build/lanelet2_maps/devel
+[4.793s] -- Using CMAKE_PREFIX_PATH: /home/chinchia120/autoware.ai/install/lanelet2_core;/home/chinchia120/autoware.ai/install/mrt_cmake_modules;/home/chinchia120/catkin_ws/devel;/opt/ros/melodic
+[4.795s] -- This workspace overlays: /home/chinchia120/autoware.ai/install/lanelet2_core;/home/chinchia120/autoware.ai/install/mrt_cmake_modules;/home/chinchia120/catkin_ws/devel;/opt/ros/melodic
+[4.837s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[4.838s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[4.838s] -- Using Debian Python package layout
+[4.839s] -- Using empy: /usr/bin/empy
+[5.267s] -- Using CATKIN_ENABLE_TESTING: ON
+[5.267s] -- Call enable_testing()
+[5.274s] -- Using CATKIN_TEST_RESULTS_DIR: /home/chinchia120/autoware.ai/build/lanelet2_maps/test_results
+[5.315s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[5.316s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[5.355s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[5.358s] -- Looking for pthread.h
+[5.549s] -- Looking for pthread.h - found
+[5.551s] -- Looking for pthread_create
+[5.738s] -- Looking for pthread_create - found
+[5.742s] -- Found Threads: TRUE  
+[5.755s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[5.840s] -- catkin 0.7.29
+[5.841s] -- BUILD_SHARED_LIBS is on
+[6.899s] -- Marking HEADER FILES in "include" folder of package "lanelet2_maps" for installation
+[6.900s] -- Marking SHARED CONTENT FOLDER "res" of package "lanelet2_maps" for installation
+[6.900s] -- Marking SHARED CONTENT FOLDER "josm" of package "lanelet2_maps" for installation
+[6.905s] -- Configuring done
+[6.934s] -- Generating done
+[6.941s] -- Build files have been written to: /home/chinchia120/autoware.ai/build/lanelet2_maps
+[6.953s] Invoked command in '/home/chinchia120/autoware.ai/build/lanelet2_maps' returned '0': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/lanelet2_core:/home/chinchia120/autoware.ai/install/mrt_cmake_modules:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/chinchia120/autoware.ai/install/lanelet2_core/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/lanelet2_core/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_core/lib/pkgconfig:/home/chinchia120/autoware.ai/install/mrt_cmake_modules/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/mrt_cmake_modules/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/mrt_cmake_modules/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/lanelet2_core/share:/home/chinchia120/autoware.ai/install/mrt_cmake_modules/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/chinchia120/autoware.ai/src/vendor/lanelet2/lanelet2_maps -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/chinchia120/autoware.ai/install/lanelet2_maps
+[6.955s] Invoking command in '/home/chinchia120/autoware.ai/build/lanelet2_maps': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/lanelet2_core:/home/chinchia120/autoware.ai/install/mrt_cmake_modules:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/chinchia120/autoware.ai/install/lanelet2_core/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/lanelet2_core/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_core/lib/pkgconfig:/home/chinchia120/autoware.ai/install/mrt_cmake_modules/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/mrt_cmake_modules/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/mrt_cmake_modules/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/lanelet2_core/share:/home/chinchia120/autoware.ai/install/mrt_cmake_modules/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/lanelet2_maps -- -j4 -l4
+[7.060s] Invoked command in '/home/chinchia120/autoware.ai/build/lanelet2_maps' returned '0': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/lanelet2_core:/home/chinchia120/autoware.ai/install/mrt_cmake_modules:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/chinchia120/autoware.ai/install/lanelet2_core/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/lanelet2_core/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_core/lib/pkgconfig:/home/chinchia120/autoware.ai/install/mrt_cmake_modules/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/mrt_cmake_modules/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/mrt_cmake_modules/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/lanelet2_core/share:/home/chinchia120/autoware.ai/install/mrt_cmake_modules/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/lanelet2_maps -- -j4 -l4
+[7.159s] Invoking command in '/home/chinchia120/autoware.ai/build/lanelet2_maps': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/lanelet2_core:/home/chinchia120/autoware.ai/install/mrt_cmake_modules:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/chinchia120/autoware.ai/install/lanelet2_core/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/lanelet2_core/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_core/lib/pkgconfig:/home/chinchia120/autoware.ai/install/mrt_cmake_modules/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/mrt_cmake_modules/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/mrt_cmake_modules/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/lanelet2_core/share:/home/chinchia120/autoware.ai/install/mrt_cmake_modules/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/lanelet2_maps --target tests -- -j4 -l4
+[7.317s] [35m[1mScanning dependencies of target tests[0m
+[7.348s] Built target tests
+[7.386s] Invoked command in '/home/chinchia120/autoware.ai/build/lanelet2_maps' returned '0': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/lanelet2_core:/home/chinchia120/autoware.ai/install/mrt_cmake_modules:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/chinchia120/autoware.ai/install/lanelet2_core/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/lanelet2_core/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_core/lib/pkgconfig:/home/chinchia120/autoware.ai/install/mrt_cmake_modules/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/mrt_cmake_modules/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/mrt_cmake_modules/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/lanelet2_core/share:/home/chinchia120/autoware.ai/install/mrt_cmake_modules/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/lanelet2_maps --target tests -- -j4 -l4
+[7.507s] Invoking command in '/home/chinchia120/autoware.ai/build/lanelet2_maps': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/lanelet2_core:/home/chinchia120/autoware.ai/install/mrt_cmake_modules:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/chinchia120/autoware.ai/install/lanelet2_core/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/lanelet2_core/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_core/lib/pkgconfig:/home/chinchia120/autoware.ai/install/mrt_cmake_modules/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/mrt_cmake_modules/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/mrt_cmake_modules/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/lanelet2_core/share:/home/chinchia120/autoware.ai/install/mrt_cmake_modules/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/lanelet2_maps --target install -- -j4 -l4
+[7.675s] [36mInstall the project...[0m
+[7.695s] -- Install configuration: "Release"
+[7.696s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_maps/lib/pkgconfig/lanelet2_maps.pc
+[7.697s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_maps/share/lanelet2_maps/cmake/lanelet2_mapsConfig.cmake
+[7.698s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_maps/share/lanelet2_maps/cmake/lanelet2_mapsConfig-version.cmake
+[7.699s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_maps/share/lanelet2_maps/package.xml
+[7.700s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_maps/include/lanelet2_maps
+[7.702s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_maps/include/lanelet2_maps/internal
+[7.704s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_maps/share/lanelet2_maps/res
+[7.707s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_maps/share/lanelet2_maps/res/mapping_example.osm
+[7.724s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_maps/share/lanelet2_maps/josm
+[7.725s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_maps/share/lanelet2_maps/josm/laneletpresets.xml
+[7.729s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_maps/share/lanelet2_maps/josm/.gitignore
+[7.730s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_maps/share/lanelet2_maps/josm/style_images.zip
+[7.760s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_maps/share/lanelet2_maps/josm/lines.mapcss
+[7.767s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_maps/share/lanelet2_maps/josm/lanelets.mapcss
+[7.781s] Invoked command in '/home/chinchia120/autoware.ai/build/lanelet2_maps' returned '0': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/lanelet2_core:/home/chinchia120/autoware.ai/install/mrt_cmake_modules:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/chinchia120/autoware.ai/install/lanelet2_core/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/lanelet2_core/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_core/lib/pkgconfig:/home/chinchia120/autoware.ai/install/mrt_cmake_modules/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/mrt_cmake_modules/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/mrt_cmake_modules/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/lanelet2_core/share:/home/chinchia120/autoware.ai/install/mrt_cmake_modules/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/lanelet2_maps --target install -- -j4 -l4

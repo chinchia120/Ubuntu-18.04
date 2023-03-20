@@ -1,0 +1,86 @@
+[0.045s] Invoking command in '/home/chinchia120/autoware.ai/build/glviewer': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/chinchia120/autoware.ai/src/autoware/visualization/glviewer -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/chinchia120/autoware.ai/install/glviewer
+[0.219s] -- The C compiler identification is GNU 7.5.0
+[0.352s] -- The CXX compiler identification is GNU 7.5.0
+[0.361s] -- Check for working C compiler: /usr/bin/cc
+[0.517s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.517s] -- Detecting C compiler ABI info
+[0.661s] -- Detecting C compiler ABI info - done
+[0.686s] -- Detecting C compile features
+[1.206s] -- Detecting C compile features - done
+[1.211s] -- Check for working CXX compiler: /usr/bin/c++
+[1.394s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.395s] -- Detecting CXX compiler ABI info
+[1.611s] -- Detecting CXX compiler ABI info - done
+[1.631s] -- Detecting CXX compile features
+[2.453s] -- Detecting CXX compile features - done
+[2.470s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[2.473s] -- CUDA compilation status: 1.
+[2.476s] -- Using CATKIN_DEVEL_PREFIX: /home/chinchia120/autoware.ai/build/glviewer/devel
+[2.476s] -- Using CMAKE_PREFIX_PATH: /home/chinchia120/autoware.ai/install/autoware_build_flags;/home/chinchia120/catkin_ws/devel;/opt/ros/melodic
+[2.477s] -- This workspace overlays: /home/chinchia120/autoware.ai/install/autoware_build_flags;/home/chinchia120/catkin_ws/devel;/opt/ros/melodic
+[2.507s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[2.507s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[2.508s] -- Using Debian Python package layout
+[2.509s] -- Using empy: /usr/bin/empy
+[2.813s] -- Using CATKIN_ENABLE_TESTING: ON
+[2.814s] -- Call enable_testing()
+[2.819s] -- Using CATKIN_TEST_RESULTS_DIR: /home/chinchia120/autoware.ai/build/glviewer/test_results
+[2.849s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[2.850s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[2.876s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[2.879s] -- Looking for pthread.h
+[3.143s] -- Looking for pthread.h - found
+[3.145s] -- Looking for pthread_create
+[3.374s] -- Looking for pthread_create - not found
+[3.375s] -- Looking for pthread_create in pthreads
+[3.562s] -- Looking for pthread_create in pthreads - not found
+[3.562s] -- Looking for pthread_create in pthread
+[3.762s] -- Looking for pthread_create in pthread - found
+[3.765s] -- Found Threads: TRUE  
+[3.777s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[3.881s] -- catkin 0.7.29
+[3.881s] -- BUILD_SHARED_LIBS is on
+[4.424s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[4.716s] -- Configuring done
+[4.766s] -- Generating done
+[4.776s] -- Build files have been written to: /home/chinchia120/autoware.ai/build/glviewer
+[4.789s] Invoked command in '/home/chinchia120/autoware.ai/build/glviewer' returned '0': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/chinchia120/autoware.ai/src/autoware/visualization/glviewer -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/chinchia120/autoware.ai/install/glviewer
+[4.791s] Invoking command in '/home/chinchia120/autoware.ai/build/glviewer': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/glviewer -- -j4 -l4
+[4.880s] [35m[1mScanning dependencies of target glviewer_autogen[0m
+[4.908s] [ 16%] [34m[1mAutomatic MOC for target glviewer[0m
+[4.970s] [ 16%] Built target glviewer_autogen
+[4.998s] [ 33%] [34m[1mGenerating include/glviewer/moc_glviewer.cpp[0m
+[5.241s] [35m[1mScanning dependencies of target glviewer[0m
+[5.395s] [ 50%] [32mBuilding CXX object CMakeFiles/glviewer.dir/GLViewer/glviewer.cpp.o[0m
+[13.584s] In file included from [01m[K/usr/local/include/eigen3/Eigen/Core:450:0[m[K,
+[13.584s]                  from [01m[K/usr/local/include/eigen3/Eigen/Dense:1[m[K,
+[13.584s]                  from [01m[K/home/chinchia120/autoware.ai/src/autoware/visualization/glviewer/include/glviewer/glviewer.h:22[m[K,
+[13.584s]                  from [01m[K/home/chinchia120/autoware.ai/src/autoware/visualization/glviewer/GLViewer/glviewer.cpp:17[m[K:
+[13.584s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/DenseStorage.h:[m[K In member function ‘[01m[Kvoid GLViewer::addDisplayLists(GLuint, GLuint)[m[K’:
+[13.584s] [01m[K/usr/local/include/eigen3/Eigen/src/Core/DenseStorage.h:194:66:[m[K [01;35m[Kwarning: [m[K‘[01m[K*((void*)(& list)+16).Eigen::DenseStorage<double, 16, 4, 4, 0>::m_data[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+[13.585s]      DenseStorage(const DenseStorage& other) : m_data(other.m_data[01;35m[K)[m[K {
+[13.585s]                                                                   [01;35m[K^[m[K
+[14.238s] [ 66%] [32mBuilding CXX object CMakeFiles/glviewer.dir/glviewer_autogen/mocs_compilation.cpp.o[0m
+[14.294s] [ 83%] [32mBuilding CXX object CMakeFiles/glviewer.dir/include/glviewer/moc_glviewer.cpp.o[0m
+[17.714s] [100%] [32m[1mLinking CXX shared library devel/lib/libglviewer.so[0m
+[18.446s] [100%] Built target glviewer
+[18.471s] Invoked command in '/home/chinchia120/autoware.ai/build/glviewer' returned '0': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/glviewer -- -j4 -l4
+[18.682s] Invoking command in '/home/chinchia120/autoware.ai/build/glviewer': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/glviewer --target tests -- -j4 -l4
+[18.851s] [35m[1mScanning dependencies of target tests[0m
+[18.882s] Built target tests
+[18.916s] Invoked command in '/home/chinchia120/autoware.ai/build/glviewer' returned '0': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/glviewer --target tests -- -j4 -l4
+[19.151s] Invoking command in '/home/chinchia120/autoware.ai/build/glviewer': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/glviewer --target install -- -j4 -l4
+[19.373s] [ 16%] [34m[1mAutomatic MOC for target glviewer[0m
+[19.448s] [ 16%] Built target glviewer_autogen
+[19.569s] [100%] Built target glviewer
+[19.640s] [36mInstall the project...[0m
+[19.661s] -- Install configuration: "Release"
+[19.662s] -- Installing: /home/chinchia120/autoware.ai/install/glviewer/lib/pkgconfig/glviewer.pc
+[19.662s] -- Installing: /home/chinchia120/autoware.ai/install/glviewer/share/glviewer/cmake/glviewerConfig.cmake
+[19.663s] -- Installing: /home/chinchia120/autoware.ai/install/glviewer/share/glviewer/cmake/glviewerConfig-version.cmake
+[19.663s] -- Installing: /home/chinchia120/autoware.ai/install/glviewer/share/glviewer/package.xml
+[19.663s] -- Installing: /home/chinchia120/autoware.ai/install/glviewer/include/glviewer
+[19.663s] -- Installing: /home/chinchia120/autoware.ai/install/glviewer/include/glviewer/glviewer.h
+[19.663s] -- Installing: /home/chinchia120/autoware.ai/install/glviewer/lib/libglviewer.so
+[19.673s] -- Set runtime path of "/home/chinchia120/autoware.ai/install/glviewer/lib/libglviewer.so" to ""
+[19.680s] Invoked command in '/home/chinchia120/autoware.ai/build/glviewer' returned '0': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/glviewer --target install -- -j4 -l4

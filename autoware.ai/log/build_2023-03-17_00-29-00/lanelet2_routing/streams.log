@@ -1,0 +1,155 @@
+[0.038s] Invoking command in '/home/chinchia120/autoware.ai/build/lanelet2_routing': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/lanelet2_traffic_rules:/home/chinchia120/autoware.ai/install/lanelet2_core:/home/chinchia120/autoware.ai/install/mrt_cmake_modules:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/chinchia120/autoware.ai/install/lanelet2_traffic_rules/lib:/home/chinchia120/autoware.ai/install/lanelet2_core/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/lanelet2_traffic_rules/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_traffic_rules/lib/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_core/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_core/lib/pkgconfig:/home/chinchia120/autoware.ai/install/mrt_cmake_modules/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/mrt_cmake_modules/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/mrt_cmake_modules/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/lanelet2_traffic_rules/share:/home/chinchia120/autoware.ai/install/lanelet2_core/share:/home/chinchia120/autoware.ai/install/mrt_cmake_modules/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/chinchia120/autoware.ai/src/vendor/lanelet2/lanelet2_routing -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/chinchia120/autoware.ai/install/lanelet2_routing
+[0.217s] -- The C compiler identification is GNU 7.5.0
+[0.489s] -- The CXX compiler identification is GNU 7.5.0
+[0.497s] -- Check for working C compiler: /usr/bin/cc
+[0.663s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.663s] -- Detecting C compiler ABI info
+[0.823s] -- Detecting C compiler ABI info - done
+[0.843s] -- Detecting C compile features
+[1.314s] -- Detecting C compile features - done
+[1.322s] -- Check for working CXX compiler: /usr/bin/c++
+[1.502s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.502s] -- Detecting CXX compiler ABI info
+[1.728s] -- Detecting CXX compiler ABI info - done
+[1.754s] -- Detecting CXX compile features
+[2.795s] -- Detecting CXX compile features - done
+[2.805s] -- MRT_ARCH not set and X86 target detected (x86_64)
+[2.806s] -- Setting -march to sandybridge
+[3.548s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[3.762s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[3.763s] -- Found OpenMP: TRUE (found version "4.5")  
+[3.777s] -- Performing Test FLAG_AVAILABLE
+[3.977s] -- Performing Test FLAG_AVAILABLE - Success
+[3.984s] -- Using CATKIN_DEVEL_PREFIX: /home/chinchia120/autoware.ai/build/lanelet2_routing/devel
+[3.985s] -- Using CMAKE_PREFIX_PATH: /home/chinchia120/autoware.ai/install/lanelet2_traffic_rules;/home/chinchia120/autoware.ai/install/lanelet2_core;/home/chinchia120/autoware.ai/install/mrt_cmake_modules;/home/chinchia120/catkin_ws/devel;/opt/ros/melodic
+[3.985s] -- This workspace overlays: /home/chinchia120/autoware.ai/install/lanelet2_traffic_rules;/home/chinchia120/autoware.ai/install/lanelet2_core;/home/chinchia120/autoware.ai/install/mrt_cmake_modules;/home/chinchia120/catkin_ws/devel;/opt/ros/melodic
+[4.020s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[4.021s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[4.021s] -- Using Debian Python package layout
+[4.024s] -- Using empy: /usr/bin/empy
+[4.408s] -- Using CATKIN_ENABLE_TESTING: ON
+[4.408s] -- Call enable_testing()
+[4.429s] -- Using CATKIN_TEST_RESULTS_DIR: /home/chinchia120/autoware.ai/build/lanelet2_routing/test_results
+[4.472s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[4.472s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[4.507s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[4.510s] -- Looking for pthread.h
+[4.739s] -- Looking for pthread.h - found
+[4.741s] -- Looking for pthread_create
+[4.977s] -- Looking for pthread_create - found
+[4.979s] -- Found Threads: TRUE  
+[4.990s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[5.117s] -- catkin 0.7.29
+[5.117s] -- BUILD_SHARED_LIBS is on
+[6.316s] -- Boost version: 1.65.1
+[6.317s] -- Found the following Boost libraries:
+[6.317s] --   wserialization
+[6.317s] --   thread
+[6.317s] --   random
+[6.317s] --   serialization
+[6.317s] --   log_setup
+[6.318s] --   prg_exec_monitor
+[6.318s] --   wave
+[6.318s] --   system
+[6.318s] --   signals
+[6.318s] --   chrono
+[6.318s] --   filesystem
+[6.318s] --   locale
+[6.318s] --   timer
+[6.318s] --   date_time
+[6.319s] --   regex
+[6.319s] --   graph
+[6.319s] --   program_options
+[6.319s] --   unit_test_framework
+[6.319s] --   log
+[6.319s] --   atomic
+[6.645s] -- Adding library "lanelet2_routing" with source src/LaneletPath.cpp;src/Route.cpp;src/RouteBuilder.cpp;src/RoutingCost.cpp;src/RoutingGraph.cpp;src/RoutingGraphBuilder.cpp
+[6.646s] -- Marking targets "lanelet2_routing" of package "lanelet2_routing" for installation
+[6.647s] -- Marking HEADER FILES in "include" folder of package "lanelet2_routing" for installation
+[6.647s] -- Marking SHARED CONTENT FOLDER "res" of package "lanelet2_routing" for installation
+[6.651s] -- Adding gtest unittest "lanelet2_routing-test_relations-test" with working dir /home/chinchia120/autoware.ai/src/vendor/lanelet2/lanelet2_routing/test
+[6.654s] -- Adding gtest unittest "lanelet2_routing-test_route-test" with working dir /home/chinchia120/autoware.ai/src/vendor/lanelet2/lanelet2_routing/test
+[6.657s] -- Adding gtest unittest "lanelet2_routing-test_routing-test" with working dir /home/chinchia120/autoware.ai/src/vendor/lanelet2/lanelet2_routing/test
+[6.661s] -- Adding gtest unittest "lanelet2_routing-test_routing_graph_container-test" with working dir /home/chinchia120/autoware.ai/src/vendor/lanelet2/lanelet2_routing/test
+[6.668s] -- Adding gtest unittest "lanelet2_routing-test_routing_visualization-test" with working dir /home/chinchia120/autoware.ai/src/vendor/lanelet2/lanelet2_routing/test
+[6.672s] -- Adding nosetests in folder test
+[6.679s] -- Configuring done
+[6.839s] -- Generating done
+[6.851s] -- Build files have been written to: /home/chinchia120/autoware.ai/build/lanelet2_routing
+[6.865s] Invoked command in '/home/chinchia120/autoware.ai/build/lanelet2_routing' returned '0': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/lanelet2_traffic_rules:/home/chinchia120/autoware.ai/install/lanelet2_core:/home/chinchia120/autoware.ai/install/mrt_cmake_modules:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/chinchia120/autoware.ai/install/lanelet2_traffic_rules/lib:/home/chinchia120/autoware.ai/install/lanelet2_core/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/lanelet2_traffic_rules/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_traffic_rules/lib/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_core/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_core/lib/pkgconfig:/home/chinchia120/autoware.ai/install/mrt_cmake_modules/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/mrt_cmake_modules/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/mrt_cmake_modules/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/lanelet2_traffic_rules/share:/home/chinchia120/autoware.ai/install/lanelet2_core/share:/home/chinchia120/autoware.ai/install/mrt_cmake_modules/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/chinchia120/autoware.ai/src/vendor/lanelet2/lanelet2_routing -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/chinchia120/autoware.ai/install/lanelet2_routing
+[6.866s] Invoking command in '/home/chinchia120/autoware.ai/build/lanelet2_routing': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/lanelet2_traffic_rules:/home/chinchia120/autoware.ai/install/lanelet2_core:/home/chinchia120/autoware.ai/install/mrt_cmake_modules:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/chinchia120/autoware.ai/install/lanelet2_traffic_rules/lib:/home/chinchia120/autoware.ai/install/lanelet2_core/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/lanelet2_traffic_rules/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_traffic_rules/lib/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_core/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_core/lib/pkgconfig:/home/chinchia120/autoware.ai/install/mrt_cmake_modules/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/mrt_cmake_modules/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/mrt_cmake_modules/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/lanelet2_traffic_rules/share:/home/chinchia120/autoware.ai/install/lanelet2_core/share:/home/chinchia120/autoware.ai/install/mrt_cmake_modules/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/lanelet2_routing -- -j4 -l4
+[6.989s] [35m[1mScanning dependencies of target _catkin_empty_exported_target[0m
+[7.012s] [  0%] Built target _catkin_empty_exported_target
+[7.045s] [35m[1mScanning dependencies of target lanelet2_routing[0m
+[7.197s] [ 14%] [32mBuilding CXX object CMakeFiles/lanelet2_routing.dir/src/LaneletPath.cpp.o[0m
+[16.449s] [ 28%] [32mBuilding CXX object CMakeFiles/lanelet2_routing.dir/src/RoutingCost.cpp.o[0m
+[28.257s] [ 42%] [32mBuilding CXX object CMakeFiles/lanelet2_routing.dir/src/RoutingGraph.cpp.o[0m
+[58.700s] [ 57%] [32mBuilding CXX object CMakeFiles/lanelet2_routing.dir/src/RoutingGraphBuilder.cpp.o[0m
+[82.049s] [ 71%] [32mBuilding CXX object CMakeFiles/lanelet2_routing.dir/src/RouteBuilder.cpp.o[0m
+[92.190s] [ 85%] [32mBuilding CXX object CMakeFiles/lanelet2_routing.dir/src/Route.cpp.o[0m
+[104.649s] [100%] [32m[1mLinking CXX shared library devel/lib/liblanelet2_routing.so[0m
+[104.765s] [100%] Built target lanelet2_routing
+[104.793s] Invoked command in '/home/chinchia120/autoware.ai/build/lanelet2_routing' returned '0': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/lanelet2_traffic_rules:/home/chinchia120/autoware.ai/install/lanelet2_core:/home/chinchia120/autoware.ai/install/mrt_cmake_modules:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/chinchia120/autoware.ai/install/lanelet2_traffic_rules/lib:/home/chinchia120/autoware.ai/install/lanelet2_core/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/lanelet2_traffic_rules/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_traffic_rules/lib/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_core/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_core/lib/pkgconfig:/home/chinchia120/autoware.ai/install/mrt_cmake_modules/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/mrt_cmake_modules/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/mrt_cmake_modules/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/lanelet2_traffic_rules/share:/home/chinchia120/autoware.ai/install/lanelet2_core/share:/home/chinchia120/autoware.ai/install/mrt_cmake_modules/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/lanelet2_routing -- -j4 -l4
+[105.034s] Invoking command in '/home/chinchia120/autoware.ai/build/lanelet2_routing': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/lanelet2_traffic_rules:/home/chinchia120/autoware.ai/install/lanelet2_core:/home/chinchia120/autoware.ai/install/mrt_cmake_modules:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/chinchia120/autoware.ai/install/lanelet2_traffic_rules/lib:/home/chinchia120/autoware.ai/install/lanelet2_core/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/lanelet2_traffic_rules/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_traffic_rules/lib/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_core/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_core/lib/pkgconfig:/home/chinchia120/autoware.ai/install/mrt_cmake_modules/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/mrt_cmake_modules/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/mrt_cmake_modules/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/lanelet2_traffic_rules/share:/home/chinchia120/autoware.ai/install/lanelet2_core/share:/home/chinchia120/autoware.ai/install/mrt_cmake_modules/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/lanelet2_routing --target tests -- -j4 -l4
+[105.153s] [35m[1mScanning dependencies of target gtest[0m
+[105.195s] [  4%] [32mBuilding CXX object gtest/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[114.682s] [  9%] [32m[1mLinking CXX shared library libgtest.so[0m
+[114.773s] [  9%] Built target gtest
+[114.823s] [  9%] Built target _catkin_empty_exported_target
+[114.845s] [35m[1mScanning dependencies of target gtest_main[0m
+[114.885s] [ 14%] [32mBuilding CXX object gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[116.055s] [ 19%] [32m[1mLinking CXX shared library libgtest_main.so[0m
+[116.155s] [ 19%] Built target gtest_main
+[116.250s] [ 52%] Built target lanelet2_routing
+[116.272s] [35m[1mScanning dependencies of target lanelet2_routing-test_routing_graph_container-test[0m
+[116.406s] [ 57%] [32mBuilding CXX object CMakeFiles/lanelet2_routing-test_routing_graph_container-test.dir/test/test_routing_graph_container.cpp.o[0m
+[139.565s] [ 61%] [32m[1mLinking CXX executable devel/lib/lanelet2_routing/lanelet2_routing-test_routing_graph_container-test[0m
+[139.683s] [ 61%] Built target lanelet2_routing-test_routing_graph_container-test
+[139.713s] [35m[1mScanning dependencies of target lanelet2_routing-test_routing-test[0m
+[139.815s] [ 66%] [32mBuilding CXX object CMakeFiles/lanelet2_routing-test_routing-test.dir/test/test_routing.cpp.o[0m
+[155.162s] [ 71%] [32m[1mLinking CXX executable devel/lib/lanelet2_routing/lanelet2_routing-test_routing-test[0m
+[155.292s] [ 71%] Built target lanelet2_routing-test_routing-test
+[155.323s] [35m[1mScanning dependencies of target lanelet2_routing-test_routing_visualization-test[0m
+[155.419s] [ 76%] [32mBuilding CXX object CMakeFiles/lanelet2_routing-test_routing_visualization-test.dir/test/test_routing_visualization.cpp.o[0m
+[168.445s] [ 80%] [32m[1mLinking CXX executable devel/lib/lanelet2_routing/lanelet2_routing-test_routing_visualization-test[0m
+[168.563s] [ 80%] Built target lanelet2_routing-test_routing_visualization-test
+[168.604s] [35m[1mScanning dependencies of target lanelet2_routing-test_relations-test[0m
+[168.698s] [ 85%] [32mBuilding CXX object CMakeFiles/lanelet2_routing-test_relations-test.dir/test/test_relations.cpp.o[0m
+[185.998s] [ 90%] [32m[1mLinking CXX executable devel/lib/lanelet2_routing/lanelet2_routing-test_relations-test[0m
+[186.136s] [ 90%] Built target lanelet2_routing-test_relations-test
+[186.163s] [35m[1mScanning dependencies of target lanelet2_routing-test_route-test[0m
+[186.305s] [ 95%] [32mBuilding CXX object CMakeFiles/lanelet2_routing-test_route-test.dir/test/test_route.cpp.o[0m
+[206.715s] [100%] [32m[1mLinking CXX executable devel/lib/lanelet2_routing/lanelet2_routing-test_route-test[0m
+[206.848s] [100%] Built target lanelet2_routing-test_route-test
+[206.875s] [35m[1mScanning dependencies of target tests[0m
+[206.906s] [100%] Built target tests
+[206.933s] Invoked command in '/home/chinchia120/autoware.ai/build/lanelet2_routing' returned '0': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/lanelet2_traffic_rules:/home/chinchia120/autoware.ai/install/lanelet2_core:/home/chinchia120/autoware.ai/install/mrt_cmake_modules:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/chinchia120/autoware.ai/install/lanelet2_traffic_rules/lib:/home/chinchia120/autoware.ai/install/lanelet2_core/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/lanelet2_traffic_rules/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_traffic_rules/lib/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_core/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_core/lib/pkgconfig:/home/chinchia120/autoware.ai/install/mrt_cmake_modules/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/mrt_cmake_modules/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/mrt_cmake_modules/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/lanelet2_traffic_rules/share:/home/chinchia120/autoware.ai/install/lanelet2_core/share:/home/chinchia120/autoware.ai/install/mrt_cmake_modules/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/lanelet2_routing --target tests -- -j4 -l4
+[207.180s] Invoking command in '/home/chinchia120/autoware.ai/build/lanelet2_routing': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/lanelet2_traffic_rules:/home/chinchia120/autoware.ai/install/lanelet2_core:/home/chinchia120/autoware.ai/install/mrt_cmake_modules:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/chinchia120/autoware.ai/install/lanelet2_traffic_rules/lib:/home/chinchia120/autoware.ai/install/lanelet2_core/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/lanelet2_traffic_rules/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_traffic_rules/lib/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_core/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_core/lib/pkgconfig:/home/chinchia120/autoware.ai/install/mrt_cmake_modules/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/mrt_cmake_modules/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/mrt_cmake_modules/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/lanelet2_traffic_rules/share:/home/chinchia120/autoware.ai/install/lanelet2_core/share:/home/chinchia120/autoware.ai/install/mrt_cmake_modules/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/lanelet2_routing --target install -- -j4 -l4
+[207.339s] [  0%] Built target _catkin_empty_exported_target
+[207.441s] [100%] Built target lanelet2_routing
+[207.496s] [36mInstall the project...[0m
+[207.517s] -- Install configuration: "Release"
+[207.518s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_routing/lib/pkgconfig/lanelet2_routing.pc
+[207.518s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_routing/share/lanelet2_routing/cmake/lanelet2_routingConfig.cmake
+[207.518s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_routing/share/lanelet2_routing/cmake/lanelet2_routingConfig-version.cmake
+[207.518s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_routing/share/lanelet2_routing/package.xml
+[207.519s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_routing/lib/liblanelet2_routing.so
+[207.525s] -- Set runtime path of "/home/chinchia120/autoware.ai/install/lanelet2_routing/lib/liblanelet2_routing.so" to ""
+[207.525s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_routing/include/lanelet2_routing
+[207.525s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_routing/include/lanelet2_routing/RoutingCost.h
+[207.525s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_routing/include/lanelet2_routing/Exceptions.h
+[207.526s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_routing/include/lanelet2_routing/RoutingGraph.h
+[207.526s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_routing/include/lanelet2_routing/ShortestPath.h
+[207.526s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_routing/include/lanelet2_routing/RoutingGraphContainer.h
+[207.526s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_routing/include/lanelet2_routing/Graph.h
+[207.527s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_routing/include/lanelet2_routing/internal
+[207.527s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_routing/include/lanelet2_routing/internal/RoutingGraphBuilder.h
+[207.527s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_routing/include/lanelet2_routing/internal/RouteBuilder.h
+[207.527s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_routing/include/lanelet2_routing/Route.h
+[207.527s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_routing/include/lanelet2_routing/LaneletPath.h
+[207.528s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_routing/include/lanelet2_routing/Forward.h
+[207.528s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_routing/include/lanelet2_routing/RoutingGraphVisualization.h
+[207.528s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_routing/include/lanelet2_routing/RouteElement.h
+[207.528s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_routing/share/lanelet2_routing/res
+[207.532s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_routing/share/lanelet2_routing/res/routing.mapcss
+[207.544s] Invoked command in '/home/chinchia120/autoware.ai/build/lanelet2_routing' returned '0': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/lanelet2_traffic_rules:/home/chinchia120/autoware.ai/install/lanelet2_core:/home/chinchia120/autoware.ai/install/mrt_cmake_modules:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/chinchia120/autoware.ai/install/lanelet2_traffic_rules/lib:/home/chinchia120/autoware.ai/install/lanelet2_core/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/lanelet2_traffic_rules/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_traffic_rules/lib/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_core/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_core/lib/pkgconfig:/home/chinchia120/autoware.ai/install/mrt_cmake_modules/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/mrt_cmake_modules/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/mrt_cmake_modules/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/lanelet2_traffic_rules/share:/home/chinchia120/autoware.ai/install/lanelet2_core/share:/home/chinchia120/autoware.ai/install/mrt_cmake_modules/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/lanelet2_routing --target install -- -j4 -l4

@@ -1,0 +1,8 @@
+Invoking command in '/home/chinchia120/autoware.ai/build/oculus_socket': /usr/bin/cmake /home/chinchia120/autoware.ai/src/autoware/utilities/oculus_socket -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/chinchia120/autoware.ai/install/oculus_socket
+Invoked command in '/home/chinchia120/autoware.ai/build/oculus_socket' returned '0': /usr/bin/cmake /home/chinchia120/autoware.ai/src/autoware/utilities/oculus_socket -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/chinchia120/autoware.ai/install/oculus_socket
+Invoking command in '/home/chinchia120/autoware.ai/build/oculus_socket': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/oculus_socket -- -j4 -l4
+Invoked command in '/home/chinchia120/autoware.ai/build/oculus_socket' returned '0': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/oculus_socket -- -j4 -l4
+Invoking command in '/home/chinchia120/autoware.ai/build/oculus_socket': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/oculus_socket --target tests -- -j4 -l4
+Invoked command in '/home/chinchia120/autoware.ai/build/oculus_socket' returned '0': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/oculus_socket --target tests -- -j4 -l4
+Invoking command in '/home/chinchia120/autoware.ai/build/oculus_socket': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/oculus_socket --target install -- -j4 -l4
+Invoked command in '/home/chinchia120/autoware.ai/build/oculus_socket' returned '0': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/oculus_socket --target install -- -j4 -l4

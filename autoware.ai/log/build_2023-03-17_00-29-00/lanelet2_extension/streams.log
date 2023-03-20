@@ -1,0 +1,430 @@
+[0.108s] Invoking command in '/home/chinchia120/autoware.ai/build/lanelet2_extension': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/lanelet2_validation:/home/chinchia120/autoware.ai/install/lanelet2_routing:/home/chinchia120/autoware.ai/install/lanelet2_projection:/home/chinchia120/autoware.ai/install/lanelet2_traffic_rules:/home/chinchia120/autoware.ai/install/lanelet2_maps:/home/chinchia120/autoware.ai/install/lanelet2_io:/home/chinchia120/autoware.ai/install/lanelet2_core:/home/chinchia120/autoware.ai/install/amathutils_lib:/home/chinchia120/autoware.ai/install/autoware_msgs:/home/chinchia120/autoware.ai/install/autoware_lanelet2_msgs:/home/chinchia120/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/chinchia120/autoware.ai/install/lanelet2_validation/lib:/home/chinchia120/autoware.ai/install/lanelet2_routing/lib:/home/chinchia120/autoware.ai/install/lanelet2_projection/lib:/home/chinchia120/autoware.ai/install/lanelet2_traffic_rules/lib:/home/chinchia120/autoware.ai/install/lanelet2_io/lib:/home/chinchia120/autoware.ai/install/lanelet2_core/lib:/home/chinchia120/autoware.ai/install/amathutils_lib/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/lanelet2_validation/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_validation/lib/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_routing/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_routing/lib/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_projection/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_projection/lib/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_traffic_rules/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_traffic_rules/lib/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_maps/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_maps/lib/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_io/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_io/lib/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_core/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_core/lib/pkgconfig:/home/chinchia120/autoware.ai/install/amathutils_lib/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/amathutils_lib/lib/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_lanelet2_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_lanelet2_msgs/lib/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:/home/chinchia120/autoware.ai/install/autoware_lanelet2_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/lanelet2_validation/share:/home/chinchia120/autoware.ai/install/lanelet2_routing/share:/home/chinchia120/autoware.ai/install/lanelet2_projection/share:/home/chinchia120/autoware.ai/install/lanelet2_traffic_rules/share:/home/chinchia120/autoware.ai/install/lanelet2_maps/share:/home/chinchia120/autoware.ai/install/lanelet2_io/share:/home/chinchia120/autoware.ai/install/lanelet2_core/share:/home/chinchia120/autoware.ai/install/amathutils_lib/share:/home/chinchia120/autoware.ai/install/autoware_msgs/share:/home/chinchia120/autoware.ai/install/autoware_lanelet2_msgs/share:/home/chinchia120/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/chinchia120/autoware.ai/src/autoware/common/lanelet2_extension -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/chinchia120/autoware.ai/install/lanelet2_extension
+[0.252s] -- The C compiler identification is GNU 7.5.0
+[0.380s] -- The CXX compiler identification is GNU 7.5.0
+[0.392s] -- Check for working C compiler: /usr/bin/cc
+[0.548s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.552s] -- Detecting C compiler ABI info
+[0.720s] -- Detecting C compiler ABI info - done
+[0.731s] -- Detecting C compile features
+[1.209s] -- Detecting C compile features - done
+[1.217s] -- Check for working CXX compiler: /usr/bin/c++
+[1.420s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.420s] -- Detecting CXX compiler ABI info
+[1.608s] -- Detecting CXX compiler ABI info - done
+[1.613s] -- Detecting CXX compile features
+[2.404s] -- Detecting CXX compile features - done
+[2.448s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[2.466s] -- CUDA compilation status: 1.
+[2.471s] -- Using CATKIN_DEVEL_PREFIX: /home/chinchia120/autoware.ai/build/lanelet2_extension/devel
+[2.472s] -- Using CMAKE_PREFIX_PATH: /home/chinchia120/autoware.ai/install/lanelet2_validation;/home/chinchia120/autoware.ai/install/lanelet2_routing;/home/chinchia120/autoware.ai/install/lanelet2_projection;/home/chinchia120/autoware.ai/install/lanelet2_traffic_rules;/home/chinchia120/autoware.ai/install/lanelet2_maps;/home/chinchia120/autoware.ai/install/lanelet2_io;/home/chinchia120/autoware.ai/install/lanelet2_core;/home/chinchia120/autoware.ai/install/amathutils_lib;/home/chinchia120/autoware.ai/install/autoware_msgs;/home/chinchia120/autoware.ai/install/autoware_lanelet2_msgs;/home/chinchia120/autoware.ai/install/autoware_build_flags;/home/chinchia120/catkin_ws/devel;/opt/ros/melodic
+[2.473s] -- This workspace overlays: /home/chinchia120/autoware.ai/install/lanelet2_validation;/home/chinchia120/autoware.ai/install/lanelet2_routing;/home/chinchia120/autoware.ai/install/lanelet2_projection;/home/chinchia120/autoware.ai/install/lanelet2_traffic_rules;/home/chinchia120/autoware.ai/install/lanelet2_maps;/home/chinchia120/autoware.ai/install/lanelet2_io;/home/chinchia120/autoware.ai/install/lanelet2_core;/home/chinchia120/autoware.ai/install/amathutils_lib;/home/chinchia120/autoware.ai/install/autoware_msgs;/home/chinchia120/autoware.ai/install/autoware_lanelet2_msgs;/home/chinchia120/autoware.ai/install/autoware_build_flags;/home/chinchia120/catkin_ws/devel;/opt/ros/melodic
+[2.500s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[2.501s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[2.501s] -- Using Debian Python package layout
+[2.502s] -- Using empy: /usr/bin/empy
+[2.787s] -- Using CATKIN_ENABLE_TESTING: ON
+[2.787s] -- Call enable_testing()
+[2.800s] -- Using CATKIN_TEST_RESULTS_DIR: /home/chinchia120/autoware.ai/build/lanelet2_extension/test_results
+[2.828s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[2.828s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[2.860s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[2.860s] -- Looking for pthread.h
+[3.004s] -- Looking for pthread.h - found
+[3.013s] -- Looking for pthread_create
+[3.176s] -- Looking for pthread_create - not found
+[3.177s] -- Looking for pthread_create in pthreads
+[3.316s] -- Looking for pthread_create in pthreads - not found
+[3.316s] -- Looking for pthread_create in pthread
+[3.456s] -- Looking for pthread_create in pthread - found
+[3.457s] -- Found Threads: TRUE  
+[3.465s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[3.547s] -- catkin 0.7.29
+[3.547s] -- BUILD_SHARED_LIBS is on
+[4.003s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[5.349s] -- Configuring done
+[5.833s] -- Generating done
+[5.871s] -- Build files have been written to: /home/chinchia120/autoware.ai/build/lanelet2_extension
+[5.886s] Invoked command in '/home/chinchia120/autoware.ai/build/lanelet2_extension' returned '0': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/lanelet2_validation:/home/chinchia120/autoware.ai/install/lanelet2_routing:/home/chinchia120/autoware.ai/install/lanelet2_projection:/home/chinchia120/autoware.ai/install/lanelet2_traffic_rules:/home/chinchia120/autoware.ai/install/lanelet2_maps:/home/chinchia120/autoware.ai/install/lanelet2_io:/home/chinchia120/autoware.ai/install/lanelet2_core:/home/chinchia120/autoware.ai/install/amathutils_lib:/home/chinchia120/autoware.ai/install/autoware_msgs:/home/chinchia120/autoware.ai/install/autoware_lanelet2_msgs:/home/chinchia120/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/chinchia120/autoware.ai/install/lanelet2_validation/lib:/home/chinchia120/autoware.ai/install/lanelet2_routing/lib:/home/chinchia120/autoware.ai/install/lanelet2_projection/lib:/home/chinchia120/autoware.ai/install/lanelet2_traffic_rules/lib:/home/chinchia120/autoware.ai/install/lanelet2_io/lib:/home/chinchia120/autoware.ai/install/lanelet2_core/lib:/home/chinchia120/autoware.ai/install/amathutils_lib/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/lanelet2_validation/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_validation/lib/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_routing/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_routing/lib/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_projection/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_projection/lib/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_traffic_rules/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_traffic_rules/lib/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_maps/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_maps/lib/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_io/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_io/lib/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_core/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_core/lib/pkgconfig:/home/chinchia120/autoware.ai/install/amathutils_lib/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/amathutils_lib/lib/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_lanelet2_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_lanelet2_msgs/lib/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:/home/chinchia120/autoware.ai/install/autoware_lanelet2_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/lanelet2_validation/share:/home/chinchia120/autoware.ai/install/lanelet2_routing/share:/home/chinchia120/autoware.ai/install/lanelet2_projection/share:/home/chinchia120/autoware.ai/install/lanelet2_traffic_rules/share:/home/chinchia120/autoware.ai/install/lanelet2_maps/share:/home/chinchia120/autoware.ai/install/lanelet2_io/share:/home/chinchia120/autoware.ai/install/lanelet2_core/share:/home/chinchia120/autoware.ai/install/amathutils_lib/share:/home/chinchia120/autoware.ai/install/autoware_msgs/share:/home/chinchia120/autoware.ai/install/autoware_lanelet2_msgs/share:/home/chinchia120/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/chinchia120/autoware.ai/src/autoware/common/lanelet2_extension -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/chinchia120/autoware.ai/install/lanelet2_extension
+[5.893s] Invoking command in '/home/chinchia120/autoware.ai/build/lanelet2_extension': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/lanelet2_validation:/home/chinchia120/autoware.ai/install/lanelet2_routing:/home/chinchia120/autoware.ai/install/lanelet2_projection:/home/chinchia120/autoware.ai/install/lanelet2_traffic_rules:/home/chinchia120/autoware.ai/install/lanelet2_maps:/home/chinchia120/autoware.ai/install/lanelet2_io:/home/chinchia120/autoware.ai/install/lanelet2_core:/home/chinchia120/autoware.ai/install/amathutils_lib:/home/chinchia120/autoware.ai/install/autoware_msgs:/home/chinchia120/autoware.ai/install/autoware_lanelet2_msgs:/home/chinchia120/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/chinchia120/autoware.ai/install/lanelet2_validation/lib:/home/chinchia120/autoware.ai/install/lanelet2_routing/lib:/home/chinchia120/autoware.ai/install/lanelet2_projection/lib:/home/chinchia120/autoware.ai/install/lanelet2_traffic_rules/lib:/home/chinchia120/autoware.ai/install/lanelet2_io/lib:/home/chinchia120/autoware.ai/install/lanelet2_core/lib:/home/chinchia120/autoware.ai/install/amathutils_lib/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/lanelet2_validation/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_validation/lib/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_routing/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_routing/lib/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_projection/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_projection/lib/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_traffic_rules/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_traffic_rules/lib/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_maps/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_maps/lib/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_io/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_io/lib/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_core/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_core/lib/pkgconfig:/home/chinchia120/autoware.ai/install/amathutils_lib/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/amathutils_lib/lib/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_lanelet2_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_lanelet2_msgs/lib/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:/home/chinchia120/autoware.ai/install/autoware_lanelet2_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/lanelet2_validation/share:/home/chinchia120/autoware.ai/install/lanelet2_routing/share:/home/chinchia120/autoware.ai/install/lanelet2_projection/share:/home/chinchia120/autoware.ai/install/lanelet2_traffic_rules/share:/home/chinchia120/autoware.ai/install/lanelet2_maps/share:/home/chinchia120/autoware.ai/install/lanelet2_io/share:/home/chinchia120/autoware.ai/install/lanelet2_core/share:/home/chinchia120/autoware.ai/install/amathutils_lib/share:/home/chinchia120/autoware.ai/install/autoware_msgs/share:/home/chinchia120/autoware.ai/install/autoware_lanelet2_msgs/share:/home/chinchia120/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/lanelet2_extension -- -j4 -l4
+[6.025s] [35m[1mScanning dependencies of target visualization_msgs_generate_messages_cpp[0m
+[6.063s] [  0%] Built target visualization_msgs_generate_messages_cpp
+[6.100s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[6.133s] [  0%] Built target geometry_msgs_generate_messages_py
+[6.168s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_nodejs[0m
+[6.206s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[6.233s] [35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[6.269s] [  0%] Built target roscpp_generate_messages_cpp
+[6.310s] [35m[1mScanning dependencies of target actionlib_generate_messages_cpp[0m
+[6.346s] [  0%] Built target actionlib_generate_messages_cpp
+[6.389s] [35m[1mScanning dependencies of target pcl_msgs_generate_messages_eus[0m
+[6.429s] [  0%] Built target pcl_msgs_generate_messages_eus
+[6.467s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[6.504s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[6.543s] [35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_lisp[0m
+[6.580s] [  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+[6.617s] [35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_eus[0m
+[6.653s] [  0%] Built target jsk_recognition_msgs_generate_messages_eus
+[6.689s] [35m[1mScanning dependencies of target tf2_msgs_generate_messages_cpp[0m
+[6.726s] [  0%] Built target tf2_msgs_generate_messages_cpp
+[6.762s] [35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[6.798s] [  0%] Built target std_msgs_generate_messages_py
+[6.835s] [35m[1mScanning dependencies of target autoware_msgs_generate_messages_py[0m
+[6.871s] [  0%] Built target autoware_msgs_generate_messages_py
+[6.906s] [35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[6.943s] [  0%] Built target std_msgs_generate_messages_nodejs
+[6.983s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_eus[0m
+[7.019s] [  0%] Built target sensor_msgs_generate_messages_eus
+[7.055s] [35m[1mScanning dependencies of target _catkin_empty_exported_target[0m
+[7.092s] [  0%] Built target _catkin_empty_exported_target
+[7.128s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_cpp[0m
+[7.167s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[7.207s] [35m[1mScanning dependencies of target autoware_msgs_generate_messages_cpp[0m
+[7.253s] [  0%] Built target autoware_msgs_generate_messages_cpp
+[7.303s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[7.361s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[7.420s] [35m[1mScanning dependencies of target pcl_msgs_generate_messages_nodejs[0m
+[7.473s] [  0%] Built target pcl_msgs_generate_messages_nodejs
+[7.519s] [35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_py[0m
+[7.564s] [  0%] Built target jsk_recognition_msgs_generate_messages_py
+[7.615s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_lisp[0m
+[7.657s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[7.702s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_py[0m
+[7.744s] [  0%] Built target sensor_msgs_generate_messages_py
+[7.791s] [35m[1mScanning dependencies of target tf_generate_messages_py[0m
+[7.844s] [  0%] Built target tf_generate_messages_py
+[7.875s] [35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[7.906s] [  0%] Built target std_msgs_generate_messages_cpp
+[7.944s] [35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_py[0m
+[7.979s] [  0%] Built target jsk_footstep_msgs_generate_messages_py
+[8.014s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_nodejs[0m
+[8.041s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[8.079s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[8.112s] [  0%] Built target geometry_msgs_generate_messages_eus
+[8.138s] [35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[8.167s] [  0%] Built target std_msgs_generate_messages_lisp
+[8.197s] [35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+[8.231s] [  0%] Built target roscpp_generate_messages_nodejs
+[8.265s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[8.299s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[8.327s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[8.353s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[8.377s] [35m[1mScanning dependencies of target pcl_msgs_generate_messages_cpp[0m
+[8.407s] [  0%] Built target pcl_msgs_generate_messages_cpp
+[8.437s] [35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_cpp[0m
+[8.470s] [  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+[8.496s] [35m[1mScanning dependencies of target autoware_msgs_generate_messages_eus[0m
+[8.530s] [  0%] Built target autoware_msgs_generate_messages_eus
+[8.565s] [35m[1mScanning dependencies of target autoware_msgs_generate_messages_lisp[0m
+[8.601s] [  0%] Built target autoware_msgs_generate_messages_lisp
+[8.630s] [35m[1mScanning dependencies of target visualization_msgs_generate_messages_lisp[0m
+[8.655s] [  0%] Built target visualization_msgs_generate_messages_lisp
+[8.681s] [35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[8.706s] [  0%] Built target std_msgs_generate_messages_eus
+[8.729s] [35m[1mScanning dependencies of target autoware_msgs_generate_messages_nodejs[0m
+[8.769s] [  0%] Built target autoware_msgs_generate_messages_nodejs
+[8.789s] [35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_eus[0m
+[8.824s] [  0%] Built target jsk_footstep_msgs_generate_messages_eus
+[8.854s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_py[0m
+[8.879s] [  0%] Built target actionlib_msgs_generate_messages_py
+[8.904s] [35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_lisp[0m
+[8.935s] [  0%] Built target jsk_footstep_msgs_generate_messages_lisp
+[8.958s] [35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_nodejs[0m
+[8.985s] [  0%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[9.011s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_lisp[0m
+[9.040s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[9.066s] [35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_cpp[0m
+[9.093s] [  0%] Built target jsk_footstep_msgs_generate_messages_cpp
+[9.117s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_cpp[0m
+[9.155s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[9.189s] [35m[1mScanning dependencies of target tf_generate_messages_eus[0m
+[9.222s] [  0%] Built target tf_generate_messages_eus
+[9.248s] [35m[1mScanning dependencies of target tf_generate_messages_lisp[0m
+[9.274s] [  0%] Built target tf_generate_messages_lisp
+[9.302s] [35m[1mScanning dependencies of target tf_generate_messages_nodejs[0m
+[9.329s] [  0%] Built target tf_generate_messages_nodejs
+[9.363s] [35m[1mScanning dependencies of target autoware_lanelet2_msgs_generate_messages_cpp[0m
+[9.395s] [  0%] Built target autoware_lanelet2_msgs_generate_messages_cpp
+[9.429s] [35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_nodejs[0m
+[9.455s] [  0%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[9.484s] [35m[1mScanning dependencies of target autoware_lanelet2_msgs_generate_messages_py[0m
+[9.514s] [  0%] Built target autoware_lanelet2_msgs_generate_messages_py
+[9.547s] [35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[9.575s] [  0%] Built target roscpp_generate_messages_lisp
+[9.599s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[9.636s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[9.669s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[9.702s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[9.728s] [35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[9.761s] [  0%] Built target roscpp_generate_messages_eus
+[9.793s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_eus[0m
+[9.818s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[9.841s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[9.874s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[9.909s] [35m[1mScanning dependencies of target pcl_msgs_generate_messages_py[0m
+[9.944s] [  0%] Built target pcl_msgs_generate_messages_py
+[9.973s] [35m[1mScanning dependencies of target actionlib_generate_messages_eus[0m
+[10.000s] [  0%] Built target actionlib_generate_messages_eus
+[10.032s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[10.066s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[10.107s] [35m[1mScanning dependencies of target actionlib_generate_messages_lisp[0m
+[10.135s] [  0%] Built target actionlib_generate_messages_lisp
+[10.166s] [35m[1mScanning dependencies of target pcl_msgs_generate_messages_lisp[0m
+[10.201s] [  0%] Built target pcl_msgs_generate_messages_lisp
+[10.226s] [35m[1mScanning dependencies of target tf_generate_messages_cpp[0m
+[10.262s] [  0%] Built target tf_generate_messages_cpp
+[10.295s] [35m[1mScanning dependencies of target actionlib_generate_messages_nodejs[0m
+[10.326s] [  0%] Built target actionlib_generate_messages_nodejs
+[10.359s] [35m[1mScanning dependencies of target tf2_msgs_generate_messages_lisp[0m
+[10.382s] [  0%] Built target tf2_msgs_generate_messages_lisp
+[10.415s] [35m[1mScanning dependencies of target actionlib_generate_messages_py[0m
+[10.464s] [  0%] Built target actionlib_generate_messages_py
+[10.500s] [35m[1mScanning dependencies of target tf2_msgs_generate_messages_py[0m
+[10.537s] [  0%] Built target tf2_msgs_generate_messages_py
+[10.563s] [35m[1mScanning dependencies of target autoware_lanelet2_msgs_generate_messages_eus[0m
+[10.594s] [  0%] Built target autoware_lanelet2_msgs_generate_messages_eus
+[10.631s] [35m[1mScanning dependencies of target tf2_msgs_generate_messages_nodejs[0m
+[10.659s] [  0%] Built target tf2_msgs_generate_messages_nodejs
+[10.684s] [35m[1mScanning dependencies of target autoware_lanelet2_msgs_generate_messages_lisp[0m
+[10.720s] [  0%] Built target autoware_lanelet2_msgs_generate_messages_lisp
+[10.755s] [35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[10.784s] [  0%] Built target roscpp_generate_messages_py
+[10.814s] [35m[1mScanning dependencies of target autoware_lanelet2_msgs_generate_messages_nodejs[0m
+[10.848s] [  0%] Built target autoware_lanelet2_msgs_generate_messages_nodejs
+[10.883s] [35m[1mScanning dependencies of target visualization_msgs_generate_messages_eus[0m
+[10.915s] [  0%] Built target visualization_msgs_generate_messages_eus
+[10.948s] [35m[1mScanning dependencies of target tf2_msgs_generate_messages_eus[0m
+[10.977s] [  0%] Built target tf2_msgs_generate_messages_eus
+[11.011s] [35m[1mScanning dependencies of target visualization_msgs_generate_messages_nodejs[0m
+[11.046s] [  0%] Built target visualization_msgs_generate_messages_nodejs
+[11.076s] [35m[1mScanning dependencies of target visualization_msgs_generate_messages_py[0m
+[11.114s] [  0%] Built target visualization_msgs_generate_messages_py
+[11.150s] [35m[1mScanning dependencies of target lanelet2_extension_lib[0m
+[11.418s] [  8%] [32mBuilding CXX object CMakeFiles/lanelet2_extension_lib.dir/lib/autoware_osm_parser.cpp.o[0m
+[23.948s] [ 16%] [32mBuilding CXX object CMakeFiles/lanelet2_extension_lib.dir/lib/mgrs_projector.cpp.o[0m
+[28.286s] [ 25%] [32mBuilding CXX object CMakeFiles/lanelet2_extension_lib.dir/lib/query.cpp.o[0m
+[47.500s] [ 33%] [32mBuilding CXX object CMakeFiles/lanelet2_extension_lib.dir/lib/utilities.cpp.o[0m
+[64.261s] [ 41%] [32mBuilding CXX object CMakeFiles/lanelet2_extension_lib.dir/lib/visualization.cpp.o[0m
+[77.610s] [ 50%] [32mBuilding CXX object CMakeFiles/lanelet2_extension_lib.dir/lib/message_conversion.cpp.o[0m
+[97.622s] [ 58%] [32mBuilding CXX object CMakeFiles/lanelet2_extension_lib.dir/lib/autoware_traffic_light.cpp.o[0m
+[106.615s] [ 66%] [32m[1mLinking CXX shared library devel/lib/liblanelet2_extension_lib.so[0m
+[107.154s] [ 66%] Built target lanelet2_extension_lib
+[107.181s] [35m[1mScanning dependencies of target autoware_lanelet2_validation[0m
+[107.297s] [ 75%] [32mBuilding CXX object CMakeFiles/autoware_lanelet2_validation.dir/src/validation.cpp.o[0m
+[118.751s] [ 83%] [32m[1mLinking CXX executable devel/lib/lanelet2_extension/autoware_lanelet2_validation[0m
+[119.256s] [ 83%] Built target autoware_lanelet2_validation
+[119.294s] [35m[1mScanning dependencies of target lanelet2_extension_sample[0m
+[119.441s] [ 91%] [32mBuilding CXX object CMakeFiles/lanelet2_extension_sample.dir/src/sample_code.cpp.o[0m
+[129.209s] [100%] [32m[1mLinking CXX executable devel/lib/lanelet2_extension/lanelet2_extension_sample[0m
+[129.669s] [100%] Built target lanelet2_extension_sample
+[129.704s] Invoked command in '/home/chinchia120/autoware.ai/build/lanelet2_extension' returned '0': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/lanelet2_validation:/home/chinchia120/autoware.ai/install/lanelet2_routing:/home/chinchia120/autoware.ai/install/lanelet2_projection:/home/chinchia120/autoware.ai/install/lanelet2_traffic_rules:/home/chinchia120/autoware.ai/install/lanelet2_maps:/home/chinchia120/autoware.ai/install/lanelet2_io:/home/chinchia120/autoware.ai/install/lanelet2_core:/home/chinchia120/autoware.ai/install/amathutils_lib:/home/chinchia120/autoware.ai/install/autoware_msgs:/home/chinchia120/autoware.ai/install/autoware_lanelet2_msgs:/home/chinchia120/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/chinchia120/autoware.ai/install/lanelet2_validation/lib:/home/chinchia120/autoware.ai/install/lanelet2_routing/lib:/home/chinchia120/autoware.ai/install/lanelet2_projection/lib:/home/chinchia120/autoware.ai/install/lanelet2_traffic_rules/lib:/home/chinchia120/autoware.ai/install/lanelet2_io/lib:/home/chinchia120/autoware.ai/install/lanelet2_core/lib:/home/chinchia120/autoware.ai/install/amathutils_lib/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/lanelet2_validation/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_validation/lib/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_routing/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_routing/lib/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_projection/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_projection/lib/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_traffic_rules/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_traffic_rules/lib/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_maps/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_maps/lib/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_io/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_io/lib/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_core/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_core/lib/pkgconfig:/home/chinchia120/autoware.ai/install/amathutils_lib/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/amathutils_lib/lib/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_lanelet2_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_lanelet2_msgs/lib/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:/home/chinchia120/autoware.ai/install/autoware_lanelet2_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/lanelet2_validation/share:/home/chinchia120/autoware.ai/install/lanelet2_routing/share:/home/chinchia120/autoware.ai/install/lanelet2_projection/share:/home/chinchia120/autoware.ai/install/lanelet2_traffic_rules/share:/home/chinchia120/autoware.ai/install/lanelet2_maps/share:/home/chinchia120/autoware.ai/install/lanelet2_io/share:/home/chinchia120/autoware.ai/install/lanelet2_core/share:/home/chinchia120/autoware.ai/install/amathutils_lib/share:/home/chinchia120/autoware.ai/install/autoware_msgs/share:/home/chinchia120/autoware.ai/install/autoware_lanelet2_msgs/share:/home/chinchia120/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/lanelet2_extension -- -j4 -l4
+[130.167s] Invoking command in '/home/chinchia120/autoware.ai/build/lanelet2_extension': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/lanelet2_validation:/home/chinchia120/autoware.ai/install/lanelet2_routing:/home/chinchia120/autoware.ai/install/lanelet2_projection:/home/chinchia120/autoware.ai/install/lanelet2_traffic_rules:/home/chinchia120/autoware.ai/install/lanelet2_maps:/home/chinchia120/autoware.ai/install/lanelet2_io:/home/chinchia120/autoware.ai/install/lanelet2_core:/home/chinchia120/autoware.ai/install/amathutils_lib:/home/chinchia120/autoware.ai/install/autoware_msgs:/home/chinchia120/autoware.ai/install/autoware_lanelet2_msgs:/home/chinchia120/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/chinchia120/autoware.ai/install/lanelet2_validation/lib:/home/chinchia120/autoware.ai/install/lanelet2_routing/lib:/home/chinchia120/autoware.ai/install/lanelet2_projection/lib:/home/chinchia120/autoware.ai/install/lanelet2_traffic_rules/lib:/home/chinchia120/autoware.ai/install/lanelet2_io/lib:/home/chinchia120/autoware.ai/install/lanelet2_core/lib:/home/chinchia120/autoware.ai/install/amathutils_lib/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/lanelet2_validation/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_validation/lib/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_routing/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_routing/lib/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_projection/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_projection/lib/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_traffic_rules/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_traffic_rules/lib/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_maps/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_maps/lib/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_io/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_io/lib/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_core/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_core/lib/pkgconfig:/home/chinchia120/autoware.ai/install/amathutils_lib/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/amathutils_lib/lib/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_lanelet2_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_lanelet2_msgs/lib/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:/home/chinchia120/autoware.ai/install/autoware_lanelet2_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/lanelet2_validation/share:/home/chinchia120/autoware.ai/install/lanelet2_routing/share:/home/chinchia120/autoware.ai/install/lanelet2_projection/share:/home/chinchia120/autoware.ai/install/lanelet2_traffic_rules/share:/home/chinchia120/autoware.ai/install/lanelet2_maps/share:/home/chinchia120/autoware.ai/install/lanelet2_io/share:/home/chinchia120/autoware.ai/install/lanelet2_core/share:/home/chinchia120/autoware.ai/install/amathutils_lib/share:/home/chinchia120/autoware.ai/install/autoware_msgs/share:/home/chinchia120/autoware.ai/install/autoware_lanelet2_msgs/share:/home/chinchia120/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/lanelet2_extension --target tests -- -j4 -l4
+[130.322s] [35m[1mScanning dependencies of target gtest[0m
+[130.366s] [  5%] [32mBuilding CXX object gtest/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[138.706s] [ 10%] [32m[1mLinking CXX shared library libgtest.so[0m
+[138.885s] [ 10%] Built target gtest
+[138.931s] [ 10%] Built target visualization_msgs_generate_messages_nodejs
+[138.990s] [ 10%] Built target geometry_msgs_generate_messages_py
+[139.049s] [ 10%] Built target sensor_msgs_generate_messages_nodejs
+[139.107s] [ 10%] Built target roscpp_generate_messages_cpp
+[139.168s] [ 10%] Built target actionlib_generate_messages_cpp
+[139.230s] [ 10%] Built target pcl_msgs_generate_messages_eus
+[139.295s] [ 10%] Built target rosgraph_msgs_generate_messages_eus
+[139.357s] [ 10%] Built target jsk_recognition_msgs_generate_messages_lisp
+[139.420s] [ 10%] Built target jsk_recognition_msgs_generate_messages_eus
+[139.480s] [ 10%] Built target tf2_msgs_generate_messages_cpp
+[139.538s] [ 10%] Built target std_msgs_generate_messages_py
+[139.597s] [ 10%] Built target autoware_msgs_generate_messages_py
+[139.656s] [ 10%] Built target std_msgs_generate_messages_nodejs
+[139.718s] [ 10%] Built target sensor_msgs_generate_messages_eus
+[139.782s] [ 10%] Built target _catkin_empty_exported_target
+[139.853s] [ 10%] Built target sensor_msgs_generate_messages_cpp
+[139.910s] [ 10%] Built target autoware_msgs_generate_messages_cpp
+[139.965s] [ 10%] Built target rosgraph_msgs_generate_messages_cpp
+[140.026s] [ 10%] Built target pcl_msgs_generate_messages_nodejs
+[140.088s] [ 10%] Built target jsk_recognition_msgs_generate_messages_py
+[140.145s] [ 10%] Built target sensor_msgs_generate_messages_lisp
+[140.213s] [ 10%] Built target sensor_msgs_generate_messages_py
+[140.277s] [ 10%] Built target tf_generate_messages_py
+[140.346s] [ 10%] Built target std_msgs_generate_messages_cpp
+[140.418s] [ 10%] Built target jsk_footstep_msgs_generate_messages_py
+[140.478s] [ 10%] Built target actionlib_msgs_generate_messages_nodejs
+[140.537s] [ 10%] Built target geometry_msgs_generate_messages_eus
+[140.608s] [ 10%] Built target std_msgs_generate_messages_lisp
+[140.660s] [ 10%] Built target roscpp_generate_messages_nodejs
+[140.720s] [ 10%] Built target geometry_msgs_generate_messages_nodejs
+[140.784s] [ 10%] Built target geometry_msgs_generate_messages_lisp
+[140.832s] [ 10%] Built target pcl_msgs_generate_messages_cpp
+[140.894s] [ 10%] Built target jsk_recognition_msgs_generate_messages_cpp
+[140.968s] [ 10%] Built target autoware_msgs_generate_messages_eus
+[141.026s] [ 10%] Built target autoware_msgs_generate_messages_lisp
+[141.094s] [ 10%] Built target visualization_msgs_generate_messages_lisp
+[141.161s] [ 10%] Built target std_msgs_generate_messages_eus
+[141.220s] [ 10%] Built target autoware_msgs_generate_messages_nodejs
+[141.280s] [ 10%] Built target jsk_footstep_msgs_generate_messages_eus
+[141.348s] [ 10%] Built target actionlib_msgs_generate_messages_py
+[141.420s] [ 10%] Built target jsk_footstep_msgs_generate_messages_lisp
+[141.482s] [ 10%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[141.547s] [ 10%] Built target actionlib_msgs_generate_messages_lisp
+[141.619s] [ 10%] Built target jsk_footstep_msgs_generate_messages_cpp
+[141.681s] [ 10%] Built target actionlib_msgs_generate_messages_cpp
+[141.741s] [ 10%] Built target tf_generate_messages_eus
+[141.801s] [ 10%] Built target tf_generate_messages_lisp
+[141.865s] [ 10%] Built target tf_generate_messages_nodejs
+[141.923s] [ 10%] Built target autoware_lanelet2_msgs_generate_messages_cpp
+[141.989s] [ 10%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[142.049s] [ 10%] Built target autoware_lanelet2_msgs_generate_messages_py
+[142.100s] [ 10%] Built target roscpp_generate_messages_lisp
+[142.156s] [ 10%] Built target rosgraph_msgs_generate_messages_lisp
+[142.215s] [ 10%] Built target rosgraph_msgs_generate_messages_nodejs
+[142.277s] [ 10%] Built target roscpp_generate_messages_eus
+[142.338s] [ 10%] Built target actionlib_msgs_generate_messages_eus
+[142.399s] [ 10%] Built target rosgraph_msgs_generate_messages_py
+[142.451s] [ 10%] Built target pcl_msgs_generate_messages_py
+[142.523s] [ 10%] Built target actionlib_generate_messages_eus
+[142.593s] [ 10%] Built target geometry_msgs_generate_messages_cpp
+[142.643s] [ 10%] Built target actionlib_generate_messages_lisp
+[142.691s] [ 10%] Built target pcl_msgs_generate_messages_lisp
+[142.740s] [ 10%] Built target tf_generate_messages_cpp
+[142.786s] [ 10%] Built target actionlib_generate_messages_nodejs
+[142.834s] [ 10%] Built target tf2_msgs_generate_messages_lisp
+[142.886s] [ 10%] Built target actionlib_generate_messages_py
+[142.945s] [ 10%] Built target tf2_msgs_generate_messages_py
+[142.998s] [ 10%] Built target autoware_lanelet2_msgs_generate_messages_eus
+[143.054s] [ 10%] Built target tf2_msgs_generate_messages_nodejs
+[143.116s] [ 10%] Built target autoware_lanelet2_msgs_generate_messages_lisp
+[143.163s] [ 10%] Built target roscpp_generate_messages_py
+[143.212s] [ 10%] Built target autoware_lanelet2_msgs_generate_messages_nodejs
+[143.256s] [ 10%] Built target visualization_msgs_generate_messages_eus
+[143.311s] [ 10%] Built target tf2_msgs_generate_messages_eus
+[143.359s] [ 10%] Built target visualization_msgs_generate_messages_py
+[143.405s] [ 10%] Built target visualization_msgs_generate_messages_cpp
+[143.518s] [ 50%] Built target lanelet2_extension_lib
+[143.541s] [35m[1mScanning dependencies of target message_conversion-test[0m
+[143.694s] [ 55%] [32mBuilding CXX object CMakeFiles/message_conversion-test.dir/test/src/test_message_conversion.cpp.o[0m
+[154.164s] [ 60%] [32m[1mLinking CXX executable devel/lib/lanelet2_extension/message_conversion-test[0m
+[154.654s] [ 60%] Built target message_conversion-test
+[154.688s] [35m[1mScanning dependencies of target utilities-test[0m
+[154.857s] [ 65%] [32mBuilding CXX object CMakeFiles/utilities-test.dir/test/src/test_utilities.cpp.o[0m
+[168.675s] [ 70%] [32m[1mLinking CXX executable devel/lib/lanelet2_extension/utilities-test[0m
+[169.157s] [ 70%] Built target utilities-test
+[169.197s] [35m[1mScanning dependencies of target query-test[0m
+[169.344s] [ 75%] [32mBuilding CXX object CMakeFiles/query-test.dir/test/src/test_query.cpp.o[0m
+[180.043s] [ 80%] [32m[1mLinking CXX executable devel/lib/lanelet2_extension/query-test[0m
+[180.487s] [ 80%] Built target query-test
+[180.510s] [35m[1mScanning dependencies of target projector-test[0m
+[180.617s] [ 85%] [32mBuilding CXX object CMakeFiles/projector-test.dir/test/src/test_projector.cpp.o[0m
+[185.603s] [ 90%] [32m[1mLinking CXX executable devel/lib/lanelet2_extension/projector-test[0m
+[186.046s] [ 90%] Built target projector-test
+[186.077s] [35m[1mScanning dependencies of target regulatory_elements-test[0m
+[186.217s] [ 95%] [32mBuilding CXX object CMakeFiles/regulatory_elements-test.dir/test/src/test_regulatory_elements.cpp.o[0m
+[196.986s] [100%] [32m[1mLinking CXX executable devel/lib/lanelet2_extension/regulatory_elements-test[0m
+[197.401s] [100%] Built target regulatory_elements-test
+[197.428s] [35m[1mScanning dependencies of target tests[0m
+[197.451s] [100%] Built target tests
+[197.478s] Invoked command in '/home/chinchia120/autoware.ai/build/lanelet2_extension' returned '0': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/lanelet2_validation:/home/chinchia120/autoware.ai/install/lanelet2_routing:/home/chinchia120/autoware.ai/install/lanelet2_projection:/home/chinchia120/autoware.ai/install/lanelet2_traffic_rules:/home/chinchia120/autoware.ai/install/lanelet2_maps:/home/chinchia120/autoware.ai/install/lanelet2_io:/home/chinchia120/autoware.ai/install/lanelet2_core:/home/chinchia120/autoware.ai/install/amathutils_lib:/home/chinchia120/autoware.ai/install/autoware_msgs:/home/chinchia120/autoware.ai/install/autoware_lanelet2_msgs:/home/chinchia120/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/chinchia120/autoware.ai/install/lanelet2_validation/lib:/home/chinchia120/autoware.ai/install/lanelet2_routing/lib:/home/chinchia120/autoware.ai/install/lanelet2_projection/lib:/home/chinchia120/autoware.ai/install/lanelet2_traffic_rules/lib:/home/chinchia120/autoware.ai/install/lanelet2_io/lib:/home/chinchia120/autoware.ai/install/lanelet2_core/lib:/home/chinchia120/autoware.ai/install/amathutils_lib/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/lanelet2_validation/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_validation/lib/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_routing/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_routing/lib/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_projection/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_projection/lib/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_traffic_rules/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_traffic_rules/lib/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_maps/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_maps/lib/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_io/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_io/lib/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_core/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_core/lib/pkgconfig:/home/chinchia120/autoware.ai/install/amathutils_lib/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/amathutils_lib/lib/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_lanelet2_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_lanelet2_msgs/lib/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:/home/chinchia120/autoware.ai/install/autoware_lanelet2_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/lanelet2_validation/share:/home/chinchia120/autoware.ai/install/lanelet2_routing/share:/home/chinchia120/autoware.ai/install/lanelet2_projection/share:/home/chinchia120/autoware.ai/install/lanelet2_traffic_rules/share:/home/chinchia120/autoware.ai/install/lanelet2_maps/share:/home/chinchia120/autoware.ai/install/lanelet2_io/share:/home/chinchia120/autoware.ai/install/lanelet2_core/share:/home/chinchia120/autoware.ai/install/amathutils_lib/share:/home/chinchia120/autoware.ai/install/autoware_msgs/share:/home/chinchia120/autoware.ai/install/autoware_lanelet2_msgs/share:/home/chinchia120/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/lanelet2_extension --target tests -- -j4 -l4
+[197.871s] Invoking command in '/home/chinchia120/autoware.ai/build/lanelet2_extension': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/lanelet2_validation:/home/chinchia120/autoware.ai/install/lanelet2_routing:/home/chinchia120/autoware.ai/install/lanelet2_projection:/home/chinchia120/autoware.ai/install/lanelet2_traffic_rules:/home/chinchia120/autoware.ai/install/lanelet2_maps:/home/chinchia120/autoware.ai/install/lanelet2_io:/home/chinchia120/autoware.ai/install/lanelet2_core:/home/chinchia120/autoware.ai/install/amathutils_lib:/home/chinchia120/autoware.ai/install/autoware_msgs:/home/chinchia120/autoware.ai/install/autoware_lanelet2_msgs:/home/chinchia120/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/chinchia120/autoware.ai/install/lanelet2_validation/lib:/home/chinchia120/autoware.ai/install/lanelet2_routing/lib:/home/chinchia120/autoware.ai/install/lanelet2_projection/lib:/home/chinchia120/autoware.ai/install/lanelet2_traffic_rules/lib:/home/chinchia120/autoware.ai/install/lanelet2_io/lib:/home/chinchia120/autoware.ai/install/lanelet2_core/lib:/home/chinchia120/autoware.ai/install/amathutils_lib/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/lanelet2_validation/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_validation/lib/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_routing/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_routing/lib/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_projection/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_projection/lib/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_traffic_rules/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_traffic_rules/lib/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_maps/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_maps/lib/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_io/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_io/lib/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_core/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_core/lib/pkgconfig:/home/chinchia120/autoware.ai/install/amathutils_lib/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/amathutils_lib/lib/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_lanelet2_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_lanelet2_msgs/lib/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:/home/chinchia120/autoware.ai/install/autoware_lanelet2_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/lanelet2_validation/share:/home/chinchia120/autoware.ai/install/lanelet2_routing/share:/home/chinchia120/autoware.ai/install/lanelet2_projection/share:/home/chinchia120/autoware.ai/install/lanelet2_traffic_rules/share:/home/chinchia120/autoware.ai/install/lanelet2_maps/share:/home/chinchia120/autoware.ai/install/lanelet2_io/share:/home/chinchia120/autoware.ai/install/lanelet2_core/share:/home/chinchia120/autoware.ai/install/amathutils_lib/share:/home/chinchia120/autoware.ai/install/autoware_msgs/share:/home/chinchia120/autoware.ai/install/autoware_lanelet2_msgs/share:/home/chinchia120/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/lanelet2_extension --target install -- -j4 -l4
+[198.017s] [  0%] Built target visualization_msgs_generate_messages_cpp
+[198.062s] [  0%] Built target geometry_msgs_generate_messages_py
+[198.124s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[198.186s] [  0%] Built target roscpp_generate_messages_cpp
+[198.232s] [  0%] Built target actionlib_generate_messages_cpp
+[198.283s] [  0%] Built target pcl_msgs_generate_messages_eus
+[198.337s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[198.396s] [  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+[198.447s] [  0%] Built target jsk_recognition_msgs_generate_messages_eus
+[198.501s] [  0%] Built target tf2_msgs_generate_messages_cpp
+[198.548s] [  0%] Built target std_msgs_generate_messages_py
+[198.597s] [  0%] Built target autoware_msgs_generate_messages_py
+[198.652s] [  0%] Built target std_msgs_generate_messages_nodejs
+[198.710s] [  0%] Built target sensor_msgs_generate_messages_eus
+[198.779s] [  0%] Built target _catkin_empty_exported_target
+[198.845s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[198.911s] [  0%] Built target autoware_msgs_generate_messages_cpp
+[198.976s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[199.030s] [  0%] Built target pcl_msgs_generate_messages_nodejs
+[199.084s] [  0%] Built target jsk_recognition_msgs_generate_messages_py
+[199.143s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[199.205s] [  0%] Built target sensor_msgs_generate_messages_py
+[199.259s] [  0%] Built target tf_generate_messages_py
+[199.320s] [  0%] Built target std_msgs_generate_messages_cpp
+[199.369s] [  0%] Built target jsk_footstep_msgs_generate_messages_py
+[199.426s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[199.476s] [  0%] Built target geometry_msgs_generate_messages_eus
+[199.527s] [  0%] Built target std_msgs_generate_messages_lisp
+[199.583s] [  0%] Built target roscpp_generate_messages_nodejs
+[199.639s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[199.694s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[199.757s] [  0%] Built target pcl_msgs_generate_messages_cpp
+[199.813s] [  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+[199.874s] [  0%] Built target autoware_msgs_generate_messages_eus
+[199.931s] [  0%] Built target autoware_msgs_generate_messages_lisp
+[199.988s] [  0%] Built target visualization_msgs_generate_messages_lisp
+[200.050s] [  0%] Built target std_msgs_generate_messages_eus
+[200.100s] [  0%] Built target autoware_msgs_generate_messages_nodejs
+[200.151s] [  0%] Built target jsk_footstep_msgs_generate_messages_eus
+[200.199s] [  0%] Built target actionlib_msgs_generate_messages_py
+[200.247s] [  0%] Built target jsk_footstep_msgs_generate_messages_lisp
+[200.302s] [  0%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[200.352s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[200.400s] [  0%] Built target jsk_footstep_msgs_generate_messages_cpp
+[200.460s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[200.518s] [  0%] Built target tf_generate_messages_eus
+[200.567s] [  0%] Built target tf_generate_messages_lisp
+[200.629s] [  0%] Built target tf_generate_messages_nodejs
+[200.687s] [  0%] Built target autoware_lanelet2_msgs_generate_messages_cpp
+[200.747s] [  0%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[200.810s] [  0%] Built target autoware_lanelet2_msgs_generate_messages_py
+[200.871s] [  0%] Built target roscpp_generate_messages_lisp
+[200.941s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[200.982s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[201.051s] [  0%] Built target roscpp_generate_messages_eus
+[201.101s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[201.159s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[201.218s] [  0%] Built target pcl_msgs_generate_messages_py
+[201.267s] [  0%] Built target actionlib_generate_messages_eus
+[201.328s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[201.387s] [  0%] Built target actionlib_generate_messages_lisp
+[201.451s] [  0%] Built target pcl_msgs_generate_messages_lisp
+[201.516s] [  0%] Built target tf_generate_messages_cpp
+[201.583s] [  0%] Built target actionlib_generate_messages_nodejs
+[201.639s] [  0%] Built target tf2_msgs_generate_messages_lisp
+[201.683s] [  0%] Built target actionlib_generate_messages_py
+[201.738s] [  0%] Built target tf2_msgs_generate_messages_py
+[201.792s] [  0%] Built target autoware_lanelet2_msgs_generate_messages_eus
+[201.851s] [  0%] Built target tf2_msgs_generate_messages_nodejs
+[201.909s] [  0%] Built target autoware_lanelet2_msgs_generate_messages_lisp
+[201.968s] [  0%] Built target roscpp_generate_messages_py
+[202.033s] [  0%] Built target autoware_lanelet2_msgs_generate_messages_nodejs
+[202.087s] [  0%] Built target visualization_msgs_generate_messages_eus
+[202.147s] [  0%] Built target tf2_msgs_generate_messages_eus
+[202.202s] [  0%] Built target visualization_msgs_generate_messages_nodejs
+[202.263s] [  0%] Built target visualization_msgs_generate_messages_py
+[202.372s] [ 66%] Built target lanelet2_extension_lib
+[202.451s] [ 83%] Built target autoware_lanelet2_validation
+[202.531s] [100%] Built target lanelet2_extension_sample
+[202.577s] [36mInstall the project...[0m
+[202.602s] -- Install configuration: "Release"
+[202.602s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_extension/lib/pkgconfig/lanelet2_extension.pc
+[202.602s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_extension/share/lanelet2_extension/cmake/lanelet2_extensionConfig.cmake
+[202.603s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_extension/share/lanelet2_extension/cmake/lanelet2_extensionConfig-version.cmake
+[202.603s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_extension/share/lanelet2_extension/package.xml
+[202.604s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_extension/lib/liblanelet2_extension_lib.so
+[202.609s] -- Set runtime path of "/home/chinchia120/autoware.ai/install/lanelet2_extension/lib/liblanelet2_extension_lib.so" to ""
+[202.609s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_extension/lib/lanelet2_extension/lanelet2_extension_sample
+[202.610s] -- Set runtime path of "/home/chinchia120/autoware.ai/install/lanelet2_extension/lib/lanelet2_extension/lanelet2_extension_sample" to ""
+[202.611s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_extension/lib/lanelet2_extension/autoware_lanelet2_validation
+[202.612s] -- Set runtime path of "/home/chinchia120/autoware.ai/install/lanelet2_extension/lib/lanelet2_extension/autoware_lanelet2_validation" to ""
+[202.613s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_extension/include/lanelet2_extension
+[202.613s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_extension/include/lanelet2_extension/projection
+[202.613s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_extension/include/lanelet2_extension/projection/mgrs_projector.h
+[202.613s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_extension/include/lanelet2_extension/regulatory_elements
+[202.614s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_extension/include/lanelet2_extension/regulatory_elements/autoware_traffic_light.h
+[202.614s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_extension/include/lanelet2_extension/visualization
+[202.614s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_extension/include/lanelet2_extension/visualization/visualization.h
+[202.614s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_extension/include/lanelet2_extension/io
+[202.614s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_extension/include/lanelet2_extension/io/autoware_osm_parser.h
+[202.614s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_extension/include/lanelet2_extension/utility
+[202.615s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_extension/include/lanelet2_extension/utility/message_conversion.h
+[202.615s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_extension/include/lanelet2_extension/utility/query.h
+[202.615s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_extension/include/lanelet2_extension/utility/utilities.h
+[202.621s] Invoked command in '/home/chinchia120/autoware.ai/build/lanelet2_extension' returned '0': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/lanelet2_validation:/home/chinchia120/autoware.ai/install/lanelet2_routing:/home/chinchia120/autoware.ai/install/lanelet2_projection:/home/chinchia120/autoware.ai/install/lanelet2_traffic_rules:/home/chinchia120/autoware.ai/install/lanelet2_maps:/home/chinchia120/autoware.ai/install/lanelet2_io:/home/chinchia120/autoware.ai/install/lanelet2_core:/home/chinchia120/autoware.ai/install/amathutils_lib:/home/chinchia120/autoware.ai/install/autoware_msgs:/home/chinchia120/autoware.ai/install/autoware_lanelet2_msgs:/home/chinchia120/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/chinchia120/autoware.ai/install/lanelet2_validation/lib:/home/chinchia120/autoware.ai/install/lanelet2_routing/lib:/home/chinchia120/autoware.ai/install/lanelet2_projection/lib:/home/chinchia120/autoware.ai/install/lanelet2_traffic_rules/lib:/home/chinchia120/autoware.ai/install/lanelet2_io/lib:/home/chinchia120/autoware.ai/install/lanelet2_core/lib:/home/chinchia120/autoware.ai/install/amathutils_lib/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/lanelet2_validation/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_validation/lib/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_routing/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_routing/lib/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_projection/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_projection/lib/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_traffic_rules/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_traffic_rules/lib/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_maps/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_maps/lib/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_io/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_io/lib/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_core/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/lanelet2_core/lib/pkgconfig:/home/chinchia120/autoware.ai/install/amathutils_lib/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/amathutils_lib/lib/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_lanelet2_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_lanelet2_msgs/lib/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:/home/chinchia120/autoware.ai/install/autoware_lanelet2_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/lanelet2_validation/share:/home/chinchia120/autoware.ai/install/lanelet2_routing/share:/home/chinchia120/autoware.ai/install/lanelet2_projection/share:/home/chinchia120/autoware.ai/install/lanelet2_traffic_rules/share:/home/chinchia120/autoware.ai/install/lanelet2_maps/share:/home/chinchia120/autoware.ai/install/lanelet2_io/share:/home/chinchia120/autoware.ai/install/lanelet2_core/share:/home/chinchia120/autoware.ai/install/amathutils_lib/share:/home/chinchia120/autoware.ai/install/autoware_msgs/share:/home/chinchia120/autoware.ai/install/autoware_lanelet2_msgs/share:/home/chinchia120/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/lanelet2_extension --target install -- -j4 -l4

@@ -1,0 +1,59 @@
+[0.033s] Invoking command in '/home/chinchia120/autoware.ai/build/marker_downsampler': /usr/bin/cmake /home/chinchia120/autoware.ai/src/autoware/utilities/marker_downsampler -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/chinchia120/autoware.ai/install/marker_downsampler
+[0.185s] -- The C compiler identification is GNU 7.5.0
+[0.309s] -- The CXX compiler identification is GNU 7.5.0
+[0.319s] -- Check for working C compiler: /usr/bin/cc
+[0.486s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.487s] -- Detecting C compiler ABI info
+[0.663s] -- Detecting C compiler ABI info - done
+[0.690s] -- Detecting C compile features
+[1.181s] -- Detecting C compile features - done
+[1.188s] -- Check for working CXX compiler: /usr/bin/c++
+[1.376s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.377s] -- Detecting CXX compiler ABI info
+[1.564s] -- Detecting CXX compiler ABI info - done
+[1.581s] -- Detecting CXX compile features
+[2.442s] -- Detecting CXX compile features - done
+[2.446s] -- Using CATKIN_DEVEL_PREFIX: /home/chinchia120/autoware.ai/build/marker_downsampler/devel
+[2.446s] -- Using CMAKE_PREFIX_PATH: /home/chinchia120/catkin_ws/devel;/opt/ros/melodic
+[2.447s] -- This workspace overlays: /home/chinchia120/catkin_ws/devel;/opt/ros/melodic
+[2.490s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[2.492s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[2.492s] -- Using Debian Python package layout
+[2.495s] -- Using empy: /usr/bin/empy
+[2.831s] -- Using CATKIN_ENABLE_TESTING: ON
+[2.831s] -- Call enable_testing()
+[2.839s] -- Using CATKIN_TEST_RESULTS_DIR: /home/chinchia120/autoware.ai/build/marker_downsampler/test_results
+[2.882s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[2.882s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[2.910s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[2.913s] -- Looking for pthread.h
+[3.092s] -- Looking for pthread.h - found
+[3.092s] -- Looking for pthread_create
+[3.265s] -- Looking for pthread_create - not found
+[3.265s] -- Looking for pthread_create in pthreads
+[3.411s] -- Looking for pthread_create in pthreads - not found
+[3.412s] -- Looking for pthread_create in pthread
+[3.549s] -- Looking for pthread_create in pthread - found
+[3.549s] -- Found Threads: TRUE  
+[3.555s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[3.628s] -- catkin 0.7.29
+[3.628s] -- BUILD_SHARED_LIBS is on
+[4.428s] -- Configuring done
+[4.472s] -- Generating done
+[4.484s] -- Build files have been written to: /home/chinchia120/autoware.ai/build/marker_downsampler
+[4.496s] Invoked command in '/home/chinchia120/autoware.ai/build/marker_downsampler' returned '0': /usr/bin/cmake /home/chinchia120/autoware.ai/src/autoware/utilities/marker_downsampler -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/chinchia120/autoware.ai/install/marker_downsampler
+[4.500s] Invoking command in '/home/chinchia120/autoware.ai/build/marker_downsampler': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/marker_downsampler -- -j4 -l4
+[4.613s] Invoked command in '/home/chinchia120/autoware.ai/build/marker_downsampler' returned '0': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/marker_downsampler -- -j4 -l4
+[4.793s] Invoking command in '/home/chinchia120/autoware.ai/build/marker_downsampler': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/marker_downsampler --target tests -- -j4 -l4
+[4.943s] [35m[1mScanning dependencies of target tests[0m
+[4.970s] Built target tests
+[5.006s] Invoked command in '/home/chinchia120/autoware.ai/build/marker_downsampler' returned '0': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/marker_downsampler --target tests -- -j4 -l4
+[5.151s] Invoking command in '/home/chinchia120/autoware.ai/build/marker_downsampler': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/marker_downsampler --target install -- -j4 -l4
+[5.262s] [36mInstall the project...[0m
+[5.287s] -- Install configuration: "Release"
+[5.288s] -- Installing: /home/chinchia120/autoware.ai/install/marker_downsampler/lib/pkgconfig/marker_downsampler.pc
+[5.289s] -- Installing: /home/chinchia120/autoware.ai/install/marker_downsampler/share/marker_downsampler/cmake/marker_downsamplerConfig.cmake
+[5.289s] -- Installing: /home/chinchia120/autoware.ai/install/marker_downsampler/share/marker_downsampler/cmake/marker_downsamplerConfig-version.cmake
+[5.290s] -- Installing: /home/chinchia120/autoware.ai/install/marker_downsampler/share/marker_downsampler/package.xml
+[5.298s] -- Installing: /home/chinchia120/autoware.ai/install/marker_downsampler/lib/marker_downsampler/app.py
+[5.299s] Invoked command in '/home/chinchia120/autoware.ai/build/marker_downsampler' returned '0': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/marker_downsampler --target install -- -j4 -l4

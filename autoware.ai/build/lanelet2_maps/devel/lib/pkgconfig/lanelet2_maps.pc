@@ -1,0 +1,8 @@
+prefix=/home/chinchia120/autoware.ai/build/lanelet2_maps/devel
+
+Name: lanelet2_maps
+Description: Description of lanelet2_maps
+Version: 0.8.0
+Cflags: -I/home/chinchia120/autoware.ai/src/vendor/lanelet2/lanelet2_maps/include
+Libs: -L${prefix}/lib 
+Requires: 

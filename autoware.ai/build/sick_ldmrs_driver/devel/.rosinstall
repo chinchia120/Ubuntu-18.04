@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/chinchia120/autoware.ai/build/sick_ldmrs_driver/devel/setup.sh

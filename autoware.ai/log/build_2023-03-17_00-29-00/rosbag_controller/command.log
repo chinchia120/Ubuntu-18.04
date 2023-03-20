@@ -1,0 +1,8 @@
+Invoking command in '/home/chinchia120/autoware.ai/build/rosbag_controller': /usr/bin/cmake /home/chinchia120/autoware.ai/src/autoware/utilities/rosbag_controller -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/chinchia120/autoware.ai/install/rosbag_controller
+Invoked command in '/home/chinchia120/autoware.ai/build/rosbag_controller' returned '0': /usr/bin/cmake /home/chinchia120/autoware.ai/src/autoware/utilities/rosbag_controller -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/chinchia120/autoware.ai/install/rosbag_controller
+Invoking command in '/home/chinchia120/autoware.ai/build/rosbag_controller': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/rosbag_controller -- -j4 -l4
+Invoked command in '/home/chinchia120/autoware.ai/build/rosbag_controller' returned '0': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/rosbag_controller -- -j4 -l4
+Invoking command in '/home/chinchia120/autoware.ai/build/rosbag_controller': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/rosbag_controller --target tests -- -j4 -l4
+Invoked command in '/home/chinchia120/autoware.ai/build/rosbag_controller' returned '0': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/rosbag_controller --target tests -- -j4 -l4
+Invoking command in '/home/chinchia120/autoware.ai/build/rosbag_controller': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/rosbag_controller --target install -- -j4 -l4
+Invoked command in '/home/chinchia120/autoware.ai/build/rosbag_controller' returned '0': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/rosbag_controller --target install -- -j4 -l4

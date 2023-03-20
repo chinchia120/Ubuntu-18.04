@@ -1,0 +1,6 @@
+/home/chinchia120/autoware.ai/install/rosinterface/lib/pkgconfig/rosinterface.pc
+/home/chinchia120/autoware.ai/install/rosinterface/share/rosinterface/cmake/rosinterfaceConfig.cmake
+/home/chinchia120/autoware.ai/install/rosinterface/share/rosinterface/cmake/rosinterfaceConfig-version.cmake
+/home/chinchia120/autoware.ai/install/rosinterface/share/rosinterface/package.xml
+/home/chinchia120/autoware.ai/install/rosinterface/include/rosinterface/rosinterface.h
+/home/chinchia120/autoware.ai/install/rosinterface/lib/librosinterface.so

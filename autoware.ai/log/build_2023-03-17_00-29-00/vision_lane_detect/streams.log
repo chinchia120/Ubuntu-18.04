@@ -1,0 +1,221 @@
+[0.059s] Invoking command in '/home/chinchia120/autoware.ai/build/vision_lane_detect': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/chinchia120/autoware.ai/src/autoware/core_perception/vision_lane_detect -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/chinchia120/autoware.ai/install/vision_lane_detect
+[0.240s] -- The C compiler identification is GNU 7.5.0
+[0.430s] -- The CXX compiler identification is GNU 7.5.0
+[0.442s] -- Check for working C compiler: /usr/bin/cc
+[0.640s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.641s] -- Detecting C compiler ABI info
+[0.850s] -- Detecting C compiler ABI info - done
+[0.871s] -- Detecting C compile features
+[1.472s] -- Detecting C compile features - done
+[1.478s] -- Check for working CXX compiler: /usr/bin/c++
+[1.664s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.665s] -- Detecting CXX compiler ABI info
+[1.853s] -- Detecting CXX compiler ABI info - done
+[1.871s] -- Detecting CXX compile features
+[2.794s] -- Detecting CXX compile features - done
+[2.798s] -- Using CATKIN_DEVEL_PREFIX: /home/chinchia120/autoware.ai/build/vision_lane_detect/devel
+[2.798s] -- Using CMAKE_PREFIX_PATH: /home/chinchia120/autoware.ai/install/autoware_msgs;/home/chinchia120/catkin_ws/devel;/opt/ros/melodic
+[2.798s] -- This workspace overlays: /home/chinchia120/autoware.ai/install/autoware_msgs;/home/chinchia120/catkin_ws/devel;/opt/ros/melodic
+[2.825s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[2.825s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[2.825s] -- Using Debian Python package layout
+[2.826s] -- Using empy: /usr/bin/empy
+[3.148s] -- Using CATKIN_ENABLE_TESTING: ON
+[3.149s] -- Call enable_testing()
+[3.154s] -- Using CATKIN_TEST_RESULTS_DIR: /home/chinchia120/autoware.ai/build/vision_lane_detect/test_results
+[3.208s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[3.208s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[3.232s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[3.233s] -- Looking for pthread.h
+[3.412s] -- Looking for pthread.h - found
+[3.413s] -- Looking for pthread_create
+[3.652s] -- Looking for pthread_create - not found
+[3.653s] -- Looking for pthread_create in pthreads
+[3.814s] -- Looking for pthread_create in pthreads - not found
+[3.814s] -- Looking for pthread_create in pthread
+[4.049s] -- Looking for pthread_create in pthread - found
+[4.052s] -- Found Threads: TRUE  
+[4.061s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[4.160s] -- catkin 0.7.29
+[4.160s] -- BUILD_SHARED_LIBS is on
+[4.570s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[4.972s] -- Found OpenCV: /usr (found version "3.2.0") 
+[4.986s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[5.285s] -- Configuring done
+[5.407s] -- Generating done
+[5.430s] -- Build files have been written to: /home/chinchia120/autoware.ai/build/vision_lane_detect
+[5.441s] Invoked command in '/home/chinchia120/autoware.ai/build/vision_lane_detect' returned '0': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/chinchia120/autoware.ai/src/autoware/core_perception/vision_lane_detect -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/chinchia120/autoware.ai/install/vision_lane_detect
+[5.448s] Invoking command in '/home/chinchia120/autoware.ai/build/vision_lane_detect': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/vision_lane_detect -- -j4 -l4
+[5.623s] [35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_cpp[0m
+[5.672s] [  0%] Built target jsk_footstep_msgs_generate_messages_cpp
+[5.704s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[5.739s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[5.778s] [35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[5.808s] [  0%] Built target roscpp_generate_messages_py
+[5.846s] [35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[5.890s] [  0%] Built target roscpp_generate_messages_lisp
+[5.920s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_lisp[0m
+[5.942s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[5.976s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_cpp[0m
+[6.036s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[6.060s] [35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_nodejs[0m
+[6.090s] [  0%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[6.123s] [35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_lisp[0m
+[6.150s] [  0%] Built target jsk_footstep_msgs_generate_messages_lisp
+[6.178s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_py[0m
+[6.203s] [  0%] Built target actionlib_msgs_generate_messages_py
+[6.227s] [35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_eus[0m
+[6.261s] [  0%] Built target jsk_footstep_msgs_generate_messages_eus
+[6.294s] [35m[1mScanning dependencies of target autoware_msgs_generate_messages_nodejs[0m
+[6.317s] [  0%] Built target autoware_msgs_generate_messages_nodejs
+[6.358s] [35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[6.398s] [  0%] Built target std_msgs_generate_messages_eus
+[6.432s] [35m[1mScanning dependencies of target pcl_msgs_generate_messages_lisp[0m
+[6.464s] [  0%] Built target pcl_msgs_generate_messages_lisp
+[6.505s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_eus[0m
+[6.535s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[6.572s] [35m[1mScanning dependencies of target autoware_msgs_generate_messages_lisp[0m
+[6.601s] [  0%] Built target autoware_msgs_generate_messages_lisp
+[6.628s] [35m[1mScanning dependencies of target autoware_msgs_generate_messages_eus[0m
+[6.672s] [  0%] Built target autoware_msgs_generate_messages_eus
+[6.707s] [35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_cpp[0m
+[6.737s] [  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+[6.775s] [35m[1mScanning dependencies of target pcl_msgs_generate_messages_cpp[0m
+[6.813s] [  0%] Built target pcl_msgs_generate_messages_cpp
+[6.850s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[6.883s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[6.916s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[6.947s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[6.975s] [35m[1mScanning dependencies of target pcl_msgs_generate_messages_py[0m
+[7.007s] [  0%] Built target pcl_msgs_generate_messages_py
+[7.047s] [35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+[7.088s] [  0%] Built target roscpp_generate_messages_nodejs
+[7.124s] [35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[7.174s] [  0%] Built target roscpp_generate_messages_eus
+[7.206s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[7.241s] [  0%] Built target geometry_msgs_generate_messages_eus
+[7.279s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_nodejs[0m
+[7.302s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[7.332s] [35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_py[0m
+[7.367s] [  0%] Built target jsk_footstep_msgs_generate_messages_py
+[7.406s] [35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[7.437s] [  0%] Built target std_msgs_generate_messages_cpp
+[7.475s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[7.519s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[7.546s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_py[0m
+[7.577s] [  0%] Built target sensor_msgs_generate_messages_py
+[7.611s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_lisp[0m
+[7.650s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[7.696s] [35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_py[0m
+[7.727s] [  0%] Built target jsk_recognition_msgs_generate_messages_py
+[7.764s] [35m[1mScanning dependencies of target pcl_msgs_generate_messages_nodejs[0m
+[7.792s] [  0%] Built target pcl_msgs_generate_messages_nodejs
+[7.825s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[7.864s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[7.892s] [35m[1mScanning dependencies of target autoware_msgs_generate_messages_cpp[0m
+[7.927s] [  0%] Built target autoware_msgs_generate_messages_cpp
+[7.963s] [35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[7.993s] [  0%] Built target std_msgs_generate_messages_lisp
+[8.028s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_cpp[0m
+[8.056s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[8.091s] [35m[1mScanning dependencies of target _catkin_empty_exported_target[0m
+[8.123s] [  0%] Built target _catkin_empty_exported_target
+[8.145s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_eus[0m
+[8.171s] [  0%] Built target sensor_msgs_generate_messages_eus
+[8.211s] [35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[8.245s] [  0%] Built target std_msgs_generate_messages_nodejs
+[8.309s] [35m[1mScanning dependencies of target autoware_msgs_generate_messages_py[0m
+[8.343s] [  0%] Built target autoware_msgs_generate_messages_py
+[8.382s] [35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[8.429s] [  0%] Built target std_msgs_generate_messages_py
+[8.502s] [35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_eus[0m
+[8.543s] [  0%] Built target jsk_recognition_msgs_generate_messages_eus
+[8.583s] [35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_lisp[0m
+[8.642s] [  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+[8.665s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[8.691s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[8.733s] [35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_nodejs[0m
+[8.782s] [  0%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[8.808s] [35m[1mScanning dependencies of target pcl_msgs_generate_messages_eus[0m
+[8.839s] [  0%] Built target pcl_msgs_generate_messages_eus
+[8.868s] [35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[8.894s] [  0%] Built target roscpp_generate_messages_cpp
+[8.949s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_nodejs[0m
+[8.979s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[9.006s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[9.039s] [  0%] Built target geometry_msgs_generate_messages_py
+[9.067s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[9.092s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[9.131s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[9.162s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[9.195s] [35m[1mScanning dependencies of target vision_lane_detect[0m
+[9.246s] [ 50%] [32mBuilding CXX object CMakeFiles/vision_lane_detect.dir/nodes/vision_lane_detect/vision_lane_detect.cpp.o[0m
+[14.370s] [100%] [32m[1mLinking CXX executable devel/lib/vision_lane_detect/vision_lane_detect[0m
+[15.336s] [100%] Built target vision_lane_detect
+[15.368s] Invoked command in '/home/chinchia120/autoware.ai/build/vision_lane_detect' returned '0': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/vision_lane_detect -- -j4 -l4
+[15.742s] Invoking command in '/home/chinchia120/autoware.ai/build/vision_lane_detect': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/vision_lane_detect --target tests -- -j4 -l4
+[15.884s] [35m[1mScanning dependencies of target tests[0m
+[15.928s] Built target tests
+[15.958s] Invoked command in '/home/chinchia120/autoware.ai/build/vision_lane_detect' returned '0': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/vision_lane_detect --target tests -- -j4 -l4
+[16.287s] Invoking command in '/home/chinchia120/autoware.ai/build/vision_lane_detect': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/vision_lane_detect --target install -- -j4 -l4
+[16.480s] [  0%] Built target jsk_footstep_msgs_generate_messages_cpp
+[16.562s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[16.633s] [  0%] Built target roscpp_generate_messages_py
+[16.742s] [  0%] Built target roscpp_generate_messages_lisp
+[16.824s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[16.890s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[16.955s] [  0%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[17.046s] [  0%] Built target jsk_footstep_msgs_generate_messages_lisp
+[17.105s] [  0%] Built target actionlib_msgs_generate_messages_py
+[17.180s] [  0%] Built target jsk_footstep_msgs_generate_messages_eus
+[17.235s] [  0%] Built target autoware_msgs_generate_messages_nodejs
+[17.302s] [  0%] Built target std_msgs_generate_messages_eus
+[17.368s] [  0%] Built target pcl_msgs_generate_messages_lisp
+[17.427s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[17.481s] [  0%] Built target autoware_msgs_generate_messages_lisp
+[17.542s] [  0%] Built target autoware_msgs_generate_messages_eus
+[17.605s] [  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+[17.721s] [  0%] Built target pcl_msgs_generate_messages_cpp
+[17.794s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[17.880s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[17.966s] [  0%] Built target pcl_msgs_generate_messages_py
+[18.041s] [  0%] Built target roscpp_generate_messages_nodejs
+[18.097s] [  0%] Built target roscpp_generate_messages_eus
+[18.170s] [  0%] Built target geometry_msgs_generate_messages_eus
+[18.228s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[18.311s] [  0%] Built target jsk_footstep_msgs_generate_messages_py
+[18.384s] [  0%] Built target std_msgs_generate_messages_cpp
+[18.459s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[18.524s] [  0%] Built target sensor_msgs_generate_messages_py
+[18.616s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[18.696s] [  0%] Built target jsk_recognition_msgs_generate_messages_py
+[18.792s] [  0%] Built target pcl_msgs_generate_messages_nodejs
+[18.850s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[18.929s] [  0%] Built target autoware_msgs_generate_messages_cpp
+[18.980s] [  0%] Built target std_msgs_generate_messages_lisp
+[19.074s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[19.164s] [  0%] Built target _catkin_empty_exported_target
+[19.229s] [  0%] Built target sensor_msgs_generate_messages_eus
+[19.286s] [  0%] Built target std_msgs_generate_messages_nodejs
+[19.342s] [  0%] Built target autoware_msgs_generate_messages_py
+[19.403s] [  0%] Built target std_msgs_generate_messages_py
+[19.474s] [  0%] Built target jsk_recognition_msgs_generate_messages_eus
+[19.540s] [  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+[19.597s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[19.720s] [  0%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[19.786s] [  0%] Built target pcl_msgs_generate_messages_eus
+[19.850s] [  0%] Built target roscpp_generate_messages_cpp
+[19.935s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[20.002s] [  0%] Built target geometry_msgs_generate_messages_py
+[20.063s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[20.133s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[20.229s] [100%] Built target vision_lane_detect
+[20.291s] [36mInstall the project...[0m
+[20.311s] -- Install configuration: "Release"
+[20.311s] -- Installing: /home/chinchia120/autoware.ai/install/vision_lane_detect/lib/pkgconfig/vision_lane_detect.pc
+[20.311s] -- Installing: /home/chinchia120/autoware.ai/install/vision_lane_detect/share/vision_lane_detect/cmake/vision_lane_detectConfig.cmake
+[20.312s] -- Installing: /home/chinchia120/autoware.ai/install/vision_lane_detect/share/vision_lane_detect/cmake/vision_lane_detectConfig-version.cmake
+[20.312s] -- Installing: /home/chinchia120/autoware.ai/install/vision_lane_detect/share/vision_lane_detect/package.xml
+[20.313s] -- Installing: /home/chinchia120/autoware.ai/install/vision_lane_detect/lib/vision_lane_detect/vision_lane_detect
+[20.313s] -- Set runtime path of "/home/chinchia120/autoware.ai/install/vision_lane_detect/lib/vision_lane_detect/vision_lane_detect" to ""
+[20.320s] Invoked command in '/home/chinchia120/autoware.ai/build/vision_lane_detect' returned '0': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/vision_lane_detect --target install -- -j4 -l4

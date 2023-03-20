@@ -1,0 +1,8 @@
+prefix=/home/chinchia120/autoware.ai/build/lanelet2_io/devel
+
+Name: lanelet2_io
+Description: Description of lanelet2_io
+Version: 0.8.0
+Cflags: -I/home/chinchia120/autoware.ai/src/vendor/lanelet2/lanelet2_io/include
+Libs: -L${prefix}/lib -llanelet2_io /usr/lib/x86_64-linux-gnu/libpugixml.so /usr/lib/x86_64-linux-gnu/libboost_wserialization.so /usr/lib/x86_64-linux-gnu/libboost_thread.so /usr/lib/x86_64-linux-gnu/libboost_random.so /usr/lib/x86_64-linux-gnu/libboost_serialization.so /usr/lib/x86_64-linux-gnu/libboost_log_setup.so /usr/lib/x86_64-linux-gnu/libboost_prg_exec_monitor.so /usr/lib/x86_64-linux-gnu/libboost_wave.so /usr/lib/x86_64-linux-gnu/libboost_system.so /usr/lib/x86_64-linux-gnu/libboost_signals.so /usr/lib/x86_64-linux-gnu/libboost_chrono.so /usr/lib/x86_64-linux-gnu/libboost_filesystem.so /usr/lib/x86_64-linux-gnu/libboost_locale.so /usr/lib/x86_64-linux-gnu/libboost_timer.so /usr/lib/x86_64-linux-gnu/libboost_date_time.so /usr/lib/x86_64-linux-gnu/libboost_regex.so /usr/lib/x86_64-linux-gnu/libboost_graph.so /usr/lib/x86_64-linux-gnu/libboost_program_options.so /usr/lib/x86_64-linux-gnu/libboost_unit_test_framework.so /usr/lib/x86_64-linux-gnu/libboost_log.so /usr/lib/x86_64-linux-gnu/libboost_atomic.so /usr/lib/x86_64-linux-gnu/libpthread.so
+Requires: lanelet2_core

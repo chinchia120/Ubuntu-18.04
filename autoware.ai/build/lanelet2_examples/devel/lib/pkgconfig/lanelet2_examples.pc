@@ -1,0 +1,8 @@
+prefix=/home/chinchia120/autoware.ai/build/lanelet2_examples/devel
+
+Name: lanelet2_examples
+Description: Description of lanelet2_examples
+Version: 0.8.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

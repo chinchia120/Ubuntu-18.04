@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: lanelet2_python
+Version: 0.8.0
+Summary: Python bindings for lanelet2
+Home-page: https://github.com/fzi-forschungszentrum-informatik/lanelet2.git
+Author: Fabian Poggenhans
+Author-email: fabian.poggenhans@kit.edu
+License: BSD
+Description: UNKNOWN
+Platform: UNKNOWN

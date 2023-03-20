@@ -1,0 +1,506 @@
+[0.082s] Invoking command in '/home/chinchia120/autoware.ai/build/sick_ldmrs_tools': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/sick_ldmrs_driver:/home/chinchia120/autoware.ai/install/sick_ldmrs_msgs:/home/chinchia120/autoware.ai/install/sick_ldmrs_description:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/chinchia120/autoware.ai/install/sick_ldmrs_driver/lib:${LD_LIBRARY_PATH} PATH=/home/chinchia120/autoware.ai/install/sick_ldmrs_driver/bin:${PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/sick_ldmrs_driver/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/sick_ldmrs_driver/lib/pkgconfig:/home/chinchia120/autoware.ai/install/sick_ldmrs_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/sick_ldmrs_msgs/lib/pkgconfig:/home/chinchia120/autoware.ai/install/sick_ldmrs_description/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/sick_ldmrs_description/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/sick_ldmrs_driver/lib/python2.7/dist-packages:/home/chinchia120/autoware.ai/install/sick_ldmrs_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/sick_ldmrs_driver/share:/home/chinchia120/autoware.ai/install/sick_ldmrs_msgs/share:/home/chinchia120/autoware.ai/install/sick_ldmrs_description/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/chinchia120/autoware.ai/src/drivers/awf_drivers/sick_ldmrs_tools -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/chinchia120/autoware.ai/install/sick_ldmrs_tools
+[0.333s] -- The C compiler identification is GNU 7.5.0
+[0.505s] -- The CXX compiler identification is GNU 7.5.0
+[0.518s] -- Check for working C compiler: /usr/bin/cc
+[0.718s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.719s] -- Detecting C compiler ABI info
+[0.882s] -- Detecting C compiler ABI info - done
+[0.906s] -- Detecting C compile features
+[1.542s] -- Detecting C compile features - done
+[1.550s] -- Check for working CXX compiler: /usr/bin/c++
+[1.783s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.784s] -- Detecting CXX compiler ABI info
+[2.022s] -- Detecting CXX compiler ABI info - done
+[2.048s] -- Detecting CXX compile features
+[2.978s] -- Detecting CXX compile features - done
+[2.987s] -- Using CATKIN_DEVEL_PREFIX: /home/chinchia120/autoware.ai/build/sick_ldmrs_tools/devel
+[2.987s] -- Using CMAKE_PREFIX_PATH: /home/chinchia120/autoware.ai/install/sick_ldmrs_driver;/home/chinchia120/autoware.ai/install/sick_ldmrs_msgs;/home/chinchia120/autoware.ai/install/sick_ldmrs_description;/home/chinchia120/catkin_ws/devel;/opt/ros/melodic
+[2.988s] -- This workspace overlays: /home/chinchia120/autoware.ai/install/sick_ldmrs_driver;/home/chinchia120/autoware.ai/install/sick_ldmrs_msgs;/home/chinchia120/autoware.ai/install/sick_ldmrs_description;/home/chinchia120/catkin_ws/devel;/opt/ros/melodic
+[3.025s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[3.025s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[3.025s] -- Using Debian Python package layout
+[3.027s] -- Using empy: /usr/bin/empy
+[3.352s] -- Using CATKIN_ENABLE_TESTING: ON
+[3.352s] -- Call enable_testing()
+[3.352s] -- Using CATKIN_TEST_RESULTS_DIR: /home/chinchia120/autoware.ai/build/sick_ldmrs_tools/test_results
+[3.360s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[3.361s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[3.387s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[3.389s] -- Looking for pthread.h
+[3.622s] -- Looking for pthread.h - found
+[3.624s] -- Looking for pthread_create
+[3.855s] -- Looking for pthread_create - not found
+[3.856s] -- Looking for pthread_create in pthreads
+[4.038s] -- Looking for pthread_create in pthreads - not found
+[4.038s] -- Looking for pthread_create in pthread
+[4.205s] -- Looking for pthread_create in pthread - found
+[4.207s] -- Found Threads: TRUE  
+[4.239s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[4.322s] -- catkin 0.7.29
+[4.322s] -- BUILD_SHARED_LIBS is on
+[6.284s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[7.579s] -- Checking for module 'eigen3'
+[7.638s] --   Found eigen3, version 3.3.7
+[7.749s] -- Found eigen: /usr/local/include/eigen3  
+[7.905s] -- Boost version: 1.65.1
+[7.905s] -- Found the following Boost libraries:
+[7.906s] --   system
+[7.906s] --   filesystem
+[7.906s] --   thread
+[7.906s] --   date_time
+[7.906s] --   iostreams
+[7.907s] --   serialization
+[7.907s] --   chrono
+[7.907s] --   atomic
+[7.907s] --   regex
+[7.909s] -- Checking for module 'libopenni'
+[7.952s] --   Found libopenni, version 1.5.4.0
+[8.070s] -- Found openni: /usr/lib/libOpenNI.so  
+[8.072s] -- Checking for module 'libopenni2'
+[8.118s] --   Found libopenni2, version 2.2.0.3
+[8.261s] -- Found OpenNI2: /usr/lib/libOpenNI2.so  
+[8.272s] -- Could NOT find ensenso (missing: ENSENSO_LIBRARY ENSENSO_INCLUDE_DIR) 
+[8.273s] ** WARNING ** io features related to ensenso will be disabled
+[8.277s] -- Could NOT find DAVIDSDK (missing: DAVIDSDK_LIBRARY DAVIDSDK_INCLUDE_DIR) 
+[8.278s] ** WARNING ** io features related to davidSDK will be disabled
+[8.281s] -- Could NOT find DSSDK (missing: _DSSDK_LIBRARIES) 
+[8.282s] ** WARNING ** io features related to dssdk will be disabled
+[8.282s] ** WARNING ** io features related to pcap will be disabled
+[8.283s] ** WARNING ** io features related to png will be disabled
+[8.453s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[8.453s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[8.453s] but this file does not exist.  Possible reasons include:
+[8.454s] * The file was deleted, renamed, or moved to another location.
+[8.454s] * An install or uninstall procedure did not complete successfully.
+[8.454s] * The installation package was faulty and contained
+[8.455s]    "/usr/lib/cmake/vtk-6.3/VTKTargets.cmake"
+[8.455s] but not all the files it references.
+[8.455s] 
+[8.457s] -- The imported target "vtk" references the file
+[8.457s]    "/usr/bin/vtk"
+[8.457s] but this file does not exist.  Possible reasons include:
+[8.457s] * The file was deleted, renamed, or moved to another location.
+[8.458s] * An install or uninstall procedure did not complete successfully.
+[8.458s] * The installation package was faulty and contained
+[8.458s]    "/usr/lib/cmake/vtk-6.3/VTKTargets.cmake"
+[8.458s] but not all the files it references.
+[8.459s] 
+[8.642s] -- Found libusb-1.0: /usr/include  
+[8.643s] ** WARNING ** io features related to libusb-1.0 will be disabled
+[8.645s] -- Checking for module 'flann'
+[8.680s] --   Found flann, version 1.9.1
+[8.834s] -- Found Flann: /usr/lib/x86_64-linux-gnu/libflann_cpp_s.a  
+[8.930s] -- Could NOT find ensenso (missing: ENSENSO_LIBRARY ENSENSO_INCLUDE_DIR) 
+[8.931s] ** WARNING ** visualization features related to ensenso will be disabled
+[8.936s] -- Could NOT find DAVIDSDK (missing: DAVIDSDK_LIBRARY DAVIDSDK_INCLUDE_DIR) 
+[8.937s] ** WARNING ** visualization features related to davidSDK will be disabled
+[8.940s] -- Could NOT find DSSDK (missing: _DSSDK_LIBRARIES) 
+[8.942s] ** WARNING ** visualization features related to dssdk will be disabled
+[8.945s] -- Could NOT find RSSDK (missing: _RSSDK_LIBRARIES) 
+[8.946s] ** WARNING ** visualization features related to rssdk will be disabled
+[9.083s] -- Found qhull: /usr/lib/x86_64-linux-gnu/libqhull.so  
+[9.150s] -- looking for PCL_COMMON
+[9.153s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[9.154s] -- looking for PCL_OCTREE
+[9.159s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[9.160s] -- looking for PCL_IO
+[9.163s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[9.164s] -- looking for PCL_KDTREE
+[9.167s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[9.168s] -- looking for PCL_SEARCH
+[9.170s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[9.172s] -- looking for PCL_SAMPLE_CONSENSUS
+[9.176s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[9.177s] -- looking for PCL_FILTERS
+[9.182s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[9.184s] -- looking for PCL_2D
+[9.186s] -- Found PCL_2D: /usr/include/pcl-1.8  
+[9.187s] -- looking for PCL_GEOMETRY
+[9.188s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.8  
+[9.189s] -- looking for PCL_FEATURES
+[9.192s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[9.195s] -- looking for PCL_ML
+[9.198s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[9.199s] -- looking for PCL_SEGMENTATION
+[9.202s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[9.204s] -- looking for PCL_VISUALIZATION
+[9.207s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[9.208s] -- looking for PCL_SURFACE
+[9.212s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[9.213s] -- looking for PCL_REGISTRATION
+[9.216s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[9.218s] -- looking for PCL_KEYPOINTS
+[9.221s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[9.223s] -- looking for PCL_TRACKING
+[9.226s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[9.227s] -- looking for PCL_RECOGNITION
+[9.231s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[9.234s] -- looking for PCL_STEREO
+[9.236s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[9.237s] -- looking for PCL_APPS
+[9.243s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[9.251s] -- looking for PCL_IN_HAND_SCANNER
+[9.254s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.8  
+[9.256s] -- looking for PCL_MODELER
+[9.259s] -- Found PCL_MODELER: /usr/include/pcl-1.8  
+[9.260s] -- looking for PCL_POINT_CLOUD_EDITOR
+[9.279s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.8  
+[9.280s] -- looking for PCL_OUTOFCORE
+[9.285s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[9.287s] -- looking for PCL_PEOPLE
+[9.291s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[9.351s] -- Found PCL: /usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_thread.so;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;/usr/lib/x86_64-linux-gnu/libboost_serialization.so;/usr/lib/x86_64-linux-gnu/libboost_chrono.so;/usr/lib/x86_64-linux-gnu/libboost_atomic.so;/usr/lib/x86_64-linux-gnu/libboost_regex.so;/usr/lib/x86_64-linux-gnu/libpthread.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_common.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_common.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_octree.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_octree.so;/usr/lib/libOpenNI.so;/usr/lib/libOpenNI2.so;vtkChartsCore;vtkCommonColor;vtkCommonDataModel;vtkCommonMath;vtkCommonCore;vtksys;vtkCommonMisc;vtkCommonSystem;vtkCommonTransforms;vtkInfovisCore;vtkFiltersExtraction;vtkCommonExecutionModel;vtkFiltersCore;vtkFiltersGeneral;vtkCommonComputationalGeometry;vtkFiltersStatistics;vtkImagingFourier;vtkImagingCore;vtkalglib;vtkRenderingContext2D;vtkRenderingCore;vtkFiltersGeometry;vtkFiltersSources;vtkRenderingFreeType;/usr/lib/x86_64-linux-gnu/libfreetype.so;/usr/lib/x86_64-linux-gnu/libz.so;vtkftgl;vtkDICOMParser;vtkDomainsChemistry;vtkIOXML;vtkIOGeometry;vtkIOCore;vtkIOXMLParser;/usr/lib/x86_64-linux-gnu/libexpat.so;vtkFiltersAMR;vtkParallelCore;vtkIOLegacy;vtkFiltersFlowPaths;vtkFiltersGeneric;vtkFiltersHybrid;vtkImagingSources;vtkFiltersHyperTree;vtkFiltersImaging;vtkImagingGeneral;vtkFiltersModeling;vtkFiltersParallel;vtkFiltersParallelFlowPaths;vtkParallelMPI;vtkFiltersParallelGeometry;vtkFiltersParallelImaging;vtkFiltersParallelMPI;vtkFiltersParallelStatistics;vtkFiltersProgrammable;vtkFiltersPython;/usr/lib/x86_64-linux-gnu/libpython2.7.so;vtkWrappingPythonCore;vtkWrappingTools;vtkFiltersReebGraph;vtkFiltersSMP;vtkFiltersSelection;vtkFiltersTexture;vtkFiltersVerdict;verdict;vtkGUISupportQt;vtkInteractionStyle;vtkRenderingOpenGL;vtkImagingHybrid;vtkIOImage;vtkmetaio;/usr/lib/x86_64-linux-gnu/libjpeg.so;/usr/lib/x86_64-linux-gnu/libpng.so;/usr/lib/x86_64-linux-gnu/libtiff.so;vtkGUISupportQtOpenGL;vtkGUISupportQtSQL;vtkIOSQL;sqlite3;vtkGUISupportQtWebkit;vtkViewsQt;vtkViewsInfovis;vtkInfovisLayout;vtkInfovisBoostGraphAlgorithms;vtkRenderingLabel;vtkViewsCore;vtkInteractionWidgets;vtkRenderingAnnotation;vtkImagingColor;vtkRenderingVolume;vtkGeovisCore;/usr/lib/x86_64-linux-gnu/libproj.so;vtkIOAMR;/usr/lib/x86_64-linux-gnu/hdf5/openmpi/libhdf5.so;/usr/lib/x86_64-linux-gnu/libsz.so;/usr/lib/x86_64-linux-gnu/libdl.so;/usr/lib/x86_64-linux-gnu/libm.so;/usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so;vtkIOEnSight;vtkIOExodus;vtkexoIIc;/usr/lib/x86_64-linux-gnu/libnetcdf_c++.so;/usr/lib/x86_64-linux-gnu/libnetcdf.so;vtkIOExport;vtkRenderingGL2PS;vtkRenderingContextOpenGL;/usr/lib/x86_64-linux-gnu/libgl2ps.so;vtkIOFFMPEG;vtkIOMovie;/usr/lib/x86_64-linux-gnu/libtheoraenc.so;/usr/lib/x86_64-linux-gnu/libtheoradec.so;/usr/lib/x86_64-linux-gnu/libogg.so;vtkIOGDAL;vtkIOGeoJSON;vtkIOImport;vtkIOInfovis;/usr/lib/x86_64-linux-gnu/libxml2.so;vtkIOLSDyna;vtkIOMINC;vtkIOMPIImage;vtkIOMPIParallel;vtkIOParallel;vtkIONetCDF;/usr/lib/x86_64-linux-gnu/libjsoncpp.so;vtkIOMySQL;vtkIOODBC;vtkIOPLY;vtkIOParallelExodus;vtkIOParallelLSDyna;vtkIOParallelNetCDF;vtkIOParallelXML;vtkIOPostgreSQL;vtkIOVPIC;VPIC;vtkIOVideo;vtkIOXdmf2;vtkxdmf2;vtkImagingMath;vtkImagingMorphological;vtkImagingStatistics;vtkImagingStencil;vtkInteractionImage;vtkLocalExample;vtkParallelMPI4Py;vtkPythonInterpreter;vtkRenderingExternal;vtkRenderingFreeTypeFontConfig;vtkRenderingImage;vtkRenderingLIC;vtkRenderingLOD;vtkRenderingMatplotlib;vtkRenderingParallel;vtkRenderingParallelLIC;vtkRenderingQt;vtkRenderingVolumeAMR;vtkRenderingVolumeOpenGL;vtkTestingGenericBridge;vtkTestingIOSQL;vtkTestingRendering;vtkViewsContext2D;vtkViewsGeovis;vtkWrappingJava;optimized;/usr/lib/x86_64-linux-gnu/libpcl_io.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_io.so;optimized;/usr/lib/x86_64-linux-gnu/libflann_cpp_s.a;debug;/usr/lib/x86_64-linux-gnu/libflann_cpp_s.a;optimized;/usr/lib/x86_64-linux-gnu/libpcl_kdtree.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_kdtree.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_search.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_search.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_filters.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_filters.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_features.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_features.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_ml.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_ml.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_segmentation.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_segmentation.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_visualization.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_visualization.so;optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_surface.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_surface.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_registration.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_registration.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_keypoints.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_keypoints.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_tracking.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_tracking.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_recognition.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_recognition.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_stereo.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_stereo.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_apps.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_apps.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_outofcore.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_outofcore.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_people.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_people.so;/usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_thread.so;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;/usr/lib/x86_64-linux-gnu/libboost_serialization.so;/usr/lib/x86_64-linux-gnu/libboost_chrono.so;/usr/lib/x86_64-linux-gnu/libboost_atomic.so;/usr/lib/x86_64-linux-gnu/libboost_regex.so;/usr/lib/x86_64-linux-gnu/libpthread.so;optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so;/usr/lib/libOpenNI.so;/usr/lib/libOpenNI2.so;optimized;/usr/lib/x86_64-linux-gnu/libflann_cpp_s.a;debug;/usr/lib/x86_64-linux-gnu/libflann_cpp_s.a;vtkChartsCore;vtkCommonColor;vtkCommonDataModel;vtkCommonMath;vtkCommonCore;vtksys;vtkCommonMisc;vtkCommonSystem;vtkCommonTransforms;vtkInfovisCore;vtkFiltersExtraction;vtkCommonExecutionModel;vtkFiltersCore;vtkFiltersGeneral;vtkCommonComputationalGeometry;vtkFiltersStatistics;vtkImagingFourier;vtkImagingCore;vtkalglib;vtkRenderingContext2D;vtkRenderingCore;vtkFiltersGeometry;vtkFiltersSources;vtkRenderingFreeType;/usr/lib/x86_64-linux-gnu/libfreetype.so;/usr/lib/x86_64-linux-gnu/libz.so;vtkftgl;vtkDICOMParser;vtkDomainsChemistry;vtkIOXML;vtkIOGeometry;vtkIOCore;vtkIOXMLParser;/usr/lib/x86_64-linux-gnu/libexpat.so;vtkFiltersAMR;vtkParallelCore;vtkIOLegacy;vtkFiltersFlowPaths;vtkFiltersGeneric;vtkFiltersHybrid;vtkImagingSources;vtkFiltersHyperTree;vtkFiltersImaging;vtkImagingGeneral;vtkFiltersModeling;vtkFiltersParallel;vtkFiltersParallelFlowPaths;vtkParallelMPI;vtkFiltersParallelGeometry;vtkFiltersParallelImaging;vtkFiltersParallelMPI;vtkFiltersParallelStatistics;vtkFiltersProgrammable;vtkFiltersPython;/usr/lib/x86_64-linux-gnu/libpython2.7.so;vtkWrappingPythonCore;vtkWrappingTools;vtkFiltersReebGraph;vtkFiltersSMP;vtkFiltersSelection;vtkFiltersTexture;vtkFiltersVerdict;verdict;vtkGUISupportQt;vtkInteractionStyle;vtkRenderingOpenGL;vtkImagingHybrid;vtkIOImage;vtkmetaio;/usr/lib/x86_64-linux-gnu/libjpeg.so;/usr/lib/x86_64-linux-gnu/libpng.so;/usr/lib/x86_64-linux-gnu/libtiff.so;vtkGUISupportQtOpenGL;vtkGUISupportQtSQL;vtkIOSQL;sqlite3;vtkGUISupportQtWebkit;vtkViewsQt;vtkViewsInfovis;vtkInfovisLayout;vtkInfovisBoostGraphAlgorithms;vtkRenderingLabel;vtkViewsCore;vtkInteractionWidgets;vtkRenderingAnnotation;vtkImagingColor;vtkRenderingVolume;vtkGeovisCore;/usr/lib/x86_64-linux-gnu/libproj.so;vtkIOAMR;/usr/lib/x86_64-linux-gnu/hdf5/openmpi/libhdf5.so;/usr/lib/x86_64-linux-gnu/libsz.so;/usr/lib/x86_64-linux-gnu/libdl.so;/usr/lib/x86_64-linux-gnu/libm.so;/usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so;vtkIOEnSight;vtkIOExodus;vtkexoIIc;/usr/lib/x86_64-linux-gnu/libnetcdf_c++.so;/usr/lib/x86_64-linux-gnu/libnetcdf.so;vtkIOExport;vtkRenderingGL2PS;vtkRenderingContextOpenGL;/usr/lib/x86_64-linux-gnu/libgl2ps.so;vtkIOFFMPEG;vtkIOMovie;/usr/lib/x86_64-linux-gnu/libtheoraenc.so;/usr/lib/x86_64-linux-gnu/libtheoradec.so;/usr/lib/x86_64-linux-gnu/libogg.so;vtkIOGDAL;vtkIOGeoJSON;vtkIOImport;vtkIOInfovis;/usr/lib/x86_64-linux-gnu/libxml2.so;vtkIOLSDyna;vtkIOMINC;vtkIOMPIImage;vtkIOMPIParallel;vtkIOParallel;vtkIONetCDF;/usr/lib/x86_64-linux-gnu/libjsoncpp.so;vtkIOMySQL;vtkIOODBC;vtkIOPLY;vtkIOParallelExodus;vtkIOParallelLSDyna;vtkIOParallelNetCDF;vtkIOParallelXML;vtkIOPostgreSQL;vtkIOVPIC;VPIC;vtkIOVideo;vtkIOXdmf2;vtkxdmf2;vtkImagingMath;vtkImagingMorphological;vtkImagingStatistics;vtkImagingStencil;vtkInteractionImage;vtkLocalExample;vtkParallelMPI4Py;vtkPythonInterpreter;vtkRenderingExternal;vtkRenderingFreeTypeFontConfig;vtkRenderingImage;vtkRenderingLIC;vtkRenderingLOD;vtkRenderingMatplotlib;vtkRenderingParallel;vtkRenderingParallelLIC;vtkRenderingQt;vtkRenderingVolumeAMR;vtkRenderingVolumeOpenGL;vtkTestingGenericBridge;vtkTestingIOSQL;vtkTestingRendering;vtkViewsContext2D;vtkViewsGeovis;vtkWrappingJava (Required is at least version "1.7") 
+[9.889s] -- Configuring done
+[11.457s] -- Generating done
+[11.499s] -- Build files have been written to: /home/chinchia120/autoware.ai/build/sick_ldmrs_tools
+[11.513s] Invoked command in '/home/chinchia120/autoware.ai/build/sick_ldmrs_tools' returned '0': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/sick_ldmrs_driver:/home/chinchia120/autoware.ai/install/sick_ldmrs_msgs:/home/chinchia120/autoware.ai/install/sick_ldmrs_description:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/chinchia120/autoware.ai/install/sick_ldmrs_driver/lib:${LD_LIBRARY_PATH} PATH=/home/chinchia120/autoware.ai/install/sick_ldmrs_driver/bin:${PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/sick_ldmrs_driver/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/sick_ldmrs_driver/lib/pkgconfig:/home/chinchia120/autoware.ai/install/sick_ldmrs_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/sick_ldmrs_msgs/lib/pkgconfig:/home/chinchia120/autoware.ai/install/sick_ldmrs_description/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/sick_ldmrs_description/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/sick_ldmrs_driver/lib/python2.7/dist-packages:/home/chinchia120/autoware.ai/install/sick_ldmrs_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/sick_ldmrs_driver/share:/home/chinchia120/autoware.ai/install/sick_ldmrs_msgs/share:/home/chinchia120/autoware.ai/install/sick_ldmrs_description/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/chinchia120/autoware.ai/src/drivers/awf_drivers/sick_ldmrs_tools -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/chinchia120/autoware.ai/install/sick_ldmrs_tools
+[11.520s] Invoking command in '/home/chinchia120/autoware.ai/build/sick_ldmrs_tools': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/sick_ldmrs_driver:/home/chinchia120/autoware.ai/install/sick_ldmrs_msgs:/home/chinchia120/autoware.ai/install/sick_ldmrs_description:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/chinchia120/autoware.ai/install/sick_ldmrs_driver/lib:${LD_LIBRARY_PATH} PATH=/home/chinchia120/autoware.ai/install/sick_ldmrs_driver/bin:${PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/sick_ldmrs_driver/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/sick_ldmrs_driver/lib/pkgconfig:/home/chinchia120/autoware.ai/install/sick_ldmrs_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/sick_ldmrs_msgs/lib/pkgconfig:/home/chinchia120/autoware.ai/install/sick_ldmrs_description/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/sick_ldmrs_description/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/sick_ldmrs_driver/lib/python2.7/dist-packages:/home/chinchia120/autoware.ai/install/sick_ldmrs_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/sick_ldmrs_driver/share:/home/chinchia120/autoware.ai/install/sick_ldmrs_msgs/share:/home/chinchia120/autoware.ai/install/sick_ldmrs_description/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/sick_ldmrs_tools -- -j4 -l4
+[11.625s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_py[0m
+[11.646s] [  0%] Built target actionlib_msgs_generate_messages_py
+[11.669s] [35m[1mScanning dependencies of target visualization_msgs_generate_messages_eus[0m
+[11.690s] [  0%] Built target visualization_msgs_generate_messages_eus
+[11.717s] [35m[1mScanning dependencies of target sick_ldmrs_msgs_generate_messages_nodejs[0m
+[11.740s] [  0%] Built target sick_ldmrs_msgs_generate_messages_nodejs
+[11.760s] [35m[1mScanning dependencies of target sick_ldmrs_msgs_generate_messages_lisp[0m
+[11.802s] [  0%] Built target sick_ldmrs_msgs_generate_messages_lisp
+[11.822s] [35m[1mScanning dependencies of target sick_ldmrs_msgs_generate_messages_cpp[0m
+[11.845s] [  0%] Built target sick_ldmrs_msgs_generate_messages_cpp
+[11.869s] [35m[1mScanning dependencies of target tf2_msgs_generate_messages_nodejs[0m
+[11.900s] [  0%] Built target tf2_msgs_generate_messages_nodejs
+[11.923s] [35m[1mScanning dependencies of target visualization_msgs_generate_messages_cpp[0m
+[11.945s] [  0%] Built target visualization_msgs_generate_messages_cpp
+[11.966s] [35m[1mScanning dependencies of target tf2_msgs_generate_messages_eus[0m
+[12.011s] [  0%] Built target tf2_msgs_generate_messages_eus
+[12.039s] [35m[1mScanning dependencies of target tf2_msgs_generate_messages_cpp[0m
+[12.060s] [  0%] Built target tf2_msgs_generate_messages_cpp
+[12.080s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[12.101s] [  0%] Built target geometry_msgs_generate_messages_py
+[12.122s] [35m[1mScanning dependencies of target pcl_ros_gencfg[0m
+[12.166s] [  0%] Built target pcl_ros_gencfg
+[12.168s] [35m[1mScanning dependencies of target topic_tools_generate_messages_nodejs[0m
+[12.198s] [  0%] Built target topic_tools_generate_messages_nodejs
+[12.222s] [35m[1mScanning dependencies of target sick_ldmrs_msgs_generate_messages_py[0m
+[12.246s] [  0%] Built target sick_ldmrs_msgs_generate_messages_py
+[12.275s] [35m[1mScanning dependencies of target tf2_msgs_generate_messages_py[0m
+[12.316s] [  0%] Built target tf2_msgs_generate_messages_py
+[12.375s] [35m[1mScanning dependencies of target actionlib_generate_messages_py[0m
+[12.405s] [  0%] Built target actionlib_generate_messages_py
+[12.433s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[12.481s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[12.509s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_nodejs[0m
+[12.538s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[12.566s] [35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[12.589s] [  0%] Built target roscpp_generate_messages_cpp
+[12.611s] [35m[1mScanning dependencies of target actionlib_generate_messages_cpp[0m
+[12.633s] [  0%] Built target actionlib_generate_messages_cpp
+[12.662s] [35m[1mScanning dependencies of target pcl_msgs_generate_messages_eus[0m
+[12.710s] [  0%] Built target pcl_msgs_generate_messages_eus
+[12.733s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_lisp[0m
+[12.754s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[12.776s] [35m[1mScanning dependencies of target pcl_msgs_generate_messages_cpp[0m
+[12.797s] [  0%] Built target pcl_msgs_generate_messages_cpp
+[12.821s] [35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_lisp[0m
+[12.852s] [  0%] Built target dynamic_reconfigure_generate_messages_lisp
+[12.884s] [35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[12.909s] [  0%] Built target std_msgs_generate_messages_nodejs
+[12.930s] [35m[1mScanning dependencies of target bond_generate_messages_lisp[0m
+[12.952s] [  0%] Built target bond_generate_messages_lisp
+[12.974s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_eus[0m
+[12.998s] [  0%] Built target sensor_msgs_generate_messages_eus
+[13.027s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_cpp[0m
+[13.060s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[13.091s] [35m[1mScanning dependencies of target pcl_msgs_generate_messages_nodejs[0m
+[13.120s] [  0%] Built target pcl_msgs_generate_messages_nodejs
+[13.149s] [35m[1mScanning dependencies of target nodelet_generate_messages_nodejs[0m
+[13.185s] [  0%] Built target nodelet_generate_messages_nodejs
+[13.221s] [35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[13.258s] [  0%] Built target std_msgs_generate_messages_cpp
+[13.294s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_py[0m
+[13.326s] [  0%] Built target sensor_msgs_generate_messages_py
+[13.367s] [35m[1mScanning dependencies of target nodelet_generate_messages_py[0m
+[13.403s] [  0%] Built target nodelet_generate_messages_py
+[13.569s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[13.605s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[13.639s] [35m[1mScanning dependencies of target std_srvs_generate_messages_eus[0m
+[13.670s] [  0%] Built target std_srvs_generate_messages_eus
+[13.699s] [35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[13.755s] [  0%] Built target roscpp_generate_messages_lisp
+[13.788s] [35m[1mScanning dependencies of target bond_generate_messages_eus[0m
+[13.823s] [  0%] Built target bond_generate_messages_eus
+[13.858s] [35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[13.896s] [  0%] Built target std_msgs_generate_messages_lisp
+[13.932s] [35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+[13.969s] [  0%] Built target roscpp_generate_messages_nodejs
+[14.004s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[14.039s] [  0%] Built target geometry_msgs_generate_messages_eus
+[14.086s] [35m[1mScanning dependencies of target sick_ldmrs_msgs_generate_messages_eus[0m
+[14.121s] [  0%] Built target sick_ldmrs_msgs_generate_messages_eus
+[14.159s] [35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[14.194s] [  0%] Built target std_msgs_generate_messages_py
+[14.231s] [35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[14.283s] [  0%] Built target roscpp_generate_messages_py
+[14.314s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[14.338s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[14.363s] [35m[1mScanning dependencies of target tf_generate_messages_py[0m
+[14.420s] [  0%] Built target tf_generate_messages_py
+[14.455s] [35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_cpp[0m
+[14.487s] [  0%] Built target dynamic_reconfigure_generate_messages_cpp
+[14.517s] [35m[1mScanning dependencies of target topic_tools_generate_messages_cpp[0m
+[14.552s] [  0%] Built target topic_tools_generate_messages_cpp
+[14.590s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[14.633s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[14.665s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[14.696s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[14.723s] [35m[1mScanning dependencies of target topic_tools_generate_messages_eus[0m
+[14.753s] [  0%] Built target topic_tools_generate_messages_eus
+[14.785s] [35m[1mScanning dependencies of target visualization_msgs_generate_messages_lisp[0m
+[14.825s] [  0%] Built target visualization_msgs_generate_messages_lisp
+[14.857s] [35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[14.883s] [  0%] Built target std_msgs_generate_messages_eus
+[14.906s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[14.931s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[14.954s] [35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_eus[0m
+[14.998s] [  0%] Built target dynamic_reconfigure_generate_messages_eus
+[15.025s] [35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_nodejs[0m
+[15.050s] [  0%] Built target dynamic_reconfigure_generate_messages_nodejs
+[15.085s] [35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_py[0m
+[15.120s] [  0%] Built target dynamic_reconfigure_generate_messages_py
+[15.149s] [35m[1mScanning dependencies of target tf2_msgs_generate_messages_lisp[0m
+[15.187s] [  0%] Built target tf2_msgs_generate_messages_lisp
+[15.224s] [35m[1mScanning dependencies of target dynamic_reconfigure_gencfg[0m
+[15.279s] [  0%] Built target dynamic_reconfigure_gencfg
+[15.316s] [35m[1mScanning dependencies of target nodelet_generate_messages_cpp[0m
+[15.352s] [  0%] Built target nodelet_generate_messages_cpp
+[15.389s] [35m[1mScanning dependencies of target bond_generate_messages_py[0m
+[15.425s] [  0%] Built target bond_generate_messages_py
+[15.462s] [35m[1mScanning dependencies of target std_srvs_generate_messages_nodejs[0m
+[15.499s] [  0%] Built target std_srvs_generate_messages_nodejs
+[15.533s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[15.584s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[15.631s] [35m[1mScanning dependencies of target actionlib_generate_messages_lisp[0m
+[15.668s] [  0%] Built target actionlib_generate_messages_lisp
+[15.703s] [35m[1mScanning dependencies of target nodelet_generate_messages_eus[0m
+[15.742s] [  0%] Built target nodelet_generate_messages_eus
+[15.777s] [35m[1mScanning dependencies of target nodelet_generate_messages_lisp[0m
+[15.813s] [  0%] Built target nodelet_generate_messages_lisp
+[15.852s] [35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[15.900s] [  0%] Built target roscpp_generate_messages_eus
+[15.936s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[16.037s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[16.073s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_eus[0m
+[16.526s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[16.549s] [35m[1mScanning dependencies of target bond_generate_messages_cpp[0m
+[16.576s] [  0%] Built target bond_generate_messages_cpp
+[16.605s] [35m[1mScanning dependencies of target bond_generate_messages_nodejs[0m
+[16.628s] [  0%] Built target bond_generate_messages_nodejs
+[16.652s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_nodejs[0m
+[16.675s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[16.712s] [35m[1mScanning dependencies of target topic_tools_generate_messages_py[0m
+[16.743s] [  0%] Built target topic_tools_generate_messages_py
+[16.790s] [35m[1mScanning dependencies of target nodelet_topic_tools_gencfg[0m
+[16.811s] [  0%] Built target nodelet_topic_tools_gencfg
+[16.835s] [35m[1mScanning dependencies of target std_srvs_generate_messages_lisp[0m
+[16.880s] [  0%] Built target std_srvs_generate_messages_lisp
+[16.903s] [35m[1mScanning dependencies of target topic_tools_generate_messages_lisp[0m
+[16.942s] [  0%] Built target topic_tools_generate_messages_lisp
+[16.970s] [35m[1mScanning dependencies of target std_srvs_generate_messages_cpp[0m
+[16.997s] [  0%] Built target std_srvs_generate_messages_cpp
+[17.027s] [35m[1mScanning dependencies of target tf_generate_messages_eus[0m
+[17.069s] [  0%] Built target tf_generate_messages_eus
+[17.095s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_cpp[0m
+[17.119s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[17.142s] [35m[1mScanning dependencies of target std_srvs_generate_messages_py[0m
+[17.173s] [  0%] Built target std_srvs_generate_messages_py
+[17.196s] [35m[1mScanning dependencies of target tf_generate_messages_lisp[0m
+[17.220s] [  0%] Built target tf_generate_messages_lisp
+[17.255s] [35m[1mScanning dependencies of target tf_generate_messages_nodejs[0m
+[17.279s] [  0%] Built target tf_generate_messages_nodejs
+[17.311s] [35m[1mScanning dependencies of target pcl_msgs_generate_messages_py[0m
+[17.346s] [  0%] Built target pcl_msgs_generate_messages_py
+[17.378s] [35m[1mScanning dependencies of target actionlib_generate_messages_eus[0m
+[17.428s] [  0%] Built target actionlib_generate_messages_eus
+[17.466s] [35m[1mScanning dependencies of target pcl_msgs_generate_messages_lisp[0m
+[17.498s] [  0%] Built target pcl_msgs_generate_messages_lisp
+[17.537s] [35m[1mScanning dependencies of target tf_generate_messages_cpp[0m
+[17.569s] [  0%] Built target tf_generate_messages_cpp
+[17.602s] [35m[1mScanning dependencies of target actionlib_generate_messages_nodejs[0m
+[17.637s] [  0%] Built target actionlib_generate_messages_nodejs
+[17.672s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_lisp[0m
+[17.710s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[17.746s] [35m[1mScanning dependencies of target visualization_msgs_generate_messages_nodejs[0m
+[17.784s] [  0%] Built target visualization_msgs_generate_messages_nodejs
+[17.822s] [35m[1mScanning dependencies of target visualization_msgs_generate_messages_py[0m
+[17.855s] [  0%] Built target visualization_msgs_generate_messages_py
+[17.885s] [35m[1mScanning dependencies of target sick_ldmrs_print_resolution[0m
+[18.044s] [  6%] [32mBuilding CXX object CMakeFiles/sick_ldmrs_print_resolution.dir/src/sick_ldmrs_print_resolution.cpp.o[0m
+[32.231s] [ 12%] [32m[1mLinking CXX executable devel/lib/sick_ldmrs_tools/sick_ldmrs_print_resolution[0m
+[34.758s] [ 12%] Built target sick_ldmrs_print_resolution
+[34.792s] [35m[1mScanning dependencies of target sick_ldmrs_filter_first[0m
+[34.919s] [ 18%] [32mBuilding CXX object CMakeFiles/sick_ldmrs_filter_first.dir/src/sick_ldmrs_filter_first.cpp.o[0m
+[43.286s] In file included from [01m[K/home/chinchia120/autoware.ai/src/drivers/awf_drivers/sick_ldmrs_tools/src/sick_ldmrs_filter_first.cpp:41:0[m[K:
+[43.287s] [01m[K/opt/ros/melodic/include/pcl_ros/point_cloud.h:303:27:[m[K [01;35m[Kwarning: [m[Kvariable templates only available with -std=c++14 or -std=gnu++14
+[43.287s]      constexpr static bool [01;35m[Kpcl_uses_boost[m[K = true;
+[43.287s]                            [01;35m[K^~~~~~~~~~~~~~[m[K
+[49.537s] [ 25%] [32m[1mLinking CXX executable devel/lib/sick_ldmrs_tools/sick_ldmrs_filter_first[0m
+[51.848s] [ 25%] Built target sick_ldmrs_filter_first
+[51.887s] [35m[1mScanning dependencies of target sick_ldmrs_remove_background[0m
+[52.028s] [ 31%] [32mBuilding CXX object CMakeFiles/sick_ldmrs_remove_background.dir/src/sick_ldmrs_remove_background.cpp.o[0m
+[65.173s] [ 37%] [32m[1mLinking CXX executable devel/lib/sick_ldmrs_tools/sick_ldmrs_remove_background[0m
+[67.135s] [ 37%] Built target sick_ldmrs_remove_background
+[67.162s] [35m[1mScanning dependencies of target sick_ldmrs_object_marker[0m
+[67.238s] [ 43%] [32mBuilding CXX object CMakeFiles/sick_ldmrs_object_marker.dir/src/sick_ldmrs_object_marker.cpp.o[0m
+[71.814s] [ 50%] [32m[1mLinking CXX executable devel/lib/sick_ldmrs_tools/sick_ldmrs_object_marker[0m
+[72.569s] [ 50%] Built target sick_ldmrs_object_marker
+[72.594s] [35m[1mScanning dependencies of target sick_ldmrs_make_organized[0m
+[72.709s] [ 56%] [32mBuilding CXX object CMakeFiles/sick_ldmrs_make_organized.dir/src/sick_ldmrs_make_organized.cpp.o[0m
+[85.445s] [ 62%] [32m[1mLinking CXX executable devel/lib/sick_ldmrs_tools/sick_ldmrs_make_organized[0m
+[87.744s] [ 62%] Built target sick_ldmrs_make_organized
+[87.768s] [35m[1mScanning dependencies of target sick_ldmrs_filter_layer[0m
+[87.975s] [ 68%] [32mBuilding CXX object CMakeFiles/sick_ldmrs_filter_layer.dir/src/sick_ldmrs_filter_layer.cpp.o[0m
+[96.560s] In file included from [01m[K/home/chinchia120/autoware.ai/src/drivers/awf_drivers/sick_ldmrs_tools/src/sick_ldmrs_filter_layer.cpp:41:0[m[K:
+[96.560s] [01m[K/opt/ros/melodic/include/pcl_ros/point_cloud.h:303:27:[m[K [01;35m[Kwarning: [m[Kvariable templates only available with -std=c++14 or -std=gnu++14
+[96.560s]      constexpr static bool [01;35m[Kpcl_uses_boost[m[K = true;
+[96.561s]                            [01;35m[K^~~~~~~~~~~~~~[m[K
+[102.005s] [ 75%] [32m[1mLinking CXX executable devel/lib/sick_ldmrs_tools/sick_ldmrs_filter_layer[0m
+[104.384s] [ 75%] Built target sick_ldmrs_filter_layer
+[104.422s] [35m[1mScanning dependencies of target sick_ldmrs_filter_last[0m
+[104.580s] [ 81%] [32mBuilding CXX object CMakeFiles/sick_ldmrs_filter_last.dir/src/sick_ldmrs_filter_last.cpp.o[0m
+[113.084s] In file included from [01m[K/home/chinchia120/autoware.ai/src/drivers/awf_drivers/sick_ldmrs_tools/src/sick_ldmrs_filter_last.cpp:41:0[m[K:
+[113.084s] [01m[K/opt/ros/melodic/include/pcl_ros/point_cloud.h:303:27:[m[K [01;35m[Kwarning: [m[Kvariable templates only available with -std=c++14 or -std=gnu++14
+[113.084s]      constexpr static bool [01;35m[Kpcl_uses_boost[m[K = true;
+[113.085s]                            [01;35m[K^~~~~~~~~~~~~~[m[K
+[117.848s] [ 87%] [32m[1mLinking CXX executable devel/lib/sick_ldmrs_tools/sick_ldmrs_filter_last[0m
+[119.857s] [ 87%] Built target sick_ldmrs_filter_last
+[119.881s] [35m[1mScanning dependencies of target sick_ldmrs_all_layer_assembler[0m
+[120.058s] [ 93%] [32mBuilding CXX object CMakeFiles/sick_ldmrs_all_layer_assembler.dir/src/sick_ldmrs_all_layer_assembler.cpp.o[0m
+[144.654s] [100%] [32m[1mLinking CXX executable devel/lib/sick_ldmrs_tools/sick_ldmrs_all_layer_assembler[0m
+[147.075s] [100%] Built target sick_ldmrs_all_layer_assembler
+[147.101s] Invoked command in '/home/chinchia120/autoware.ai/build/sick_ldmrs_tools' returned '0': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/sick_ldmrs_driver:/home/chinchia120/autoware.ai/install/sick_ldmrs_msgs:/home/chinchia120/autoware.ai/install/sick_ldmrs_description:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/chinchia120/autoware.ai/install/sick_ldmrs_driver/lib:${LD_LIBRARY_PATH} PATH=/home/chinchia120/autoware.ai/install/sick_ldmrs_driver/bin:${PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/sick_ldmrs_driver/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/sick_ldmrs_driver/lib/pkgconfig:/home/chinchia120/autoware.ai/install/sick_ldmrs_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/sick_ldmrs_msgs/lib/pkgconfig:/home/chinchia120/autoware.ai/install/sick_ldmrs_description/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/sick_ldmrs_description/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/sick_ldmrs_driver/lib/python2.7/dist-packages:/home/chinchia120/autoware.ai/install/sick_ldmrs_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/sick_ldmrs_driver/share:/home/chinchia120/autoware.ai/install/sick_ldmrs_msgs/share:/home/chinchia120/autoware.ai/install/sick_ldmrs_description/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/sick_ldmrs_tools -- -j4 -l4
+[147.539s] Invoking command in '/home/chinchia120/autoware.ai/build/sick_ldmrs_tools': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/sick_ldmrs_driver:/home/chinchia120/autoware.ai/install/sick_ldmrs_msgs:/home/chinchia120/autoware.ai/install/sick_ldmrs_description:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/chinchia120/autoware.ai/install/sick_ldmrs_driver/lib:${LD_LIBRARY_PATH} PATH=/home/chinchia120/autoware.ai/install/sick_ldmrs_driver/bin:${PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/sick_ldmrs_driver/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/sick_ldmrs_driver/lib/pkgconfig:/home/chinchia120/autoware.ai/install/sick_ldmrs_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/sick_ldmrs_msgs/lib/pkgconfig:/home/chinchia120/autoware.ai/install/sick_ldmrs_description/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/sick_ldmrs_description/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/sick_ldmrs_driver/lib/python2.7/dist-packages:/home/chinchia120/autoware.ai/install/sick_ldmrs_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/sick_ldmrs_driver/share:/home/chinchia120/autoware.ai/install/sick_ldmrs_msgs/share:/home/chinchia120/autoware.ai/install/sick_ldmrs_description/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/sick_ldmrs_tools --target tests -- -j4 -l4
+[147.694s] [35m[1mScanning dependencies of target tests[0m
+[147.720s] Built target tests
+[147.745s] Invoked command in '/home/chinchia120/autoware.ai/build/sick_ldmrs_tools' returned '0': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/sick_ldmrs_driver:/home/chinchia120/autoware.ai/install/sick_ldmrs_msgs:/home/chinchia120/autoware.ai/install/sick_ldmrs_description:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/chinchia120/autoware.ai/install/sick_ldmrs_driver/lib:${LD_LIBRARY_PATH} PATH=/home/chinchia120/autoware.ai/install/sick_ldmrs_driver/bin:${PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/sick_ldmrs_driver/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/sick_ldmrs_driver/lib/pkgconfig:/home/chinchia120/autoware.ai/install/sick_ldmrs_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/sick_ldmrs_msgs/lib/pkgconfig:/home/chinchia120/autoware.ai/install/sick_ldmrs_description/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/sick_ldmrs_description/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/sick_ldmrs_driver/lib/python2.7/dist-packages:/home/chinchia120/autoware.ai/install/sick_ldmrs_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/sick_ldmrs_driver/share:/home/chinchia120/autoware.ai/install/sick_ldmrs_msgs/share:/home/chinchia120/autoware.ai/install/sick_ldmrs_description/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/sick_ldmrs_tools --target tests -- -j4 -l4
+[148.165s] Invoking command in '/home/chinchia120/autoware.ai/build/sick_ldmrs_tools': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/sick_ldmrs_driver:/home/chinchia120/autoware.ai/install/sick_ldmrs_msgs:/home/chinchia120/autoware.ai/install/sick_ldmrs_description:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/chinchia120/autoware.ai/install/sick_ldmrs_driver/lib:${LD_LIBRARY_PATH} PATH=/home/chinchia120/autoware.ai/install/sick_ldmrs_driver/bin:${PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/sick_ldmrs_driver/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/sick_ldmrs_driver/lib/pkgconfig:/home/chinchia120/autoware.ai/install/sick_ldmrs_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/sick_ldmrs_msgs/lib/pkgconfig:/home/chinchia120/autoware.ai/install/sick_ldmrs_description/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/sick_ldmrs_description/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/sick_ldmrs_driver/lib/python2.7/dist-packages:/home/chinchia120/autoware.ai/install/sick_ldmrs_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/sick_ldmrs_driver/share:/home/chinchia120/autoware.ai/install/sick_ldmrs_msgs/share:/home/chinchia120/autoware.ai/install/sick_ldmrs_description/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/sick_ldmrs_tools --target install -- -j4 -l4
+[148.309s] [  0%] Built target actionlib_msgs_generate_messages_py
+[148.353s] [  0%] Built target visualization_msgs_generate_messages_eus
+[148.409s] [  0%] Built target sick_ldmrs_msgs_generate_messages_nodejs
+[148.459s] [  0%] Built target sick_ldmrs_msgs_generate_messages_lisp
+[148.507s] [  0%] Built target sick_ldmrs_msgs_generate_messages_cpp
+[148.563s] [  0%] Built target tf2_msgs_generate_messages_nodejs
+[148.617s] [  0%] Built target visualization_msgs_generate_messages_cpp
+[148.663s] [  0%] Built target tf2_msgs_generate_messages_eus
+[148.712s] [  0%] Built target tf2_msgs_generate_messages_cpp
+[148.761s] [  0%] Built target geometry_msgs_generate_messages_py
+[148.827s] [  0%] Built target pcl_ros_gencfg
+[148.881s] [  0%] Built target topic_tools_generate_messages_nodejs
+[148.924s] [  0%] Built target sick_ldmrs_msgs_generate_messages_py
+[148.980s] [  0%] Built target tf2_msgs_generate_messages_py
+[149.024s] [  0%] Built target actionlib_generate_messages_py
+[149.099s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[149.159s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[149.217s] [  0%] Built target roscpp_generate_messages_cpp
+[149.264s] [  0%] Built target actionlib_generate_messages_cpp
+[149.310s] [  0%] Built target pcl_msgs_generate_messages_eus
+[149.377s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[149.428s] [  0%] Built target pcl_msgs_generate_messages_cpp
+[149.475s] [  0%] Built target dynamic_reconfigure_generate_messages_lisp
+[149.535s] [  0%] Built target std_msgs_generate_messages_nodejs
+[149.585s] [  0%] Built target bond_generate_messages_lisp
+[149.642s] [  0%] Built target sensor_msgs_generate_messages_eus
+[149.698s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[149.754s] [  0%] Built target pcl_msgs_generate_messages_nodejs
+[149.806s] [  0%] Built target nodelet_generate_messages_nodejs
+[149.861s] [  0%] Built target std_msgs_generate_messages_cpp
+[149.910s] [  0%] Built target sensor_msgs_generate_messages_py
+[149.961s] [  0%] Built target nodelet_generate_messages_py
+[150.025s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[150.079s] [  0%] Built target std_srvs_generate_messages_eus
+[150.143s] [  0%] Built target roscpp_generate_messages_lisp
+[150.189s] [  0%] Built target bond_generate_messages_eus
+[150.244s] [  0%] Built target std_msgs_generate_messages_lisp
+[150.296s] [  0%] Built target roscpp_generate_messages_nodejs
+[150.354s] [  0%] Built target geometry_msgs_generate_messages_eus
+[150.417s] [  0%] Built target sick_ldmrs_msgs_generate_messages_eus
+[150.473s] [  0%] Built target std_msgs_generate_messages_py
+[150.534s] [  0%] Built target roscpp_generate_messages_py
+[150.587s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[150.658s] [  0%] Built target tf_generate_messages_py
+[150.705s] [  0%] Built target dynamic_reconfigure_generate_messages_cpp
+[150.759s] [  0%] Built target topic_tools_generate_messages_cpp
+[150.821s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[150.872s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[150.945s] [  0%] Built target topic_tools_generate_messages_eus
+[151.024s] [  0%] Built target visualization_msgs_generate_messages_lisp
+[151.083s] [  0%] Built target std_msgs_generate_messages_eus
+[151.141s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[151.193s] [  0%] Built target dynamic_reconfigure_generate_messages_eus
+[151.272s] [  0%] Built target dynamic_reconfigure_generate_messages_nodejs
+[151.330s] [  0%] Built target dynamic_reconfigure_generate_messages_py
+[151.402s] [  0%] Built target tf2_msgs_generate_messages_lisp
+[151.465s] [  0%] Built target dynamic_reconfigure_gencfg
+[151.518s] [  0%] Built target nodelet_generate_messages_cpp
+[151.570s] [  0%] Built target bond_generate_messages_py
+[151.633s] [  0%] Built target std_srvs_generate_messages_nodejs
+[151.694s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[151.751s] [  0%] Built target actionlib_generate_messages_lisp
+[151.803s] [  0%] Built target nodelet_generate_messages_eus
+[151.865s] [  0%] Built target nodelet_generate_messages_lisp
+[151.934s] [  0%] Built target roscpp_generate_messages_eus
+[151.989s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[152.038s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[152.092s] [  0%] Built target bond_generate_messages_cpp
+[152.136s] [  0%] Built target bond_generate_messages_nodejs
+[152.198s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[152.256s] [  0%] Built target topic_tools_generate_messages_py
+[152.310s] [  0%] Built target nodelet_topic_tools_gencfg
+[152.380s] [  0%] Built target std_srvs_generate_messages_lisp
+[152.427s] [  0%] Built target topic_tools_generate_messages_lisp
+[152.481s] [  0%] Built target std_srvs_generate_messages_cpp
+[152.525s] [  0%] Built target tf_generate_messages_eus
+[152.588s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[152.635s] [  0%] Built target std_srvs_generate_messages_py
+[152.696s] [  0%] Built target tf_generate_messages_lisp
+[152.743s] [  0%] Built target tf_generate_messages_nodejs
+[152.810s] [  0%] Built target pcl_msgs_generate_messages_py
+[152.867s] [  0%] Built target actionlib_generate_messages_eus
+[152.927s] [  0%] Built target pcl_msgs_generate_messages_lisp
+[152.985s] [  0%] Built target tf_generate_messages_cpp
+[153.034s] [  0%] Built target actionlib_generate_messages_nodejs
+[153.092s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[153.136s] [  0%] Built target visualization_msgs_generate_messages_nodejs
+[153.200s] [  0%] Built target visualization_msgs_generate_messages_py
+[153.287s] [ 12%] Built target sick_ldmrs_print_resolution
+[153.386s] [ 25%] Built target sick_ldmrs_filter_first
+[153.506s] [ 37%] Built target sick_ldmrs_remove_background
+[153.571s] [ 50%] Built target sick_ldmrs_object_marker
+[153.664s] [ 62%] Built target sick_ldmrs_make_organized
+[153.764s] [ 75%] Built target sick_ldmrs_filter_layer
+[153.868s] [ 87%] Built target sick_ldmrs_filter_last
+[153.973s] [100%] Built target sick_ldmrs_all_layer_assembler
+[154.036s] [36mInstall the project...[0m
+[154.061s] -- Install configuration: "Release"
+[154.061s] -- Installing: /home/chinchia120/autoware.ai/install/sick_ldmrs_tools/lib/pkgconfig/sick_ldmrs_tools.pc
+[154.063s] -- Installing: /home/chinchia120/autoware.ai/install/sick_ldmrs_tools/share/sick_ldmrs_tools/cmake/sick_ldmrs_toolsConfig.cmake
+[154.063s] -- Installing: /home/chinchia120/autoware.ai/install/sick_ldmrs_tools/share/sick_ldmrs_tools/cmake/sick_ldmrs_toolsConfig-version.cmake
+[154.064s] -- Installing: /home/chinchia120/autoware.ai/install/sick_ldmrs_tools/share/sick_ldmrs_tools/package.xml
+[154.064s] -- Installing: /home/chinchia120/autoware.ai/install/sick_ldmrs_tools/lib/sick_ldmrs_tools/sick_ldmrs_object_marker
+[154.066s] -- Set runtime path of "/home/chinchia120/autoware.ai/install/sick_ldmrs_tools/lib/sick_ldmrs_tools/sick_ldmrs_object_marker" to ""
+[154.066s] -- Installing: /home/chinchia120/autoware.ai/install/sick_ldmrs_tools/lib/sick_ldmrs_tools/sick_ldmrs_filter_layer
+[154.068s] -- Set runtime path of "/home/chinchia120/autoware.ai/install/sick_ldmrs_tools/lib/sick_ldmrs_tools/sick_ldmrs_filter_layer" to ""
+[154.069s] -- Installing: /home/chinchia120/autoware.ai/install/sick_ldmrs_tools/lib/sick_ldmrs_tools/sick_ldmrs_filter_first
+[154.070s] -- Set runtime path of "/home/chinchia120/autoware.ai/install/sick_ldmrs_tools/lib/sick_ldmrs_tools/sick_ldmrs_filter_first" to ""
+[154.071s] -- Installing: /home/chinchia120/autoware.ai/install/sick_ldmrs_tools/lib/sick_ldmrs_tools/sick_ldmrs_filter_last
+[154.073s] -- Set runtime path of "/home/chinchia120/autoware.ai/install/sick_ldmrs_tools/lib/sick_ldmrs_tools/sick_ldmrs_filter_last" to ""
+[154.073s] -- Installing: /home/chinchia120/autoware.ai/install/sick_ldmrs_tools/lib/sick_ldmrs_tools/sick_ldmrs_all_layer_assembler
+[154.075s] -- Set runtime path of "/home/chinchia120/autoware.ai/install/sick_ldmrs_tools/lib/sick_ldmrs_tools/sick_ldmrs_all_layer_assembler" to ""
+[154.075s] -- Installing: /home/chinchia120/autoware.ai/install/sick_ldmrs_tools/lib/sick_ldmrs_tools/sick_ldmrs_make_organized
+[154.077s] -- Set runtime path of "/home/chinchia120/autoware.ai/install/sick_ldmrs_tools/lib/sick_ldmrs_tools/sick_ldmrs_make_organized" to ""
+[154.077s] -- Installing: /home/chinchia120/autoware.ai/install/sick_ldmrs_tools/lib/sick_ldmrs_tools/sick_ldmrs_remove_background
+[154.079s] -- Set runtime path of "/home/chinchia120/autoware.ai/install/sick_ldmrs_tools/lib/sick_ldmrs_tools/sick_ldmrs_remove_background" to ""
+[154.080s] -- Installing: /home/chinchia120/autoware.ai/install/sick_ldmrs_tools/lib/sick_ldmrs_tools/sick_ldmrs_print_resolution
+[154.081s] -- Set runtime path of "/home/chinchia120/autoware.ai/install/sick_ldmrs_tools/lib/sick_ldmrs_tools/sick_ldmrs_print_resolution" to ""
+[154.082s] -- Installing: /home/chinchia120/autoware.ai/install/sick_ldmrs_tools/share/sick_ldmrs_tools/config
+[154.082s] -- Installing: /home/chinchia120/autoware.ai/install/sick_ldmrs_tools/share/sick_ldmrs_tools/config/sick_ldmrs.rviz
+[154.083s] -- Installing: /home/chinchia120/autoware.ai/install/sick_ldmrs_tools/share/sick_ldmrs_tools/launch
+[154.083s] -- Installing: /home/chinchia120/autoware.ai/install/sick_ldmrs_tools/share/sick_ldmrs_tools/launch/sick_ldmrs_demo.launch
+[154.097s] Invoked command in '/home/chinchia120/autoware.ai/build/sick_ldmrs_tools' returned '0': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/sick_ldmrs_driver:/home/chinchia120/autoware.ai/install/sick_ldmrs_msgs:/home/chinchia120/autoware.ai/install/sick_ldmrs_description:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/chinchia120/autoware.ai/install/sick_ldmrs_driver/lib:${LD_LIBRARY_PATH} PATH=/home/chinchia120/autoware.ai/install/sick_ldmrs_driver/bin:${PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/sick_ldmrs_driver/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/sick_ldmrs_driver/lib/pkgconfig:/home/chinchia120/autoware.ai/install/sick_ldmrs_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/sick_ldmrs_msgs/lib/pkgconfig:/home/chinchia120/autoware.ai/install/sick_ldmrs_description/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/sick_ldmrs_description/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/sick_ldmrs_driver/lib/python2.7/dist-packages:/home/chinchia120/autoware.ai/install/sick_ldmrs_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/sick_ldmrs_driver/share:/home/chinchia120/autoware.ai/install/sick_ldmrs_msgs/share:/home/chinchia120/autoware.ai/install/sick_ldmrs_description/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/sick_ldmrs_tools --target install -- -j4 -l4

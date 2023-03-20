@@ -1,0 +1,68 @@
+[0.042s] Invoking command in '/home/chinchia120/autoware.ai/build/oculus_socket': /usr/bin/cmake /home/chinchia120/autoware.ai/src/autoware/utilities/oculus_socket -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/chinchia120/autoware.ai/install/oculus_socket
+[0.201s] -- The C compiler identification is GNU 7.5.0
+[0.329s] -- The CXX compiler identification is GNU 7.5.0
+[0.345s] -- Check for working C compiler: /usr/bin/cc
+[0.513s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.513s] -- Detecting C compiler ABI info
+[0.669s] -- Detecting C compiler ABI info - done
+[0.693s] -- Detecting C compile features
+[1.210s] -- Detecting C compile features - done
+[1.213s] -- Check for working CXX compiler: /usr/bin/c++
+[1.419s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.420s] -- Detecting CXX compiler ABI info
+[1.632s] -- Detecting CXX compiler ABI info - done
+[1.695s] -- Detecting CXX compile features
+[2.563s] -- Detecting CXX compile features - done
+[2.567s] -- Using CATKIN_DEVEL_PREFIX: /home/chinchia120/autoware.ai/build/oculus_socket/devel
+[2.567s] -- Using CMAKE_PREFIX_PATH: /home/chinchia120/catkin_ws/devel;/opt/ros/melodic
+[2.568s] -- This workspace overlays: /home/chinchia120/catkin_ws/devel;/opt/ros/melodic
+[2.604s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[2.604s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[2.605s] -- Using Debian Python package layout
+[2.605s] -- Using empy: /usr/bin/empy
+[2.951s] -- Using CATKIN_ENABLE_TESTING: ON
+[2.951s] -- Call enable_testing()
+[2.957s] -- Using CATKIN_TEST_RESULTS_DIR: /home/chinchia120/autoware.ai/build/oculus_socket/test_results
+[2.998s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[2.998s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[3.028s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[3.030s] -- Looking for pthread.h
+[3.224s] -- Looking for pthread.h - found
+[3.225s] -- Looking for pthread_create
+[3.388s] -- Looking for pthread_create - not found
+[3.388s] -- Looking for pthread_create in pthreads
+[3.541s] -- Looking for pthread_create in pthreads - not found
+[3.542s] -- Looking for pthread_create in pthread
+[3.703s] -- Looking for pthread_create in pthread - found
+[3.707s] -- Found Threads: TRUE  
+[3.715s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[3.814s] -- catkin 0.7.29
+[3.814s] -- BUILD_SHARED_LIBS is on
+[5.495s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[6.575s] -- Configuring done
+[6.717s] -- Generating done
+[6.745s] -- Build files have been written to: /home/chinchia120/autoware.ai/build/oculus_socket
+[6.758s] Invoked command in '/home/chinchia120/autoware.ai/build/oculus_socket' returned '0': /usr/bin/cmake /home/chinchia120/autoware.ai/src/autoware/utilities/oculus_socket -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/chinchia120/autoware.ai/install/oculus_socket
+[6.760s] Invoking command in '/home/chinchia120/autoware.ai/build/oculus_socket': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/oculus_socket -- -j4 -l4
+[6.865s] [35m[1mScanning dependencies of target oculus_sender[0m
+[6.998s] [ 50%] [32mBuilding CXX object CMakeFiles/oculus_sender.dir/nodes/oculus_sender/oculus_sender.cpp.o[0m
+[20.389s] [100%] [32m[1mLinking CXX executable devel/lib/oculus_socket/oculus_sender[0m
+[21.012s] [100%] Built target oculus_sender
+[21.040s] Invoked command in '/home/chinchia120/autoware.ai/build/oculus_socket' returned '0': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/oculus_socket -- -j4 -l4
+[21.324s] Invoking command in '/home/chinchia120/autoware.ai/build/oculus_socket': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/oculus_socket --target tests -- -j4 -l4
+[21.474s] [35m[1mScanning dependencies of target tests[0m
+[21.502s] Built target tests
+[21.536s] Invoked command in '/home/chinchia120/autoware.ai/build/oculus_socket' returned '0': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/oculus_socket --target tests -- -j4 -l4
+[21.827s] Invoking command in '/home/chinchia120/autoware.ai/build/oculus_socket': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/oculus_socket --target install -- -j4 -l4
+[21.976s] [100%] Built target oculus_sender
+[22.023s] [36mInstall the project...[0m
+[22.042s] -- Install configuration: "Release"
+[22.043s] -- Installing: /home/chinchia120/autoware.ai/install/oculus_socket/lib/pkgconfig/oculus_socket.pc
+[22.043s] -- Installing: /home/chinchia120/autoware.ai/install/oculus_socket/share/oculus_socket/cmake/oculus_socketConfig.cmake
+[22.043s] -- Installing: /home/chinchia120/autoware.ai/install/oculus_socket/share/oculus_socket/cmake/oculus_socketConfig-version.cmake
+[22.043s] -- Installing: /home/chinchia120/autoware.ai/install/oculus_socket/share/oculus_socket/package.xml
+[22.048s] -- Installing: /home/chinchia120/autoware.ai/install/oculus_socket/lib/oculus_socket/oculus_sender
+[22.049s] -- Set runtime path of "/home/chinchia120/autoware.ai/install/oculus_socket/lib/oculus_socket/oculus_sender" to ""
+[22.049s] -- Installing: /home/chinchia120/autoware.ai/install/oculus_socket/share/oculus_socket/launch
+[22.051s] -- Installing: /home/chinchia120/autoware.ai/install/oculus_socket/share/oculus_socket/launch/oculus_sender.launch
+[22.060s] Invoked command in '/home/chinchia120/autoware.ai/build/oculus_socket' returned '0': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/oculus_socket --target install -- -j4 -l4

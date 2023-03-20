@@ -1,0 +1,8 @@
+prefix=/home/chinchia120/autoware.ai/install/lanelet2_validation
+
+Name: lanelet2_validation
+Description: Description of lanelet2_validation
+Version: 0.8.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -llanelet2_validation
+Requires: lanelet2_projection lanelet2_io lanelet2_core lanelet2_traffic_rules lanelet2_routing

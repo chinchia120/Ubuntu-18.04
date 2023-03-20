@@ -1,0 +1,179 @@
+[0.212s] Invoking command in '/home/chinchia120/autoware.ai/build/obj_db': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/gnss:/home/chinchia120/autoware.ai/install/autoware_can_msgs:/home/chinchia120/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/chinchia120/autoware.ai/install/gnss/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/gnss/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/gnss/lib/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_can_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_can_msgs/lib/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/autoware_can_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/gnss/share:/home/chinchia120/autoware.ai/install/autoware_can_msgs/share:/home/chinchia120/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/chinchia120/autoware.ai/src/autoware/core_perception/obj_db -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/chinchia120/autoware.ai/install/obj_db
+[0.657s] -- The C compiler identification is GNU 7.5.0
+[0.796s] -- The CXX compiler identification is GNU 7.5.0
+[0.817s] -- Check for working C compiler: /usr/bin/cc
+[1.001s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.003s] -- Detecting C compiler ABI info
+[1.138s] -- Detecting C compiler ABI info - done
+[1.159s] -- Detecting C compile features
+[1.632s] -- Detecting C compile features - done
+[1.640s] -- Check for working CXX compiler: /usr/bin/c++
+[1.815s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.816s] -- Detecting CXX compiler ABI info
+[1.997s] -- Detecting CXX compiler ABI info - done
+[2.016s] -- Detecting CXX compile features
+[2.836s] -- Detecting CXX compile features - done
+[2.856s] -- CUDA compilation status: 1.
+[2.863s] -- Using CATKIN_DEVEL_PREFIX: /home/chinchia120/autoware.ai/build/obj_db/devel
+[2.863s] -- Using CMAKE_PREFIX_PATH: /home/chinchia120/autoware.ai/install/gnss;/home/chinchia120/autoware.ai/install/autoware_can_msgs;/home/chinchia120/autoware.ai/install/autoware_build_flags;/home/chinchia120/catkin_ws/devel;/opt/ros/melodic
+[2.864s] -- This workspace overlays: /home/chinchia120/autoware.ai/install/gnss;/home/chinchia120/autoware.ai/install/autoware_can_msgs;/home/chinchia120/autoware.ai/install/autoware_build_flags;/home/chinchia120/catkin_ws/devel;/opt/ros/melodic
+[3.008s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[3.008s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[3.009s] -- Using Debian Python package layout
+[3.010s] -- Using empy: /usr/bin/empy
+[3.411s] -- Using CATKIN_ENABLE_TESTING: ON
+[3.411s] -- Call enable_testing()
+[3.417s] -- Using CATKIN_TEST_RESULTS_DIR: /home/chinchia120/autoware.ai/build/obj_db/test_results
+[3.465s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[3.465s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[3.502s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[3.506s] -- Looking for pthread.h
+[3.700s] -- Looking for pthread.h - found
+[3.701s] -- Looking for pthread_create
+[3.906s] -- Looking for pthread_create - not found
+[3.907s] -- Looking for pthread_create in pthreads
+[4.085s] -- Looking for pthread_create in pthreads - not found
+[4.085s] -- Looking for pthread_create in pthread
+[4.278s] -- Looking for pthread_create in pthread - found
+[4.280s] -- Found Threads: TRUE  
+[4.299s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[4.456s] -- catkin 0.7.29
+[4.456s] -- BUILD_SHARED_LIBS is on
+[5.424s] -- Configuring done
+[5.523s] -- Generating done
+[5.541s] -- Build files have been written to: /home/chinchia120/autoware.ai/build/obj_db
+[5.549s] Invoked command in '/home/chinchia120/autoware.ai/build/obj_db' returned '0': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/gnss:/home/chinchia120/autoware.ai/install/autoware_can_msgs:/home/chinchia120/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/chinchia120/autoware.ai/install/gnss/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/gnss/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/gnss/lib/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_can_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_can_msgs/lib/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/autoware_can_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/gnss/share:/home/chinchia120/autoware.ai/install/autoware_can_msgs/share:/home/chinchia120/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/chinchia120/autoware.ai/src/autoware/core_perception/obj_db -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/chinchia120/autoware.ai/install/obj_db
+[5.556s] Invoking command in '/home/chinchia120/autoware.ai/build/obj_db': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/gnss:/home/chinchia120/autoware.ai/install/autoware_can_msgs:/home/chinchia120/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/chinchia120/autoware.ai/install/gnss/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/gnss/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/gnss/lib/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_can_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_can_msgs/lib/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/autoware_can_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/gnss/share:/home/chinchia120/autoware.ai/install/autoware_can_msgs/share:/home/chinchia120/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/obj_db -- -j4 -l4
+[5.701s] [35m[1mScanning dependencies of target obj_db[0m
+[5.737s] [ 11%] [32mBuilding CXX object CMakeFiles/obj_db.dir/lib/obj_db/SendData.cpp.o[0m
+[6.345s] [ 22%] [32mBuilding CXX object CMakeFiles/obj_db.dir/lib/obj_db/util.cpp.o[0m
+[6.741s] [ 33%] [32m[1mLinking CXX shared library devel/lib/libobj_db.so[0m
+[6.917s] [ 33%] Built target obj_db
+[6.945s] [35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[6.976s] [ 33%] Built target roscpp_generate_messages_cpp
+[7.009s] [35m[1mScanning dependencies of target autoware_can_msgs_generate_messages_py[0m
+[7.043s] [ 33%] Built target autoware_can_msgs_generate_messages_py
+[7.076s] [35m[1mScanning dependencies of target visualization_msgs_generate_messages_py[0m
+[7.101s] [ 33%] Built target visualization_msgs_generate_messages_py
+[7.131s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[7.161s] [ 33%] Built target geometry_msgs_generate_messages_py
+[7.190s] [35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[7.233s] [ 33%] Built target std_msgs_generate_messages_eus
+[7.272s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[7.307s] [ 33%] Built target rosgraph_msgs_generate_messages_nodejs
+[7.342s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[7.366s] [ 33%] Built target rosgraph_msgs_generate_messages_py
+[7.392s] [35m[1mScanning dependencies of target autoware_can_msgs_generate_messages_eus[0m
+[7.427s] [ 33%] Built target autoware_can_msgs_generate_messages_eus
+[7.457s] [35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[7.484s] [ 33%] Built target roscpp_generate_messages_lisp
+[7.518s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[7.551s] [ 33%] Built target geometry_msgs_generate_messages_nodejs
+[7.599s] [35m[1mScanning dependencies of target autoware_can_msgs_generate_messages_nodejs[0m
+[7.632s] [ 33%] Built target autoware_can_msgs_generate_messages_nodejs
+[7.668s] [35m[1mScanning dependencies of target autoware_can_msgs_generate_messages_lisp[0m
+[7.705s] [ 33%] Built target autoware_can_msgs_generate_messages_lisp
+[7.738s] [35m[1mScanning dependencies of target autoware_can_msgs_generate_messages_cpp[0m
+[7.777s] [ 33%] Built target autoware_can_msgs_generate_messages_cpp
+[7.809s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[7.835s] [ 33%] Built target rosgraph_msgs_generate_messages_cpp
+[7.859s] [35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[7.892s] [ 33%] Built target roscpp_generate_messages_py
+[7.931s] [35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+[7.962s] [ 33%] Built target roscpp_generate_messages_nodejs
+[7.996s] [35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[8.034s] [ 33%] Built target roscpp_generate_messages_eus
+[8.066s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[8.097s] [ 33%] Built target geometry_msgs_generate_messages_eus
+[8.124s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[8.153s] [ 33%] Built target rosgraph_msgs_generate_messages_eus
+[8.184s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[8.210s] [ 33%] Built target rosgraph_msgs_generate_messages_lisp
+[8.240s] [35m[1mScanning dependencies of target visualization_msgs_generate_messages_cpp[0m
+[8.265s] [ 33%] Built target visualization_msgs_generate_messages_cpp
+[8.295s] [35m[1mScanning dependencies of target visualization_msgs_generate_messages_eus[0m
+[8.329s] [ 33%] Built target visualization_msgs_generate_messages_eus
+[8.354s] [35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[8.396s] [ 33%] Built target std_msgs_generate_messages_cpp
+[8.427s] [35m[1mScanning dependencies of target visualization_msgs_generate_messages_lisp[0m
+[8.460s] [ 33%] Built target visualization_msgs_generate_messages_lisp
+[8.492s] [35m[1mScanning dependencies of target visualization_msgs_generate_messages_nodejs[0m
+[8.519s] [ 33%] Built target visualization_msgs_generate_messages_nodejs
+[8.553s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[8.586s] [ 33%] Built target geometry_msgs_generate_messages_cpp
+[8.610s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[8.640s] [ 33%] Built target geometry_msgs_generate_messages_lisp
+[8.671s] [35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[8.702s] [ 33%] Built target std_msgs_generate_messages_py
+[8.731s] [35m[1mScanning dependencies of target obj_uploader[0m
+[8.792s] [ 44%] [32mBuilding CXX object CMakeFiles/obj_uploader.dir/nodes/obj_uploader/obj_uploader.cpp.o[0m
+[13.762s] [ 55%] [32m[1mLinking CXX executable devel/lib/obj_db/obj_uploader[0m
+[14.080s] [ 55%] Built target obj_uploader
+[14.110s] [35m[1mScanning dependencies of target obj_downloader[0m
+[14.165s] [ 66%] [32mBuilding CXX object CMakeFiles/obj_downloader.dir/nodes/obj_downloader/obj_downloader.cpp.o[0m
+[18.654s] [ 77%] [32m[1mLinking CXX executable devel/lib/obj_db/obj_downloader[0m
+[18.995s] [ 77%] Built target obj_downloader
+[19.025s] [35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[19.055s] [ 77%] Built target std_msgs_generate_messages_lisp
+[19.091s] [35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[19.120s] [ 77%] Built target std_msgs_generate_messages_nodejs
+[19.148s] [35m[1mScanning dependencies of target can_uploader[0m
+[19.205s] [ 88%] [32mBuilding CXX object CMakeFiles/can_uploader.dir/nodes/can_uploader/can_uploader.cpp.o[0m
+[23.773s] [100%] [32m[1mLinking CXX executable devel/lib/obj_db/can_uploader[0m
+[24.121s] [100%] Built target can_uploader
+[24.149s] Invoked command in '/home/chinchia120/autoware.ai/build/obj_db' returned '0': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/gnss:/home/chinchia120/autoware.ai/install/autoware_can_msgs:/home/chinchia120/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/chinchia120/autoware.ai/install/gnss/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/gnss/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/gnss/lib/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_can_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_can_msgs/lib/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/autoware_can_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/gnss/share:/home/chinchia120/autoware.ai/install/autoware_can_msgs/share:/home/chinchia120/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/obj_db -- -j4 -l4
+[24.396s] Invoking command in '/home/chinchia120/autoware.ai/build/obj_db': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/gnss:/home/chinchia120/autoware.ai/install/autoware_can_msgs:/home/chinchia120/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/chinchia120/autoware.ai/install/gnss/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/gnss/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/gnss/lib/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_can_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_can_msgs/lib/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/autoware_can_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/gnss/share:/home/chinchia120/autoware.ai/install/autoware_can_msgs/share:/home/chinchia120/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/obj_db --target tests -- -j4 -l4
+[24.542s] [35m[1mScanning dependencies of target tests[0m
+[24.576s] Built target tests
+[24.610s] Invoked command in '/home/chinchia120/autoware.ai/build/obj_db' returned '0': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/gnss:/home/chinchia120/autoware.ai/install/autoware_can_msgs:/home/chinchia120/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/chinchia120/autoware.ai/install/gnss/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/gnss/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/gnss/lib/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_can_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_can_msgs/lib/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/autoware_can_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/gnss/share:/home/chinchia120/autoware.ai/install/autoware_can_msgs/share:/home/chinchia120/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/obj_db --target tests -- -j4 -l4
+[25.385s] Invoking command in '/home/chinchia120/autoware.ai/build/obj_db': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/gnss:/home/chinchia120/autoware.ai/install/autoware_can_msgs:/home/chinchia120/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/chinchia120/autoware.ai/install/gnss/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/gnss/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/gnss/lib/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_can_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_can_msgs/lib/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/autoware_can_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/gnss/share:/home/chinchia120/autoware.ai/install/autoware_can_msgs/share:/home/chinchia120/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/obj_db --target install -- -j4 -l4
+[25.549s] [ 33%] Built target obj_db
+[25.625s] [ 33%] Built target roscpp_generate_messages_cpp
+[25.724s] [ 33%] Built target autoware_can_msgs_generate_messages_py
+[25.815s] [ 33%] Built target visualization_msgs_generate_messages_py
+[25.891s] [ 33%] Built target geometry_msgs_generate_messages_py
+[25.969s] [ 33%] Built target std_msgs_generate_messages_eus
+[26.057s] [ 33%] Built target rosgraph_msgs_generate_messages_nodejs
+[26.131s] [ 33%] Built target rosgraph_msgs_generate_messages_py
+[26.291s] [ 33%] Built target autoware_can_msgs_generate_messages_eus
+[26.523s] [ 33%] Built target roscpp_generate_messages_lisp
+[26.564s] [ 33%] Built target geometry_msgs_generate_messages_nodejs
+[26.633s] [ 33%] Built target autoware_can_msgs_generate_messages_nodejs
+[26.722s] [ 33%] Built target autoware_can_msgs_generate_messages_lisp
+[26.855s] [ 33%] Built target autoware_can_msgs_generate_messages_cpp
+[26.927s] [ 33%] Built target rosgraph_msgs_generate_messages_cpp
+[27.013s] [ 33%] Built target roscpp_generate_messages_py
+[27.149s] [ 33%] Built target roscpp_generate_messages_nodejs
+[27.226s] [ 33%] Built target roscpp_generate_messages_eus
+[27.296s] [ 33%] Built target geometry_msgs_generate_messages_eus
+[27.369s] [ 33%] Built target rosgraph_msgs_generate_messages_eus
+[27.439s] [ 33%] Built target rosgraph_msgs_generate_messages_lisp
+[27.514s] [ 33%] Built target visualization_msgs_generate_messages_cpp
+[27.591s] [ 33%] Built target visualization_msgs_generate_messages_eus
+[27.668s] [ 33%] Built target std_msgs_generate_messages_cpp
+[27.748s] [ 33%] Built target visualization_msgs_generate_messages_lisp
+[27.829s] [ 33%] Built target visualization_msgs_generate_messages_nodejs
+[27.907s] [ 33%] Built target geometry_msgs_generate_messages_cpp
+[27.979s] [ 33%] Built target geometry_msgs_generate_messages_lisp
+[28.036s] [ 33%] Built target std_msgs_generate_messages_py
+[28.114s] [ 55%] Built target obj_uploader
+[28.197s] [ 77%] Built target obj_downloader
+[28.274s] [ 77%] Built target std_msgs_generate_messages_lisp
+[28.356s] [ 77%] Built target std_msgs_generate_messages_nodejs
+[28.459s] [100%] Built target can_uploader
+[28.534s] [36mInstall the project...[0m
+[28.569s] -- Install configuration: "Release"
+[28.569s] -- Installing: /home/chinchia120/autoware.ai/install/obj_db/lib/pkgconfig/obj_db.pc
+[28.571s] -- Installing: /home/chinchia120/autoware.ai/install/obj_db/share/obj_db/cmake/obj_dbConfig.cmake
+[28.573s] -- Installing: /home/chinchia120/autoware.ai/install/obj_db/share/obj_db/cmake/obj_dbConfig-version.cmake
+[28.573s] -- Installing: /home/chinchia120/autoware.ai/install/obj_db/share/obj_db/package.xml
+[28.574s] -- Installing: /home/chinchia120/autoware.ai/install/obj_db/lib/obj_db/can_uploader
+[28.576s] -- Set runtime path of "/home/chinchia120/autoware.ai/install/obj_db/lib/obj_db/can_uploader" to ""
+[28.577s] -- Installing: /home/chinchia120/autoware.ai/install/obj_db/lib/obj_db/obj_uploader
+[28.581s] -- Set runtime path of "/home/chinchia120/autoware.ai/install/obj_db/lib/obj_db/obj_uploader" to ""
+[28.587s] -- Installing: /home/chinchia120/autoware.ai/install/obj_db/lib/libobj_db.so
+[28.590s] -- Installing: /home/chinchia120/autoware.ai/install/obj_db/lib/obj_db/obj_downloader
+[28.593s] -- Set runtime path of "/home/chinchia120/autoware.ai/install/obj_db/lib/obj_db/obj_downloader" to ""
+[28.594s] -- Installing: /home/chinchia120/autoware.ai/install/obj_db/include/obj_db/include
+[28.595s] -- Installing: /home/chinchia120/autoware.ai/install/obj_db/include/obj_db/include/obj_db.h
+[28.613s] Invoked command in '/home/chinchia120/autoware.ai/build/obj_db' returned '0': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/gnss:/home/chinchia120/autoware.ai/install/autoware_can_msgs:/home/chinchia120/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/chinchia120/autoware.ai/install/gnss/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/gnss/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/gnss/lib/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_can_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_can_msgs/lib/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/autoware_can_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/gnss/share:/home/chinchia120/autoware.ai/install/autoware_can_msgs/share:/home/chinchia120/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/obj_db --target install -- -j4 -l4

@@ -1,0 +1,58 @@
+[0.031s] Invoking command in '/home/chinchia120/autoware.ai/build/graph_tools': /usr/bin/cmake /home/chinchia120/autoware.ai/src/autoware/utilities/graph_tools -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/chinchia120/autoware.ai/install/graph_tools
+[0.185s] -- The C compiler identification is GNU 7.5.0
+[0.313s] -- The CXX compiler identification is GNU 7.5.0
+[0.325s] -- Check for working C compiler: /usr/bin/cc
+[0.476s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.477s] -- Detecting C compiler ABI info
+[0.648s] -- Detecting C compiler ABI info - done
+[0.668s] -- Detecting C compile features
+[1.128s] -- Detecting C compile features - done
+[1.134s] -- Check for working CXX compiler: /usr/bin/c++
+[1.314s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.317s] -- Detecting CXX compiler ABI info
+[1.486s] -- Detecting CXX compiler ABI info - done
+[1.514s] -- Detecting CXX compile features
+[2.378s] -- Detecting CXX compile features - done
+[2.382s] -- Using CATKIN_DEVEL_PREFIX: /home/chinchia120/autoware.ai/build/graph_tools/devel
+[2.383s] -- Using CMAKE_PREFIX_PATH: /home/chinchia120/catkin_ws/devel;/opt/ros/melodic
+[2.383s] -- This workspace overlays: /home/chinchia120/catkin_ws/devel;/opt/ros/melodic
+[2.418s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[2.419s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[2.419s] -- Using Debian Python package layout
+[2.421s] -- Using empy: /usr/bin/empy
+[2.708s] -- Using CATKIN_ENABLE_TESTING: ON
+[2.708s] -- Call enable_testing()
+[2.713s] -- Using CATKIN_TEST_RESULTS_DIR: /home/chinchia120/autoware.ai/build/graph_tools/test_results
+[2.746s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[2.747s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[2.774s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[2.776s] -- Looking for pthread.h
+[2.946s] -- Looking for pthread.h - found
+[2.948s] -- Looking for pthread_create
+[3.128s] -- Looking for pthread_create - not found
+[3.129s] -- Looking for pthread_create in pthreads
+[3.255s] -- Looking for pthread_create in pthreads - not found
+[3.256s] -- Looking for pthread_create in pthread
+[3.424s] -- Looking for pthread_create in pthread - found
+[3.428s] -- Found Threads: TRUE  
+[3.439s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[3.517s] -- catkin 0.7.29
+[3.518s] -- BUILD_SHARED_LIBS is on
+[3.939s] -- Configuring done
+[3.963s] -- Generating done
+[3.968s] -- Build files have been written to: /home/chinchia120/autoware.ai/build/graph_tools
+[3.978s] Invoked command in '/home/chinchia120/autoware.ai/build/graph_tools' returned '0': /usr/bin/cmake /home/chinchia120/autoware.ai/src/autoware/utilities/graph_tools -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/chinchia120/autoware.ai/install/graph_tools
+[3.980s] Invoking command in '/home/chinchia120/autoware.ai/build/graph_tools': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/graph_tools -- -j4 -l4
+[4.078s] Invoked command in '/home/chinchia120/autoware.ai/build/graph_tools' returned '0': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/graph_tools -- -j4 -l4
+[4.173s] Invoking command in '/home/chinchia120/autoware.ai/build/graph_tools': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/graph_tools --target tests -- -j4 -l4
+[4.296s] [35m[1mScanning dependencies of target tests[0m
+[4.318s] Built target tests
+[4.346s] Invoked command in '/home/chinchia120/autoware.ai/build/graph_tools' returned '0': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/graph_tools --target tests -- -j4 -l4
+[4.437s] Invoking command in '/home/chinchia120/autoware.ai/build/graph_tools': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/graph_tools --target install -- -j4 -l4
+[4.577s] [36mInstall the project...[0m
+[4.601s] -- Install configuration: "Release"
+[4.602s] -- Installing: /home/chinchia120/autoware.ai/install/graph_tools/lib/pkgconfig/graph_tools.pc
+[4.603s] -- Installing: /home/chinchia120/autoware.ai/install/graph_tools/share/graph_tools/cmake/graph_toolsConfig.cmake
+[4.604s] -- Installing: /home/chinchia120/autoware.ai/install/graph_tools/share/graph_tools/cmake/graph_toolsConfig-version.cmake
+[4.605s] -- Installing: /home/chinchia120/autoware.ai/install/graph_tools/share/graph_tools/package.xml
+[4.617s] Invoked command in '/home/chinchia120/autoware.ai/build/graph_tools' returned '0': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/graph_tools --target install -- -j4 -l4

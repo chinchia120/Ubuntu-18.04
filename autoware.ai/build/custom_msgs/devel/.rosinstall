@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/chinchia120/autoware.ai/build/custom_msgs/devel/setup.sh

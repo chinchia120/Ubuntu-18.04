@@ -1,0 +1,10 @@
+/home/chinchia120/autoware.ai/install/lanelet2_traffic_rules/lib/pkgconfig/lanelet2_traffic_rules.pc
+/home/chinchia120/autoware.ai/install/lanelet2_traffic_rules/share/lanelet2_traffic_rules/cmake/lanelet2_traffic_rulesConfig.cmake
+/home/chinchia120/autoware.ai/install/lanelet2_traffic_rules/share/lanelet2_traffic_rules/cmake/lanelet2_traffic_rulesConfig-version.cmake
+/home/chinchia120/autoware.ai/install/lanelet2_traffic_rules/share/lanelet2_traffic_rules/package.xml
+/home/chinchia120/autoware.ai/install/lanelet2_traffic_rules/lib/liblanelet2_traffic_rules.so
+/home/chinchia120/autoware.ai/install/lanelet2_traffic_rules/include/lanelet2_traffic_rules/TrafficRulesFactory.h
+/home/chinchia120/autoware.ai/install/lanelet2_traffic_rules/include/lanelet2_traffic_rules/TrafficRules.h
+/home/chinchia120/autoware.ai/install/lanelet2_traffic_rules/include/lanelet2_traffic_rules/Exceptions.h
+/home/chinchia120/autoware.ai/install/lanelet2_traffic_rules/include/lanelet2_traffic_rules/GermanTrafficRules.h
+/home/chinchia120/autoware.ai/install/lanelet2_traffic_rules/include/lanelet2_traffic_rules/GenericTrafficRules.h

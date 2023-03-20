@@ -1,0 +1,66 @@
+[0.037s] Invoking command in '/home/chinchia120/autoware.ai/build/lidar_point_pillars': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs:/home/chinchia120/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs/share:/home/chinchia120/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/chinchia120/autoware.ai/src/autoware/core_perception/lidar_point_pillars -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/chinchia120/autoware.ai/install/lidar_point_pillars
+[0.202s] -- The C compiler identification is GNU 7.5.0
+[0.326s] -- The CXX compiler identification is GNU 7.5.0
+[0.337s] -- Check for working C compiler: /usr/bin/cc
+[0.487s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.488s] -- Detecting C compiler ABI info
+[0.641s] -- Detecting C compiler ABI info - done
+[0.671s] -- Detecting C compile features
+[1.172s] -- Detecting C compile features - done
+[1.173s] -- Check for working CXX compiler: /usr/bin/c++
+[1.348s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.350s] -- Detecting CXX compiler ABI info
+[1.523s] -- Detecting CXX compiler ABI info - done
+[1.540s] -- Detecting CXX compile features
+[2.404s] -- Detecting CXX compile features - done
+[2.418s] -- Looking for pthread.h
+[2.586s] -- Looking for pthread.h - found
+[2.587s] -- Looking for pthread_create
+[2.775s] -- Looking for pthread_create - not found
+[2.776s] -- Looking for pthread_create in pthreads
+[2.920s] -- Looking for pthread_create in pthreads - not found
+[2.920s] -- Looking for pthread_create in pthread
+[3.092s] -- Looking for pthread_create in pthread - found
+[3.094s] -- Found Threads: TRUE  
+[3.114s] -- Found CUDA: /usr/local/cuda-10.0 (found version "10.0") 
+[3.118s] -- CUDA compilation status: 1.
+[3.144s] CUDA is available!
+[3.144s] CUDA Libs: /usr/local/cuda-10.0/lib64/libcudart_static.a;-lpthread;dl;/usr/lib/x86_64-linux-gnu/librt.so
+[3.144s] CUDA Headers: /usr/local/cuda-10.0/include
+[3.149s] TensorRT is NOT Available
+[3.156s] CUDNN is NOT Available
+[3.160s] -- Using CATKIN_DEVEL_PREFIX: /home/chinchia120/autoware.ai/build/lidar_point_pillars/devel
+[3.160s] -- Using CMAKE_PREFIX_PATH: /home/chinchia120/autoware.ai/install/autoware_msgs;/home/chinchia120/autoware.ai/install/autoware_build_flags;/home/chinchia120/catkin_ws/devel;/opt/ros/melodic
+[3.161s] -- This workspace overlays: /home/chinchia120/autoware.ai/install/autoware_msgs;/home/chinchia120/autoware.ai/install/autoware_build_flags;/home/chinchia120/catkin_ws/devel;/opt/ros/melodic
+[3.196s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[3.196s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[3.196s] -- Using Debian Python package layout
+[3.197s] -- Using empy: /usr/bin/empy
+[3.492s] -- Using CATKIN_ENABLE_TESTING: ON
+[3.493s] -- Call enable_testing()
+[3.498s] -- Using CATKIN_TEST_RESULTS_DIR: /home/chinchia120/autoware.ai/build/lidar_point_pillars/test_results
+[3.529s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[3.529s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[3.556s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[3.568s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[3.656s] -- catkin 0.7.29
+[3.656s] -- BUILD_SHARED_LIBS is on
+[4.161s] PointPillars won't be built, CUDA and/or TensorRT were not found.
+[4.166s] -- Configuring done
+[4.194s] -- Generating done
+[4.200s] -- Build files have been written to: /home/chinchia120/autoware.ai/build/lidar_point_pillars
+[4.209s] Invoked command in '/home/chinchia120/autoware.ai/build/lidar_point_pillars' returned '0': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs:/home/chinchia120/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs/share:/home/chinchia120/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/chinchia120/autoware.ai/src/autoware/core_perception/lidar_point_pillars -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/chinchia120/autoware.ai/install/lidar_point_pillars
+[4.216s] Invoking command in '/home/chinchia120/autoware.ai/build/lidar_point_pillars': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs:/home/chinchia120/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs/share:/home/chinchia120/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/lidar_point_pillars -- -j4 -l4
+[4.322s] Invoked command in '/home/chinchia120/autoware.ai/build/lidar_point_pillars' returned '0': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs:/home/chinchia120/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs/share:/home/chinchia120/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/lidar_point_pillars -- -j4 -l4
+[4.436s] Invoking command in '/home/chinchia120/autoware.ai/build/lidar_point_pillars': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs:/home/chinchia120/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs/share:/home/chinchia120/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/lidar_point_pillars --target tests -- -j4 -l4
+[4.587s] [35m[1mScanning dependencies of target tests[0m
+[4.618s] Built target tests
+[4.652s] Invoked command in '/home/chinchia120/autoware.ai/build/lidar_point_pillars' returned '0': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs:/home/chinchia120/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs/share:/home/chinchia120/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/lidar_point_pillars --target tests -- -j4 -l4
+[4.761s] Invoking command in '/home/chinchia120/autoware.ai/build/lidar_point_pillars': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs:/home/chinchia120/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs/share:/home/chinchia120/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/lidar_point_pillars --target install -- -j4 -l4
+[4.874s] [36mInstall the project...[0m
+[4.893s] -- Install configuration: "Release"
+[4.893s] -- Installing: /home/chinchia120/autoware.ai/install/lidar_point_pillars/lib/pkgconfig/lidar_point_pillars.pc
+[4.894s] -- Installing: /home/chinchia120/autoware.ai/install/lidar_point_pillars/share/lidar_point_pillars/cmake/lidar_point_pillarsConfig.cmake
+[4.894s] -- Installing: /home/chinchia120/autoware.ai/install/lidar_point_pillars/share/lidar_point_pillars/cmake/lidar_point_pillarsConfig-version.cmake
+[4.895s] -- Installing: /home/chinchia120/autoware.ai/install/lidar_point_pillars/share/lidar_point_pillars/package.xml
+[4.905s] Invoked command in '/home/chinchia120/autoware.ai/build/lidar_point_pillars' returned '0': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs:/home/chinchia120/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs/share:/home/chinchia120/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/lidar_point_pillars --target install -- -j4 -l4

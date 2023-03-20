@@ -1,0 +1,106 @@
+[0.028s] Invoking command in '/home/chinchia120/autoware.ai/build/gnss': /usr/bin/cmake /home/chinchia120/autoware.ai/src/autoware/common/gnss -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/chinchia120/autoware.ai/install/gnss
+[0.177s] -- The C compiler identification is GNU 7.5.0
+[0.306s] -- The CXX compiler identification is GNU 7.5.0
+[0.317s] -- Check for working C compiler: /usr/bin/cc
+[0.476s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.477s] -- Detecting C compiler ABI info
+[0.652s] -- Detecting C compiler ABI info - done
+[0.667s] -- Detecting C compile features
+[1.161s] -- Detecting C compile features - done
+[1.167s] -- Check for working CXX compiler: /usr/bin/c++
+[1.385s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.386s] -- Detecting CXX compiler ABI info
+[1.557s] -- Detecting CXX compiler ABI info - done
+[1.576s] -- Detecting CXX compile features
+[2.382s] -- Detecting CXX compile features - done
+[2.385s] -- Using CATKIN_DEVEL_PREFIX: /home/chinchia120/autoware.ai/build/gnss/devel
+[2.386s] -- Using CMAKE_PREFIX_PATH: /home/chinchia120/catkin_ws/devel;/opt/ros/melodic
+[2.386s] -- This workspace overlays: /home/chinchia120/catkin_ws/devel;/opt/ros/melodic
+[2.415s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[2.415s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[2.415s] -- Using Debian Python package layout
+[2.415s] -- Using empy: /usr/bin/empy
+[2.740s] -- Using CATKIN_ENABLE_TESTING: ON
+[2.741s] -- Call enable_testing()
+[2.748s] -- Using CATKIN_TEST_RESULTS_DIR: /home/chinchia120/autoware.ai/build/gnss/test_results
+[2.788s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[2.789s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[2.822s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[2.825s] -- Looking for pthread.h
+[3.000s] -- Looking for pthread.h - found
+[3.000s] -- Looking for pthread_create
+[3.180s] -- Looking for pthread_create - not found
+[3.188s] -- Looking for pthread_create in pthreads
+[3.324s] -- Looking for pthread_create in pthreads - not found
+[3.328s] -- Looking for pthread_create in pthread
+[3.480s] -- Looking for pthread_create in pthread - found
+[3.481s] -- Found Threads: TRUE  
+[3.491s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[3.586s] -- catkin 0.7.29
+[3.586s] -- BUILD_SHARED_LIBS is on
+[4.319s] -- Configuring done
+[4.395s] -- Generating done
+[4.411s] -- Build files have been written to: /home/chinchia120/autoware.ai/build/gnss
+[4.419s] Invoked command in '/home/chinchia120/autoware.ai/build/gnss' returned '0': /usr/bin/cmake /home/chinchia120/autoware.ai/src/autoware/common/gnss -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/chinchia120/autoware.ai/install/gnss
+[4.425s] Invoking command in '/home/chinchia120/autoware.ai/build/gnss': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/gnss -- -j4 -l4
+[4.542s] [35m[1mScanning dependencies of target gnss[0m
+[4.582s] [ 50%] [32mBuilding CXX object CMakeFiles/gnss.dir/src/geo_pos_conv.cpp.o[0m
+[4.807s] [100%] [32m[1mLinking CXX shared library devel/lib/libgnss.so[0m
+[4.952s] [100%] Built target gnss
+[4.986s] Invoked command in '/home/chinchia120/autoware.ai/build/gnss' returned '0': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/gnss -- -j4 -l4
+[5.215s] Invoking command in '/home/chinchia120/autoware.ai/build/gnss': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/gnss --target tests -- -j4 -l4
+[5.345s] [35m[1mScanning dependencies of target gtest[0m
+[5.396s] [ 20%] [32mBuilding CXX object gtest/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[15.780s] [ 40%] [32m[1mLinking CXX shared library libgtest.so[0m
+[15.951s] [ 40%] Built target gtest
+[15.979s] [35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[16.001s] [ 40%] Built target std_msgs_generate_messages_eus
+[16.024s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[16.045s] [ 40%] Built target rosgraph_msgs_generate_messages_lisp
+[16.071s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[16.091s] [ 40%] Built target rosgraph_msgs_generate_messages_eus
+[16.113s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[16.140s] [ 40%] Built target rosgraph_msgs_generate_messages_cpp
+[16.169s] [35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[16.197s] [ 40%] Built target roscpp_generate_messages_py
+[16.219s] [35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[16.245s] [ 40%] Built target std_msgs_generate_messages_py
+[16.266s] [35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+[16.317s] [ 40%] Built target roscpp_generate_messages_nodejs
+[16.340s] [35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[16.361s] [ 40%] Built target roscpp_generate_messages_eus
+[16.381s] [35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[16.403s] [ 40%] Built target roscpp_generate_messages_lisp
+[16.426s] [35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[16.449s] [ 40%] Built target roscpp_generate_messages_cpp
+[16.471s] [35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[16.493s] [ 40%] Built target std_msgs_generate_messages_cpp
+[16.517s] [35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[16.539s] [ 40%] Built target std_msgs_generate_messages_lisp
+[16.564s] [35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[16.587s] [ 40%] Built target std_msgs_generate_messages_nodejs
+[16.610s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[16.633s] [ 40%] Built target rosgraph_msgs_generate_messages_py
+[16.658s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[16.684s] [ 40%] Built target rosgraph_msgs_generate_messages_nodejs
+[16.707s] [35m[1mScanning dependencies of target test_gnss[0m
+[16.767s] [ 60%] [32mBuilding CXX object CMakeFiles/test_gnss.dir/test/test_gnss.cpp.o[0m
+[19.695s] [ 80%] [32mBuilding CXX object CMakeFiles/test_gnss.dir/src/geo_pos_conv.cpp.o[0m
+[20.094s] [100%] [32m[1mLinking CXX executable devel/lib/gnss/test_gnss[0m
+[20.459s] [100%] Built target test_gnss
+[20.494s] [35m[1mScanning dependencies of target tests[0m
+[20.529s] [100%] Built target tests
+[20.564s] Invoked command in '/home/chinchia120/autoware.ai/build/gnss' returned '0': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/gnss --target tests -- -j4 -l4
+[20.774s] Invoking command in '/home/chinchia120/autoware.ai/build/gnss': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/gnss --target install -- -j4 -l4
+[20.933s] [100%] Built target gnss
+[20.979s] [36mInstall the project...[0m
+[20.996s] -- Install configuration: "Release"
+[20.996s] -- Installing: /home/chinchia120/autoware.ai/install/gnss/lib/pkgconfig/gnss.pc
+[20.997s] -- Installing: /home/chinchia120/autoware.ai/install/gnss/share/gnss/cmake/gnssConfig.cmake
+[20.998s] -- Installing: /home/chinchia120/autoware.ai/install/gnss/share/gnss/cmake/gnssConfig-version.cmake
+[20.998s] -- Installing: /home/chinchia120/autoware.ai/install/gnss/share/gnss/package.xml
+[20.998s] -- Installing: /home/chinchia120/autoware.ai/install/gnss/include/gnss
+[20.998s] -- Installing: /home/chinchia120/autoware.ai/install/gnss/include/gnss/geo_pos_conv.hpp
+[20.999s] -- Installing: /home/chinchia120/autoware.ai/install/gnss/lib/libgnss.so
+[20.999s] -- Set runtime path of "/home/chinchia120/autoware.ai/install/gnss/lib/libgnss.so" to ""
+[21.005s] Invoked command in '/home/chinchia120/autoware.ai/build/gnss' returned '0': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/gnss --target install -- -j4 -l4

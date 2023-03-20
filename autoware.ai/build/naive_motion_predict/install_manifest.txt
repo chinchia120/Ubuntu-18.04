@@ -1,0 +1,6 @@
+/home/chinchia120/autoware.ai/install/naive_motion_predict/lib/pkgconfig/naive_motion_predict.pc
+/home/chinchia120/autoware.ai/install/naive_motion_predict/share/naive_motion_predict/cmake/naive_motion_predictConfig.cmake
+/home/chinchia120/autoware.ai/install/naive_motion_predict/share/naive_motion_predict/cmake/naive_motion_predictConfig-version.cmake
+/home/chinchia120/autoware.ai/install/naive_motion_predict/share/naive_motion_predict/package.xml
+/home/chinchia120/autoware.ai/install/naive_motion_predict/lib/naive_motion_predict/naive_motion_predict
+/home/chinchia120/autoware.ai/install/naive_motion_predict/share/naive_motion_predict/launch/naive_motion_predict.launch

@@ -1,0 +1,78 @@
+[0.044s] Invoking command in '/home/chinchia120/autoware.ai/build/rosinterface': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/chinchia120/autoware.ai/src/autoware/visualization/rosinterface -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/chinchia120/autoware.ai/install/rosinterface
+[0.236s] -- The C compiler identification is GNU 7.5.0
+[0.386s] -- The CXX compiler identification is GNU 7.5.0
+[0.400s] -- Check for working C compiler: /usr/bin/cc
+[0.569s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.570s] -- Detecting C compiler ABI info
+[0.750s] -- Detecting C compiler ABI info - done
+[0.777s] -- Detecting C compile features
+[1.243s] -- Detecting C compile features - done
+[1.248s] -- Check for working CXX compiler: /usr/bin/c++
+[1.434s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.435s] -- Detecting CXX compiler ABI info
+[1.643s] -- Detecting CXX compiler ABI info - done
+[1.666s] -- Detecting CXX compile features
+[2.511s] -- Detecting CXX compile features - done
+[2.522s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[2.525s] -- CUDA compilation status: 1.
+[2.528s] -- Using CATKIN_DEVEL_PREFIX: /home/chinchia120/autoware.ai/build/rosinterface/devel
+[2.528s] -- Using CMAKE_PREFIX_PATH: /home/chinchia120/autoware.ai/install/autoware_build_flags;/home/chinchia120/catkin_ws/devel;/opt/ros/melodic
+[2.528s] -- This workspace overlays: /home/chinchia120/autoware.ai/install/autoware_build_flags;/home/chinchia120/catkin_ws/devel;/opt/ros/melodic
+[2.560s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[2.560s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[2.560s] -- Using Debian Python package layout
+[2.561s] -- Using empy: /usr/bin/empy
+[2.880s] -- Using CATKIN_ENABLE_TESTING: ON
+[2.880s] -- Call enable_testing()
+[2.890s] -- Using CATKIN_TEST_RESULTS_DIR: /home/chinchia120/autoware.ai/build/rosinterface/test_results
+[2.928s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[2.928s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[2.951s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[2.953s] -- Looking for pthread.h
+[3.130s] -- Looking for pthread.h - found
+[3.131s] -- Looking for pthread_create
+[3.304s] -- Looking for pthread_create - not found
+[3.304s] -- Looking for pthread_create in pthreads
+[3.456s] -- Looking for pthread_create in pthreads - not found
+[3.457s] -- Looking for pthread_create in pthread
+[3.635s] -- Looking for pthread_create in pthread - found
+[3.639s] -- Found Threads: TRUE  
+[3.648s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[3.729s] -- catkin 0.7.29
+[3.730s] -- BUILD_SHARED_LIBS is on
+[4.187s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[4.673s] -- Configuring done
+[4.747s] -- Generating done
+[4.759s] -- Build files have been written to: /home/chinchia120/autoware.ai/build/rosinterface
+[4.765s] Invoked command in '/home/chinchia120/autoware.ai/build/rosinterface' returned '0': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/chinchia120/autoware.ai/src/autoware/visualization/rosinterface -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/chinchia120/autoware.ai/install/rosinterface
+[4.771s] Invoking command in '/home/chinchia120/autoware.ai/build/rosinterface': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/rosinterface -- -j4 -l4
+[4.865s] [35m[1mScanning dependencies of target rosinterface_autogen[0m
+[4.891s] [ 16%] [34m[1mAutomatic MOC for target rosinterface[0m
+[4.952s] [ 16%] Built target rosinterface_autogen
+[4.982s] [ 33%] [34m[1mGenerating include/rosinterface/moc_rosinterface.cpp[0m
+[6.484s] [35m[1mScanning dependencies of target rosinterface[0m
+[6.637s] [ 50%] [32mBuilding CXX object CMakeFiles/rosinterface.dir/ROSInterface/rosinterface.cpp.o[0m
+[26.731s] [ 66%] [32mBuilding CXX object CMakeFiles/rosinterface.dir/rosinterface_autogen/mocs_compilation.cpp.o[0m
+[26.785s] [ 83%] [32mBuilding CXX object CMakeFiles/rosinterface.dir/include/rosinterface/moc_rosinterface.cpp.o[0m
+[38.702s] [100%] [32m[1mLinking CXX shared library devel/lib/librosinterface.so[0m
+[39.161s] [100%] Built target rosinterface
+[39.234s] Invoked command in '/home/chinchia120/autoware.ai/build/rosinterface' returned '0': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/rosinterface -- -j4 -l4
+[39.528s] Invoking command in '/home/chinchia120/autoware.ai/build/rosinterface': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/rosinterface --target tests -- -j4 -l4
+[39.701s] [35m[1mScanning dependencies of target tests[0m
+[39.739s] Built target tests
+[39.783s] Invoked command in '/home/chinchia120/autoware.ai/build/rosinterface' returned '0': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/rosinterface --target tests -- -j4 -l4
+[40.115s] Invoking command in '/home/chinchia120/autoware.ai/build/rosinterface': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/rosinterface --target install -- -j4 -l4
+[40.310s] [ 16%] [34m[1mAutomatic MOC for target rosinterface[0m
+[40.387s] [ 16%] Built target rosinterface_autogen
+[40.512s] [100%] Built target rosinterface
+[40.616s] [36mInstall the project...[0m
+[40.640s] -- Install configuration: "Release"
+[40.640s] -- Installing: /home/chinchia120/autoware.ai/install/rosinterface/lib/pkgconfig/rosinterface.pc
+[40.640s] -- Installing: /home/chinchia120/autoware.ai/install/rosinterface/share/rosinterface/cmake/rosinterfaceConfig.cmake
+[40.640s] -- Installing: /home/chinchia120/autoware.ai/install/rosinterface/share/rosinterface/cmake/rosinterfaceConfig-version.cmake
+[40.641s] -- Installing: /home/chinchia120/autoware.ai/install/rosinterface/share/rosinterface/package.xml
+[40.641s] -- Installing: /home/chinchia120/autoware.ai/install/rosinterface/include/rosinterface
+[40.642s] -- Installing: /home/chinchia120/autoware.ai/install/rosinterface/include/rosinterface/rosinterface.h
+[40.642s] -- Installing: /home/chinchia120/autoware.ai/install/rosinterface/lib/librosinterface.so
+[40.652s] -- Set runtime path of "/home/chinchia120/autoware.ai/install/rosinterface/lib/librosinterface.so" to ""
+[40.659s] Invoked command in '/home/chinchia120/autoware.ai/build/rosinterface' returned '0': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/rosinterface --target install -- -j4 -l4

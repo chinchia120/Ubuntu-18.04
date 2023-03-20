@@ -1,0 +1,166 @@
+[0.027s] Invoking command in '/home/chinchia120/autoware.ai/build/twist2odom': /usr/bin/cmake /home/chinchia120/autoware.ai/src/autoware/utilities/twist2odom -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/chinchia120/autoware.ai/install/twist2odom
+[0.170s] -- The C compiler identification is GNU 7.5.0
+[0.289s] -- The CXX compiler identification is GNU 7.5.0
+[0.297s] -- Check for working C compiler: /usr/bin/cc
+[0.456s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.456s] -- Detecting C compiler ABI info
+[0.620s] -- Detecting C compiler ABI info - done
+[0.640s] -- Detecting C compile features
+[1.096s] -- Detecting C compile features - done
+[1.096s] -- Check for working CXX compiler: /usr/bin/c++
+[1.248s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.248s] -- Detecting CXX compiler ABI info
+[1.404s] -- Detecting CXX compiler ABI info - done
+[1.426s] -- Detecting CXX compile features
+[2.189s] -- Detecting CXX compile features - done
+[2.194s] -- Using CATKIN_DEVEL_PREFIX: /home/chinchia120/autoware.ai/build/twist2odom/devel
+[2.194s] -- Using CMAKE_PREFIX_PATH: /home/chinchia120/catkin_ws/devel;/opt/ros/melodic
+[2.194s] -- This workspace overlays: /home/chinchia120/catkin_ws/devel;/opt/ros/melodic
+[2.222s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[2.222s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[2.223s] -- Using Debian Python package layout
+[2.224s] -- Using empy: /usr/bin/empy
+[2.496s] -- Using CATKIN_ENABLE_TESTING: ON
+[2.496s] -- Call enable_testing()
+[2.508s] -- Using CATKIN_TEST_RESULTS_DIR: /home/chinchia120/autoware.ai/build/twist2odom/test_results
+[2.534s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[2.534s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[2.572s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[2.572s] -- Looking for pthread.h
+[2.715s] -- Looking for pthread.h - found
+[2.716s] -- Looking for pthread_create
+[2.888s] -- Looking for pthread_create - not found
+[2.888s] -- Looking for pthread_create in pthreads
+[3.020s] -- Looking for pthread_create in pthreads - not found
+[3.020s] -- Looking for pthread_create in pthread
+[3.170s] -- Looking for pthread_create in pthread - found
+[3.170s] -- Found Threads: TRUE  
+[3.170s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[3.246s] -- catkin 0.7.29
+[3.247s] -- BUILD_SHARED_LIBS is on
+[3.516s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[3.935s] -- Configuring done
+[4.006s] -- Generating done
+[4.017s] -- Build files have been written to: /home/chinchia120/autoware.ai/build/twist2odom
+[4.024s] Invoked command in '/home/chinchia120/autoware.ai/build/twist2odom' returned '0': /usr/bin/cmake /home/chinchia120/autoware.ai/src/autoware/utilities/twist2odom -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/chinchia120/autoware.ai/install/twist2odom
+[4.029s] Invoking command in '/home/chinchia120/autoware.ai/build/twist2odom': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/twist2odom -- -j4 -l4
+[4.133s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[4.161s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[4.206s] [35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[4.232s] [  0%] Built target std_msgs_generate_messages_nodejs
+[4.253s] [35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[4.274s] [  0%] Built target std_msgs_generate_messages_lisp
+[4.296s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[4.321s] [  0%] Built target geometry_msgs_generate_messages_py
+[4.350s] [35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[4.378s] [  0%] Built target roscpp_generate_messages_cpp
+[4.411s] [35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[4.433s] [  0%] Built target std_msgs_generate_messages_eus
+[4.459s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[4.482s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[4.504s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[4.530s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[4.559s] [35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[4.588s] [  0%] Built target roscpp_generate_messages_py
+[4.612s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_nodejs[0m
+[4.638s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[4.663s] [35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[4.685s] [  0%] Built target std_msgs_generate_messages_cpp
+[4.706s] [35m[1mScanning dependencies of target nav_msgs_generate_messages_nodejs[0m
+[4.728s] [  0%] Built target nav_msgs_generate_messages_nodejs
+[4.757s] [35m[1mScanning dependencies of target nav_msgs_generate_messages_lisp[0m
+[4.784s] [  0%] Built target nav_msgs_generate_messages_lisp
+[4.805s] [35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[4.830s] [  0%] Built target roscpp_generate_messages_lisp
+[4.856s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[4.878s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[4.904s] [35m[1mScanning dependencies of target nav_msgs_generate_messages_cpp[0m
+[4.927s] [  0%] Built target nav_msgs_generate_messages_cpp
+[4.957s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[4.987s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[5.009s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[5.039s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[5.068s] [35m[1mScanning dependencies of target nav_msgs_generate_messages_eus[0m
+[5.096s] [  0%] Built target nav_msgs_generate_messages_eus
+[5.118s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_cpp[0m
+[5.148s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[5.169s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[5.191s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[5.218s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_eus[0m
+[5.246s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[5.277s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_lisp[0m
+[5.303s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[5.337s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_py[0m
+[5.372s] [  0%] Built target actionlib_msgs_generate_messages_py
+[5.395s] [35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+[5.416s] [  0%] Built target roscpp_generate_messages_nodejs
+[5.435s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[5.457s] [  0%] Built target geometry_msgs_generate_messages_eus
+[5.484s] [35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[5.509s] [  0%] Built target roscpp_generate_messages_eus
+[5.530s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[5.558s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[5.586s] [35m[1mScanning dependencies of target nav_msgs_generate_messages_py[0m
+[5.617s] [  0%] Built target nav_msgs_generate_messages_py
+[5.638s] [35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[5.660s] [  0%] Built target std_msgs_generate_messages_py
+[5.685s] [35m[1mScanning dependencies of target twist2odom[0m
+[5.739s] [ 33%] [32mBuilding CXX object CMakeFiles/twist2odom.dir/src/twist2odom.cpp.o[0m
+[9.542s] [ 66%] [32mBuilding CXX object CMakeFiles/twist2odom.dir/src/twist2odom_node.cpp.o[0m
+[12.011s] [100%] [32m[1mLinking CXX executable devel/lib/twist2odom/twist2odom[0m
+[12.267s] [100%] Built target twist2odom
+[12.292s] Invoked command in '/home/chinchia120/autoware.ai/build/twist2odom' returned '0': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/twist2odom -- -j4 -l4
+[12.511s] Invoking command in '/home/chinchia120/autoware.ai/build/twist2odom': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/twist2odom --target tests -- -j4 -l4
+[12.642s] [35m[1mScanning dependencies of target gtest[0m
+[12.693s] [ 20%] [32mBuilding CXX object gtest/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[21.434s] [ 40%] [32m[1mLinking CXX shared library libgtest.so[0m
+[21.593s] [ 40%] Built target gtest
+[21.624s] [35m[1mScanning dependencies of target twist2odom_test[0m
+[21.686s] [ 60%] [32mBuilding CXX object CMakeFiles/twist2odom_test.dir/test/twist2odom_test.cpp.o[0m
+[26.369s] [ 80%] [32mBuilding CXX object CMakeFiles/twist2odom_test.dir/src/twist2odom.cpp.o[0m
+[30.150s] [100%] [32m[1mLinking CXX executable devel/lib/twist2odom/twist2odom_test[0m
+[30.455s] [100%] Built target twist2odom_test
+[30.487s] [35m[1mScanning dependencies of target tests[0m
+[30.519s] [100%] Built target tests
+[30.552s] Invoked command in '/home/chinchia120/autoware.ai/build/twist2odom' returned '0': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/twist2odom --target tests -- -j4 -l4
+[30.739s] Invoking command in '/home/chinchia120/autoware.ai/build/twist2odom': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/twist2odom --target install -- -j4 -l4
+[30.862s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[30.938s] [  0%] Built target std_msgs_generate_messages_nodejs
+[31.005s] [  0%] Built target std_msgs_generate_messages_lisp
+[31.060s] [  0%] Built target geometry_msgs_generate_messages_py
+[31.119s] [  0%] Built target roscpp_generate_messages_cpp
+[31.171s] [  0%] Built target std_msgs_generate_messages_eus
+[31.248s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[31.305s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[31.361s] [  0%] Built target roscpp_generate_messages_py
+[31.414s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[31.466s] [  0%] Built target std_msgs_generate_messages_cpp
+[31.525s] [  0%] Built target nav_msgs_generate_messages_nodejs
+[31.585s] [  0%] Built target nav_msgs_generate_messages_lisp
+[31.635s] [  0%] Built target roscpp_generate_messages_lisp
+[31.681s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[31.737s] [  0%] Built target nav_msgs_generate_messages_cpp
+[31.793s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[31.851s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[31.906s] [  0%] Built target nav_msgs_generate_messages_eus
+[31.965s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[32.021s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[32.081s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[32.146s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[32.203s] [  0%] Built target actionlib_msgs_generate_messages_py
+[32.261s] [  0%] Built target roscpp_generate_messages_nodejs
+[32.314s] [  0%] Built target geometry_msgs_generate_messages_eus
+[32.370s] [  0%] Built target roscpp_generate_messages_eus
+[32.435s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[32.494s] [  0%] Built target nav_msgs_generate_messages_py
+[32.551s] [  0%] Built target std_msgs_generate_messages_py
+[32.616s] [100%] Built target twist2odom
+[32.673s] [36mInstall the project...[0m
+[32.702s] -- Install configuration: "Release"
+[32.703s] -- Installing: /home/chinchia120/autoware.ai/install/twist2odom/lib/pkgconfig/twist2odom.pc
+[32.704s] -- Installing: /home/chinchia120/autoware.ai/install/twist2odom/share/twist2odom/cmake/twist2odomConfig.cmake
+[32.705s] -- Installing: /home/chinchia120/autoware.ai/install/twist2odom/share/twist2odom/cmake/twist2odomConfig-version.cmake
+[32.705s] -- Installing: /home/chinchia120/autoware.ai/install/twist2odom/share/twist2odom/package.xml
+[32.706s] -- Installing: /home/chinchia120/autoware.ai/install/twist2odom/lib/twist2odom/twist2odom
+[32.707s] -- Set runtime path of "/home/chinchia120/autoware.ai/install/twist2odom/lib/twist2odom/twist2odom" to ""
+[32.718s] Invoked command in '/home/chinchia120/autoware.ai/build/twist2odom' returned '0': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/twist2odom --target install -- -j4 -l4

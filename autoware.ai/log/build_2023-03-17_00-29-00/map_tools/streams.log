@@ -1,0 +1,109 @@
+[0.032s] Invoking command in '/home/chinchia120/autoware.ai/build/map_tools': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/chinchia120/autoware.ai/src/autoware/utilities/map_tools -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/chinchia120/autoware.ai/install/map_tools
+[0.171s] -- The C compiler identification is GNU 7.5.0
+[0.293s] -- The CXX compiler identification is GNU 7.5.0
+[0.305s] -- Check for working C compiler: /usr/bin/cc
+[0.449s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.449s] -- Detecting C compiler ABI info
+[0.612s] -- Detecting C compiler ABI info - done
+[0.625s] -- Detecting C compile features
+[1.049s] -- Detecting C compile features - done
+[1.056s] -- Check for working CXX compiler: /usr/bin/c++
+[1.213s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.213s] -- Detecting CXX compiler ABI info
+[1.393s] -- Detecting CXX compiler ABI info - done
+[1.409s] -- Detecting CXX compile features
+[2.126s] -- Detecting CXX compile features - done
+[2.130s] -- CUDA compilation status: 1.
+[2.133s] -- Using CATKIN_DEVEL_PREFIX: /home/chinchia120/autoware.ai/build/map_tools/devel
+[2.133s] -- Using CMAKE_PREFIX_PATH: /home/chinchia120/autoware.ai/install/autoware_build_flags;/home/chinchia120/catkin_ws/devel;/opt/ros/melodic
+[2.134s] -- This workspace overlays: /home/chinchia120/autoware.ai/install/autoware_build_flags;/home/chinchia120/catkin_ws/devel;/opt/ros/melodic
+[2.159s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[2.159s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[2.160s] -- Using Debian Python package layout
+[2.160s] -- Using empy: /usr/bin/empy
+[2.408s] -- Using CATKIN_ENABLE_TESTING: ON
+[2.408s] -- Call enable_testing()
+[2.421s] -- Using CATKIN_TEST_RESULTS_DIR: /home/chinchia120/autoware.ai/build/map_tools/test_results
+[2.443s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[2.443s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[2.482s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[2.482s] -- Looking for pthread.h
+[2.629s] -- Looking for pthread.h - found
+[2.630s] -- Looking for pthread_create
+[2.761s] -- Looking for pthread_create - not found
+[2.761s] -- Looking for pthread_create in pthreads
+[2.893s] -- Looking for pthread_create in pthreads - not found
+[2.893s] -- Looking for pthread_create in pthread
+[3.057s] -- Looking for pthread_create in pthread - found
+[3.057s] -- Found Threads: TRUE  
+[3.057s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[3.120s] -- catkin 0.7.29
+[3.120s] -- BUILD_SHARED_LIBS is on
+[4.573s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[5.638s] -- Configuring done
+[6.108s] -- Generating done
+[6.143s] -- Build files have been written to: /home/chinchia120/autoware.ai/build/map_tools
+[6.157s] Invoked command in '/home/chinchia120/autoware.ai/build/map_tools' returned '0': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/chinchia120/autoware.ai/src/autoware/utilities/map_tools -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/chinchia120/autoware.ai/install/map_tools
+[6.160s] Invoking command in '/home/chinchia120/autoware.ai/build/map_tools': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/map_tools -- -j4 -l4
+[6.271s] [35m[1mScanning dependencies of target pcd_grid_divider[0m
+[6.374s] [  7%] [32mBuilding CXX object CMakeFiles/pcd_grid_divider.dir/nodes/pcd_grid_divider/pcd_grid_divider.cpp.o[0m
+[28.444s] [ 14%] [32m[1mLinking CXX executable devel/lib/map_tools/pcd_grid_divider[0m
+[29.549s] [ 14%] Built target pcd_grid_divider
+[29.575s] [35m[1mScanning dependencies of target csv2pcd[0m
+[29.682s] [ 21%] [32mBuilding CXX object CMakeFiles/csv2pcd.dir/nodes/pcd_converter/csv2pcd.cpp.o[0m
+[45.537s] [ 28%] [32m[1mLinking CXX executable devel/lib/map_tools/csv2pcd[0m
+[46.792s] [ 28%] Built target csv2pcd
+[46.821s] [35m[1mScanning dependencies of target pcd_arealist[0m
+[46.938s] [ 35%] [32mBuilding CXX object CMakeFiles/pcd_arealist.dir/nodes/pcd_arealist/pcd_arealist.cpp.o[0m
+[62.426s] [ 42%] [32m[1mLinking CXX executable devel/lib/map_tools/pcd_arealist[0m
+[63.527s] [ 42%] Built target pcd_arealist
+[63.561s] [35m[1mScanning dependencies of target pcd_binarizer[0m
+[63.685s] [ 50%] [32mBuilding CXX object CMakeFiles/pcd_binarizer.dir/nodes/pcd_binarizer/pcd_binarizer.cpp.o[0m
+[78.436s] [ 57%] [32m[1mLinking CXX executable devel/lib/map_tools/pcd_binarizer[0m
+[79.417s] [ 57%] Built target pcd_binarizer
+[79.438s] [35m[1mScanning dependencies of target pcd_filter[0m
+[79.534s] [ 64%] [32mBuilding CXX object CMakeFiles/pcd_filter.dir/nodes/pcd_filter/pcd_filter.cpp.o[0m
+[105.028s] [ 71%] [32m[1mLinking CXX executable devel/lib/map_tools/pcd_filter[0m
+[109.528s] [ 71%] Built target pcd_filter
+[109.558s] [35m[1mScanning dependencies of target pcd2csv[0m
+[109.657s] [ 78%] [32mBuilding CXX object CMakeFiles/pcd2csv.dir/nodes/pcd_converter/pcd2csv.cpp.o[0m
+[140.909s] [ 85%] [32m[1mLinking CXX executable devel/lib/map_tools/pcd2csv[0m
+[142.950s] [ 85%] Built target pcd2csv
+[142.974s] [35m[1mScanning dependencies of target map_extender[0m
+[143.132s] [ 92%] [32mBuilding CXX object CMakeFiles/map_extender.dir/nodes/map_extender/map_extender.cpp.o[0m
+[200.182s] [100%] [32m[1mLinking CXX executable devel/lib/map_tools/map_extender[0m
+[206.860s] [100%] Built target map_extender
+[207.017s] Invoked command in '/home/chinchia120/autoware.ai/build/map_tools' returned '0': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/map_tools -- -j4 -l4
+[207.584s] Invoking command in '/home/chinchia120/autoware.ai/build/map_tools': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/map_tools --target tests -- -j4 -l4
+[207.863s] [35m[1mScanning dependencies of target tests[0m
+[207.900s] Built target tests
+[207.964s] Invoked command in '/home/chinchia120/autoware.ai/build/map_tools' returned '0': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/map_tools --target tests -- -j4 -l4
+[208.448s] Invoking command in '/home/chinchia120/autoware.ai/build/map_tools': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/map_tools --target install -- -j4 -l4
+[208.867s] [ 14%] Built target pcd_grid_divider
+[208.989s] [ 28%] Built target csv2pcd
+[209.142s] [ 42%] Built target pcd_arealist
+[209.303s] [ 57%] Built target pcd_binarizer
+[209.414s] [ 71%] Built target pcd_filter
+[209.519s] [ 85%] Built target pcd2csv
+[209.679s] [100%] Built target map_extender
+[209.755s] [36mInstall the project...[0m
+[210.048s] -- Install configuration: "Release"
+[210.048s] -- Installing: /home/chinchia120/autoware.ai/install/map_tools/lib/pkgconfig/map_tools.pc
+[210.049s] -- Installing: /home/chinchia120/autoware.ai/install/map_tools/share/map_tools/cmake/map_toolsConfig.cmake
+[210.049s] -- Installing: /home/chinchia120/autoware.ai/install/map_tools/share/map_tools/cmake/map_toolsConfig-version.cmake
+[210.050s] -- Installing: /home/chinchia120/autoware.ai/install/map_tools/share/map_tools/package.xml
+[210.051s] -- Installing: /home/chinchia120/autoware.ai/install/map_tools/lib/map_tools/csv2pcd
+[210.149s] -- Set runtime path of "/home/chinchia120/autoware.ai/install/map_tools/lib/map_tools/csv2pcd" to ""
+[210.150s] -- Installing: /home/chinchia120/autoware.ai/install/map_tools/lib/map_tools/map_extender
+[210.233s] -- Set runtime path of "/home/chinchia120/autoware.ai/install/map_tools/lib/map_tools/map_extender" to ""
+[210.234s] -- Installing: /home/chinchia120/autoware.ai/install/map_tools/lib/map_tools/pcd2csv
+[210.249s] -- Set runtime path of "/home/chinchia120/autoware.ai/install/map_tools/lib/map_tools/pcd2csv" to ""
+[210.249s] -- Installing: /home/chinchia120/autoware.ai/install/map_tools/lib/map_tools/pcd_arealist
+[210.360s] -- Set runtime path of "/home/chinchia120/autoware.ai/install/map_tools/lib/map_tools/pcd_arealist" to ""
+[210.360s] -- Installing: /home/chinchia120/autoware.ai/install/map_tools/lib/map_tools/pcd_binarizer
+[210.412s] -- Set runtime path of "/home/chinchia120/autoware.ai/install/map_tools/lib/map_tools/pcd_binarizer" to ""
+[210.413s] -- Installing: /home/chinchia120/autoware.ai/install/map_tools/lib/map_tools/pcd_filter
+[210.428s] -- Set runtime path of "/home/chinchia120/autoware.ai/install/map_tools/lib/map_tools/pcd_filter" to ""
+[210.428s] -- Installing: /home/chinchia120/autoware.ai/install/map_tools/lib/map_tools/pcd_grid_divider
+[210.654s] -- Set runtime path of "/home/chinchia120/autoware.ai/install/map_tools/lib/map_tools/pcd_grid_divider" to ""
+[210.664s] Invoked command in '/home/chinchia120/autoware.ai/build/map_tools' returned '0': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/map_tools --target install -- -j4 -l4

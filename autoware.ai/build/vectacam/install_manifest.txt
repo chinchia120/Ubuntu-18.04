@@ -1,0 +1,7 @@
+/home/chinchia120/autoware.ai/install/vectacam/lib/pkgconfig/vectacam.pc
+/home/chinchia120/autoware.ai/install/vectacam/share/vectacam/cmake/vectacamConfig.cmake
+/home/chinchia120/autoware.ai/install/vectacam/share/vectacam/cmake/vectacamConfig-version.cmake
+/home/chinchia120/autoware.ai/install/vectacam/share/vectacam/package.xml
+/home/chinchia120/autoware.ai/install/vectacam/lib/vectacam/vectacam_node
+/home/chinchia120/autoware.ai/install/vectacam/share/vectacam/launch/vectacam.launch
+/home/chinchia120/autoware.ai/install/vectacam/share/vectacam/launch/initialization_params.txt

@@ -1,0 +1,8 @@
+prefix=/home/chinchia120/autoware.ai/build/lanelet2_python/devel
+
+Name: lanelet2_python
+Description: Description of lanelet2_python
+Version: 0.8.0
+Cflags: -I/usr/include/python2.7
+Libs: -L${prefix}/lib /usr/lib/x86_64-linux-gnu/libboost_python.so /usr/lib/x86_64-linux-gnu/libboost_numpy.so /usr/lib/x86_64-linux-gnu/libpython2.7.so
+Requires: lanelet2_projection lanelet2_io lanelet2_core lanelet2_traffic_rules lanelet2_routing

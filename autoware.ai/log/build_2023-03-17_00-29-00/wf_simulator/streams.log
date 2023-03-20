@@ -1,0 +1,226 @@
+[0.143s] Invoking command in '/home/chinchia120/autoware.ai/build/wf_simulator': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/vehicle_sim_model:/home/chinchia120/autoware.ai/install/autoware_health_checker:/home/chinchia120/autoware.ai/install/amathutils_lib:/home/chinchia120/autoware.ai/install/ros_observer:/home/chinchia120/autoware.ai/install/autoware_system_msgs:/home/chinchia120/autoware.ai/install/autoware_msgs:/home/chinchia120/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/chinchia120/autoware.ai/install/vehicle_sim_model/lib:/home/chinchia120/autoware.ai/install/autoware_health_checker/lib:/home/chinchia120/autoware.ai/install/amathutils_lib/lib:/home/chinchia120/autoware.ai/install/ros_observer/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/vehicle_sim_model/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/vehicle_sim_model/lib/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_health_checker/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_health_checker/lib/pkgconfig:/home/chinchia120/autoware.ai/install/amathutils_lib/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/amathutils_lib/lib/pkgconfig:/home/chinchia120/autoware.ai/install/ros_observer/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/ros_observer/lib/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_system_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_system_msgs/lib/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/autoware_system_msgs/lib/python2.7/dist-packages:/home/chinchia120/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/vehicle_sim_model/share:/home/chinchia120/autoware.ai/install/autoware_health_checker/share:/home/chinchia120/autoware.ai/install/amathutils_lib/share:/home/chinchia120/autoware.ai/install/ros_observer/share:/home/chinchia120/autoware.ai/install/autoware_system_msgs/share:/home/chinchia120/autoware.ai/install/autoware_msgs/share:/home/chinchia120/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/chinchia120/autoware.ai/src/autoware/simulation/wf_simulator -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/chinchia120/autoware.ai/install/wf_simulator
+[0.308s] -- The C compiler identification is GNU 7.5.0
+[0.484s] -- The CXX compiler identification is GNU 7.5.0
+[0.497s] -- Check for working C compiler: /usr/bin/cc
+[0.672s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.672s] -- Detecting C compiler ABI info
+[0.851s] -- Detecting C compiler ABI info - done
+[0.867s] -- Detecting C compile features
+[1.422s] -- Detecting C compile features - done
+[1.428s] -- Check for working CXX compiler: /usr/bin/c++
+[1.628s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.629s] -- Detecting CXX compiler ABI info
+[1.839s] -- Detecting CXX compiler ABI info - done
+[1.868s] -- Detecting CXX compile features
+[2.783s] -- Detecting CXX compile features - done
+[2.788s] -- CUDA compilation status: 1.
+[2.794s] -- Using CATKIN_DEVEL_PREFIX: /home/chinchia120/autoware.ai/build/wf_simulator/devel
+[2.795s] -- Using CMAKE_PREFIX_PATH: /home/chinchia120/autoware.ai/install/vehicle_sim_model;/home/chinchia120/autoware.ai/install/autoware_health_checker;/home/chinchia120/autoware.ai/install/amathutils_lib;/home/chinchia120/autoware.ai/install/ros_observer;/home/chinchia120/autoware.ai/install/autoware_system_msgs;/home/chinchia120/autoware.ai/install/autoware_msgs;/home/chinchia120/autoware.ai/install/autoware_build_flags;/home/chinchia120/catkin_ws/devel;/opt/ros/melodic
+[2.797s] -- This workspace overlays: /home/chinchia120/autoware.ai/install/vehicle_sim_model;/home/chinchia120/autoware.ai/install/autoware_health_checker;/home/chinchia120/autoware.ai/install/amathutils_lib;/home/chinchia120/autoware.ai/install/ros_observer;/home/chinchia120/autoware.ai/install/autoware_system_msgs;/home/chinchia120/autoware.ai/install/autoware_msgs;/home/chinchia120/autoware.ai/install/autoware_build_flags;/home/chinchia120/catkin_ws/devel;/opt/ros/melodic
+[2.827s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[2.828s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[2.828s] -- Using Debian Python package layout
+[2.829s] -- Using empy: /usr/bin/empy
+[3.134s] -- Using CATKIN_ENABLE_TESTING: ON
+[3.135s] -- Call enable_testing()
+[3.140s] -- Using CATKIN_TEST_RESULTS_DIR: /home/chinchia120/autoware.ai/build/wf_simulator/test_results
+[3.192s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[3.192s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[3.226s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[3.228s] -- Looking for pthread.h
+[3.418s] -- Looking for pthread.h - found
+[3.419s] -- Looking for pthread_create
+[3.602s] -- Looking for pthread_create - not found
+[3.602s] -- Looking for pthread_create in pthreads
+[3.752s] -- Looking for pthread_create in pthreads - not found
+[3.752s] -- Looking for pthread_create in pthread
+[3.937s] -- Looking for pthread_create in pthread - found
+[3.940s] -- Found Threads: TRUE  
+[3.951s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[4.047s] -- catkin 0.7.29
+[4.047s] -- BUILD_SHARED_LIBS is on
+[4.510s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[5.385s] -- Configuring done
+[5.539s] -- Generating done
+[5.569s] -- Build files have been written to: /home/chinchia120/autoware.ai/build/wf_simulator
+[5.578s] Invoked command in '/home/chinchia120/autoware.ai/build/wf_simulator' returned '0': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/vehicle_sim_model:/home/chinchia120/autoware.ai/install/autoware_health_checker:/home/chinchia120/autoware.ai/install/amathutils_lib:/home/chinchia120/autoware.ai/install/ros_observer:/home/chinchia120/autoware.ai/install/autoware_system_msgs:/home/chinchia120/autoware.ai/install/autoware_msgs:/home/chinchia120/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/chinchia120/autoware.ai/install/vehicle_sim_model/lib:/home/chinchia120/autoware.ai/install/autoware_health_checker/lib:/home/chinchia120/autoware.ai/install/amathutils_lib/lib:/home/chinchia120/autoware.ai/install/ros_observer/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/vehicle_sim_model/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/vehicle_sim_model/lib/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_health_checker/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_health_checker/lib/pkgconfig:/home/chinchia120/autoware.ai/install/amathutils_lib/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/amathutils_lib/lib/pkgconfig:/home/chinchia120/autoware.ai/install/ros_observer/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/ros_observer/lib/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_system_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_system_msgs/lib/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/autoware_system_msgs/lib/python2.7/dist-packages:/home/chinchia120/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/vehicle_sim_model/share:/home/chinchia120/autoware.ai/install/autoware_health_checker/share:/home/chinchia120/autoware.ai/install/amathutils_lib/share:/home/chinchia120/autoware.ai/install/ros_observer/share:/home/chinchia120/autoware.ai/install/autoware_system_msgs/share:/home/chinchia120/autoware.ai/install/autoware_msgs/share:/home/chinchia120/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/chinchia120/autoware.ai/src/autoware/simulation/wf_simulator -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/chinchia120/autoware.ai/install/wf_simulator
+[5.588s] Invoking command in '/home/chinchia120/autoware.ai/build/wf_simulator': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/vehicle_sim_model:/home/chinchia120/autoware.ai/install/autoware_health_checker:/home/chinchia120/autoware.ai/install/amathutils_lib:/home/chinchia120/autoware.ai/install/ros_observer:/home/chinchia120/autoware.ai/install/autoware_system_msgs:/home/chinchia120/autoware.ai/install/autoware_msgs:/home/chinchia120/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/chinchia120/autoware.ai/install/vehicle_sim_model/lib:/home/chinchia120/autoware.ai/install/autoware_health_checker/lib:/home/chinchia120/autoware.ai/install/amathutils_lib/lib:/home/chinchia120/autoware.ai/install/ros_observer/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/vehicle_sim_model/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/vehicle_sim_model/lib/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_health_checker/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_health_checker/lib/pkgconfig:/home/chinchia120/autoware.ai/install/amathutils_lib/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/amathutils_lib/lib/pkgconfig:/home/chinchia120/autoware.ai/install/ros_observer/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/ros_observer/lib/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_system_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_system_msgs/lib/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/autoware_system_msgs/lib/python2.7/dist-packages:/home/chinchia120/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/vehicle_sim_model/share:/home/chinchia120/autoware.ai/install/autoware_health_checker/share:/home/chinchia120/autoware.ai/install/amathutils_lib/share:/home/chinchia120/autoware.ai/install/ros_observer/share:/home/chinchia120/autoware.ai/install/autoware_system_msgs/share:/home/chinchia120/autoware.ai/install/autoware_msgs/share:/home/chinchia120/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/wf_simulator -- -j4 -l4
+[5.710s] [35m[1mScanning dependencies of target wf_simulator[0m
+[5.808s] [ 25%] [32mBuilding CXX object CMakeFiles/wf_simulator.dir/src/wf_simulator_node.cpp.o[0m
+[15.373s] [ 50%] [32mBuilding CXX object CMakeFiles/wf_simulator.dir/src/vehicle_model_ros.cpp.o[0m
+[26.606s] [ 75%] [32mBuilding CXX object CMakeFiles/wf_simulator.dir/src/wf_simulator_core.cpp.o[0m
+[41.567s] [100%] [32m[1mLinking CXX executable devel/lib/wf_simulator/wf_simulator[0m
+[41.991s] [100%] Built target wf_simulator
+[42.022s] Invoked command in '/home/chinchia120/autoware.ai/build/wf_simulator' returned '0': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/vehicle_sim_model:/home/chinchia120/autoware.ai/install/autoware_health_checker:/home/chinchia120/autoware.ai/install/amathutils_lib:/home/chinchia120/autoware.ai/install/ros_observer:/home/chinchia120/autoware.ai/install/autoware_system_msgs:/home/chinchia120/autoware.ai/install/autoware_msgs:/home/chinchia120/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/chinchia120/autoware.ai/install/vehicle_sim_model/lib:/home/chinchia120/autoware.ai/install/autoware_health_checker/lib:/home/chinchia120/autoware.ai/install/amathutils_lib/lib:/home/chinchia120/autoware.ai/install/ros_observer/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/vehicle_sim_model/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/vehicle_sim_model/lib/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_health_checker/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_health_checker/lib/pkgconfig:/home/chinchia120/autoware.ai/install/amathutils_lib/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/amathutils_lib/lib/pkgconfig:/home/chinchia120/autoware.ai/install/ros_observer/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/ros_observer/lib/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_system_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_system_msgs/lib/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/autoware_system_msgs/lib/python2.7/dist-packages:/home/chinchia120/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/vehicle_sim_model/share:/home/chinchia120/autoware.ai/install/autoware_health_checker/share:/home/chinchia120/autoware.ai/install/amathutils_lib/share:/home/chinchia120/autoware.ai/install/ros_observer/share:/home/chinchia120/autoware.ai/install/autoware_system_msgs/share:/home/chinchia120/autoware.ai/install/autoware_msgs/share:/home/chinchia120/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/wf_simulator -- -j4 -l4
+[42.342s] Invoking command in '/home/chinchia120/autoware.ai/build/wf_simulator': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/vehicle_sim_model:/home/chinchia120/autoware.ai/install/autoware_health_checker:/home/chinchia120/autoware.ai/install/amathutils_lib:/home/chinchia120/autoware.ai/install/ros_observer:/home/chinchia120/autoware.ai/install/autoware_system_msgs:/home/chinchia120/autoware.ai/install/autoware_msgs:/home/chinchia120/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/chinchia120/autoware.ai/install/vehicle_sim_model/lib:/home/chinchia120/autoware.ai/install/autoware_health_checker/lib:/home/chinchia120/autoware.ai/install/amathutils_lib/lib:/home/chinchia120/autoware.ai/install/ros_observer/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/vehicle_sim_model/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/vehicle_sim_model/lib/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_health_checker/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_health_checker/lib/pkgconfig:/home/chinchia120/autoware.ai/install/amathutils_lib/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/amathutils_lib/lib/pkgconfig:/home/chinchia120/autoware.ai/install/ros_observer/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/ros_observer/lib/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_system_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_system_msgs/lib/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/autoware_system_msgs/lib/python2.7/dist-packages:/home/chinchia120/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/vehicle_sim_model/share:/home/chinchia120/autoware.ai/install/autoware_health_checker/share:/home/chinchia120/autoware.ai/install/amathutils_lib/share:/home/chinchia120/autoware.ai/install/ros_observer/share:/home/chinchia120/autoware.ai/install/autoware_system_msgs/share:/home/chinchia120/autoware.ai/install/autoware_msgs/share:/home/chinchia120/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/wf_simulator --target tests -- -j4 -l4
+[42.511s] [35m[1mScanning dependencies of target gtest[0m
+[42.552s] [ 16%] [32mBuilding CXX object gtest/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[51.010s] [ 33%] [32m[1mLinking CXX shared library libgtest.so[0m
+[51.206s] [ 33%] Built target gtest
+[51.235s] [35m[1mScanning dependencies of target actionlib_generate_messages_cpp[0m
+[51.264s] [ 33%] Built target actionlib_generate_messages_cpp
+[51.295s] [35m[1mScanning dependencies of target pcl_msgs_generate_messages_eus[0m
+[51.333s] [ 33%] Built target pcl_msgs_generate_messages_eus
+[51.366s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[51.394s] [ 33%] Built target rosgraph_msgs_generate_messages_eus
+[51.424s] [35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_lisp[0m
+[51.450s] [ 33%] Built target jsk_recognition_msgs_generate_messages_lisp
+[51.477s] [35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_eus[0m
+[51.501s] [ 33%] Built target jsk_recognition_msgs_generate_messages_eus
+[51.526s] [35m[1mScanning dependencies of target tf2_msgs_generate_messages_cpp[0m
+[51.559s] [ 33%] Built target tf2_msgs_generate_messages_cpp
+[51.586s] [35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[51.609s] [ 33%] Built target std_msgs_generate_messages_py
+[51.636s] [35m[1mScanning dependencies of target autoware_msgs_generate_messages_py[0m
+[51.666s] [ 33%] Built target autoware_msgs_generate_messages_py
+[51.698s] [35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[51.737s] [ 33%] Built target std_msgs_generate_messages_nodejs
+[51.769s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_eus[0m
+[51.796s] [ 33%] Built target sensor_msgs_generate_messages_eus
+[51.822s] [35m[1mScanning dependencies of target _catkin_empty_exported_target[0m
+[51.850s] [ 33%] Built target _catkin_empty_exported_target
+[51.878s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_cpp[0m
+[51.913s] [ 33%] Built target sensor_msgs_generate_messages_cpp
+[51.945s] [35m[1mScanning dependencies of target autoware_msgs_generate_messages_cpp[0m
+[51.977s] [ 33%] Built target autoware_msgs_generate_messages_cpp
+[52.007s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[52.036s] [ 33%] Built target rosgraph_msgs_generate_messages_cpp
+[52.069s] [35m[1mScanning dependencies of target pcl_msgs_generate_messages_nodejs[0m
+[52.102s] [ 33%] Built target pcl_msgs_generate_messages_nodejs
+[52.135s] [35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_py[0m
+[52.174s] [ 33%] Built target jsk_recognition_msgs_generate_messages_py
+[52.211s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_lisp[0m
+[52.257s] [ 33%] Built target sensor_msgs_generate_messages_lisp
+[52.283s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_py[0m
+[52.316s] [ 33%] Built target sensor_msgs_generate_messages_py
+[52.348s] [35m[1mScanning dependencies of target tf_generate_messages_py[0m
+[52.381s] [ 33%] Built target tf_generate_messages_py
+[52.405s] [35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[52.439s] [ 33%] Built target std_msgs_generate_messages_cpp
+[52.472s] [35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_py[0m
+[52.505s] [ 33%] Built target jsk_footstep_msgs_generate_messages_py
+[52.548s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_nodejs[0m
+[52.578s] [ 33%] Built target actionlib_msgs_generate_messages_nodejs
+[52.606s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[52.636s] [ 33%] Built target geometry_msgs_generate_messages_eus
+[52.670s] [35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[52.705s] [ 33%] Built target std_msgs_generate_messages_lisp
+[52.744s] [35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+[52.778s] [ 33%] Built target roscpp_generate_messages_nodejs
+[52.804s] [35m[1mScanning dependencies of target autoware_system_msgs_generate_messages_cpp[0m
+[52.833s] [ 33%] Built target autoware_system_msgs_generate_messages_cpp
+[52.861s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[52.898s] [ 33%] Built target geometry_msgs_generate_messages_nodejs
+[52.931s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[52.961s] [ 33%] Built target geometry_msgs_generate_messages_lisp
+[52.996s] [35m[1mScanning dependencies of target pcl_msgs_generate_messages_cpp[0m
+[53.035s] [ 33%] Built target pcl_msgs_generate_messages_cpp
+[53.065s] [35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_cpp[0m
+[53.100s] [ 33%] Built target jsk_recognition_msgs_generate_messages_cpp
+[53.133s] [35m[1mScanning dependencies of target autoware_msgs_generate_messages_eus[0m
+[53.176s] [ 33%] Built target autoware_msgs_generate_messages_eus
+[53.211s] [35m[1mScanning dependencies of target autoware_msgs_generate_messages_lisp[0m
+[53.249s] [ 33%] Built target autoware_msgs_generate_messages_lisp
+[53.281s] [35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[53.315s] [ 33%] Built target std_msgs_generate_messages_eus
+[53.353s] [35m[1mScanning dependencies of target autoware_msgs_generate_messages_nodejs[0m
+[53.386s] [ 33%] Built target autoware_msgs_generate_messages_nodejs
+[53.423s] [35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_eus[0m
+[53.464s] [ 33%] Built target jsk_footstep_msgs_generate_messages_eus
+[53.499s] [35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_lisp[0m
+[53.550s] [ 33%] Built target jsk_footstep_msgs_generate_messages_lisp
+[53.582s] [35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_nodejs[0m
+[53.615s] [ 33%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[53.653s] [35m[1mScanning dependencies of target autoware_system_msgs_generate_messages_nodejs[0m
+[53.691s] [ 33%] Built target autoware_system_msgs_generate_messages_nodejs
+[53.722s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_lisp[0m
+[53.764s] [ 33%] Built target actionlib_msgs_generate_messages_lisp
+[53.804s] [35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_cpp[0m
+[53.832s] [ 33%] Built target jsk_footstep_msgs_generate_messages_cpp
+[53.859s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_cpp[0m
+[53.887s] [ 33%] Built target actionlib_msgs_generate_messages_cpp
+[53.911s] [35m[1mScanning dependencies of target tf_generate_messages_eus[0m
+[53.941s] [ 33%] Built target tf_generate_messages_eus
+[53.975s] [35m[1mScanning dependencies of target tf_generate_messages_lisp[0m
+[54.009s] [ 33%] Built target tf_generate_messages_lisp
+[54.042s] [35m[1mScanning dependencies of target tf_generate_messages_nodejs[0m
+[54.122s] [ 33%] Built target tf_generate_messages_nodejs
+[54.167s] [35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_nodejs[0m
+[54.199s] [ 33%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[54.237s] [35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[54.263s] [ 33%] Built target roscpp_generate_messages_lisp
+[54.305s] [35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[54.337s] [ 33%] Built target roscpp_generate_messages_py
+[54.369s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[54.404s] [ 33%] Built target rosgraph_msgs_generate_messages_lisp
+[54.436s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[54.470s] [ 33%] Built target rosgraph_msgs_generate_messages_nodejs
+[54.502s] [35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[54.532s] [ 33%] Built target roscpp_generate_messages_eus
+[54.565s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_eus[0m
+[54.596s] [ 33%] Built target actionlib_msgs_generate_messages_eus
+[54.631s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[54.672s] [ 33%] Built target rosgraph_msgs_generate_messages_py
+[54.709s] [35m[1mScanning dependencies of target pcl_msgs_generate_messages_py[0m
+[54.750s] [ 33%] Built target pcl_msgs_generate_messages_py
+[54.782s] [35m[1mScanning dependencies of target actionlib_generate_messages_eus[0m
+[54.809s] [ 33%] Built target actionlib_generate_messages_eus
+[54.837s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[54.867s] [ 33%] Built target geometry_msgs_generate_messages_cpp
+[54.901s] [35m[1mScanning dependencies of target actionlib_generate_messages_lisp[0m
+[54.927s] [ 33%] Built target actionlib_generate_messages_lisp
+[54.964s] [35m[1mScanning dependencies of target pcl_msgs_generate_messages_lisp[0m
+[54.997s] [ 33%] Built target pcl_msgs_generate_messages_lisp
+[55.031s] [35m[1mScanning dependencies of target tf_generate_messages_cpp[0m
+[55.069s] [ 33%] Built target tf_generate_messages_cpp
+[55.094s] [35m[1mScanning dependencies of target actionlib_generate_messages_nodejs[0m
+[55.120s] [ 33%] Built target actionlib_generate_messages_nodejs
+[55.161s] [35m[1mScanning dependencies of target autoware_system_msgs_generate_messages_eus[0m
+[55.197s] [ 33%] Built target autoware_system_msgs_generate_messages_eus
+[55.225s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_py[0m
+[55.261s] [ 33%] Built target actionlib_msgs_generate_messages_py
+[55.291s] [35m[1mScanning dependencies of target tf2_msgs_generate_messages_eus[0m
+[55.323s] [ 33%] Built target tf2_msgs_generate_messages_eus
+[55.358s] [35m[1mScanning dependencies of target tf2_msgs_generate_messages_lisp[0m
+[55.397s] [ 33%] Built target tf2_msgs_generate_messages_lisp
+[55.431s] [35m[1mScanning dependencies of target actionlib_generate_messages_py[0m
+[55.462s] [ 33%] Built target actionlib_generate_messages_py
+[55.494s] [35m[1mScanning dependencies of target tf2_msgs_generate_messages_py[0m
+[55.524s] [ 33%] Built target tf2_msgs_generate_messages_py
+[55.552s] [35m[1mScanning dependencies of target autoware_system_msgs_generate_messages_lisp[0m
+[55.592s] [ 33%] Built target autoware_system_msgs_generate_messages_lisp
+[55.623s] [35m[1mScanning dependencies of target tf2_msgs_generate_messages_nodejs[0m
+[55.663s] [ 33%] Built target tf2_msgs_generate_messages_nodejs
+[55.689s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_nodejs[0m
+[55.723s] [ 33%] Built target sensor_msgs_generate_messages_nodejs
+[55.760s] [35m[1mScanning dependencies of target autoware_system_msgs_generate_messages_py[0m
+[55.795s] [ 33%] Built target autoware_system_msgs_generate_messages_py
+[55.825s] [35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[55.861s] [ 33%] Built target roscpp_generate_messages_cpp
+[55.899s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[55.935s] [ 33%] Built target geometry_msgs_generate_messages_py
+[55.985s] [35m[1mScanning dependencies of target test-wf_simulator[0m
+[56.101s] [ 50%] [32mBuilding CXX object CMakeFiles/test-wf_simulator.dir/test/src/test_wf_simulator.cpp.o[0m
+[70.706s] [ 66%] [32mBuilding CXX object CMakeFiles/test-wf_simulator.dir/src/vehicle_model_ros.cpp.o[0m
+[81.288s] [ 83%] [32mBuilding CXX object CMakeFiles/test-wf_simulator.dir/src/wf_simulator_core.cpp.o[0m
+[96.513s] [100%] [32m[1mLinking CXX executable devel/lib/wf_simulator/test-wf_simulator[0m
+[96.967s] [100%] Built target test-wf_simulator
+[96.991s] [35m[1mScanning dependencies of target tests[0m
+[97.016s] [100%] Built target tests
+[97.046s] Invoked command in '/home/chinchia120/autoware.ai/build/wf_simulator' returned '0': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/vehicle_sim_model:/home/chinchia120/autoware.ai/install/autoware_health_checker:/home/chinchia120/autoware.ai/install/amathutils_lib:/home/chinchia120/autoware.ai/install/ros_observer:/home/chinchia120/autoware.ai/install/autoware_system_msgs:/home/chinchia120/autoware.ai/install/autoware_msgs:/home/chinchia120/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/chinchia120/autoware.ai/install/vehicle_sim_model/lib:/home/chinchia120/autoware.ai/install/autoware_health_checker/lib:/home/chinchia120/autoware.ai/install/amathutils_lib/lib:/home/chinchia120/autoware.ai/install/ros_observer/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/vehicle_sim_model/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/vehicle_sim_model/lib/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_health_checker/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_health_checker/lib/pkgconfig:/home/chinchia120/autoware.ai/install/amathutils_lib/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/amathutils_lib/lib/pkgconfig:/home/chinchia120/autoware.ai/install/ros_observer/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/ros_observer/lib/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_system_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_system_msgs/lib/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/autoware_system_msgs/lib/python2.7/dist-packages:/home/chinchia120/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/vehicle_sim_model/share:/home/chinchia120/autoware.ai/install/autoware_health_checker/share:/home/chinchia120/autoware.ai/install/amathutils_lib/share:/home/chinchia120/autoware.ai/install/ros_observer/share:/home/chinchia120/autoware.ai/install/autoware_system_msgs/share:/home/chinchia120/autoware.ai/install/autoware_msgs/share:/home/chinchia120/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/wf_simulator --target tests -- -j4 -l4
+[97.390s] Invoking command in '/home/chinchia120/autoware.ai/build/wf_simulator': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/vehicle_sim_model:/home/chinchia120/autoware.ai/install/autoware_health_checker:/home/chinchia120/autoware.ai/install/amathutils_lib:/home/chinchia120/autoware.ai/install/ros_observer:/home/chinchia120/autoware.ai/install/autoware_system_msgs:/home/chinchia120/autoware.ai/install/autoware_msgs:/home/chinchia120/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/chinchia120/autoware.ai/install/vehicle_sim_model/lib:/home/chinchia120/autoware.ai/install/autoware_health_checker/lib:/home/chinchia120/autoware.ai/install/amathutils_lib/lib:/home/chinchia120/autoware.ai/install/ros_observer/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/vehicle_sim_model/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/vehicle_sim_model/lib/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_health_checker/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_health_checker/lib/pkgconfig:/home/chinchia120/autoware.ai/install/amathutils_lib/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/amathutils_lib/lib/pkgconfig:/home/chinchia120/autoware.ai/install/ros_observer/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/ros_observer/lib/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_system_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_system_msgs/lib/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/autoware_system_msgs/lib/python2.7/dist-packages:/home/chinchia120/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/vehicle_sim_model/share:/home/chinchia120/autoware.ai/install/autoware_health_checker/share:/home/chinchia120/autoware.ai/install/amathutils_lib/share:/home/chinchia120/autoware.ai/install/ros_observer/share:/home/chinchia120/autoware.ai/install/autoware_system_msgs/share:/home/chinchia120/autoware.ai/install/autoware_msgs/share:/home/chinchia120/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/wf_simulator --target install -- -j4 -l4
+[97.549s] [100%] Built target wf_simulator
+[97.601s] [36mInstall the project...[0m
+[97.621s] -- Install configuration: "Release"
+[97.621s] -- Installing: /home/chinchia120/autoware.ai/install/wf_simulator/lib/pkgconfig/wf_simulator.pc
+[97.622s] -- Installing: /home/chinchia120/autoware.ai/install/wf_simulator/share/wf_simulator/cmake/wf_simulatorConfig.cmake
+[97.622s] -- Installing: /home/chinchia120/autoware.ai/install/wf_simulator/share/wf_simulator/cmake/wf_simulatorConfig-version.cmake
+[97.623s] -- Installing: /home/chinchia120/autoware.ai/install/wf_simulator/share/wf_simulator/package.xml
+[97.623s] -- Installing: /home/chinchia120/autoware.ai/install/wf_simulator/lib/wf_simulator/wf_simulator
+[97.642s] -- Set runtime path of "/home/chinchia120/autoware.ai/install/wf_simulator/lib/wf_simulator/wf_simulator" to ""
+[97.642s] -- Installing: /home/chinchia120/autoware.ai/install/wf_simulator/include/wf_simulator
+[97.644s] -- Installing: /home/chinchia120/autoware.ai/install/wf_simulator/include/wf_simulator/wf_simulator_core.h
+[97.645s] -- Installing: /home/chinchia120/autoware.ai/install/wf_simulator/include/wf_simulator/vehicle_model_ros.h
+[97.645s] -- Installing: /home/chinchia120/autoware.ai/install/wf_simulator/share/wf_simulator/launch
+[97.646s] -- Installing: /home/chinchia120/autoware.ai/install/wf_simulator/share/wf_simulator/launch/wf_simulator.launch
+[97.657s] Invoked command in '/home/chinchia120/autoware.ai/build/wf_simulator' returned '0': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/vehicle_sim_model:/home/chinchia120/autoware.ai/install/autoware_health_checker:/home/chinchia120/autoware.ai/install/amathutils_lib:/home/chinchia120/autoware.ai/install/ros_observer:/home/chinchia120/autoware.ai/install/autoware_system_msgs:/home/chinchia120/autoware.ai/install/autoware_msgs:/home/chinchia120/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/chinchia120/autoware.ai/install/vehicle_sim_model/lib:/home/chinchia120/autoware.ai/install/autoware_health_checker/lib:/home/chinchia120/autoware.ai/install/amathutils_lib/lib:/home/chinchia120/autoware.ai/install/ros_observer/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/vehicle_sim_model/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/vehicle_sim_model/lib/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_health_checker/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_health_checker/lib/pkgconfig:/home/chinchia120/autoware.ai/install/amathutils_lib/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/amathutils_lib/lib/pkgconfig:/home/chinchia120/autoware.ai/install/ros_observer/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/ros_observer/lib/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_system_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_system_msgs/lib/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/autoware_system_msgs/lib/python2.7/dist-packages:/home/chinchia120/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/vehicle_sim_model/share:/home/chinchia120/autoware.ai/install/autoware_health_checker/share:/home/chinchia120/autoware.ai/install/amathutils_lib/share:/home/chinchia120/autoware.ai/install/ros_observer/share:/home/chinchia120/autoware.ai/install/autoware_system_msgs/share:/home/chinchia120/autoware.ai/install/autoware_msgs/share:/home/chinchia120/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/wf_simulator --target install -- -j4 -l4

@@ -1,0 +1,8 @@
+Invoking command in '/home/chinchia120/autoware.ai/build/vehicle_description': /usr/bin/cmake /home/chinchia120/autoware.ai/src/autoware/visualization/vehicle_description -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/chinchia120/autoware.ai/install/vehicle_description
+Invoked command in '/home/chinchia120/autoware.ai/build/vehicle_description' returned '0': /usr/bin/cmake /home/chinchia120/autoware.ai/src/autoware/visualization/vehicle_description -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/chinchia120/autoware.ai/install/vehicle_description
+Invoking command in '/home/chinchia120/autoware.ai/build/vehicle_description': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/vehicle_description -- -j4 -l4
+Invoked command in '/home/chinchia120/autoware.ai/build/vehicle_description' returned '0': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/vehicle_description -- -j4 -l4
+Invoking command in '/home/chinchia120/autoware.ai/build/vehicle_description': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/vehicle_description --target tests -- -j4 -l4
+Invoked command in '/home/chinchia120/autoware.ai/build/vehicle_description' returned '0': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/vehicle_description --target tests -- -j4 -l4
+Invoking command in '/home/chinchia120/autoware.ai/build/vehicle_description': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/vehicle_description --target install -- -j4 -l4
+Invoked command in '/home/chinchia120/autoware.ai/build/vehicle_description' returned '0': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/vehicle_description --target install -- -j4 -l4

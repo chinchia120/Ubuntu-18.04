@@ -1,0 +1,235 @@
+[0.076s] Invoking command in '/home/chinchia120/autoware.ai/build/lanelet2_core': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/mrt_cmake_modules:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/mrt_cmake_modules/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/mrt_cmake_modules/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/mrt_cmake_modules/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/mrt_cmake_modules/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/chinchia120/autoware.ai/src/vendor/lanelet2/lanelet2_core -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/chinchia120/autoware.ai/install/lanelet2_core
+[0.341s] -- The C compiler identification is GNU 7.5.0
+[0.675s] -- The CXX compiler identification is GNU 7.5.0
+[0.686s] -- Check for working C compiler: /usr/bin/cc
+[1.155s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.155s] -- Detecting C compiler ABI info
+[1.562s] -- Detecting C compiler ABI info - done
+[1.580s] -- Detecting C compile features
+[2.721s] -- Detecting C compile features - done
+[2.730s] -- Check for working CXX compiler: /usr/bin/c++
+[3.205s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.207s] -- Detecting CXX compiler ABI info
+[3.670s] -- Detecting CXX compiler ABI info - done
+[3.696s] -- Detecting CXX compile features
+[5.698s] -- Detecting CXX compile features - done
+[5.713s] -- MRT_ARCH not set and X86 target detected (x86_64)
+[5.714s] -- Setting -march to sandybridge
+[6.386s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[6.592s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[6.595s] -- Found OpenMP: TRUE (found version "4.5")  
+[6.605s] -- Performing Test FLAG_AVAILABLE
+[6.814s] -- Performing Test FLAG_AVAILABLE - Success
+[6.819s] -- Using CATKIN_DEVEL_PREFIX: /home/chinchia120/autoware.ai/build/lanelet2_core/devel
+[6.820s] -- Using CMAKE_PREFIX_PATH: /home/chinchia120/autoware.ai/install/mrt_cmake_modules;/home/chinchia120/catkin_ws/devel;/opt/ros/melodic
+[6.822s] -- This workspace overlays: /home/chinchia120/autoware.ai/install/mrt_cmake_modules;/home/chinchia120/catkin_ws/devel;/opt/ros/melodic
+[6.856s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[6.856s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[6.857s] -- Using Debian Python package layout
+[6.858s] -- Using empy: /usr/bin/empy
+[7.167s] -- Using CATKIN_ENABLE_TESTING: ON
+[7.167s] -- Call enable_testing()
+[7.174s] -- Using CATKIN_TEST_RESULTS_DIR: /home/chinchia120/autoware.ai/build/lanelet2_core/test_results
+[7.205s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[7.205s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[7.235s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[7.237s] -- Looking for pthread.h
+[7.405s] -- Looking for pthread.h - found
+[7.406s] -- Looking for pthread_create
+[7.634s] -- Looking for pthread_create - found
+[7.637s] -- Found Threads: TRUE  
+[7.645s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[7.741s] -- catkin 0.7.29
+[7.741s] -- BUILD_SHARED_LIBS is on
+[9.722s] -- Boost version: 1.65.1
+[9.723s] -- Found the following Boost libraries:
+[9.723s] --   wserialization
+[9.723s] --   thread
+[9.724s] --   random
+[9.724s] --   serialization
+[9.724s] --   log_setup
+[9.725s] --   prg_exec_monitor
+[9.725s] --   wave
+[9.726s] --   system
+[9.726s] --   signals
+[9.726s] --   chrono
+[9.727s] --   filesystem
+[9.727s] --   locale
+[9.727s] --   timer
+[9.728s] --   date_time
+[9.728s] --   regex
+[9.728s] --   graph
+[9.729s] --   program_options
+[9.729s] --   unit_test_framework
+[9.729s] --   log
+[9.730s] --   atomic
+[10.023s] -- Adding library "lanelet2_core" with source src/Attribute.cpp;src/BasicRegulatoryElements.cpp;src/Lanelet.cpp;src/LaneletMap.cpp;src/LaneletSequence.cpp;src/LineStringGeometry.cpp;src/RegulatoryElement.cpp;src/RegulatoryElementGeometry.cpp
+[10.024s] -- Marking targets "lanelet2_core" of package "lanelet2_core" for installation
+[10.025s] -- Marking HEADER FILES in "include" folder of package "lanelet2_core" for installation
+[10.026s] -- Marking SHARED CONTENT FOLDER "res" of package "lanelet2_core" for installation
+[10.026s] -- Marking SHARED CONTENT FOLDER "doc" of package "lanelet2_core" for installation
+[10.028s] -- Adding gtest unittest "lanelet2_core-test_area-test" with working dir /home/chinchia120/autoware.ai/src/vendor/lanelet2/lanelet2_core/test
+[10.031s] -- Adding gtest unittest "lanelet2_core-test_attribute-test" with working dir /home/chinchia120/autoware.ai/src/vendor/lanelet2/lanelet2_core/test
+[10.034s] -- Adding gtest unittest "lanelet2_core-test_lanelet-test" with working dir /home/chinchia120/autoware.ai/src/vendor/lanelet2/lanelet2_core/test
+[10.037s] -- Adding gtest unittest "lanelet2_core-test_lanelet_map-test" with working dir /home/chinchia120/autoware.ai/src/vendor/lanelet2/lanelet2_core/test
+[10.041s] -- Adding gtest unittest "lanelet2_core-test_lanelet_map_geometry-test" with working dir /home/chinchia120/autoware.ai/src/vendor/lanelet2/lanelet2_core/test
+[10.043s] -- Adding gtest unittest "lanelet2_core-test_lanelet_or_area-test" with working dir /home/chinchia120/autoware.ai/src/vendor/lanelet2/lanelet2_core/test
+[10.046s] -- Adding gtest unittest "lanelet2_core-test_lanelet_sequence-test" with working dir /home/chinchia120/autoware.ai/src/vendor/lanelet2/lanelet2_core/test
+[10.048s] -- Adding gtest unittest "lanelet2_core-test_linestring-test" with working dir /home/chinchia120/autoware.ai/src/vendor/lanelet2/lanelet2_core/test
+[10.052s] -- Adding gtest unittest "lanelet2_core-test_point-test" with working dir /home/chinchia120/autoware.ai/src/vendor/lanelet2/lanelet2_core/test
+[10.056s] -- Adding gtest unittest "lanelet2_core-test_polygon-test" with working dir /home/chinchia120/autoware.ai/src/vendor/lanelet2/lanelet2_core/test
+[10.060s] -- Adding gtest unittest "lanelet2_core-test_regulatory_element-test" with working dir /home/chinchia120/autoware.ai/src/vendor/lanelet2/lanelet2_core/test
+[10.064s] -- Adding nosetests in folder test
+[10.072s] -- Configuring done
+[10.289s] -- Generating done
+[10.319s] -- Build files have been written to: /home/chinchia120/autoware.ai/build/lanelet2_core
+[10.328s] Invoked command in '/home/chinchia120/autoware.ai/build/lanelet2_core' returned '0': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/mrt_cmake_modules:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/mrt_cmake_modules/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/mrt_cmake_modules/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/mrt_cmake_modules/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/mrt_cmake_modules/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/chinchia120/autoware.ai/src/vendor/lanelet2/lanelet2_core -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/chinchia120/autoware.ai/install/lanelet2_core
+[10.334s] Invoking command in '/home/chinchia120/autoware.ai/build/lanelet2_core': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/mrt_cmake_modules:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/mrt_cmake_modules/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/mrt_cmake_modules/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/mrt_cmake_modules/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/mrt_cmake_modules/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/lanelet2_core -- -j4 -l4
+[10.433s] [35m[1mScanning dependencies of target _catkin_empty_exported_target[0m
+[10.468s] [  0%] Built target _catkin_empty_exported_target
+[10.507s] [35m[1mScanning dependencies of target lanelet2_core[0m
+[10.787s] [ 11%] [32mBuilding CXX object CMakeFiles/lanelet2_core.dir/src/Attribute.cpp.o[0m
+[24.660s] [ 22%] [32mBuilding CXX object CMakeFiles/lanelet2_core.dir/src/LaneletMap.cpp.o[0m
+[87.816s] [ 33%] [32mBuilding CXX object CMakeFiles/lanelet2_core.dir/src/LaneletSequence.cpp.o[0m
+[94.335s] [ 44%] [32mBuilding CXX object CMakeFiles/lanelet2_core.dir/src/LineStringGeometry.cpp.o[0m
+[106.839s] [ 55%] [32mBuilding CXX object CMakeFiles/lanelet2_core.dir/src/RegulatoryElement.cpp.o[0m
+[116.816s] [ 66%] [32mBuilding CXX object CMakeFiles/lanelet2_core.dir/src/RegulatoryElementGeometry.cpp.o[0m
+[130.042s] [ 77%] [32mBuilding CXX object CMakeFiles/lanelet2_core.dir/src/Lanelet.cpp.o[0m
+[145.949s] [ 88%] [32mBuilding CXX object CMakeFiles/lanelet2_core.dir/src/BasicRegulatoryElements.cpp.o[0m
+[157.901s] [100%] [32m[1mLinking CXX shared library devel/lib/liblanelet2_core.so[0m
+[158.193s] [100%] Built target lanelet2_core
+[158.237s] Invoked command in '/home/chinchia120/autoware.ai/build/lanelet2_core' returned '0': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/mrt_cmake_modules:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/mrt_cmake_modules/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/mrt_cmake_modules/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/mrt_cmake_modules/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/mrt_cmake_modules/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/lanelet2_core -- -j4 -l4
+[158.620s] Invoking command in '/home/chinchia120/autoware.ai/build/lanelet2_core': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/mrt_cmake_modules:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/mrt_cmake_modules/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/mrt_cmake_modules/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/mrt_cmake_modules/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/mrt_cmake_modules/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/lanelet2_core --target tests -- -j4 -l4
+[158.759s] [35m[1mScanning dependencies of target gtest[0m
+[158.809s] [  2%] [32mBuilding CXX object gtest/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[170.272s] [  5%] [32m[1mLinking CXX shared library libgtest.so[0m
+[170.381s] [  5%] Built target gtest
+[170.448s] [  5%] Built target _catkin_empty_exported_target
+[170.476s] [35m[1mScanning dependencies of target gtest_main[0m
+[170.517s] [  8%] [32mBuilding CXX object gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[171.774s] [ 11%] [32m[1mLinking CXX shared library libgtest_main.so[0m
+[171.875s] [ 11%] Built target gtest_main
+[171.979s] [ 37%] Built target lanelet2_core
+[172.007s] [35m[1mScanning dependencies of target lanelet2_core-test_linestring-test[0m
+[172.123s] [ 40%] [32mBuilding CXX object CMakeFiles/lanelet2_core-test_linestring-test.dir/test/test_linestring.cpp.o[0m
+[220.817s] [ 42%] [32m[1mLinking CXX executable devel/lib/lanelet2_core/lanelet2_core-test_linestring-test[0m
+[221.033s] [ 42%] Built target lanelet2_core-test_linestring-test
+[221.070s] [35m[1mScanning dependencies of target lanelet2_core-test_area-test[0m
+[221.170s] [ 45%] [32mBuilding CXX object CMakeFiles/lanelet2_core-test_area-test.dir/test/test_area.cpp.o[0m
+[246.655s] [ 48%] [32m[1mLinking CXX executable devel/lib/lanelet2_core/lanelet2_core-test_area-test[0m
+[246.809s] [ 48%] Built target lanelet2_core-test_area-test
+[246.843s] [35m[1mScanning dependencies of target lanelet2_core-test_regulatory_element-test[0m
+[246.973s] [ 51%] [32mBuilding CXX object CMakeFiles/lanelet2_core-test_regulatory_element-test.dir/test/test_regulatory_element.cpp.o[0m
+[261.314s] [ 54%] [32m[1mLinking CXX executable devel/lib/lanelet2_core/lanelet2_core-test_regulatory_element-test[0m
+[261.431s] [ 54%] Built target lanelet2_core-test_regulatory_element-test
+[261.451s] [35m[1mScanning dependencies of target lanelet2_core-test_lanelet-test[0m
+[261.541s] [ 57%] [32mBuilding CXX object CMakeFiles/lanelet2_core-test_lanelet-test.dir/test/test_lanelet.cpp.o[0m
+[284.685s] [ 60%] [32m[1mLinking CXX executable devel/lib/lanelet2_core/lanelet2_core-test_lanelet-test[0m
+[284.824s] [ 60%] Built target lanelet2_core-test_lanelet-test
+[284.853s] [35m[1mScanning dependencies of target lanelet2_core-test_point-test[0m
+[284.966s] [ 62%] [32mBuilding CXX object CMakeFiles/lanelet2_core-test_point-test.dir/test/test_point.cpp.o[0m
+[294.968s] [ 65%] [32m[1mLinking CXX executable devel/lib/lanelet2_core/lanelet2_core-test_point-test[0m
+[295.111s] [ 65%] Built target lanelet2_core-test_point-test
+[295.140s] [35m[1mScanning dependencies of target lanelet2_core-test_lanelet_map-test[0m
+[295.255s] [ 68%] [32mBuilding CXX object CMakeFiles/lanelet2_core-test_lanelet_map-test.dir/test/test_lanelet_map.cpp.o[0m
+[310.242s] [ 71%] [32m[1mLinking CXX executable devel/lib/lanelet2_core/lanelet2_core-test_lanelet_map-test[0m
+[310.358s] [ 71%] Built target lanelet2_core-test_lanelet_map-test
+[310.379s] [35m[1mScanning dependencies of target lanelet2_core-test_lanelet_or_area-test[0m
+[310.469s] [ 74%] [32mBuilding CXX object CMakeFiles/lanelet2_core-test_lanelet_or_area-test.dir/test/test_lanelet_or_area.cpp.o[0m
+[318.421s] [ 77%] [32m[1mLinking CXX executable devel/lib/lanelet2_core/lanelet2_core-test_lanelet_or_area-test[0m
+[318.527s] [ 77%] Built target lanelet2_core-test_lanelet_or_area-test
+[318.547s] [35m[1mScanning dependencies of target lanelet2_core-test_lanelet_sequence-test[0m
+[318.631s] [ 80%] [32mBuilding CXX object CMakeFiles/lanelet2_core-test_lanelet_sequence-test.dir/test/test_lanelet_sequence.cpp.o[0m
+[331.494s] [ 82%] [32m[1mLinking CXX executable devel/lib/lanelet2_core/lanelet2_core-test_lanelet_sequence-test[0m
+[331.600s] [ 82%] Built target lanelet2_core-test_lanelet_sequence-test
+[331.629s] [35m[1mScanning dependencies of target lanelet2_core-test_attribute-test[0m
+[331.673s] [ 85%] [32mBuilding CXX object CMakeFiles/lanelet2_core-test_attribute-test.dir/test/test_attribute.cpp.o[0m
+[336.278s] [ 88%] [32m[1mLinking CXX executable devel/lib/lanelet2_core/lanelet2_core-test_attribute-test[0m
+[336.401s] [ 88%] Built target lanelet2_core-test_attribute-test
+[336.428s] [35m[1mScanning dependencies of target lanelet2_core-test_lanelet_map_geometry-test[0m
+[336.520s] [ 91%] [32mBuilding CXX object CMakeFiles/lanelet2_core-test_lanelet_map_geometry-test.dir/test/test_lanelet_map_geometry.cpp.o[0m
+[372.241s] [ 94%] [32m[1mLinking CXX executable devel/lib/lanelet2_core/lanelet2_core-test_lanelet_map_geometry-test[0m
+[372.367s] [ 94%] Built target lanelet2_core-test_lanelet_map_geometry-test
+[372.387s] [35m[1mScanning dependencies of target lanelet2_core-test_polygon-test[0m
+[372.475s] [ 97%] [32mBuilding CXX object CMakeFiles/lanelet2_core-test_polygon-test.dir/test/test_polygon.cpp.o[0m
+[404.951s] [100%] [32m[1mLinking CXX executable devel/lib/lanelet2_core/lanelet2_core-test_polygon-test[0m
+[405.087s] [100%] Built target lanelet2_core-test_polygon-test
+[405.122s] [35m[1mScanning dependencies of target tests[0m
+[405.145s] [100%] Built target tests
+[405.242s] Invoked command in '/home/chinchia120/autoware.ai/build/lanelet2_core' returned '0': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/mrt_cmake_modules:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/mrt_cmake_modules/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/mrt_cmake_modules/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/mrt_cmake_modules/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/mrt_cmake_modules/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/lanelet2_core --target tests -- -j4 -l4
+[405.640s] Invoking command in '/home/chinchia120/autoware.ai/build/lanelet2_core': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/mrt_cmake_modules:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/mrt_cmake_modules/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/mrt_cmake_modules/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/mrt_cmake_modules/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/mrt_cmake_modules/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/lanelet2_core --target install -- -j4 -l4
+[405.798s] [  0%] Built target _catkin_empty_exported_target
+[405.902s] [100%] Built target lanelet2_core
+[405.964s] [36mInstall the project...[0m
+[405.992s] -- Install configuration: "Release"
+[405.992s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_core/lib/pkgconfig/lanelet2_core.pc
+[405.994s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_core/share/lanelet2_core/cmake/lanelet2_coreConfig.cmake
+[405.996s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_core/share/lanelet2_core/cmake/lanelet2_coreConfig-version.cmake
+[405.997s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_core/share/lanelet2_core/package.xml
+[405.999s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_core/lib/liblanelet2_core.so
+[406.031s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_core/include/lanelet2_core
+[406.034s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_core/include/lanelet2_core/Exceptions.h
+[406.035s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_core/include/lanelet2_core/geometry
+[406.035s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_core/include/lanelet2_core/geometry/GeometryHelper.h
+[406.036s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_core/include/lanelet2_core/geometry/Polygon.h
+[406.037s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_core/include/lanelet2_core/geometry/Point.h
+[406.037s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_core/include/lanelet2_core/geometry/impl
+[406.038s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_core/include/lanelet2_core/geometry/impl/Polygon.h
+[406.038s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_core/include/lanelet2_core/geometry/impl/LaneletMap.h
+[406.039s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_core/include/lanelet2_core/geometry/impl/LineString.h
+[406.039s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_core/include/lanelet2_core/geometry/impl/Area.h
+[406.040s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_core/include/lanelet2_core/geometry/impl/Lanelet.h
+[406.041s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_core/include/lanelet2_core/geometry/LaneletMap.h
+[406.041s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_core/include/lanelet2_core/geometry/RegulatoryElement.h
+[406.042s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_core/include/lanelet2_core/geometry/LineString.h
+[406.042s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_core/include/lanelet2_core/geometry/BoundingBox.h
+[406.043s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_core/include/lanelet2_core/geometry/Area.h
+[406.043s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_core/include/lanelet2_core/geometry/Lanelet.h
+[406.044s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_core/include/lanelet2_core/Attribute.h
+[406.045s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_core/include/lanelet2_core/primitives
+[406.045s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_core/include/lanelet2_core/primitives/Polygon.h
+[406.046s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_core/include/lanelet2_core/primitives/CompoundPolygon.h
+[406.046s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_core/include/lanelet2_core/primitives/CompoundLineString.h
+[406.047s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_core/include/lanelet2_core/primitives/Point.h
+[406.047s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_core/include/lanelet2_core/primitives/LineStringOrPolygon.h
+[406.048s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_core/include/lanelet2_core/primitives/LaneletOrArea.h
+[406.048s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_core/include/lanelet2_core/primitives/RegulatoryElement.h
+[406.049s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_core/include/lanelet2_core/primitives/Traits.h
+[406.050s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_core/include/lanelet2_core/primitives/Primitive.h
+[406.050s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_core/include/lanelet2_core/primitives/BasicRegulatoryElements.h
+[406.051s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_core/include/lanelet2_core/primitives/LineString.h
+[406.053s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_core/include/lanelet2_core/primitives/GPSPoint.h
+[406.054s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_core/include/lanelet2_core/primitives/BoundingBox.h
+[406.055s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_core/include/lanelet2_core/primitives/LaneletSequence.h
+[406.056s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_core/include/lanelet2_core/primitives/Area.h
+[406.056s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_core/include/lanelet2_core/primitives/Lanelet.h
+[406.057s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_core/include/lanelet2_core/LaneletMap.h
+[406.058s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_core/include/lanelet2_core/utility
+[406.058s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_core/include/lanelet2_core/utility/Utilities.h
+[406.059s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_core/include/lanelet2_core/utility/HybridMap.h
+[406.059s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_core/include/lanelet2_core/utility/ReverseAndForwardIterator.h
+[406.060s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_core/include/lanelet2_core/utility/CompoundIterator.h
+[406.060s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_core/include/lanelet2_core/utility/Optional.h
+[406.060s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_core/include/lanelet2_core/utility/Units.h
+[406.061s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_core/include/lanelet2_core/utility/TransformIterator.h
+[406.061s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_core/include/lanelet2_core/Forward.h
+[406.062s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_core/share/lanelet2_core/res
+[406.063s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_core/share/lanelet2_core/res/lanelet_gdb.py
+[406.065s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_core/share/lanelet2_core/res/qtcreator_debugging_helpers.py
+[406.067s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_core/share/lanelet2_core/doc
+[406.069s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_core/share/lanelet2_core/doc/RegulatoryElementTagging.md
+[406.071s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_core/share/lanelet2_core/doc/Architecture.md
+[406.073s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_core/share/lanelet2_core/doc/LinestringTagging.md
+[406.076s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_core/share/lanelet2_core/doc/Lanelet1Compability.md
+[406.078s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_core/share/lanelet2_core/doc/images
+[406.079s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_core/share/lanelet2_core/doc/images/regulatory_element.png
+[406.084s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_core/share/lanelet2_core/doc/images/max_hose_problem_small.png
+[406.094s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_core/share/lanelet2_core/doc/images/lanelet.png
+[406.101s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_core/share/lanelet2_core/doc/images/architecture.png
+[406.109s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_core/share/lanelet2_core/doc/images/linestring.png
+[406.111s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_core/share/lanelet2_core/doc/images/area.png
+[406.117s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_core/share/lanelet2_core/doc/images/lanelet2_example_image.png
+[406.121s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_core/share/lanelet2_core/doc/LaneletPrimitives.md
+[406.123s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_core/share/lanelet2_core/doc/LaneletAndAreaTagging.md
+[406.124s] -- Installing: /home/chinchia120/autoware.ai/install/lanelet2_core/share/lanelet2_core/doc/GeometryPrimer.md
+[406.137s] Invoked command in '/home/chinchia120/autoware.ai/build/lanelet2_core' returned '0': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/mrt_cmake_modules:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/mrt_cmake_modules/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/mrt_cmake_modules/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/mrt_cmake_modules/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/mrt_cmake_modules/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/lanelet2_core --target install -- -j4 -l4

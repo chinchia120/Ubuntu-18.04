@@ -1,0 +1,281 @@
+[0.059s] Invoking command in '/home/chinchia120/autoware.ai/build/citysim': /usr/bin/cmake /home/chinchia120/autoware.ai/src/citysim -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/chinchia120/autoware.ai/install/citysim
+[0.213s] -- The C compiler identification is GNU 7.5.0
+[0.344s] -- The CXX compiler identification is GNU 7.5.0
+[0.352s] -- Check for working C compiler: /usr/bin/cc
+[0.491s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.493s] -- Detecting C compiler ABI info
+[0.651s] -- Detecting C compiler ABI info - done
+[0.677s] -- Detecting C compile features
+[1.178s] -- Detecting C compile features - done
+[1.184s] -- Check for working CXX compiler: /usr/bin/c++
+[1.370s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.371s] -- Detecting CXX compiler ABI info
+[1.554s] -- Detecting CXX compiler ABI info - done
+[1.571s] -- Detecting CXX compile features
+[2.439s] -- Detecting CXX compile features - done
+[2.485s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[2.495s] -- Checking for module 'bullet>=2.82'
+[2.525s] --   Found bullet, version 2.87
+[2.647s] -- Found Simbody: /usr/include/simbody  
+[2.742s] -- Looking for pthread.h
+[2.913s] -- Looking for pthread.h - found
+[2.914s] -- Looking for pthread_create
+[3.088s] -- Looking for pthread_create - not found
+[3.089s] -- Looking for pthread_create in pthreads
+[3.219s] -- Looking for pthread_create in pthreads - not found
+[3.220s] -- Looking for pthread_create in pthread
+[3.381s] -- Looking for pthread_create in pthread - found
+[3.384s] -- Found Threads: TRUE  
+[3.472s] -- Boost version: 1.65.1
+[3.472s] -- Found the following Boost libraries:
+[3.473s] --   thread
+[3.473s] --   signals
+[3.473s] --   system
+[3.473s] --   filesystem
+[3.474s] --   program_options
+[3.474s] --   regex
+[3.474s] --   iostreams
+[3.474s] --   date_time
+[3.475s] --   chrono
+[3.475s] --   atomic
+[3.574s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.0.0") 
+[3.637s] -- Boost version: 1.65.1
+[3.644s] -- Looking for OGRE...
+[3.646s] -- OGRE_PREFIX_WATCH changed.
+[3.655s] -- Checking for module 'OGRE'
+[3.693s] --   Found OGRE, version 1.9.0
+[3.798s] -- Found Ogre Ghadamon (1.9.0)
+[3.815s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[3.896s] CMake Warning (dev) at /usr/share/cmake-3.10/Modules/FindBoost.cmake:911 (if):
+[3.896s]   Policy CMP0054 is not set: Only interpret if() arguments as variables or
+[3.896s]   keywords when unquoted.  Run "cmake --help-policy CMP0054" for policy
+[3.896s]   details.  Use the cmake_policy command to set the policy and suppress this
+[3.896s]   warning.
+[3.896s] 
+[3.896s]   Quoted variables like "chrono" will no longer be dereferenced when the
+[3.896s]   policy is set to NEW.  Since the policy is not set the OLD behavior will be
+[3.897s]   used.
+[3.897s] Call Stack (most recent call first):
+[3.897s]   /usr/share/cmake-3.10/Modules/FindBoost.cmake:1558 (_Boost_MISSING_DEPENDENCIES)
+[3.897s]   /usr/share/OGRE/cmake/modules/FindOGRE.cmake:318 (find_package)
+[3.897s]   /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:175 (find_package)
+[3.897s]   CMakeLists.txt:27 (find_package)
+[3.897s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.897s] 
+[3.921s] -- Looking for OGRE_Paging...
+[3.931s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[3.931s] -- Looking for OGRE_Terrain...
+[3.942s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[3.942s] -- Looking for OGRE_Property...
+[3.949s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[3.950s] -- Looking for OGRE_RTShaderSystem...
+[3.958s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[3.958s] -- Looking for OGRE_Volume...
+[3.967s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[3.967s] -- Looking for OGRE_Overlay...
+[3.973s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[4.217s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread;-lpthread (found suitable version "3.0.0", minimum required is "2.3.0") 
+[4.232s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[4.244s] -- Checking for module 'libzmq >= 4'
+[4.285s] --   Found libzmq , version 4.2.5
+[4.399s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[4.412s] -- Checking for module 'uuid'
+[4.453s] --   Found uuid, version 2.31.1
+[4.566s] -- Found UUID: TRUE  
+[4.601s] -- Checking for module 'tinyxml2'
+[4.638s] --   Found tinyxml2, version 6.0.0
+[4.767s] -- Looking for dlfcn.h - found
+[4.768s] -- Looking for libdl - found
+[4.771s] -- Found DL: TRUE  
+[4.774s] -- FreeImage.pc not found, we will search for FreeImage_INCLUDE_DIRS and FreeImage_LIBRARIES
+[5.014s] -- Checking for module 'gts'
+[5.052s] --   Found gts, version 0.7.6
+[5.186s] -- Found GTS: TRUE  
+[5.196s] -- Checking for module 'libswscale'
+[5.244s] --   Found libswscale, version 4.8.100
+[5.365s] -- Found SWSCALE: TRUE  
+[5.381s] -- Checking for module 'libavdevice >= 56.4.100'
+[5.430s] --   Found libavdevice , version 57.10.100
+[5.559s] -- Found AVDEVICE: TRUE (Required is at least version "56.4.100") 
+[5.589s] -- Checking for module 'libavformat'
+[5.633s] --   Found libavformat, version 57.83.100
+[5.755s] -- Found AVFORMAT: TRUE  
+[5.768s] -- Checking for module 'libavcodec'
+[5.802s] --   Found libavcodec, version 57.107.100
+[5.925s] -- Found AVCODEC: TRUE  
+[5.935s] -- Checking for module 'libavutil'
+[5.977s] --   Found libavutil, version 55.78.100
+[6.096s] -- Found AVUTIL: TRUE  
+[6.114s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.58.0") 
+[6.132s] -- Checking for module 'jsoncpp'
+[6.174s] --   Found jsoncpp, version 1.7.4
+[6.342s] -- Found JSONCPP: TRUE  
+[6.355s] -- Checking for module 'yaml-0.1'
+[6.401s] --   Found yaml-0.1, version 0.1.7
+[6.503s] -- Found YAML: TRUE  
+[6.513s] -- Checking for module 'libzip'
+[6.550s] --   Found libzip, version 1.1.2
+[6.675s] -- Found ZIP: TRUE  
+[6.743s] -- Configuring done
+[6.904s] -- Generating done
+[6.911s] -- Build files have been written to: /home/chinchia120/autoware.ai/build/citysim
+[6.925s] Invoked command in '/home/chinchia120/autoware.ai/build/citysim' returned '0': /usr/bin/cmake /home/chinchia120/autoware.ai/src/citysim -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/chinchia120/autoware.ai/install/citysim
+[6.926s] Invoking command in '/home/chinchia120/autoware.ai/build/citysim': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/citysim -- -j4 -l4
+[7.040s] [35m[1mScanning dependencies of target BloomVisualPlugin_autogen[0m
+[7.072s] [  8%] [34m[1mAutomatic MOC for target BloomVisualPlugin[0m
+[7.150s] [  8%] Built target BloomVisualPlugin_autogen
+[7.178s] [35m[1mScanning dependencies of target TrafficLightsGUIPlugin_autogen[0m
+[7.204s] [ 16%] [34m[1mAutomatic MOC for target TrafficLightsGUIPlugin[0m
+[8.072s] [ 16%] Built target TrafficLightsGUIPlugin_autogen
+[8.105s] [35m[1mScanning dependencies of target BloomVisualPlugin[0m
+[8.527s] [ 25%] [32mBuilding CXX object plugins/CMakeFiles/BloomVisualPlugin.dir/BloomVisualPlugin.cc.o[0m
+[27.024s] [ 33%] [32mBuilding CXX object plugins/CMakeFiles/BloomVisualPlugin.dir/BloomVisualPlugin_autogen/mocs_compilation.cpp.o[0m
+[27.064s] [ 41%] [32m[1mLinking CXX shared library libBloomVisualPlugin.so[0m
+[27.723s] [ 41%] Built target BloomVisualPlugin
+[27.744s] [35m[1mScanning dependencies of target TrafficLightsGUIPlugin[0m
+[28.117s] [ 50%] [32mBuilding CXX object plugins/CMakeFiles/TrafficLightsGUIPlugin.dir/TrafficLightsGUIPlugin.cc.o[0m
+[47.429s] [01m[K/home/chinchia120/autoware.ai/src/citysim/plugins/TrafficLightsGUIPlugin.cc:[m[K In member function ‘[01m[Kvoid gazebo::TrafficLightsGUIPlugin::OnKeyPress(ConstAnyPtr&)[m[K’:
+[47.429s] [01m[K/home/chinchia120/autoware.ai/src/citysim/plugins/TrafficLightsGUIPlugin.cc:83:39:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgazebo::common::Color::Color(const gazebo::common::Color&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[47.429s]    auto black = gazebo::common::Color::[01;35m[KBlack[m[K;
+[47.429s]                                        [01;35m[K^~~~~[m[K
+[47.430s] In file included from [01m[K/usr/include/gazebo-9/gazebo/msgs/msgs.hh:38:0[m[K,
+[47.430s]                  from [01m[K/home/chinchia120/autoware.ai/src/citysim/plugins/TrafficLightsGUIPlugin.cc:18[m[K:
+[47.430s] [01m[K/usr/include/gazebo-9/gazebo/common/Color.hh:95:15:[m[K [01;36m[Knote: [m[Kdeclared here
+[47.430s]        public: [01;36m[KColor[m[K(const Color &_clr) GAZEBO_DEPRECATED(9.0);
+[47.430s]                [01;36m[K^~~~~[m[K
+[47.430s] [01m[K/home/chinchia120/autoware.ai/src/citysim/plugins/TrafficLightsGUIPlugin.cc:83:39:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvirtual gazebo::common::Color::~Color()[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[47.430s]    auto black = gazebo::common::Color::[01;35m[KBlack[m[K;
+[47.430s]                                        [01;35m[K^~~~~[m[K
+[47.431s] In file included from [01m[K/usr/include/gazebo-9/gazebo/msgs/msgs.hh:38:0[m[K,
+[47.431s]                  from [01m[K/home/chinchia120/autoware.ai/src/citysim/plugins/TrafficLightsGUIPlugin.cc:18[m[K:
+[47.431s] [01m[K/usr/include/gazebo-9/gazebo/common/Color.hh:98:23:[m[K [01;36m[Knote: [m[Kdeclared here
+[47.431s]        public: virtual [01;36m[K~[m[KColor() GAZEBO_DEPRECATED(9.0);
+[47.431s]                        [01;36m[K^[m[K
+[47.431s] [01m[K/home/chinchia120/autoware.ai/src/citysim/plugins/TrafficLightsGUIPlugin.cc:83:39:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvirtual gazebo::common::Color::~Color()[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[47.431s]    auto black = gazebo::common::Color::[01;35m[KBlack[m[K;
+[47.431s]                                        [01;35m[K^~~~~[m[K
+[47.431s] In file included from [01m[K/usr/include/gazebo-9/gazebo/msgs/msgs.hh:38:0[m[K,
+[47.432s]                  from [01m[K/home/chinchia120/autoware.ai/src/citysim/plugins/TrafficLightsGUIPlugin.cc:18[m[K:
+[47.432s] [01m[K/usr/include/gazebo-9/gazebo/common/Color.hh:98:23:[m[K [01;36m[Knote: [m[Kdeclared here
+[47.432s]        public: virtual [01;36m[K~[m[KColor() GAZEBO_DEPRECATED(9.0);
+[47.432s]                        [01;36m[K^[m[K
+[47.440s] [01m[K/home/chinchia120/autoware.ai/src/citysim/plugins/TrafficLightsGUIPlugin.cc:105:66:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid gazebo::msgs::Set(gazebo::msgs::Color*, const gazebo::common::Color&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[47.441s]              gazebo::msgs::Set(matMsg->mutable_emissive(), c.first[01;35m[K)[m[K;
+[47.441s]                                                                   [01;35m[K^[m[K
+[47.441s] In file included from [01m[K/home/chinchia120/autoware.ai/src/citysim/plugins/TrafficLightsGUIPlugin.cc:18:0[m[K:
+[47.442s] [01m[K/usr/include/gazebo-9/gazebo/msgs/msgs.hh:328:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[47.442s]      void [01;36m[KSet[m[K(msgs::Color *_c, const common::Color &_v) GAZEBO_DEPRECATED(9.0);
+[47.442s]           [01;36m[K^~~[m[K
+[47.442s] [01m[K/home/chinchia120/autoware.ai/src/citysim/plugins/TrafficLightsGUIPlugin.cc:106:65:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid gazebo::msgs::Set(gazebo::msgs::Color*, const gazebo::common::Color&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[47.443s]              gazebo::msgs::Set(matMsg->mutable_ambient(), c.first[01;35m[K)[m[K;
+[47.443s]                                                                  [01;35m[K^[m[K
+[47.443s] In file included from [01m[K/home/chinchia120/autoware.ai/src/citysim/plugins/TrafficLightsGUIPlugin.cc:18:0[m[K:
+[47.443s] [01m[K/usr/include/gazebo-9/gazebo/msgs/msgs.hh:328:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[47.444s]      void [01;36m[KSet[m[K(msgs::Color *_c, const common::Color &_v) GAZEBO_DEPRECATED(9.0);
+[47.444s]           [01;36m[K^~~[m[K
+[47.444s] [01m[K/home/chinchia120/autoware.ai/src/citysim/plugins/TrafficLightsGUIPlugin.cc:110:64:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid gazebo::msgs::Set(gazebo::msgs::Color*, const gazebo::common::Color&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[47.445s]              gazebo::msgs::Set(matMsg->mutable_emissive(), black[01;35m[K)[m[K;
+[47.445s]                                                                 [01;35m[K^[m[K
+[47.445s] In file included from [01m[K/home/chinchia120/autoware.ai/src/citysim/plugins/TrafficLightsGUIPlugin.cc:18:0[m[K:
+[47.445s] [01m[K/usr/include/gazebo-9/gazebo/msgs/msgs.hh:328:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[47.445s]      void [01;36m[KSet[m[K(msgs::Color *_c, const common::Color &_v) GAZEBO_DEPRECATED(9.0);
+[47.446s]           [01;36m[K^~~[m[K
+[47.446s] [01m[K/home/chinchia120/autoware.ai/src/citysim/plugins/TrafficLightsGUIPlugin.cc:111:63:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid gazebo::msgs::Set(gazebo::msgs::Color*, const gazebo::common::Color&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[47.446s]              gazebo::msgs::Set(matMsg->mutable_ambient(), black[01;35m[K)[m[K;
+[47.446s]                                                                [01;35m[K^[m[K
+[47.447s] In file included from [01m[K/home/chinchia120/autoware.ai/src/citysim/plugins/TrafficLightsGUIPlugin.cc:18:0[m[K:
+[47.447s] [01m[K/usr/include/gazebo-9/gazebo/msgs/msgs.hh:328:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[47.447s]      void [01;36m[KSet[m[K(msgs::Color *_c, const common::Color &_v) GAZEBO_DEPRECATED(9.0);
+[47.447s]           [01;36m[K^~~[m[K
+[55.100s] [ 58%] [32mBuilding CXX object plugins/CMakeFiles/TrafficLightsGUIPlugin.dir/TrafficLightsGUIPlugin_autogen/mocs_compilation.cpp.o[0m
+[70.146s] [ 66%] [32m[1mLinking CXX shared library libTrafficLightsGUIPlugin.so[0m
+[71.710s] [ 66%] Built target TrafficLightsGUIPlugin
+[71.734s] [35m[1mScanning dependencies of target LensFlareVisualPlugin_autogen[0m
+[71.759s] [ 75%] [34m[1mAutomatic MOC for target LensFlareVisualPlugin[0m
+[71.834s] [ 75%] Built target LensFlareVisualPlugin_autogen
+[71.867s] [35m[1mScanning dependencies of target LensFlareVisualPlugin[0m
+[72.047s] [ 83%] [32mBuilding CXX object plugins/CMakeFiles/LensFlareVisualPlugin.dir/LensFlareVisualPlugin.cc.o[0m
+[91.973s] [ 91%] [32mBuilding CXX object plugins/CMakeFiles/LensFlareVisualPlugin.dir/LensFlareVisualPlugin_autogen/mocs_compilation.cpp.o[0m
+[92.023s] [100%] [32m[1mLinking CXX shared library libLensFlareVisualPlugin.so[0m
+[92.522s] [100%] Built target LensFlareVisualPlugin
+[92.553s] Invoked command in '/home/chinchia120/autoware.ai/build/citysim' returned '0': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/citysim -- -j4 -l4
+[92.649s] Invoking command in '/home/chinchia120/autoware.ai/build/citysim': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/citysim --target install -- -j4 -l4
+[92.790s] [  8%] [34m[1mAutomatic MOC for target BloomVisualPlugin[0m
+[92.839s] [  8%] Built target BloomVisualPlugin_autogen
+[92.897s] [ 16%] [34m[1mAutomatic MOC for target TrafficLightsGUIPlugin[0m
+[92.952s] [ 16%] Built target TrafficLightsGUIPlugin_autogen
+[93.042s] [ 41%] Built target BloomVisualPlugin
+[93.186s] [ 66%] Built target TrafficLightsGUIPlugin
+[93.241s] [ 75%] [34m[1mAutomatic MOC for target LensFlareVisualPlugin[0m
+[93.292s] [ 75%] Built target LensFlareVisualPlugin_autogen
+[93.377s] [100%] Built target LensFlareVisualPlugin
+[93.425s] [36mInstall the project...[0m
+[93.449s] -- Install configuration: "Release"
+[93.450s] -- Installing: /home/chinchia120/autoware.ai/install/citysim/share/citysim-0/setup.sh
+[93.450s] -- Installing: /home/chinchia120/autoware.ai/install/citysim/share/citysim/setup.sh
+[93.452s] -- Installing: /home/chinchia120/autoware.ai/install/citysim/lib/citysim-0/plugins/libLensFlareVisualPlugin.so
+[93.453s] -- Set runtime path of "/home/chinchia120/autoware.ai/install/citysim/lib/citysim-0/plugins/libLensFlareVisualPlugin.so" to ""
+[93.453s] -- Installing: /home/chinchia120/autoware.ai/install/citysim/lib/citysim-0/plugins/libBloomVisualPlugin.so
+[93.455s] -- Set runtime path of "/home/chinchia120/autoware.ai/install/citysim/lib/citysim-0/plugins/libBloomVisualPlugin.so" to ""
+[93.455s] -- Installing: /home/chinchia120/autoware.ai/install/citysim/lib/citysim-0/plugins/libTrafficLightsGUIPlugin.so
+[93.457s] -- Set runtime path of "/home/chinchia120/autoware.ai/install/citysim/lib/citysim-0/plugins/libTrafficLightsGUIPlugin.so" to ""
+[93.457s] -- Installing: /home/chinchia120/autoware.ai/install/citysim/share/citysim-0/models/actor
+[93.460s] -- Installing: /home/chinchia120/autoware.ai/install/citysim/share/citysim-0/models/actor/meshes
+[93.461s] -- Installing: /home/chinchia120/autoware.ai/install/citysim/share/citysim-0/models/actor/meshes/ANIMATION_talking_a.dae
+[94.113s] -- Installing: /home/chinchia120/autoware.ai/install/citysim/share/citysim-0/models/actor/meshes/ANIMATION_talking_b.dae
+[94.346s] -- Installing: /home/chinchia120/autoware.ai/install/citysim/share/citysim-0/models/actor/meshes/SKIN_man_blue_shirt.dae
+[94.381s] -- Installing: /home/chinchia120/autoware.ai/install/citysim/share/citysim-0/models/actor/meshes/ANIMATION_running.dae
+[94.576s] -- Installing: /home/chinchia120/autoware.ai/install/citysim/share/citysim-0/models/actor/meshes/ANIMATION_walking.dae
+[94.616s] -- Installing: /home/chinchia120/autoware.ai/install/citysim/share/citysim-0/models/actor/meshes/SKIN_man_green_shirt.dae
+[94.650s] -- Installing: /home/chinchia120/autoware.ai/install/citysim/share/citysim-0/models/actor/meshes/SKIN_man_red_shirt.dae
+[94.679s] -- Installing: /home/chinchia120/autoware.ai/install/citysim/share/citysim-0/models/actor/model.sdf
+[94.681s] -- Installing: /home/chinchia120/autoware.ai/install/citysim/share/citysim-0/models/actor/model.config
+[94.682s] -- Installing: /home/chinchia120/autoware.ai/install/citysim/share/citysim-0/models/city_terrain
+[94.682s] -- Installing: /home/chinchia120/autoware.ai/install/citysim/share/citysim-0/models/city_terrain/materials
+[94.683s] -- Installing: /home/chinchia120/autoware.ai/install/citysim/share/citysim-0/models/city_terrain/materials/textures
+[94.683s] -- Installing: /home/chinchia120/autoware.ai/install/citysim/share/citysim-0/models/city_terrain/materials/textures/city_terrain (original).jpg
+[94.687s] -- Installing: /home/chinchia120/autoware.ai/install/citysim/share/citysim-0/models/city_terrain/materials/textures/city_terrain.jpg
+[94.688s] -- Installing: /home/chinchia120/autoware.ai/install/citysim/share/citysim-0/models/city_terrain/materials/textures/forest.jpg
+[94.765s] -- Installing: /home/chinchia120/autoware.ai/install/citysim/share/citysim-0/models/city_terrain/model.sdf
+[94.766s] -- Installing: /home/chinchia120/autoware.ai/install/citysim/share/citysim-0/models/city_terrain/model.config
+[94.767s] -- Installing: /home/chinchia120/autoware.ai/install/citysim/share/citysim-0/models/ocean
+[94.767s] -- Installing: /home/chinchia120/autoware.ai/install/citysim/share/citysim-0/models/ocean/mesh-simple.dae
+[94.769s] -- Installing: /home/chinchia120/autoware.ai/install/citysim/share/citysim-0/models/ocean/mesh_below.dae
+[94.769s] -- Installing: /home/chinchia120/autoware.ai/install/citysim/share/citysim-0/models/ocean/materials
+[94.770s] -- Installing: /home/chinchia120/autoware.ai/install/citysim/share/citysim-0/models/ocean/materials/programs
+[94.771s] -- Installing: /home/chinchia120/autoware.ai/install/citysim/share/citysim-0/models/ocean/materials/programs/GLSL
+[94.771s] -- Installing: /home/chinchia120/autoware.ai/install/citysim/share/citysim-0/models/ocean/materials/programs/GLSL/Waves.vert
+[94.772s] -- Installing: /home/chinchia120/autoware.ai/install/citysim/share/citysim-0/models/ocean/materials/programs/GLSL/Waves.frag
+[94.772s] -- Installing: /home/chinchia120/autoware.ai/install/citysim/share/citysim-0/models/ocean/materials/textures
+[94.773s] -- Installing: /home/chinchia120/autoware.ai/install/citysim/share/citysim-0/models/ocean/materials/textures/clouds_rt.jpg
+[94.773s] -- Installing: /home/chinchia120/autoware.ai/install/citysim/share/citysim-0/models/ocean/materials/textures/clouds_up.jpg
+[94.774s] -- Installing: /home/chinchia120/autoware.ai/install/citysim/share/citysim-0/models/ocean/materials/textures/clouds.jpg
+[94.775s] -- Installing: /home/chinchia120/autoware.ai/install/citysim/share/citysim-0/models/ocean/materials/textures/clouds_bk.jpg
+[94.775s] -- Installing: /home/chinchia120/autoware.ai/install/citysim/share/citysim-0/models/ocean/materials/textures/clouds_fr.jpg
+[94.777s] -- Installing: /home/chinchia120/autoware.ai/install/citysim/share/citysim-0/models/ocean/materials/textures/clouds_dn.jpg
+[94.777s] -- Installing: /home/chinchia120/autoware.ai/install/citysim/share/citysim-0/models/ocean/materials/textures/clouds_lf.jpg
+[94.778s] -- Installing: /home/chinchia120/autoware.ai/install/citysim/share/citysim-0/models/ocean/materials/textures/soil_sand_0045_01.jpg
+[94.788s] -- Installing: /home/chinchia120/autoware.ai/install/citysim/share/citysim-0/models/ocean/materials/textures/License and source soil_sand_0045_01.txt
+[94.788s] -- Installing: /home/chinchia120/autoware.ai/install/citysim/share/citysim-0/models/ocean/materials/textures/normals.dds
+[94.790s] -- Installing: /home/chinchia120/autoware.ai/install/citysim/share/citysim-0/models/ocean/materials/scripts
+[94.790s] -- Installing: /home/chinchia120/autoware.ai/install/citysim/share/citysim-0/models/ocean/materials/scripts/ocean.material
+[94.791s] -- Installing: /home/chinchia120/autoware.ai/install/citysim/share/citysim-0/models/ocean/model.sdf
+[94.791s] -- Installing: /home/chinchia120/autoware.ai/install/citysim/share/citysim-0/models/ocean/mesh.dae
+[94.794s] -- Installing: /home/chinchia120/autoware.ai/install/citysim/share/citysim-0/models/ocean/model.config
+[94.795s] -- Installing: /home/chinchia120/autoware.ai/install/citysim/share/citysim-0/models/ocean/mesh.blend
+[94.798s] -- Installing: /home/chinchia120/autoware.ai/install/citysim/share/citysim-0/worlds/citysim_gazebo7.world
+[94.799s] -- Installing: /home/chinchia120/autoware.ai/install/citysim/share/citysim-0/worlds/citysim_gazebo9.world
+[94.801s] -- Installing: /home/chinchia120/autoware.ai/install/citysim/share/citysim-0/worlds/rendering.world
+[94.801s] -- Installing: /home/chinchia120/autoware.ai/install/citysim/share/citysim-0/worlds/simple_city.world
+[94.811s] -- Installing: /home/chinchia120/autoware.ai/install/citysim/share/citysim-0/media/materials/scripts/Bloom2.material
+[94.813s] -- Installing: /home/chinchia120/autoware.ai/install/citysim/share/citysim-0/media/materials/scripts/citysim.material
+[94.814s] -- Installing: /home/chinchia120/autoware.ai/install/citysim/share/citysim-0/media/materials/scripts/Bloom2.compositor
+[94.814s] -- Installing: /home/chinchia120/autoware.ai/install/citysim/share/citysim-0/media/materials/scripts/StdQuad_vp.program
+[94.817s] -- Installing: /home/chinchia120/autoware.ai/install/citysim/share/citysim-0/media/materials/programs/Bloom2_ps20.glsl
+[94.817s] -- Installing: /home/chinchia120/autoware.ai/install/citysim/share/citysim-0/media/materials/programs/BlurH_ps20.glsl
+[94.819s] -- Installing: /home/chinchia120/autoware.ai/install/citysim/share/citysim-0/media/materials/programs/BlurV_ps20.glsl
+[94.820s] -- Installing: /home/chinchia120/autoware.ai/install/citysim/share/citysim-0/media/materials/programs/Blur_vs.glsl
+[94.821s] -- Installing: /home/chinchia120/autoware.ai/install/citysim/share/citysim-0/media/materials/programs/BrightBloom2_ps20.glsl
+[94.823s] -- Installing: /home/chinchia120/autoware.ai/install/citysim/share/citysim-0/media/materials/programs/StdQuad_Tex2a_vp.glsl
+[94.823s] -- Installing: /home/chinchia120/autoware.ai/install/citysim/share/citysim-0/media/materials/programs/StdQuad_vp.glsl
+[94.834s] Invoked command in '/home/chinchia120/autoware.ai/build/citysim' returned '0': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/citysim --target install -- -j4 -l4

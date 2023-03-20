@@ -1,0 +1,483 @@
+[0.038s] Invoking command in '/home/chinchia120/autoware.ai/build/astar_search': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs:/home/chinchia120/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs/share:/home/chinchia120/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/chinchia120/autoware.ai/src/autoware/core_planning/astar_search -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/chinchia120/autoware.ai/install/astar_search
+[0.214s] -- The C compiler identification is GNU 7.5.0
+[0.357s] -- The CXX compiler identification is GNU 7.5.0
+[0.367s] -- Check for working C compiler: /usr/bin/cc
+[0.535s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.536s] -- Detecting C compiler ABI info
+[0.715s] -- Detecting C compiler ABI info - done
+[0.738s] -- Detecting C compile features
+[1.224s] -- Detecting C compile features - done
+[1.229s] -- Check for working CXX compiler: /usr/bin/c++
+[1.412s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.414s] -- Detecting CXX compiler ABI info
+[1.618s] -- Detecting CXX compiler ABI info - done
+[1.634s] -- Detecting CXX compile features
+[2.519s] -- Detecting CXX compile features - done
+[2.523s] -- CUDA compilation status: 1.
+[2.527s] -- Using CATKIN_DEVEL_PREFIX: /home/chinchia120/autoware.ai/build/astar_search/devel
+[2.528s] -- Using CMAKE_PREFIX_PATH: /home/chinchia120/autoware.ai/install/autoware_msgs;/home/chinchia120/autoware.ai/install/autoware_build_flags;/home/chinchia120/catkin_ws/devel;/opt/ros/melodic
+[2.528s] -- This workspace overlays: /home/chinchia120/autoware.ai/install/autoware_msgs;/home/chinchia120/autoware.ai/install/autoware_build_flags;/home/chinchia120/catkin_ws/devel;/opt/ros/melodic
+[2.571s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[2.572s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[2.572s] -- Using Debian Python package layout
+[2.573s] -- Using empy: /usr/bin/empy
+[2.917s] -- Using CATKIN_ENABLE_TESTING: ON
+[2.917s] -- Call enable_testing()
+[2.921s] -- Using CATKIN_TEST_RESULTS_DIR: /home/chinchia120/autoware.ai/build/astar_search/test_results
+[2.954s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[2.954s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[2.980s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[2.982s] -- Looking for pthread.h
+[3.346s] -- Looking for pthread.h - found
+[3.347s] -- Looking for pthread_create
+[3.483s] -- Looking for pthread_create - not found
+[3.484s] -- Looking for pthread_create in pthreads
+[3.759s] -- Looking for pthread_create in pthreads - not found
+[3.760s] -- Looking for pthread_create in pthread
+[4.146s] -- Looking for pthread_create in pthread - found
+[4.152s] -- Found Threads: TRUE  
+[4.156s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[4.253s] -- catkin 0.7.29
+[4.253s] -- BUILD_SHARED_LIBS is on
+[4.574s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[7.109s] -- Configuring done
+[7.386s] -- Generating done
+[7.424s] -- Build files have been written to: /home/chinchia120/autoware.ai/build/astar_search
+[7.447s] Invoked command in '/home/chinchia120/autoware.ai/build/astar_search' returned '0': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs:/home/chinchia120/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs/share:/home/chinchia120/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/chinchia120/autoware.ai/src/autoware/core_planning/astar_search -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/chinchia120/autoware.ai/install/astar_search
+[7.449s] Invoking command in '/home/chinchia120/autoware.ai/build/astar_search': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs:/home/chinchia120/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs/share:/home/chinchia120/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/astar_search -- -j4 -l4
+[7.636s] [35m[1mScanning dependencies of target std_srvs_generate_messages_lisp[0m
+[7.684s] [  0%] Built target std_srvs_generate_messages_lisp
+[7.736s] [35m[1mScanning dependencies of target tf2_msgs_generate_messages_cpp[0m
+[7.784s] [  0%] Built target tf2_msgs_generate_messages_cpp
+[7.810s] [35m[1mScanning dependencies of target tf2_msgs_generate_messages_py[0m
+[7.852s] [  0%] Built target tf2_msgs_generate_messages_py
+[7.886s] [35m[1mScanning dependencies of target actionlib_generate_messages_py[0m
+[7.930s] [  0%] Built target actionlib_generate_messages_py
+[7.972s] [35m[1mScanning dependencies of target actionlib_generate_messages_cpp[0m
+[8.021s] [  0%] Built target actionlib_generate_messages_cpp
+[8.051s] [35m[1mScanning dependencies of target tf_generate_messages_nodejs[0m
+[8.084s] [  0%] Built target tf_generate_messages_nodejs
+[8.124s] [35m[1mScanning dependencies of target tf_generate_messages_lisp[0m
+[8.184s] [  0%] Built target tf_generate_messages_lisp
+[8.246s] [35m[1mScanning dependencies of target topic_tools_generate_messages_nodejs[0m
+[8.276s] [  0%] Built target topic_tools_generate_messages_nodejs
+[8.307s] [35m[1mScanning dependencies of target topic_tools_generate_messages_eus[0m
+[8.333s] [  0%] Built target topic_tools_generate_messages_eus
+[8.359s] [35m[1mScanning dependencies of target topic_tools_generate_messages_cpp[0m
+[8.388s] [  0%] Built target topic_tools_generate_messages_cpp
+[8.415s] [35m[1mScanning dependencies of target std_srvs_generate_messages_py[0m
+[8.444s] [  0%] Built target std_srvs_generate_messages_py
+[8.481s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[8.508s] [  0%] Built target geometry_msgs_generate_messages_py
+[8.547s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_nodejs[0m
+[8.593s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[8.627s] [35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[8.658s] [  0%] Built target roscpp_generate_messages_cpp
+[8.680s] [35m[1mScanning dependencies of target pcl_msgs_generate_messages_eus[0m
+[8.711s] [  0%] Built target pcl_msgs_generate_messages_eus
+[8.738s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[8.766s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[8.790s] [35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_lisp[0m
+[8.823s] [  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+[8.870s] [35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_eus[0m
+[8.893s] [  0%] Built target jsk_recognition_msgs_generate_messages_eus
+[8.920s] [35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[8.954s] [  0%] Built target std_msgs_generate_messages_py
+[8.976s] [35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[8.997s] [  0%] Built target std_msgs_generate_messages_nodejs
+[9.018s] [35m[1mScanning dependencies of target bond_generate_messages_lisp[0m
+[9.045s] [  0%] Built target bond_generate_messages_lisp
+[9.071s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_eus[0m
+[9.102s] [  0%] Built target sensor_msgs_generate_messages_eus
+[9.123s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_cpp[0m
+[9.146s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[9.177s] [35m[1mScanning dependencies of target autoware_msgs_generate_messages_cpp[0m
+[9.203s] [  0%] Built target autoware_msgs_generate_messages_cpp
+[9.236s] [35m[1mScanning dependencies of target tf_generate_messages_py[0m
+[9.269s] [  0%] Built target tf_generate_messages_py
+[9.301s] [35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_cpp[0m
+[9.330s] [  0%] Built target dynamic_reconfigure_generate_messages_cpp
+[9.355s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[9.386s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[9.418s] [35m[1mScanning dependencies of target pcl_msgs_generate_messages_nodejs[0m
+[9.447s] [  0%] Built target pcl_msgs_generate_messages_nodejs
+[9.476s] [35m[1mScanning dependencies of target nodelet_generate_messages_nodejs[0m
+[9.500s] [  0%] Built target nodelet_generate_messages_nodejs
+[9.530s] [35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_py[0m
+[9.562s] [  0%] Built target jsk_recognition_msgs_generate_messages_py
+[9.587s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_lisp[0m
+[9.617s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[9.638s] [35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[9.661s] [  0%] Built target std_msgs_generate_messages_cpp
+[9.681s] [35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_py[0m
+[9.709s] [  0%] Built target jsk_footstep_msgs_generate_messages_py
+[9.740s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_py[0m
+[9.762s] [  0%] Built target sensor_msgs_generate_messages_py
+[9.783s] [35m[1mScanning dependencies of target nodelet_generate_messages_py[0m
+[9.805s] [  0%] Built target nodelet_generate_messages_py
+[9.831s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[9.860s] [  0%] Built target geometry_msgs_generate_messages_eus
+[9.889s] [35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[9.918s] [  0%] Built target std_msgs_generate_messages_lisp
+[9.941s] [35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+[9.972s] [  0%] Built target roscpp_generate_messages_nodejs
+[10.003s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[10.026s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[10.055s] [35m[1mScanning dependencies of target actionlib_generate_messages_eus[0m
+[10.089s] [  0%] Built target actionlib_generate_messages_eus
+[10.120s] [35m[1mScanning dependencies of target pcl_msgs_generate_messages_py[0m
+[10.147s] [  0%] Built target pcl_msgs_generate_messages_py
+[10.169s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[10.198s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[10.222s] [35m[1mScanning dependencies of target actionlib_generate_messages_lisp[0m
+[10.250s] [  0%] Built target actionlib_generate_messages_lisp
+[10.282s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[10.313s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[10.339s] [35m[1mScanning dependencies of target pcl_msgs_generate_messages_cpp[0m
+[10.362s] [  0%] Built target pcl_msgs_generate_messages_cpp
+[10.392s] [35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_lisp[0m
+[10.422s] [  0%] Built target dynamic_reconfigure_generate_messages_lisp
+[10.453s] [35m[1mScanning dependencies of target topic_tools_generate_messages_lisp[0m
+[10.479s] [  0%] Built target topic_tools_generate_messages_lisp
+[10.510s] [35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_cpp[0m
+[10.541s] [  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+[10.566s] [35m[1mScanning dependencies of target autoware_msgs_generate_messages_eus[0m
+[10.594s] [  0%] Built target autoware_msgs_generate_messages_eus
+[10.624s] [35m[1mScanning dependencies of target autoware_msgs_generate_messages_lisp[0m
+[10.657s] [  0%] Built target autoware_msgs_generate_messages_lisp
+[10.686s] [35m[1mScanning dependencies of target autoware_msgs_generate_messages_py[0m
+[10.714s] [  0%] Built target autoware_msgs_generate_messages_py
+[10.742s] [35m[1mScanning dependencies of target nodelet_generate_messages_lisp[0m
+[10.768s] [  0%] Built target nodelet_generate_messages_lisp
+[10.800s] [35m[1mScanning dependencies of target actionlib_generate_messages_nodejs[0m
+[10.834s] [  0%] Built target actionlib_generate_messages_nodejs
+[10.858s] [35m[1mScanning dependencies of target tf_generate_messages_cpp[0m
+[10.886s] [  0%] Built target tf_generate_messages_cpp
+[10.919s] [35m[1mScanning dependencies of target pcl_msgs_generate_messages_lisp[0m
+[10.947s] [  0%] Built target pcl_msgs_generate_messages_lisp
+[10.976s] [35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[11.005s] [  0%] Built target std_msgs_generate_messages_eus
+[11.051s] [35m[1mScanning dependencies of target autoware_msgs_generate_messages_nodejs[0m
+[11.061s] [  0%] Built target autoware_msgs_generate_messages_nodejs
+[11.095s] [35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_eus[0m
+[11.131s] [  0%] Built target jsk_footstep_msgs_generate_messages_eus
+[11.154s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_py[0m
+[11.181s] [  0%] Built target actionlib_msgs_generate_messages_py
+[11.205s] [35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_lisp[0m
+[11.246s] [  0%] Built target jsk_footstep_msgs_generate_messages_lisp
+[11.276s] [35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_nodejs[0m
+[11.311s] [  0%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[11.341s] [35m[1mScanning dependencies of target tf_generate_messages_eus[0m
+[11.368s] [  0%] Built target tf_generate_messages_eus
+[11.390s] [35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_cpp[0m
+[11.415s] [  0%] Built target jsk_footstep_msgs_generate_messages_cpp
+[11.442s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_cpp[0m
+[11.473s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[11.508s] [35m[1mScanning dependencies of target std_srvs_generate_messages_cpp[0m
+[11.533s] [  0%] Built target std_srvs_generate_messages_cpp
+[11.562s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_lisp[0m
+[11.585s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[11.608s] [35m[1mScanning dependencies of target pcl_ros_gencfg[0m
+[11.635s] [  0%] Built target pcl_ros_gencfg
+[11.663s] [35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_eus[0m
+[11.688s] [  0%] Built target dynamic_reconfigure_generate_messages_eus
+[11.720s] [35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_nodejs[0m
+[11.753s] [  0%] Built target dynamic_reconfigure_generate_messages_nodejs
+[11.782s] [35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_py[0m
+[11.812s] [  0%] Built target dynamic_reconfigure_generate_messages_py
+[11.842s] [35m[1mScanning dependencies of target tf2_msgs_generate_messages_lisp[0m
+[11.868s] [  0%] Built target tf2_msgs_generate_messages_lisp
+[11.892s] [35m[1mScanning dependencies of target dynamic_reconfigure_gencfg[0m
+[11.926s] [  0%] Built target dynamic_reconfigure_gencfg
+[11.955s] [35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_nodejs[0m
+[11.986s] [  0%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[12.015s] [35m[1mScanning dependencies of target std_srvs_generate_messages_eus[0m
+[12.038s] [  0%] Built target std_srvs_generate_messages_eus
+[12.061s] [35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[12.083s] [  0%] Built target roscpp_generate_messages_lisp
+[12.104s] [35m[1mScanning dependencies of target bond_generate_messages_eus[0m
+[12.133s] [  0%] Built target bond_generate_messages_eus
+[12.161s] [35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[12.188s] [  0%] Built target roscpp_generate_messages_py
+[12.218s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[12.244s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[12.276s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[12.305s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[12.332s] [35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[12.362s] [  0%] Built target roscpp_generate_messages_eus
+[12.393s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_eus[0m
+[12.425s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[12.456s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[12.490s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[12.527s] [35m[1mScanning dependencies of target nodelet_generate_messages_cpp[0m
+[12.560s] [  0%] Built target nodelet_generate_messages_cpp
+[12.589s] [35m[1mScanning dependencies of target bond_generate_messages_py[0m
+[12.612s] [  0%] Built target bond_generate_messages_py
+[12.641s] [35m[1mScanning dependencies of target std_srvs_generate_messages_nodejs[0m
+[12.676s] [  0%] Built target std_srvs_generate_messages_nodejs
+[12.703s] [35m[1mScanning dependencies of target nodelet_generate_messages_eus[0m
+[12.736s] [  0%] Built target nodelet_generate_messages_eus
+[12.763s] [35m[1mScanning dependencies of target bond_generate_messages_cpp[0m
+[12.794s] [  0%] Built target bond_generate_messages_cpp
+[12.824s] [35m[1mScanning dependencies of target bond_generate_messages_nodejs[0m
+[12.851s] [  0%] Built target bond_generate_messages_nodejs
+[12.878s] [35m[1mScanning dependencies of target topic_tools_generate_messages_py[0m
+[12.906s] [  0%] Built target topic_tools_generate_messages_py
+[12.933s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_nodejs[0m
+[12.970s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[12.995s] [35m[1mScanning dependencies of target nodelet_topic_tools_gencfg[0m
+[13.025s] [  0%] Built target nodelet_topic_tools_gencfg
+[13.056s] [35m[1mScanning dependencies of target _catkin_empty_exported_target[0m
+[13.086s] [  0%] Built target _catkin_empty_exported_target
+[13.110s] [35m[1mScanning dependencies of target tf2_msgs_generate_messages_eus[0m
+[13.135s] [  0%] Built target tf2_msgs_generate_messages_eus
+[13.168s] [35m[1mScanning dependencies of target tf2_msgs_generate_messages_nodejs[0m
+[13.191s] [  0%] Built target tf2_msgs_generate_messages_nodejs
+[13.218s] [35m[1mScanning dependencies of target astar_search[0m
+[13.337s] [ 33%] [32mBuilding CXX object CMakeFiles/astar_search.dir/src/astar_search.cpp.o[0m
+[20.067s] [ 66%] [32mBuilding CXX object CMakeFiles/astar_search.dir/src/astar_util.cpp.o[0m
+[24.847s] [100%] [32m[1mLinking CXX shared library devel/lib/libastar_search.so[0m
+[25.604s] [100%] Built target astar_search
+[25.633s] Invoked command in '/home/chinchia120/autoware.ai/build/astar_search' returned '0': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs:/home/chinchia120/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs/share:/home/chinchia120/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/astar_search -- -j4 -l4
+[26.016s] Invoking command in '/home/chinchia120/autoware.ai/build/astar_search': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs:/home/chinchia120/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs/share:/home/chinchia120/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/astar_search --target tests -- -j4 -l4
+[26.152s] [35m[1mScanning dependencies of target gtest[0m
+[26.199s] [ 10%] [32mBuilding CXX object gtest/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[34.911s] [ 20%] [32m[1mLinking CXX shared library libgtest.so[0m
+[35.104s] [ 20%] Built target gtest
+[35.163s] [ 20%] Built target tf2_msgs_generate_messages_eus
+[35.232s] [ 20%] Built target tf2_msgs_generate_messages_cpp
+[35.291s] [ 20%] Built target tf2_msgs_generate_messages_py
+[35.365s] [ 20%] Built target actionlib_generate_messages_py
+[35.423s] [ 20%] Built target actionlib_generate_messages_cpp
+[35.477s] [ 20%] Built target tf_generate_messages_nodejs
+[35.529s] [ 20%] Built target tf_generate_messages_lisp
+[35.582s] [ 20%] Built target topic_tools_generate_messages_nodejs
+[35.638s] [ 20%] Built target topic_tools_generate_messages_eus
+[35.691s] [ 20%] Built target topic_tools_generate_messages_cpp
+[35.747s] [ 20%] Built target std_srvs_generate_messages_py
+[35.800s] [ 20%] Built target geometry_msgs_generate_messages_py
+[35.845s] [ 20%] Built target sensor_msgs_generate_messages_nodejs
+[35.899s] [ 20%] Built target roscpp_generate_messages_cpp
+[35.947s] [ 20%] Built target pcl_msgs_generate_messages_eus
+[35.992s] [ 20%] Built target rosgraph_msgs_generate_messages_eus
+[36.055s] [ 20%] Built target jsk_recognition_msgs_generate_messages_lisp
+[36.107s] [ 20%] Built target jsk_recognition_msgs_generate_messages_eus
+[36.157s] [ 20%] Built target std_msgs_generate_messages_py
+[36.203s] [ 20%] Built target std_msgs_generate_messages_nodejs
+[36.253s] [ 20%] Built target bond_generate_messages_lisp
+[36.302s] [ 20%] Built target sensor_msgs_generate_messages_eus
+[36.361s] [ 20%] Built target sensor_msgs_generate_messages_cpp
+[36.421s] [ 20%] Built target autoware_msgs_generate_messages_cpp
+[36.469s] [ 20%] Built target tf_generate_messages_py
+[36.515s] [ 20%] Built target dynamic_reconfigure_generate_messages_cpp
+[36.575s] [ 20%] Built target rosgraph_msgs_generate_messages_cpp
+[36.634s] [ 20%] Built target pcl_msgs_generate_messages_nodejs
+[36.684s] [ 20%] Built target nodelet_generate_messages_nodejs
+[36.744s] [ 20%] Built target jsk_recognition_msgs_generate_messages_py
+[36.808s] [ 20%] Built target sensor_msgs_generate_messages_lisp
+[36.861s] [ 20%] Built target std_msgs_generate_messages_cpp
+[36.909s] [ 20%] Built target jsk_footstep_msgs_generate_messages_py
+[36.967s] [ 20%] Built target sensor_msgs_generate_messages_py
+[37.035s] [ 20%] Built target nodelet_generate_messages_py
+[37.095s] [ 20%] Built target geometry_msgs_generate_messages_eus
+[37.149s] [ 20%] Built target std_msgs_generate_messages_lisp
+[37.206s] [ 20%] Built target roscpp_generate_messages_nodejs
+[37.259s] [ 20%] Built target geometry_msgs_generate_messages_nodejs
+[37.313s] [ 20%] Built target actionlib_generate_messages_eus
+[37.376s] [ 20%] Built target pcl_msgs_generate_messages_py
+[37.431s] [ 20%] Built target geometry_msgs_generate_messages_lisp
+[37.490s] [ 20%] Built target actionlib_generate_messages_lisp
+[37.558s] [ 20%] Built target geometry_msgs_generate_messages_cpp
+[37.629s] [ 20%] Built target pcl_msgs_generate_messages_cpp
+[37.693s] [ 20%] Built target dynamic_reconfigure_generate_messages_lisp
+[37.760s] [ 20%] Built target topic_tools_generate_messages_lisp
+[37.826s] [ 20%] Built target jsk_recognition_msgs_generate_messages_cpp
+[37.901s] [ 20%] Built target autoware_msgs_generate_messages_eus
+[37.982s] [ 20%] Built target autoware_msgs_generate_messages_lisp
+[38.059s] [ 20%] Built target autoware_msgs_generate_messages_py
+[38.133s] [ 20%] Built target nodelet_generate_messages_lisp
+[38.215s] [ 20%] Built target actionlib_generate_messages_nodejs
+[38.305s] [ 20%] Built target tf_generate_messages_cpp
+[38.387s] [ 20%] Built target pcl_msgs_generate_messages_lisp
+[38.475s] [ 20%] Built target std_msgs_generate_messages_eus
+[38.552s] [ 20%] Built target autoware_msgs_generate_messages_nodejs
+[38.636s] [ 20%] Built target jsk_footstep_msgs_generate_messages_eus
+[38.724s] [ 20%] Built target actionlib_msgs_generate_messages_py
+[38.814s] [ 20%] Built target jsk_footstep_msgs_generate_messages_lisp
+[38.900s] [ 20%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[38.989s] [ 20%] Built target tf_generate_messages_eus
+[39.072s] [ 20%] Built target jsk_footstep_msgs_generate_messages_cpp
+[39.159s] [ 20%] Built target actionlib_msgs_generate_messages_cpp
+[39.250s] [ 20%] Built target std_srvs_generate_messages_cpp
+[39.338s] [ 20%] Built target actionlib_msgs_generate_messages_lisp
+[39.427s] [ 20%] Built target pcl_ros_gencfg
+[39.534s] [ 20%] Built target dynamic_reconfigure_generate_messages_eus
+[39.614s] [ 20%] Built target dynamic_reconfigure_generate_messages_nodejs
+[39.699s] [ 20%] Built target dynamic_reconfigure_generate_messages_py
+[39.779s] [ 20%] Built target tf2_msgs_generate_messages_lisp
+[39.863s] [ 20%] Built target dynamic_reconfigure_gencfg
+[39.943s] [ 20%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[40.026s] [ 20%] Built target std_srvs_generate_messages_eus
+[40.106s] [ 20%] Built target roscpp_generate_messages_lisp
+[40.188s] [ 20%] Built target bond_generate_messages_eus
+[40.267s] [ 20%] Built target roscpp_generate_messages_py
+[40.351s] [ 20%] Built target rosgraph_msgs_generate_messages_lisp
+[40.424s] [ 20%] Built target rosgraph_msgs_generate_messages_nodejs
+[40.494s] [ 20%] Built target roscpp_generate_messages_eus
+[40.568s] [ 20%] Built target actionlib_msgs_generate_messages_eus
+[40.639s] [ 20%] Built target rosgraph_msgs_generate_messages_py
+[40.704s] [ 20%] Built target nodelet_generate_messages_cpp
+[40.774s] [ 20%] Built target bond_generate_messages_py
+[40.835s] [ 20%] Built target std_srvs_generate_messages_nodejs
+[40.905s] [ 20%] Built target nodelet_generate_messages_eus
+[40.973s] [ 20%] Built target bond_generate_messages_cpp
+[41.045s] [ 20%] Built target bond_generate_messages_nodejs
+[41.115s] [ 20%] Built target topic_tools_generate_messages_py
+[41.182s] [ 20%] Built target actionlib_msgs_generate_messages_nodejs
+[41.248s] [ 20%] Built target nodelet_topic_tools_gencfg
+[41.318s] [ 20%] Built target _catkin_empty_exported_target
+[41.390s] [ 20%] Built target tf2_msgs_generate_messages_nodejs
+[41.456s] [ 20%] Built target std_srvs_generate_messages_lisp
+[41.550s] [ 50%] Built target astar_search
+[41.589s] [35m[1mScanning dependencies of target astar_search-test[0m
+[41.748s] [ 60%] [32mBuilding CXX object CMakeFiles/astar_search-test.dir/test/src/test_main.cpp.o[0m
+[45.589s] [ 70%] [32mBuilding CXX object CMakeFiles/astar_search-test.dir/test/src/test_class.cpp.o[0m
+[51.079s] [01m[K/home/chinchia120/autoware.ai/src/autoware/core_planning/astar_search/test/src/test_class.cpp:[m[K In constructor ‘[01m[KTestClass::TestClass()[m[K’:
+[51.080s] [01m[K/home/chinchia120/autoware.ai/src/autoware/core_planning/astar_search/test/src/test_class.cpp:54:25:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+[51.080s]    for (int idx = 0; [01;35m[Kidx < costmap_.info.width*costmap_.info.height[m[K; ++idx)
+[51.080s]                      [01;35m[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[51.080s] [01m[K/home/chinchia120/autoware.ai/src/autoware/core_planning/astar_search/test/src/test_class.cpp:60:25:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+[51.081s]    for (int row = 0; [01;35m[Krow < costmap_.info.height[m[K; ++row)
+[51.081s]                      [01;35m[K~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[51.081s] [01m[K/home/chinchia120/autoware.ai/src/autoware/core_planning/astar_search/test/src/test_class.cpp:62:27:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+[51.081s]      for (int col = 0; [01;35m[Kcol < costmap_.info.width[m[K; ++col)
+[51.081s]                        [01;35m[K~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[52.039s] [ 80%] [32mBuilding CXX object CMakeFiles/astar_search-test.dir/test/src/test_astar_search.cpp.o[0m
+[56.104s] [01m[K/home/chinchia120/autoware.ai/src/autoware/core_planning/astar_search/test/src/test_astar_search.cpp:[m[K In member function ‘[01m[Kvirtual void TestSuite_checkSetPath_Test::TestBody()[m[K’:
+[56.104s] [01m[K/home/chinchia120/autoware.ai/src/autoware/core_planning/astar_search/test/src/test_astar_search.cpp:143:25:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+[56.105s]    for (int row = 0; [01;35m[Krow < test_obj_.costmap_.info.height[m[K; ++row)
+[56.105s]                      [01;35m[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[56.105s] [01m[K/home/chinchia120/autoware.ai/src/autoware/core_planning/astar_search/test/src/test_astar_search.cpp:145:27:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+[56.105s]      for (int col = 0; [01;35m[Kcol < test_obj_.costmap_.info.width[m[K; ++col)
+[56.105s]                        [01;35m[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[56.288s] In file included from [01m[K/home/chinchia120/autoware.ai/src/autoware/core_planning/astar_search/test/src/test_astar_search.cpp:18:0[m[K:
+[56.288s] /usr/src/googletest/googletest/include/gtest/gtest.h: In instantiation of ‘[01m[Ktesting::AssertionResult testing::internal::CmpHelperEQ(const char*, const char*, const T1&, const T2&) [with T1 = int; T2 = unsigned int][m[K’:
+[56.288s] [01m[K/usr/src/googletest/googletest/include/gtest/gtest.h:1421:23:[m[K   required from ‘[01m[Kstatic testing::AssertionResult testing::internal::EqHelper<lhs_is_null_literal>::Compare(const char*, const char*, const T1&, const T2&) [with T1 = int; T2 = unsigned int; bool lhs_is_null_literal = false][m[K’
+[56.288s] [01m[K/home/chinchia120/autoware.ai/src/autoware/core_planning/astar_search/test/src/test_astar_search.cpp:30:3:[m[K   required from here
+[56.289s] [01m[K/usr/src/googletest/googletest/include/gtest/gtest.h:1392:11:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+[56.289s]    if ([01;35m[Klhs == rhs[m[K) {
+[56.289s]        [01;35m[K~~~~^~~~~~[m[K
+[57.639s] [ 90%] [32mBuilding CXX object CMakeFiles/astar_search-test.dir/test/src/test_astar_util.cpp.o[0m
+[63.178s] [100%] [32m[1mLinking CXX executable devel/lib/astar_search/astar_search-test[0m
+[64.321s] [100%] Built target astar_search-test
+[64.341s] [35m[1mScanning dependencies of target tests[0m
+[64.363s] [100%] Built target tests
+[64.389s] Invoked command in '/home/chinchia120/autoware.ai/build/astar_search' returned '0': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs:/home/chinchia120/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs/share:/home/chinchia120/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/astar_search --target tests -- -j4 -l4
+[64.756s] Invoking command in '/home/chinchia120/autoware.ai/build/astar_search': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs:/home/chinchia120/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs/share:/home/chinchia120/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/astar_search --target install -- -j4 -l4
+[64.882s] [  0%] Built target std_srvs_generate_messages_lisp
+[64.936s] [  0%] Built target tf2_msgs_generate_messages_cpp
+[64.979s] [  0%] Built target tf2_msgs_generate_messages_py
+[65.034s] [  0%] Built target actionlib_generate_messages_py
+[65.103s] [  0%] Built target actionlib_generate_messages_cpp
+[65.157s] [  0%] Built target tf_generate_messages_nodejs
+[65.214s] [  0%] Built target tf_generate_messages_lisp
+[65.268s] [  0%] Built target topic_tools_generate_messages_nodejs
+[65.319s] [  0%] Built target topic_tools_generate_messages_eus
+[65.370s] [  0%] Built target topic_tools_generate_messages_cpp
+[65.423s] [  0%] Built target std_srvs_generate_messages_py
+[65.475s] [  0%] Built target geometry_msgs_generate_messages_py
+[65.523s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[65.583s] [  0%] Built target roscpp_generate_messages_cpp
+[65.627s] [  0%] Built target pcl_msgs_generate_messages_eus
+[65.676s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[65.724s] [  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+[65.767s] [  0%] Built target jsk_recognition_msgs_generate_messages_eus
+[65.825s] [  0%] Built target std_msgs_generate_messages_py
+[65.880s] [  0%] Built target std_msgs_generate_messages_nodejs
+[65.930s] [  0%] Built target bond_generate_messages_lisp
+[65.976s] [  0%] Built target sensor_msgs_generate_messages_eus
+[66.040s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[66.122s] [  0%] Built target autoware_msgs_generate_messages_cpp
+[66.221s] [  0%] Built target tf_generate_messages_py
+[66.296s] [  0%] Built target dynamic_reconfigure_generate_messages_cpp
+[66.358s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[66.419s] [  0%] Built target pcl_msgs_generate_messages_nodejs
+[66.469s] [  0%] Built target nodelet_generate_messages_nodejs
+[66.515s] [  0%] Built target jsk_recognition_msgs_generate_messages_py
+[66.572s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[66.637s] [  0%] Built target std_msgs_generate_messages_cpp
+[66.706s] [  0%] Built target jsk_footstep_msgs_generate_messages_py
+[66.780s] [  0%] Built target sensor_msgs_generate_messages_py
+[66.855s] [  0%] Built target nodelet_generate_messages_py
+[66.920s] [  0%] Built target geometry_msgs_generate_messages_eus
+[66.969s] [  0%] Built target std_msgs_generate_messages_lisp
+[67.041s] [  0%] Built target roscpp_generate_messages_nodejs
+[67.108s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[67.166s] [  0%] Built target actionlib_generate_messages_eus
+[67.217s] [  0%] Built target pcl_msgs_generate_messages_py
+[67.276s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[67.320s] [  0%] Built target actionlib_generate_messages_lisp
+[67.380s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[67.429s] [  0%] Built target pcl_msgs_generate_messages_cpp
+[67.484s] [  0%] Built target dynamic_reconfigure_generate_messages_lisp
+[67.533s] [  0%] Built target topic_tools_generate_messages_lisp
+[67.588s] [  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+[67.654s] [  0%] Built target autoware_msgs_generate_messages_eus
+[67.710s] [  0%] Built target autoware_msgs_generate_messages_lisp
+[67.763s] [  0%] Built target autoware_msgs_generate_messages_py
+[67.818s] [  0%] Built target nodelet_generate_messages_lisp
+[67.874s] [  0%] Built target actionlib_generate_messages_nodejs
+[67.919s] [  0%] Built target tf_generate_messages_cpp
+[67.966s] [  0%] Built target pcl_msgs_generate_messages_lisp
+[68.022s] [  0%] Built target std_msgs_generate_messages_eus
+[68.087s] [  0%] Built target autoware_msgs_generate_messages_nodejs
+[68.139s] [  0%] Built target jsk_footstep_msgs_generate_messages_eus
+[68.186s] [  0%] Built target actionlib_msgs_generate_messages_py
+[68.242s] [  0%] Built target jsk_footstep_msgs_generate_messages_lisp
+[68.305s] [  0%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[68.366s] [  0%] Built target tf_generate_messages_eus
+[68.416s] [  0%] Built target jsk_footstep_msgs_generate_messages_cpp
+[68.467s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[68.513s] [  0%] Built target std_srvs_generate_messages_cpp
+[68.557s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[68.606s] [  0%] Built target pcl_ros_gencfg
+[68.659s] [  0%] Built target dynamic_reconfigure_generate_messages_eus
+[68.714s] [  0%] Built target dynamic_reconfigure_generate_messages_nodejs
+[68.770s] [  0%] Built target dynamic_reconfigure_generate_messages_py
+[68.828s] [  0%] Built target tf2_msgs_generate_messages_lisp
+[68.875s] [  0%] Built target dynamic_reconfigure_gencfg
+[68.936s] [  0%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[68.989s] [  0%] Built target std_srvs_generate_messages_eus
+[69.055s] [  0%] Built target roscpp_generate_messages_lisp
+[69.120s] [  0%] Built target bond_generate_messages_eus
+[69.188s] [  0%] Built target roscpp_generate_messages_py
+[69.247s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[69.300s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[69.350s] [  0%] Built target roscpp_generate_messages_eus
+[69.412s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[69.474s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[69.536s] [  0%] Built target nodelet_generate_messages_cpp
+[69.595s] [  0%] Built target bond_generate_messages_py
+[69.657s] [  0%] Built target std_srvs_generate_messages_nodejs
+[69.705s] [  0%] Built target nodelet_generate_messages_eus
+[69.749s] [  0%] Built target bond_generate_messages_cpp
+[69.806s] [  0%] Built target bond_generate_messages_nodejs
+[69.859s] [  0%] Built target topic_tools_generate_messages_py
+[69.908s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[69.973s] [  0%] Built target nodelet_topic_tools_gencfg
+[70.036s] [  0%] Built target _catkin_empty_exported_target
+[70.096s] [  0%] Built target tf2_msgs_generate_messages_eus
+[70.156s] [  0%] Built target tf2_msgs_generate_messages_nodejs
+[70.241s] [100%] Built target astar_search
+[70.296s] [36mInstall the project...[0m
+[70.320s] -- Install configuration: "Release"
+[70.320s] -- Installing: /home/chinchia120/autoware.ai/install/astar_search/lib/pkgconfig/astar_search.pc
+[70.321s] -- Installing: /home/chinchia120/autoware.ai/install/astar_search/share/astar_search/cmake/astar_searchConfig.cmake
+[70.322s] -- Installing: /home/chinchia120/autoware.ai/install/astar_search/share/astar_search/cmake/astar_searchConfig-version.cmake
+[70.322s] -- Installing: /home/chinchia120/autoware.ai/install/astar_search/share/astar_search/package.xml
+[70.323s] -- Installing: /home/chinchia120/autoware.ai/install/astar_search/include/astar_search
+[70.323s] -- Installing: /home/chinchia120/autoware.ai/install/astar_search/include/astar_search/astar_search.h
+[70.324s] -- Installing: /home/chinchia120/autoware.ai/install/astar_search/include/astar_search/astar_util.h
+[70.324s] -- Installing: /home/chinchia120/autoware.ai/install/astar_search/lib/libastar_search.so
+[70.325s] -- Set runtime path of "/home/chinchia120/autoware.ai/install/astar_search/lib/libastar_search.so" to ""
+[70.332s] Invoked command in '/home/chinchia120/autoware.ai/build/astar_search' returned '0': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs:/home/chinchia120/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/autoware_msgs/share:/home/chinchia120/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/astar_search --target install -- -j4 -l4

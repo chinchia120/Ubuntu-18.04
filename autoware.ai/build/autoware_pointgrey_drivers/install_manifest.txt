@@ -1,0 +1,4 @@
+/home/chinchia120/autoware.ai/install/autoware_pointgrey_drivers/lib/pkgconfig/autoware_pointgrey_drivers.pc
+/home/chinchia120/autoware.ai/install/autoware_pointgrey_drivers/share/autoware_pointgrey_drivers/cmake/autoware_pointgrey_driversConfig.cmake
+/home/chinchia120/autoware.ai/install/autoware_pointgrey_drivers/share/autoware_pointgrey_drivers/cmake/autoware_pointgrey_driversConfig-version.cmake
+/home/chinchia120/autoware.ai/install/autoware_pointgrey_drivers/share/autoware_pointgrey_drivers/package.xml

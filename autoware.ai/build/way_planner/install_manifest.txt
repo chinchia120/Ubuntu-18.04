@@ -1,0 +1,6 @@
+/home/chinchia120/autoware.ai/install/way_planner/lib/pkgconfig/way_planner.pc
+/home/chinchia120/autoware.ai/install/way_planner/share/way_planner/cmake/way_plannerConfig.cmake
+/home/chinchia120/autoware.ai/install/way_planner/share/way_planner/cmake/way_plannerConfig-version.cmake
+/home/chinchia120/autoware.ai/install/way_planner/share/way_planner/package.xml
+/home/chinchia120/autoware.ai/install/way_planner/lib/way_planner/way_planner
+/home/chinchia120/autoware.ai/install/way_planner/share/way_planner/launch/way_planner.launch

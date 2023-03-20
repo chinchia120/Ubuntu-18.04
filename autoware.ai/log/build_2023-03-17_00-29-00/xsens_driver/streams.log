@@ -1,0 +1,64 @@
+[0.055s] Invoking command in '/home/chinchia120/autoware.ai/build/xsens_driver': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/custom_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/custom_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/custom_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/custom_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/custom_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/chinchia120/autoware.ai/src/drivers/awf_drivers/xsens_driver -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/chinchia120/autoware.ai/install/xsens_driver
+[0.314s] -- The C compiler identification is GNU 7.5.0
+[0.530s] -- The CXX compiler identification is GNU 7.5.0
+[0.531s] -- Check for working C compiler: /usr/bin/cc
+[0.738s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.739s] -- Detecting C compiler ABI info
+[0.938s] -- Detecting C compiler ABI info - done
+[0.979s] -- Detecting C compile features
+[1.755s] -- Detecting C compile features - done
+[1.761s] -- Check for working CXX compiler: /usr/bin/c++
+[1.967s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.968s] -- Detecting CXX compiler ABI info
+[2.216s] -- Detecting CXX compiler ABI info - done
+[2.254s] -- Detecting CXX compile features
+[3.256s] -- Detecting CXX compile features - done
+[3.274s] -- Using CATKIN_DEVEL_PREFIX: /home/chinchia120/autoware.ai/build/xsens_driver/devel
+[3.274s] -- Using CMAKE_PREFIX_PATH: /home/chinchia120/autoware.ai/install/custom_msgs;/home/chinchia120/catkin_ws/devel;/opt/ros/melodic
+[3.275s] -- This workspace overlays: /home/chinchia120/autoware.ai/install/custom_msgs;/home/chinchia120/catkin_ws/devel;/opt/ros/melodic
+[3.317s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[3.317s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[3.318s] -- Using Debian Python package layout
+[3.318s] -- Using empy: /usr/bin/empy
+[3.703s] -- Using CATKIN_ENABLE_TESTING: ON
+[3.703s] -- Call enable_testing()
+[3.723s] -- Using CATKIN_TEST_RESULTS_DIR: /home/chinchia120/autoware.ai/build/xsens_driver/test_results
+[3.774s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[3.775s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[3.799s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[3.801s] -- Looking for pthread.h
+[4.014s] -- Looking for pthread.h - found
+[4.015s] -- Looking for pthread_create
+[4.220s] -- Looking for pthread_create - not found
+[4.220s] -- Looking for pthread_create in pthreads
+[4.389s] -- Looking for pthread_create in pthreads - not found
+[4.390s] -- Looking for pthread_create in pthread
+[4.562s] -- Looking for pthread_create in pthread - found
+[4.565s] -- Found Threads: TRUE  
+[4.572s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[4.660s] -- catkin 0.7.29
+[4.660s] -- BUILD_SHARED_LIBS is on
+[5.187s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[5.872s] -- Configuring done
+[5.968s] -- Generating done
+[5.992s] -- Build files have been written to: /home/chinchia120/autoware.ai/build/xsens_driver
+[6.004s] Invoked command in '/home/chinchia120/autoware.ai/build/xsens_driver' returned '0': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/custom_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/custom_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/custom_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/custom_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/custom_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/chinchia120/autoware.ai/src/drivers/awf_drivers/xsens_driver -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/chinchia120/autoware.ai/install/xsens_driver
+[6.007s] Invoking command in '/home/chinchia120/autoware.ai/build/xsens_driver': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/custom_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/custom_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/custom_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/custom_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/custom_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/xsens_driver -- -j4 -l4
+[6.124s] Invoked command in '/home/chinchia120/autoware.ai/build/xsens_driver' returned '0': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/custom_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/custom_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/custom_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/custom_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/custom_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/xsens_driver -- -j4 -l4
+[6.445s] Invoking command in '/home/chinchia120/autoware.ai/build/xsens_driver': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/custom_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/custom_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/custom_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/custom_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/custom_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/xsens_driver --target tests -- -j4 -l4
+[6.652s] [35m[1mScanning dependencies of target tests[0m
+[6.683s] Built target tests
+[6.719s] Invoked command in '/home/chinchia120/autoware.ai/build/xsens_driver' returned '0': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/custom_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/custom_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/custom_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/custom_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/custom_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/xsens_driver --target tests -- -j4 -l4
+[7.046s] Invoking command in '/home/chinchia120/autoware.ai/build/xsens_driver': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/custom_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/custom_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/custom_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/custom_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/custom_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/xsens_driver --target install -- -j4 -l4
+[7.188s] [36mInstall the project...[0m
+[7.219s] -- Install configuration: "Release"
+[7.221s] -- Installing: /home/chinchia120/autoware.ai/install/xsens_driver/lib/pkgconfig/xsens_driver.pc
+[7.222s] -- Installing: /home/chinchia120/autoware.ai/install/xsens_driver/share/xsens_driver/cmake/xsens_driverConfig.cmake
+[7.223s] -- Installing: /home/chinchia120/autoware.ai/install/xsens_driver/share/xsens_driver/cmake/xsens_driverConfig-version.cmake
+[7.223s] -- Installing: /home/chinchia120/autoware.ai/install/xsens_driver/share/xsens_driver/package.xml
+[7.223s] -- Installing: /home/chinchia120/autoware.ai/install/xsens_driver/lib/xsens_driver/mtnode.py
+[7.224s] -- Installing: /home/chinchia120/autoware.ai/install/xsens_driver/lib/xsens_driver/mtdef.py
+[7.226s] -- Installing: /home/chinchia120/autoware.ai/install/xsens_driver/lib/xsens_driver/mtdevice.py
+[7.227s] -- Installing: /home/chinchia120/autoware.ai/install/xsens_driver/share/xsens_driver/launch
+[7.228s] -- Installing: /home/chinchia120/autoware.ai/install/xsens_driver/share/xsens_driver/launch/mti300.launch
+[7.239s] Invoked command in '/home/chinchia120/autoware.ai/build/xsens_driver' returned '0': CMAKE_PREFIX_PATH=/home/chinchia120/autoware.ai/install/custom_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/chinchia120/autoware.ai/install/custom_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/chinchia120/autoware.ai/install/custom_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/chinchia120/autoware.ai/install/custom_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/chinchia120/autoware.ai/install/custom_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/xsens_driver --target install -- -j4 -l4

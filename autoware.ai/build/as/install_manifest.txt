@@ -1,0 +1,6 @@
+/home/chinchia120/autoware.ai/install/as/lib/pkgconfig/as.pc
+/home/chinchia120/autoware.ai/install/as/share/as/cmake/asConfig.cmake
+/home/chinchia120/autoware.ai/install/as/share/as/cmake/asConfig-version.cmake
+/home/chinchia120/autoware.ai/install/as/share/as/package.xml
+/home/chinchia120/autoware.ai/install/as/lib/as/ssc_interface
+/home/chinchia120/autoware.ai/install/as/share/as/launch/ssc_interface.launch

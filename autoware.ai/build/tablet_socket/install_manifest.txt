@@ -1,0 +1,6 @@
+/home/chinchia120/autoware.ai/install/tablet_socket/lib/pkgconfig/tablet_socket.pc
+/home/chinchia120/autoware.ai/install/tablet_socket/share/tablet_socket/cmake/tablet_socketConfig.cmake
+/home/chinchia120/autoware.ai/install/tablet_socket/share/tablet_socket/cmake/tablet_socketConfig-version.cmake
+/home/chinchia120/autoware.ai/install/tablet_socket/share/tablet_socket/package.xml
+/home/chinchia120/autoware.ai/install/tablet_socket/lib/tablet_socket/tablet_receiver
+/home/chinchia120/autoware.ai/install/tablet_socket/lib/tablet_socket/tablet_sender
