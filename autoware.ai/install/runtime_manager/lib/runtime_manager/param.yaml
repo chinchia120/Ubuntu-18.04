@@ -1,5 +1,8 @@
 booted_cmds:
-  names: []
+  names:
+  - play_rosbag_play
+  - setup_tf
+  - vehicle_model
 calibration_publisher:
   camera_frame: camera
   camera_id: ''
@@ -80,10 +83,10 @@ pedestrian_kf:
   percentage_of_overlapping: 0.0
   use_orb: 0
 play_rosbag_play:
-  file: ''
+  file: /home/chinchia120/.autoware/sample_moriyama_150324.bag
   rate: ''
   repeat: false
-  start: 0
+  start: 120
 point_cloud:
   path_area_list: None
   path_pcd: ''
