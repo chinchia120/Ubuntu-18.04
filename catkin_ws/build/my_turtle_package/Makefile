@@ -168,6 +168,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+my_turtle_package/CMakeFiles/draw_rectangle.dir/rule:
+	cd /home/chinchia120/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 my_turtle_package/CMakeFiles/draw_rectangle.dir/rule
+.PHONY : my_turtle_package/CMakeFiles/draw_rectangle.dir/rule
+
+# Convenience name for target.
+draw_rectangle: my_turtle_package/CMakeFiles/draw_rectangle.dir/rule
+
+.PHONY : draw_rectangle
+
+# fast build rule for target.
+draw_rectangle/fast:
+	cd /home/chinchia120/catkin_ws/build && $(MAKE) -f my_turtle_package/CMakeFiles/draw_rectangle.dir/build.make my_turtle_package/CMakeFiles/draw_rectangle.dir/build
+.PHONY : draw_rectangle/fast
+
+# Convenience name for target.
 my_turtle_package/CMakeFiles/roscpp_generate_messages_py.dir/rule:
 	cd /home/chinchia120/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 my_turtle_package/CMakeFiles/roscpp_generate_messages_py.dir/rule
 .PHONY : my_turtle_package/CMakeFiles/roscpp_generate_messages_py.dir/rule
@@ -449,6 +464,33 @@ src/draw_circle.cpp.s:
 	cd /home/chinchia120/catkin_ws/build && $(MAKE) -f my_turtle_package/CMakeFiles/draw_circle.dir/build.make my_turtle_package/CMakeFiles/draw_circle.dir/src/draw_circle.cpp.s
 .PHONY : src/draw_circle.cpp.s
 
+src/draw_rectangle.o: src/draw_rectangle.cpp.o
+
+.PHONY : src/draw_rectangle.o
+
+# target to build an object file
+src/draw_rectangle.cpp.o:
+	cd /home/chinchia120/catkin_ws/build && $(MAKE) -f my_turtle_package/CMakeFiles/draw_rectangle.dir/build.make my_turtle_package/CMakeFiles/draw_rectangle.dir/src/draw_rectangle.cpp.o
+.PHONY : src/draw_rectangle.cpp.o
+
+src/draw_rectangle.i: src/draw_rectangle.cpp.i
+
+.PHONY : src/draw_rectangle.i
+
+# target to preprocess a source file
+src/draw_rectangle.cpp.i:
+	cd /home/chinchia120/catkin_ws/build && $(MAKE) -f my_turtle_package/CMakeFiles/draw_rectangle.dir/build.make my_turtle_package/CMakeFiles/draw_rectangle.dir/src/draw_rectangle.cpp.i
+.PHONY : src/draw_rectangle.cpp.i
+
+src/draw_rectangle.s: src/draw_rectangle.cpp.s
+
+.PHONY : src/draw_rectangle.s
+
+# target to generate assembly for a file
+src/draw_rectangle.cpp.s:
+	cd /home/chinchia120/catkin_ws/build && $(MAKE) -f my_turtle_package/CMakeFiles/draw_rectangle.dir/build.make my_turtle_package/CMakeFiles/draw_rectangle.dir/src/draw_rectangle.cpp.s
+.PHONY : src/draw_rectangle.cpp.s
+
 src/draw_square.o: src/draw_square.cpp.o
 
 .PHONY : src/draw_square.o
@@ -486,6 +528,7 @@ help:
 	@echo "... install/local"
 	@echo "... rebuild_cache"
 	@echo "... test"
+	@echo "... draw_rectangle"
 	@echo "... list_install_components"
 	@echo "... roscpp_generate_messages_py"
 	@echo "... roscpp_generate_messages_eus"
@@ -509,6 +552,9 @@ help:
 	@echo "... src/draw_circle.o"
 	@echo "... src/draw_circle.i"
 	@echo "... src/draw_circle.s"
+	@echo "... src/draw_rectangle.o"
+	@echo "... src/draw_rectangle.i"
+	@echo "... src/draw_rectangle.s"
 	@echo "... src/draw_square.o"
 	@echo "... src/draw_square.i"
 	@echo "... src/draw_square.s"

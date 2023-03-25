@@ -141,6 +141,9 @@ target_link_libraries(draw_circle ${catkin_LIBRARIES})
 add_executable(draw_square src/draw_square.cpp)
 target_link_libraries(draw_square ${catkin_LIBRARIES})
 
+add_executable(draw_rectangle src/draw_rectangle.cpp)
+target_link_libraries(draw_rectangle ${catkin_LIBRARIES})
+
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
 ## target back to the shorter version for ease of user use
