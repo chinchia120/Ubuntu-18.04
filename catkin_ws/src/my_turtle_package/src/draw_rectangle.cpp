@@ -16,7 +16,6 @@ int main(int argc, char *argv[])
     while(ros::ok())
     {
         cnt++;
-        //ROS_INFO("%d", cnt);
 
         vel_cmd.linear.x = 1.5;
         vel_cmd.linear.y = 0.0;
@@ -28,7 +27,6 @@ int main(int argc, char *argv[])
 
         if(cnt == 5)
         {   
-            //vel_cmd.linear.x = 0.0;
             vel_cmd.angular.z = PI;
             cnt = 0;
         }
