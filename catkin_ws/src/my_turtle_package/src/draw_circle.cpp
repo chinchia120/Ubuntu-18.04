@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
     {
         geometry_msgs::Twist vel_cmd; //Declare a geometry_ Msgs:: object vel of type twist_ CMD and assign the value of speed to this object
  
-        vel_cmd.linear.x = 2.0;//Front and rear (+ -) m/s
+        vel_cmd.linear.x = 2.0;  //Front and rear (+ -) m/s
         vel_cmd.linear.y = 0.0;  //Left and right (+ -) m/s
         vel_cmd.linear.z = 0.0;
  

@@ -8,8 +8,9 @@ int main(int argc, char *argv[])
     ros::NodeHandle n;
     ros::Publisher vel_pub = n.advertise<geometry_msgs::Twist>("/turtle1/cmd_vel", 10);
     ROS_INFO("draw_square start...");
+    ros::Rate loopRate(2);
 
-    int cnt = 200001;
+    int cnt = 0;
     while(ros::ok())
     {
         geometry_msgs::Twist vel_cmd;
@@ -21,37 +22,34 @@ int main(int argc, char *argv[])
         vel_cmd.angular.y = 0.0;
         vel_cmd.angular.z = 0.0;
         
-        if(cnt > 200000 && cnt <= 400000)
+        if(cnt == 1)
         {   
             vel_cmd.linear.x = 2.0;
             vel_cmd.linear.y = 0.0;
         }
         
-        if(cnt > 400000 && cnt <= 600000)
+        if(cnt == 2)
         {
             vel_cmd.linear.x = 0.0;
             vel_cmd.linear.y = 2.0;
         }
 
-        if(cnt > 600000 && cnt <= 800000)
+        if(cnt == 3)
         {   
             vel_cmd.linear.x = -2.0;
             vel_cmd.linear.y = 0.0;
         }
 
-        if(cnt > 800000 && cnt <= 1000000)
+        if(cnt == 4)
         {   
             vel_cmd.linear.x = 0.0;
             vel_cmd.linear.y = -2.0;
-        }
-
-        if(cnt == 1000000)
-        {
-            cnt = 200001;
+            cnt = 0;
         }
 
         vel_pub.publish(vel_cmd);
         ros::spinOnce();
+        loopRate.sleep();
     }
     return 0;
 }
