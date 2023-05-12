@@ -136,8 +136,11 @@ include_directories(
 ## The recommended prefix ensures that target names across packages don't collide
 # add_executable(${PROJECT_NAME}_node src/beginner_tutorials_node.cpp)
 
-add_executable(hello.exe src/hello.cpp)
-target_link_libraries(hello.exe ${catkin_LIBRARIES})
+add_executable(hello src/hello.cpp)
+target_link_libraries(hello ${catkin_LIBRARIES})
+
+add_executable(hello_set_param_frq src/hello_set_param_frq.cpp)
+target_link_libraries(hello_set_param_frq ${catkin_LIBRARIES})
 
 add_executable(talker src/talker.cpp)
 target_link_libraries(talker ${catkin_LIBRARIES})
