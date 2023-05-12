@@ -68,6 +68,7 @@
 /home/chinchia120/catkin_ws/build/beginner_tutorials/CMakeFiles/talker.dir
 /home/chinchia120/catkin_ws/build/beginner_tutorials/CMakeFiles/beginner_tutorials_genpy.dir
 /home/chinchia120/catkin_ws/build/beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages.dir
+/home/chinchia120/catkin_ws/build/beginner_tutorials/CMakeFiles/ask_id_server.dir
 /home/chinchia120/catkin_ws/build/beginner_tutorials/CMakeFiles/rospy_tutorials_generate_messages_py.dir
 /home/chinchia120/catkin_ws/build/beginner_tutorials/CMakeFiles/rospy_tutorials_generate_messages_nodejs.dir
 /home/chinchia120/catkin_ws/build/beginner_tutorials/CMakeFiles/rospy_tutorials_generate_messages_cpp.dir
@@ -83,6 +84,7 @@
 /home/chinchia120/catkin_ws/build/beginner_tutorials/CMakeFiles/install.dir
 /home/chinchia120/catkin_ws/build/beginner_tutorials/CMakeFiles/combine_two_strs_server.dir
 /home/chinchia120/catkin_ws/build/beginner_tutorials/CMakeFiles/rospy_tutorials_generate_messages_eus.dir
+/home/chinchia120/catkin_ws/build/beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_my_srv.dir
 /home/chinchia120/catkin_ws/build/beginner_tutorials/CMakeFiles/list_install_components.dir
 /home/chinchia120/catkin_ws/build/beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_my_msg.dir
 /home/chinchia120/catkin_ws/build/beginner_tutorials/CMakeFiles/beginner_tutorials_gennodejs.dir

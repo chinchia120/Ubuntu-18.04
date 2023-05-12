@@ -54,7 +54,9 @@ CMAKE_BINARY_DIR = /home/chinchia120/catkin_ws/build
 include beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_py.dir/progress.make
 
 beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_py: /home/chinchia120/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/msg/_my_msg.py
+beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_py: /home/chinchia120/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/srv/_my_srv.py
 beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_py: /home/chinchia120/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/msg/__init__.py
+beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_py: /home/chinchia120/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/srv/__init__.py
 
 
 /home/chinchia120/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/msg/_my_msg.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
@@ -62,14 +64,28 @@ beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_py: /home/chi
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chinchia120/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG beginner_tutorials/my_msg"
 	cd /home/chinchia120/catkin_ws/build/beginner_tutorials && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/chinchia120/catkin_ws/src/beginner_tutorials/msg/my_msg.msg -Ibeginner_tutorials:/home/chinchia120/catkin_ws/src/beginner_tutorials/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p beginner_tutorials -o /home/chinchia120/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/msg
 
+/home/chinchia120/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/srv/_my_srv.py: /opt/ros/melodic/lib/genpy/gensrv_py.py
+/home/chinchia120/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/srv/_my_srv.py: /home/chinchia120/catkin_ws/src/beginner_tutorials/srv/my_srv.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chinchia120/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python code from SRV beginner_tutorials/my_srv"
+	cd /home/chinchia120/catkin_ws/build/beginner_tutorials && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/chinchia120/catkin_ws/src/beginner_tutorials/srv/my_srv.srv -Ibeginner_tutorials:/home/chinchia120/catkin_ws/src/beginner_tutorials/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p beginner_tutorials -o /home/chinchia120/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/srv
+
 /home/chinchia120/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/msg/__init__.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
 /home/chinchia120/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/msg/__init__.py: /home/chinchia120/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/msg/_my_msg.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chinchia120/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python msg __init__.py for beginner_tutorials"
+/home/chinchia120/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/msg/__init__.py: /home/chinchia120/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/srv/_my_srv.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chinchia120/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python msg __init__.py for beginner_tutorials"
 	cd /home/chinchia120/catkin_ws/build/beginner_tutorials && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/chinchia120/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/msg --initpy
+
+/home/chinchia120/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/srv/__init__.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
+/home/chinchia120/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/srv/__init__.py: /home/chinchia120/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/msg/_my_msg.py
+/home/chinchia120/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/srv/__init__.py: /home/chinchia120/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/srv/_my_srv.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chinchia120/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Python srv __init__.py for beginner_tutorials"
+	cd /home/chinchia120/catkin_ws/build/beginner_tutorials && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/chinchia120/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/srv --initpy
 
 beginner_tutorials_generate_messages_py: beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_py
 beginner_tutorials_generate_messages_py: /home/chinchia120/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/msg/_my_msg.py
+beginner_tutorials_generate_messages_py: /home/chinchia120/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/srv/_my_srv.py
 beginner_tutorials_generate_messages_py: /home/chinchia120/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/msg/__init__.py
+beginner_tutorials_generate_messages_py: /home/chinchia120/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/srv/__init__.py
 beginner_tutorials_generate_messages_py: beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_py.dir/build.make
 
 .PHONY : beginner_tutorials_generate_messages_py

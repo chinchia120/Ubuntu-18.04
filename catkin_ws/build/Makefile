@@ -584,6 +584,19 @@ beginner_tutorials_generate_messages/fast:
 .PHONY : beginner_tutorials_generate_messages/fast
 
 #=============================================================================
+# Target rules for targets named ask_id_server
+
+# Build rule for target.
+ask_id_server: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ask_id_server
+.PHONY : ask_id_server
+
+# fast build rule for target.
+ask_id_server/fast:
+	$(MAKE) -f beginner_tutorials/CMakeFiles/ask_id_server.dir/build.make beginner_tutorials/CMakeFiles/ask_id_server.dir/build
+.PHONY : ask_id_server/fast
+
+#=============================================================================
 # Target rules for targets named rospy_tutorials_generate_messages_py
 
 # Build rule for target.
@@ -753,6 +766,19 @@ rospy_tutorials_generate_messages_eus/fast:
 .PHONY : rospy_tutorials_generate_messages_eus/fast
 
 #=============================================================================
+# Target rules for targets named _beginner_tutorials_generate_messages_check_deps_my_srv
+
+# Build rule for target.
+_beginner_tutorials_generate_messages_check_deps_my_srv: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _beginner_tutorials_generate_messages_check_deps_my_srv
+.PHONY : _beginner_tutorials_generate_messages_check_deps_my_srv
+
+# fast build rule for target.
+_beginner_tutorials_generate_messages_check_deps_my_srv/fast:
+	$(MAKE) -f beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_my_srv.dir/build.make beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_my_srv.dir/build
+.PHONY : _beginner_tutorials_generate_messages_check_deps_my_srv/fast
+
+#=============================================================================
 # Target rules for targets named _beginner_tutorials_generate_messages_check_deps_my_msg
 
 # Build rule for target.
@@ -875,6 +901,7 @@ help:
 	@echo "... talker"
 	@echo "... beginner_tutorials_genpy"
 	@echo "... beginner_tutorials_generate_messages"
+	@echo "... ask_id_server"
 	@echo "... rospy_tutorials_generate_messages_py"
 	@echo "... rospy_tutorials_generate_messages_nodejs"
 	@echo "... rospy_tutorials_generate_messages_cpp"
@@ -888,6 +915,7 @@ help:
 	@echo "... beginner_tutorials_gencpp"
 	@echo "... combine_two_strs_server"
 	@echo "... rospy_tutorials_generate_messages_eus"
+	@echo "... _beginner_tutorials_generate_messages_check_deps_my_srv"
 	@echo "... _beginner_tutorials_generate_messages_check_deps_my_msg"
 	@echo "... beginner_tutorials_gennodejs"
 	@echo "... beginner_tutorials_generate_messages_cpp"

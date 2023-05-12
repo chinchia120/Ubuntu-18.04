@@ -54,6 +54,7 @@ CMAKE_BINARY_DIR = /home/chinchia120/catkin_ws/build
 include beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_nodejs.dir/progress.make
 
 beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_nodejs: /home/chinchia120/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/my_msg.js
+beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_nodejs: /home/chinchia120/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/srv/my_srv.js
 
 
 /home/chinchia120/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/my_msg.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
@@ -61,8 +62,14 @@ beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_nodejs: /home
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chinchia120/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from beginner_tutorials/my_msg.msg"
 	cd /home/chinchia120/catkin_ws/build/beginner_tutorials && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/chinchia120/catkin_ws/src/beginner_tutorials/msg/my_msg.msg -Ibeginner_tutorials:/home/chinchia120/catkin_ws/src/beginner_tutorials/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p beginner_tutorials -o /home/chinchia120/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg
 
+/home/chinchia120/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/srv/my_srv.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/chinchia120/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/srv/my_srv.js: /home/chinchia120/catkin_ws/src/beginner_tutorials/srv/my_srv.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chinchia120/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Javascript code from beginner_tutorials/my_srv.srv"
+	cd /home/chinchia120/catkin_ws/build/beginner_tutorials && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/chinchia120/catkin_ws/src/beginner_tutorials/srv/my_srv.srv -Ibeginner_tutorials:/home/chinchia120/catkin_ws/src/beginner_tutorials/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p beginner_tutorials -o /home/chinchia120/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/srv
+
 beginner_tutorials_generate_messages_nodejs: beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_nodejs
 beginner_tutorials_generate_messages_nodejs: /home/chinchia120/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/msg/my_msg.js
+beginner_tutorials_generate_messages_nodejs: /home/chinchia120/catkin_ws/devel/share/gennodejs/ros/beginner_tutorials/srv/my_srv.js
 beginner_tutorials_generate_messages_nodejs: beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_nodejs.dir/build.make
 
 .PHONY : beginner_tutorials_generate_messages_nodejs

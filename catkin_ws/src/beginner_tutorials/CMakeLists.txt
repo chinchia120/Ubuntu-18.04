@@ -55,11 +55,10 @@ add_message_files(
 )
 
 ## Generate services in the 'srv' folder
-# add_service_files(
-#   FILES
-#   Service1.srv
-#   Service2.srv
-# )
+add_service_files(
+  FILES
+  my_srv.srv
+)
 
 ## Generate actions in the 'action' folder
 # add_action_files(
@@ -157,6 +156,8 @@ target_link_libraries(combine_two_strs_server ${catkin_LIBRARIES})
 add_executable(talker_my_msg src/talker_my_msg.cpp)
 target_link_libraries(talker_my_msg ${catkin_LIBRARIES})
 
+add_executable(ask_id_server src/ask_id_server.cpp)
+target_link_libraries(ask_id_server ${catkin_LIBRARIES})
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
