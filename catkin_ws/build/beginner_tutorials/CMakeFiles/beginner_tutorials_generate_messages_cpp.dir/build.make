@@ -54,6 +54,7 @@ CMAKE_BINARY_DIR = /home/chinchia120/catkin_ws/build
 include beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_cpp.dir/progress.make
 
 beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_cpp: /home/chinchia120/catkin_ws/devel/include/beginner_tutorials/my_msg.h
+beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_cpp: /home/chinchia120/catkin_ws/devel/include/beginner_tutorials/combine_two_strs_srv.h
 beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_cpp: /home/chinchia120/catkin_ws/devel/include/beginner_tutorials/my_srv.h
 
 
@@ -63,15 +64,23 @@ beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_cpp: /home/ch
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chinchia120/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from beginner_tutorials/my_msg.msg"
 	cd /home/chinchia120/catkin_ws/src/beginner_tutorials && /home/chinchia120/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/chinchia120/catkin_ws/src/beginner_tutorials/msg/my_msg.msg -Ibeginner_tutorials:/home/chinchia120/catkin_ws/src/beginner_tutorials/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p beginner_tutorials -o /home/chinchia120/catkin_ws/devel/include/beginner_tutorials -e /opt/ros/melodic/share/gencpp/cmake/..
 
+/home/chinchia120/catkin_ws/devel/include/beginner_tutorials/combine_two_strs_srv.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/chinchia120/catkin_ws/devel/include/beginner_tutorials/combine_two_strs_srv.h: /home/chinchia120/catkin_ws/src/beginner_tutorials/srv/combine_two_strs_srv.srv
+/home/chinchia120/catkin_ws/devel/include/beginner_tutorials/combine_two_strs_srv.h: /opt/ros/melodic/share/gencpp/msg.h.template
+/home/chinchia120/catkin_ws/devel/include/beginner_tutorials/combine_two_strs_srv.h: /opt/ros/melodic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chinchia120/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from beginner_tutorials/combine_two_strs_srv.srv"
+	cd /home/chinchia120/catkin_ws/src/beginner_tutorials && /home/chinchia120/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/chinchia120/catkin_ws/src/beginner_tutorials/srv/combine_two_strs_srv.srv -Ibeginner_tutorials:/home/chinchia120/catkin_ws/src/beginner_tutorials/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p beginner_tutorials -o /home/chinchia120/catkin_ws/devel/include/beginner_tutorials -e /opt/ros/melodic/share/gencpp/cmake/..
+
 /home/chinchia120/catkin_ws/devel/include/beginner_tutorials/my_srv.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
 /home/chinchia120/catkin_ws/devel/include/beginner_tutorials/my_srv.h: /home/chinchia120/catkin_ws/src/beginner_tutorials/srv/my_srv.srv
 /home/chinchia120/catkin_ws/devel/include/beginner_tutorials/my_srv.h: /opt/ros/melodic/share/gencpp/msg.h.template
 /home/chinchia120/catkin_ws/devel/include/beginner_tutorials/my_srv.h: /opt/ros/melodic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chinchia120/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from beginner_tutorials/my_srv.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chinchia120/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating C++ code from beginner_tutorials/my_srv.srv"
 	cd /home/chinchia120/catkin_ws/src/beginner_tutorials && /home/chinchia120/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/chinchia120/catkin_ws/src/beginner_tutorials/srv/my_srv.srv -Ibeginner_tutorials:/home/chinchia120/catkin_ws/src/beginner_tutorials/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p beginner_tutorials -o /home/chinchia120/catkin_ws/devel/include/beginner_tutorials -e /opt/ros/melodic/share/gencpp/cmake/..
 
 beginner_tutorials_generate_messages_cpp: beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_cpp
 beginner_tutorials_generate_messages_cpp: /home/chinchia120/catkin_ws/devel/include/beginner_tutorials/my_msg.h
+beginner_tutorials_generate_messages_cpp: /home/chinchia120/catkin_ws/devel/include/beginner_tutorials/combine_two_strs_srv.h
 beginner_tutorials_generate_messages_cpp: /home/chinchia120/catkin_ws/devel/include/beginner_tutorials/my_srv.h
 beginner_tutorials_generate_messages_cpp: beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_cpp.dir/build.make
 

@@ -58,6 +58,7 @@ add_message_files(
 add_service_files(
   FILES
   my_srv.srv
+  combine_two_strs_srv.srv
 )
 
 ## Generate actions in the 'action' folder

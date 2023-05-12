@@ -54,6 +54,7 @@ CMAKE_BINARY_DIR = /home/chinchia120/catkin_ws/build
 include beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_eus.dir/progress.make
 
 beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_eus: /home/chinchia120/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/my_msg.l
+beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_eus: /home/chinchia120/catkin_ws/devel/share/roseus/ros/beginner_tutorials/srv/combine_two_strs_srv.l
 beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_eus: /home/chinchia120/catkin_ws/devel/share/roseus/ros/beginner_tutorials/srv/my_srv.l
 beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_eus: /home/chinchia120/catkin_ws/devel/share/roseus/ros/beginner_tutorials/manifest.l
 
@@ -63,17 +64,23 @@ beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_eus: /home/ch
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chinchia120/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp code from beginner_tutorials/my_msg.msg"
 	cd /home/chinchia120/catkin_ws/build/beginner_tutorials && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/chinchia120/catkin_ws/src/beginner_tutorials/msg/my_msg.msg -Ibeginner_tutorials:/home/chinchia120/catkin_ws/src/beginner_tutorials/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p beginner_tutorials -o /home/chinchia120/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg
 
+/home/chinchia120/catkin_ws/devel/share/roseus/ros/beginner_tutorials/srv/combine_two_strs_srv.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+/home/chinchia120/catkin_ws/devel/share/roseus/ros/beginner_tutorials/srv/combine_two_strs_srv.l: /home/chinchia120/catkin_ws/src/beginner_tutorials/srv/combine_two_strs_srv.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chinchia120/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp code from beginner_tutorials/combine_two_strs_srv.srv"
+	cd /home/chinchia120/catkin_ws/build/beginner_tutorials && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/chinchia120/catkin_ws/src/beginner_tutorials/srv/combine_two_strs_srv.srv -Ibeginner_tutorials:/home/chinchia120/catkin_ws/src/beginner_tutorials/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p beginner_tutorials -o /home/chinchia120/catkin_ws/devel/share/roseus/ros/beginner_tutorials/srv
+
 /home/chinchia120/catkin_ws/devel/share/roseus/ros/beginner_tutorials/srv/my_srv.l: /opt/ros/melodic/lib/geneus/gen_eus.py
 /home/chinchia120/catkin_ws/devel/share/roseus/ros/beginner_tutorials/srv/my_srv.l: /home/chinchia120/catkin_ws/src/beginner_tutorials/srv/my_srv.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chinchia120/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp code from beginner_tutorials/my_srv.srv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chinchia120/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating EusLisp code from beginner_tutorials/my_srv.srv"
 	cd /home/chinchia120/catkin_ws/build/beginner_tutorials && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/chinchia120/catkin_ws/src/beginner_tutorials/srv/my_srv.srv -Ibeginner_tutorials:/home/chinchia120/catkin_ws/src/beginner_tutorials/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p beginner_tutorials -o /home/chinchia120/catkin_ws/devel/share/roseus/ros/beginner_tutorials/srv
 
 /home/chinchia120/catkin_ws/devel/share/roseus/ros/beginner_tutorials/manifest.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chinchia120/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating EusLisp manifest code for beginner_tutorials"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chinchia120/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating EusLisp manifest code for beginner_tutorials"
 	cd /home/chinchia120/catkin_ws/build/beginner_tutorials && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/chinchia120/catkin_ws/devel/share/roseus/ros/beginner_tutorials beginner_tutorials std_msgs
 
 beginner_tutorials_generate_messages_eus: beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_eus
 beginner_tutorials_generate_messages_eus: /home/chinchia120/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/my_msg.l
+beginner_tutorials_generate_messages_eus: /home/chinchia120/catkin_ws/devel/share/roseus/ros/beginner_tutorials/srv/combine_two_strs_srv.l
 beginner_tutorials_generate_messages_eus: /home/chinchia120/catkin_ws/devel/share/roseus/ros/beginner_tutorials/srv/my_srv.l
 beginner_tutorials_generate_messages_eus: /home/chinchia120/catkin_ws/devel/share/roseus/ros/beginner_tutorials/manifest.l
 beginner_tutorials_generate_messages_eus: beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_eus.dir/build.make
