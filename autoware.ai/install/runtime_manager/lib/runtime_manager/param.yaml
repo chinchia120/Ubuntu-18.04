@@ -1,6 +1,5 @@
 booted_cmds:
   names:
-  - play_rosbag_play
   - setup_tf
   - vehicle_model
   - point_cloud
@@ -8,7 +7,7 @@ booted_cmds:
   - tf
   - voxel_grid_filter
   - nmea2tfpose
-  - ndt_matching
+  - ndt_matching_monitor
   - rviz_qs
 calibration_publisher:
   camera_frame: camera
@@ -83,6 +82,12 @@ ndt_matching:
   y: 0.0
   yaw: 0.0
   z: 0.0
+ndt_matching_monitor:
+  fatal_time_threshold: 2.0
+  iteration_threshold_stop: 32
+  iteration_threshold_warn: 10
+  min_stable_samples: 30
+  score_threshold_delta: 14.0
 nmea2tfpose:
   plane: '7'
   sim_mode: false
