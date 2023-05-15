@@ -1,8 +1,0 @@
-prefix=/home/chinchia120/autoware.ai/build/custom_msgs/devel
-
-Name: custom_msgs
-Description: Description of custom_msgs
-Version: 1.12.0
-Cflags: -I/home/chinchia120/autoware.ai/build/custom_msgs/devel/include
-Libs: -L${prefix}/lib 
-Requires: message_runtime
