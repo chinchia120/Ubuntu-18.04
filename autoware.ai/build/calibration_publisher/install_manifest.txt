@@ -1,5 +1,0 @@
-/home/chinchia120/autoware.ai/install/calibration_publisher/lib/pkgconfig/calibration_publisher.pc
-/home/chinchia120/autoware.ai/install/calibration_publisher/share/calibration_publisher/cmake/calibration_publisherConfig.cmake
-/home/chinchia120/autoware.ai/install/calibration_publisher/share/calibration_publisher/cmake/calibration_publisherConfig-version.cmake
-/home/chinchia120/autoware.ai/install/calibration_publisher/share/calibration_publisher/package.xml
-/home/chinchia120/autoware.ai/install/calibration_publisher/lib/calibration_publisher/calibration_publisher
