@@ -1,6 +1,0 @@
-/home/chinchia120/autoware.ai/install/vector_map/lib/pkgconfig/vector_map.pc
-/home/chinchia120/autoware.ai/install/vector_map/share/vector_map/cmake/vector_mapConfig.cmake
-/home/chinchia120/autoware.ai/install/vector_map/share/vector_map/cmake/vector_mapConfig-version.cmake
-/home/chinchia120/autoware.ai/install/vector_map/share/vector_map/package.xml
-/home/chinchia120/autoware.ai/install/vector_map/include/vector_map/vector_map.h
-/home/chinchia120/autoware.ai/install/vector_map/lib/libvector_map.so

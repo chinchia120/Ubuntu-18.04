@@ -1,4 +1,0 @@
-/home/chinchia120/autoware.ai/install/graph_tools/lib/pkgconfig/graph_tools.pc
-/home/chinchia120/autoware.ai/install/graph_tools/share/graph_tools/cmake/graph_toolsConfig.cmake
-/home/chinchia120/autoware.ai/install/graph_tools/share/graph_tools/cmake/graph_toolsConfig-version.cmake
-/home/chinchia120/autoware.ai/install/graph_tools/share/graph_tools/package.xml

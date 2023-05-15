@@ -1,6 +1,0 @@
-/home/chinchia120/autoware.ai/install/nmea_navsat/lib/pkgconfig/nmea_navsat.pc
-/home/chinchia120/autoware.ai/install/nmea_navsat/share/nmea_navsat/cmake/nmea_navsatConfig.cmake
-/home/chinchia120/autoware.ai/install/nmea_navsat/share/nmea_navsat/cmake/nmea_navsatConfig-version.cmake
-/home/chinchia120/autoware.ai/install/nmea_navsat/share/nmea_navsat/package.xml
-/home/chinchia120/autoware.ai/install/nmea_navsat/share/nmea_navsat/launch/nmea_navsat.launch
-/home/chinchia120/autoware.ai/install/nmea_navsat/share/nmea_navsat/launch/README.md

@@ -1,6 +1,0 @@
-/home/chinchia120/autoware.ai/install/pure_pursuit/lib/pkgconfig/pure_pursuit.pc
-/home/chinchia120/autoware.ai/install/pure_pursuit/share/pure_pursuit/cmake/pure_pursuitConfig.cmake
-/home/chinchia120/autoware.ai/install/pure_pursuit/share/pure_pursuit/cmake/pure_pursuitConfig-version.cmake
-/home/chinchia120/autoware.ai/install/pure_pursuit/share/pure_pursuit/package.xml
-/home/chinchia120/autoware.ai/install/pure_pursuit/lib/pure_pursuit/pure_pursuit
-/home/chinchia120/autoware.ai/install/pure_pursuit/share/pure_pursuit/launch/pure_pursuit.launch

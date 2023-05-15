@@ -1,6 +1,0 @@
-/home/chinchia120/autoware.ai/install/ds4_driver/lib/pkgconfig/ds4_driver.pc
-/home/chinchia120/autoware.ai/install/ds4_driver/share/ds4_driver/cmake/ds4_driverConfig.cmake
-/home/chinchia120/autoware.ai/install/ds4_driver/share/ds4_driver/cmake/ds4_driverConfig-version.cmake
-/home/chinchia120/autoware.ai/install/ds4_driver/share/ds4_driver/package.xml
-/home/chinchia120/autoware.ai/install/ds4_driver/lib/ds4_driver/ds4_driver
-/home/chinchia120/autoware.ai/install/ds4_driver/share/ds4_driver/launch/ds4_driver.launch

@@ -1,8 +1,0 @@
-prefix=/home/chinchia120/autoware.ai/build/ymc/devel
-
-Name: ymc
-Description: Description of ymc
-Version: 1.12.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

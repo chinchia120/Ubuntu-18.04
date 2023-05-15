@@ -1,6 +1,0 @@
-/home/chinchia120/autoware.ai/install/map_tf_generator/lib/pkgconfig/map_tf_generator.pc
-/home/chinchia120/autoware.ai/install/map_tf_generator/share/map_tf_generator/cmake/map_tf_generatorConfig.cmake
-/home/chinchia120/autoware.ai/install/map_tf_generator/share/map_tf_generator/cmake/map_tf_generatorConfig-version.cmake
-/home/chinchia120/autoware.ai/install/map_tf_generator/share/map_tf_generator/package.xml
-/home/chinchia120/autoware.ai/install/map_tf_generator/lib/map_tf_generator/map_tf_generator
-/home/chinchia120/autoware.ai/install/map_tf_generator/share/map_tf_generator/launch/map_tf_generate.launch

@@ -1,7 +1,0 @@
-/home/chinchia120/autoware.ai/install/op_utility/lib/pkgconfig/op_utility.pc
-/home/chinchia120/autoware.ai/install/op_utility/share/op_utility/cmake/op_utilityConfig.cmake
-/home/chinchia120/autoware.ai/install/op_utility/share/op_utility/cmake/op_utilityConfig-version.cmake
-/home/chinchia120/autoware.ai/install/op_utility/share/op_utility/package.xml
-/home/chinchia120/autoware.ai/install/op_utility/include/op_utility/DataRW.h
-/home/chinchia120/autoware.ai/install/op_utility/include/op_utility/UtilityH.h
-/home/chinchia120/autoware.ai/install/op_utility/lib/libop_utility.so

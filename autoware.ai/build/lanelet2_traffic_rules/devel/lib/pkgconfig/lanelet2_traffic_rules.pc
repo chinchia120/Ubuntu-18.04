@@ -1,8 +1,0 @@
-prefix=/home/chinchia120/autoware.ai/build/lanelet2_traffic_rules/devel
-
-Name: lanelet2_traffic_rules
-Description: Description of lanelet2_traffic_rules
-Version: 0.8.0
-Cflags: -I/home/chinchia120/autoware.ai/src/vendor/lanelet2/lanelet2_traffic_rules/include
-Libs: -L${prefix}/lib -llanelet2_traffic_rules
-Requires: lanelet2_core

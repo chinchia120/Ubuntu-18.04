@@ -1,9 +1,0 @@
-/home/chinchia120/autoware.ai/install/microstrain_driver/lib/pkgconfig/microstrain_driver.pc
-/home/chinchia120/autoware.ai/install/microstrain_driver/share/microstrain_driver/cmake/microstrain_driverConfig.cmake
-/home/chinchia120/autoware.ai/install/microstrain_driver/share/microstrain_driver/cmake/microstrain_driverConfig-version.cmake
-/home/chinchia120/autoware.ai/install/microstrain_driver/share/microstrain_driver/package.xml
-/home/chinchia120/autoware.ai/install/microstrain_driver/lib/libmicrostrain_driver.so
-/home/chinchia120/autoware.ai/install/microstrain_driver/lib/microstrain_driver/3dm_gx5_15_node
-/home/chinchia120/autoware.ai/install/microstrain_driver/lib/microstrain_driver/3dm_gx5_45_node
-/home/chinchia120/autoware.ai/install/microstrain_driver/share/microstrain_driver/launch/microstrain.launch
-/home/chinchia120/autoware.ai/install/microstrain_driver/share/microstrain_driver/launch/3dm_gx5_15.launch

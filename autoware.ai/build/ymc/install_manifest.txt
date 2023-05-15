@@ -1,7 +1,0 @@
-/home/chinchia120/autoware.ai/install/ymc/lib/pkgconfig/ymc.pc
-/home/chinchia120/autoware.ai/install/ymc/share/ymc/cmake/ymcConfig.cmake
-/home/chinchia120/autoware.ai/install/ymc/share/ymc/cmake/ymcConfig-version.cmake
-/home/chinchia120/autoware.ai/install/ymc/share/ymc/package.xml
-/home/chinchia120/autoware.ai/install/ymc/lib/ymc/g30esli_interface
-/home/chinchia120/autoware.ai/install/ymc/share/ymc/launch/g30esli_interface.launch
-/home/chinchia120/autoware.ai/install/ymc/share/ymc/scripts/canset

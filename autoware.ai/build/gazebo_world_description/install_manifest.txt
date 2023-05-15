@@ -1,4 +1,0 @@
-/home/chinchia120/autoware.ai/install/gazebo_world_description/lib/pkgconfig/gazebo_world_description.pc
-/home/chinchia120/autoware.ai/install/gazebo_world_description/share/gazebo_world_description/cmake/gazebo_world_descriptionConfig.cmake
-/home/chinchia120/autoware.ai/install/gazebo_world_description/share/gazebo_world_description/cmake/gazebo_world_descriptionConfig-version.cmake
-/home/chinchia120/autoware.ai/install/gazebo_world_description/share/gazebo_world_description/package.xml

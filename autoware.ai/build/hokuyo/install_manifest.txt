@@ -1,7 +1,0 @@
-/home/chinchia120/autoware.ai/install/hokuyo/lib/pkgconfig/hokuyo.pc
-/home/chinchia120/autoware.ai/install/hokuyo/share/hokuyo/cmake/hokuyoConfig.cmake
-/home/chinchia120/autoware.ai/install/hokuyo/share/hokuyo/cmake/hokuyoConfig-version.cmake
-/home/chinchia120/autoware.ai/install/hokuyo/share/hokuyo/package.xml
-/home/chinchia120/autoware.ai/install/hokuyo/lib/hokuyo/hokuyo_3d
-/home/chinchia120/autoware.ai/install/hokuyo/share/hokuyo/launch/hokuyo_3d.launch
-/home/chinchia120/autoware.ai/install/hokuyo/share/hokuyo/launch/top_urg.launch

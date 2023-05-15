@@ -1,7 +1,0 @@
-/home/chinchia120/autoware.ai/install/lanelet2_projection/lib/pkgconfig/lanelet2_projection.pc
-/home/chinchia120/autoware.ai/install/lanelet2_projection/share/lanelet2_projection/cmake/lanelet2_projectionConfig.cmake
-/home/chinchia120/autoware.ai/install/lanelet2_projection/share/lanelet2_projection/cmake/lanelet2_projectionConfig-version.cmake
-/home/chinchia120/autoware.ai/install/lanelet2_projection/share/lanelet2_projection/package.xml
-/home/chinchia120/autoware.ai/install/lanelet2_projection/lib/liblanelet2_projection.so
-/home/chinchia120/autoware.ai/install/lanelet2_projection/include/lanelet2_projection/UTM.h
-/home/chinchia120/autoware.ai/install/lanelet2_projection/include/lanelet2_projection/Mercator.h

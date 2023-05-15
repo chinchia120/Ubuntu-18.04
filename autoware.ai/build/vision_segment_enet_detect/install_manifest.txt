@@ -1,4 +1,0 @@
-/home/chinchia120/autoware.ai/install/vision_segment_enet_detect/lib/pkgconfig/vision_segment_enet_detect.pc
-/home/chinchia120/autoware.ai/install/vision_segment_enet_detect/share/vision_segment_enet_detect/cmake/vision_segment_enet_detectConfig.cmake
-/home/chinchia120/autoware.ai/install/vision_segment_enet_detect/share/vision_segment_enet_detect/cmake/vision_segment_enet_detectConfig-version.cmake
-/home/chinchia120/autoware.ai/install/vision_segment_enet_detect/share/vision_segment_enet_detect/package.xml

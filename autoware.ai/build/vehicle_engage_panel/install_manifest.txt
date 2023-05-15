@@ -1,6 +1,0 @@
-/home/chinchia120/autoware.ai/install/vehicle_engage_panel/lib/pkgconfig/vehicle_engage_panel.pc
-/home/chinchia120/autoware.ai/install/vehicle_engage_panel/share/vehicle_engage_panel/cmake/vehicle_engage_panelConfig.cmake
-/home/chinchia120/autoware.ai/install/vehicle_engage_panel/share/vehicle_engage_panel/cmake/vehicle_engage_panelConfig-version.cmake
-/home/chinchia120/autoware.ai/install/vehicle_engage_panel/share/vehicle_engage_panel/package.xml
-/home/chinchia120/autoware.ai/install/vehicle_engage_panel/lib/libvehicle_engage_panel.so
-/home/chinchia120/autoware.ai/install/vehicle_engage_panel/share/vehicle_engage_panel/plugin_description.xml

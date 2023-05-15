@@ -1,6 +1,0 @@
-/home/chinchia120/autoware.ai/install/freespace_planner/lib/pkgconfig/freespace_planner.pc
-/home/chinchia120/autoware.ai/install/freespace_planner/share/freespace_planner/cmake/freespace_plannerConfig.cmake
-/home/chinchia120/autoware.ai/install/freespace_planner/share/freespace_planner/cmake/freespace_plannerConfig-version.cmake
-/home/chinchia120/autoware.ai/install/freespace_planner/share/freespace_planner/package.xml
-/home/chinchia120/autoware.ai/install/freespace_planner/lib/freespace_planner/astar_navi
-/home/chinchia120/autoware.ai/install/freespace_planner/share/freespace_planner/launch/astar_navi.launch

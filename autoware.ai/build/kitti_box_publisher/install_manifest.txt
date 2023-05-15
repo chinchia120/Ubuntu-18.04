@@ -1,5 +1,0 @@
-/home/chinchia120/autoware.ai/install/kitti_box_publisher/lib/pkgconfig/kitti_box_publisher.pc
-/home/chinchia120/autoware.ai/install/kitti_box_publisher/share/kitti_box_publisher/cmake/kitti_box_publisherConfig.cmake
-/home/chinchia120/autoware.ai/install/kitti_box_publisher/share/kitti_box_publisher/cmake/kitti_box_publisherConfig-version.cmake
-/home/chinchia120/autoware.ai/install/kitti_box_publisher/share/kitti_box_publisher/package.xml
-/home/chinchia120/autoware.ai/install/kitti_box_publisher/lib/kitti_box_publisher/kitti_box_publisher.py

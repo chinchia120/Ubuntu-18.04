@@ -1,9 +1,0 @@
-# CMake generated Testfile for 
-# Source directory: /home/chinchia120/autoware.ai/src/vendor/lanelet2/lanelet2_validation
-# Build directory: /home/chinchia120/autoware.ai/build/lanelet2_validation
-# 
-# This file includes the relevant testing commands required for 
-# testing this directory and lists subdirectories to be tested as well.
-add_test(_ctest_lanelet2_validation_gtest_lanelet2_validation-lanelet2_validation-test "/home/chinchia120/autoware.ai/build/lanelet2_validation/catkin_generated/env_cached.sh" "/usr/bin/python2" "/opt/ros/melodic/share/catkin/cmake/test/run_tests.py" "/home/chinchia120/autoware.ai/build/lanelet2_validation/test_results/lanelet2_validation/gtest-lanelet2_validation-lanelet2_validation-test.xml" "--working-dir" "/home/chinchia120/autoware.ai/src/vendor/lanelet2/lanelet2_validation/test" "--return-code" "/home/chinchia120/autoware.ai/build/lanelet2_validation/devel/lib/lanelet2_validation/lanelet2_validation-lanelet2_validation-test --gtest_output=xml:/home/chinchia120/autoware.ai/build/lanelet2_validation/test_results/lanelet2_validation/gtest-lanelet2_validation-lanelet2_validation-test.xml")
-add_test(_ctest_lanelet2_validation_nosetests_test "/home/chinchia120/autoware.ai/build/lanelet2_validation/catkin_generated/env_cached.sh" "/usr/bin/python2" "/opt/ros/melodic/share/catkin/cmake/test/run_tests.py" "/home/chinchia120/autoware.ai/build/lanelet2_validation/test_results/lanelet2_validation/nosetests-test.xml" "--return-code" "\"/usr/bin/cmake\" -E make_directory /home/chinchia120/autoware.ai/build/lanelet2_validation/test_results/lanelet2_validation" "/usr/bin/nosetests-2.7 -P --process-timeout=60 --where=/home/chinchia120/autoware.ai/src/vendor/lanelet2/lanelet2_validation/test --with-xunit --xunit-file=/home/chinchia120/autoware.ai/build/lanelet2_validation/test_results/lanelet2_validation/nosetests-test.xml")
-subdirs("gtest")

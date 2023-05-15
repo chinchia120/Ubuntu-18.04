@@ -1,1 +1,0 @@
-set(ORDERED_PATHS "/home/chinchia120/autoware.ai/install/astar_search/lib;/opt/ros/melodic/lib")

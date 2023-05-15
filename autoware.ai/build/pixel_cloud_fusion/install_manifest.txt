@@ -1,8 +1,0 @@
-/home/chinchia120/autoware.ai/install/pixel_cloud_fusion/lib/pkgconfig/pixel_cloud_fusion.pc
-/home/chinchia120/autoware.ai/install/pixel_cloud_fusion/share/pixel_cloud_fusion/cmake/pixel_cloud_fusionConfig.cmake
-/home/chinchia120/autoware.ai/install/pixel_cloud_fusion/share/pixel_cloud_fusion/cmake/pixel_cloud_fusionConfig-version.cmake
-/home/chinchia120/autoware.ai/install/pixel_cloud_fusion/share/pixel_cloud_fusion/package.xml
-/home/chinchia120/autoware.ai/install/pixel_cloud_fusion/lib/pixel_cloud_fusion/pixel_cloud_fusion
-/home/chinchia120/autoware.ai/install/pixel_cloud_fusion/lib/libpixel_cloud_fusion_lib.so
-/home/chinchia120/autoware.ai/install/pixel_cloud_fusion/include/pixel_cloud_fusion/pixel_cloud_fusion.h
-/home/chinchia120/autoware.ai/install/pixel_cloud_fusion/share/pixel_cloud_fusion/launch/pixel_cloud_fusion.launch

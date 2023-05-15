@@ -1,8 +1,0 @@
-prefix=/home/chinchia120/autoware.ai/build/pure_pursuit/devel
-
-Name: pure_pursuit
-Description: Description of pure_pursuit
-Version: 1.12.0
-Cflags: -I/home/chinchia120/autoware.ai/src/autoware/core_planning/pure_pursuit/include
-Libs: -L${prefix}/lib 
-Requires: 

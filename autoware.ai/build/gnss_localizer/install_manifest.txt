@@ -1,8 +1,0 @@
-/home/chinchia120/autoware.ai/install/gnss_localizer/lib/pkgconfig/gnss_localizer.pc
-/home/chinchia120/autoware.ai/install/gnss_localizer/share/gnss_localizer/cmake/gnss_localizerConfig.cmake
-/home/chinchia120/autoware.ai/install/gnss_localizer/share/gnss_localizer/cmake/gnss_localizerConfig-version.cmake
-/home/chinchia120/autoware.ai/install/gnss_localizer/share/gnss_localizer/package.xml
-/home/chinchia120/autoware.ai/install/gnss_localizer/lib/gnss_localizer/nmea2tfpose
-/home/chinchia120/autoware.ai/install/gnss_localizer/lib/gnss_localizer/fix2tfpose
-/home/chinchia120/autoware.ai/install/gnss_localizer/share/gnss_localizer/launch/nmea2tfpose.launch
-/home/chinchia120/autoware.ai/install/gnss_localizer/share/gnss_localizer/launch/fix2tfpose.launch

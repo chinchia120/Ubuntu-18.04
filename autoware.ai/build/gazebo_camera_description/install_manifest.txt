@@ -1,5 +1,0 @@
-/home/chinchia120/autoware.ai/install/gazebo_camera_description/lib/pkgconfig/gazebo_camera_description.pc
-/home/chinchia120/autoware.ai/install/gazebo_camera_description/share/gazebo_camera_description/cmake/gazebo_camera_descriptionConfig.cmake
-/home/chinchia120/autoware.ai/install/gazebo_camera_description/share/gazebo_camera_description/cmake/gazebo_camera_descriptionConfig-version.cmake
-/home/chinchia120/autoware.ai/install/gazebo_camera_description/share/gazebo_camera_description/package.xml
-/home/chinchia120/autoware.ai/install/gazebo_camera_description/share/gazebo_camera_description/urdf/monocular_camera.xacro

@@ -1,7 +1,0 @@
-/home/chinchia120/autoware.ai/install/libvectormap/lib/pkgconfig/libvectormap.pc
-/home/chinchia120/autoware.ai/install/libvectormap/share/libvectormap/cmake/libvectormapConfig.cmake
-/home/chinchia120/autoware.ai/install/libvectormap/share/libvectormap/cmake/libvectormapConfig-version.cmake
-/home/chinchia120/autoware.ai/install/libvectormap/share/libvectormap/package.xml
-/home/chinchia120/autoware.ai/install/libvectormap/lib/liblibvectormap.a
-/home/chinchia120/autoware.ai/install/libvectormap/include/libvectormap/vector_map.h
-/home/chinchia120/autoware.ai/install/libvectormap/include/libvectormap/Math.h

@@ -1,8 +1,0 @@
-prefix=/home/chinchia120/autoware.ai/install/xsens_driver
-
-Name: xsens_driver
-Description: Description of xsens_driver
-Version: 1.12.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

@@ -1,5 +1,0 @@
-/home/chinchia120/autoware.ai/install/sick_lms5xx/lib/pkgconfig/sick_lms5xx.pc
-/home/chinchia120/autoware.ai/install/sick_lms5xx/share/sick_lms5xx/cmake/sick_lms5xxConfig.cmake
-/home/chinchia120/autoware.ai/install/sick_lms5xx/share/sick_lms5xx/cmake/sick_lms5xxConfig-version.cmake
-/home/chinchia120/autoware.ai/install/sick_lms5xx/share/sick_lms5xx/package.xml
-/home/chinchia120/autoware.ai/install/sick_lms5xx/lib/sick_lms5xx/lms511_node

@@ -1,8 +1,0 @@
-prefix=/home/chinchia120/autoware.ai/build/twist_generator/devel
-
-Name: twist_generator
-Description: Description of twist_generator
-Version: 1.12.0
-Cflags: -I/home/chinchia120/autoware.ai/src/autoware/core_perception/twist_generator/include
-Libs: -L${prefix}/lib 
-Requires: 
