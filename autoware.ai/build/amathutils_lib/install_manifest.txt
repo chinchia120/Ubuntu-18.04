@@ -1,9 +1,0 @@
-/home/chinchia120/autoware.ai/install/amathutils_lib/lib/pkgconfig/amathutils_lib.pc
-/home/chinchia120/autoware.ai/install/amathutils_lib/share/amathutils_lib/cmake/amathutils_libConfig.cmake
-/home/chinchia120/autoware.ai/install/amathutils_lib/share/amathutils_lib/cmake/amathutils_libConfig-version.cmake
-/home/chinchia120/autoware.ai/install/amathutils_lib/share/amathutils_lib/package.xml
-/home/chinchia120/autoware.ai/install/amathutils_lib/include/amathutils_lib/butterworth_filter.hpp
-/home/chinchia120/autoware.ai/install/amathutils_lib/include/amathutils_lib/amathutils.hpp
-/home/chinchia120/autoware.ai/install/amathutils_lib/include/amathutils_lib/kalman_filter.hpp
-/home/chinchia120/autoware.ai/install/amathutils_lib/include/amathutils_lib/time_delay_kalman_filter.hpp
-/home/chinchia120/autoware.ai/install/amathutils_lib/lib/libamathutils_lib.so
