@@ -1,7 +1,0 @@
-/home/chinchia120/autoware.ai/install/data_preprocessor/lib/pkgconfig/data_preprocessor.pc
-/home/chinchia120/autoware.ai/install/data_preprocessor/share/data_preprocessor/cmake/data_preprocessorConfig.cmake
-/home/chinchia120/autoware.ai/install/data_preprocessor/share/data_preprocessor/cmake/data_preprocessorConfig-version.cmake
-/home/chinchia120/autoware.ai/install/data_preprocessor/share/data_preprocessor/package.xml
-/home/chinchia120/autoware.ai/install/data_preprocessor/lib/data_preprocessor/get_Image
-/home/chinchia120/autoware.ai/install/data_preprocessor/lib/data_preprocessor/get_PCD
-/home/chinchia120/autoware.ai/install/data_preprocessor/lib/data_preprocessor/get_Depth
