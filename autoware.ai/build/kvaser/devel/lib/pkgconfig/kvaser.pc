@@ -1,8 +1,0 @@
-prefix=/home/chinchia120/autoware.ai/build/kvaser/devel
-
-Name: kvaser
-Description: Description of kvaser
-Version: 1.12.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

@@ -1,6 +1,0 @@
-/home/chinchia120/autoware.ai/install/kvaser/lib/pkgconfig/kvaser.pc
-/home/chinchia120/autoware.ai/install/kvaser/share/kvaser/cmake/kvaserConfig.cmake
-/home/chinchia120/autoware.ai/install/kvaser/share/kvaser/cmake/kvaserConfig-version.cmake
-/home/chinchia120/autoware.ai/install/kvaser/share/kvaser/package.xml
-/home/chinchia120/autoware.ai/install/kvaser/lib/kvaser/can_converter
-/home/chinchia120/autoware.ai/install/kvaser/lib/kvaser/can_draw
