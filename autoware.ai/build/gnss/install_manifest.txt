@@ -1,6 +1,0 @@
-/home/chinchia120/autoware.ai/install/gnss/lib/pkgconfig/gnss.pc
-/home/chinchia120/autoware.ai/install/gnss/share/gnss/cmake/gnssConfig.cmake
-/home/chinchia120/autoware.ai/install/gnss/share/gnss/cmake/gnssConfig-version.cmake
-/home/chinchia120/autoware.ai/install/gnss/share/gnss/package.xml
-/home/chinchia120/autoware.ai/install/gnss/include/gnss/geo_pos_conv.hpp
-/home/chinchia120/autoware.ai/install/gnss/lib/libgnss.so
