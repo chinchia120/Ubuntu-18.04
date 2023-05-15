@@ -1,8 +1,0 @@
-prefix=/home/chinchia120/autoware.ai/install/lanelet2_projection
-
-Name: lanelet2_projection
-Description: Description of lanelet2_projection
-Version: 0.8.0
-Cflags: -I${prefix}/include
-Libs: -L${prefix}/lib -llanelet2_projection /usr/lib/x86_64-linux-gnu/libGeographic.so
-Requires: lanelet2_io
