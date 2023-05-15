@@ -1,8 +1,0 @@
-Invoking command in '/home/chinchia120/autoware.ai/build/mrt_cmake_modules': /usr/bin/cmake /home/chinchia120/autoware.ai/src/vendor/mrt_cmake_modules -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/chinchia120/autoware.ai/install/mrt_cmake_modules
-Invoked command in '/home/chinchia120/autoware.ai/build/mrt_cmake_modules' returned '0': /usr/bin/cmake /home/chinchia120/autoware.ai/src/vendor/mrt_cmake_modules -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/chinchia120/autoware.ai/install/mrt_cmake_modules
-Invoking command in '/home/chinchia120/autoware.ai/build/mrt_cmake_modules': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/mrt_cmake_modules -- -j4 -l4
-Invoked command in '/home/chinchia120/autoware.ai/build/mrt_cmake_modules' returned '0': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/mrt_cmake_modules -- -j4 -l4
-Invoking command in '/home/chinchia120/autoware.ai/build/mrt_cmake_modules': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/mrt_cmake_modules --target tests -- -j4 -l4
-Invoked command in '/home/chinchia120/autoware.ai/build/mrt_cmake_modules' returned '0': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/mrt_cmake_modules --target tests -- -j4 -l4
-Invoking command in '/home/chinchia120/autoware.ai/build/mrt_cmake_modules': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/mrt_cmake_modules --target install -- -j4 -l4
-Invoked command in '/home/chinchia120/autoware.ai/build/mrt_cmake_modules' returned '0': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/mrt_cmake_modules --target install -- -j4 -l4

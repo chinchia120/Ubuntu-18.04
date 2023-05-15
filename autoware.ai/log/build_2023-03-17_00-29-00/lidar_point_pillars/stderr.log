@@ -1,6 +1,0 @@
-CUDA is available!
-CUDA Libs: /usr/local/cuda-10.0/lib64/libcudart_static.a;-lpthread;dl;/usr/lib/x86_64-linux-gnu/librt.so
-CUDA Headers: /usr/local/cuda-10.0/include
-TensorRT is NOT Available
-CUDNN is NOT Available
-PointPillars won't be built, CUDA and/or TensorRT were not found.

@@ -1,8 +1,0 @@
-Invoking command in '/home/chinchia120/autoware.ai/build/nmea_navsat': /usr/bin/cmake /home/chinchia120/autoware.ai/src/drivers/awf_drivers/nmea_navsat -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/chinchia120/autoware.ai/install/nmea_navsat
-Invoked command in '/home/chinchia120/autoware.ai/build/nmea_navsat' returned '0': /usr/bin/cmake /home/chinchia120/autoware.ai/src/drivers/awf_drivers/nmea_navsat -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/chinchia120/autoware.ai/install/nmea_navsat
-Invoking command in '/home/chinchia120/autoware.ai/build/nmea_navsat': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/nmea_navsat -- -j4 -l4
-Invoked command in '/home/chinchia120/autoware.ai/build/nmea_navsat' returned '0': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/nmea_navsat -- -j4 -l4
-Invoking command in '/home/chinchia120/autoware.ai/build/nmea_navsat': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/nmea_navsat --target tests -- -j4 -l4
-Invoked command in '/home/chinchia120/autoware.ai/build/nmea_navsat' returned '0': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/nmea_navsat --target tests -- -j4 -l4
-Invoking command in '/home/chinchia120/autoware.ai/build/nmea_navsat': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/nmea_navsat --target install -- -j4 -l4
-Invoked command in '/home/chinchia120/autoware.ai/build/nmea_navsat' returned '0': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/nmea_navsat --target install -- -j4 -l4

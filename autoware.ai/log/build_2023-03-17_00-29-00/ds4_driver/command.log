@@ -1,8 +1,0 @@
-Invoking command in '/home/chinchia120/autoware.ai/build/ds4_driver': /usr/bin/cmake /home/chinchia120/autoware.ai/src/drivers/ds4/ds4_driver -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/chinchia120/autoware.ai/install/ds4_driver
-Invoked command in '/home/chinchia120/autoware.ai/build/ds4_driver' returned '0': /usr/bin/cmake /home/chinchia120/autoware.ai/src/drivers/ds4/ds4_driver -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/chinchia120/autoware.ai/install/ds4_driver
-Invoking command in '/home/chinchia120/autoware.ai/build/ds4_driver': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/ds4_driver -- -j4 -l4
-Invoked command in '/home/chinchia120/autoware.ai/build/ds4_driver' returned '0': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/ds4_driver -- -j4 -l4
-Invoking command in '/home/chinchia120/autoware.ai/build/ds4_driver': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/ds4_driver --target tests -- -j4 -l4
-Invoked command in '/home/chinchia120/autoware.ai/build/ds4_driver' returned '0': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/ds4_driver --target tests -- -j4 -l4
-Invoking command in '/home/chinchia120/autoware.ai/build/ds4_driver': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/ds4_driver --target install -- -j4 -l4
-Invoked command in '/home/chinchia120/autoware.ai/build/ds4_driver' returned '0': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/ds4_driver --target install -- -j4 -l4

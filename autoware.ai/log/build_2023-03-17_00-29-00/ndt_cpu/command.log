@@ -1,8 +1,0 @@
-Invoking command in '/home/chinchia120/autoware.ai/build/ndt_cpu': /usr/bin/cmake /home/chinchia120/autoware.ai/src/autoware/core_perception/ndt_cpu -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/chinchia120/autoware.ai/install/ndt_cpu
-Invoked command in '/home/chinchia120/autoware.ai/build/ndt_cpu' returned '0': /usr/bin/cmake /home/chinchia120/autoware.ai/src/autoware/core_perception/ndt_cpu -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/chinchia120/autoware.ai/install/ndt_cpu
-Invoking command in '/home/chinchia120/autoware.ai/build/ndt_cpu': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/ndt_cpu -- -j4 -l4
-Invoked command in '/home/chinchia120/autoware.ai/build/ndt_cpu' returned '0': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/ndt_cpu -- -j4 -l4
-Invoking command in '/home/chinchia120/autoware.ai/build/ndt_cpu': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/ndt_cpu --target tests -- -j4 -l4
-Invoked command in '/home/chinchia120/autoware.ai/build/ndt_cpu' returned '0': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/ndt_cpu --target tests -- -j4 -l4
-Invoking command in '/home/chinchia120/autoware.ai/build/ndt_cpu': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/ndt_cpu --target install -- -j4 -l4
-Invoked command in '/home/chinchia120/autoware.ai/build/ndt_cpu' returned '0': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/ndt_cpu --target install -- -j4 -l4

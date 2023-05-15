@@ -1,8 +1,0 @@
-Invoking command in '/home/chinchia120/autoware.ai/build/autoware_build_flags': /usr/bin/cmake /home/chinchia120/autoware.ai/src/autoware/common/autoware_build_flags -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/chinchia120/autoware.ai/install/autoware_build_flags
-Invoked command in '/home/chinchia120/autoware.ai/build/autoware_build_flags' returned '0': /usr/bin/cmake /home/chinchia120/autoware.ai/src/autoware/common/autoware_build_flags -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/chinchia120/autoware.ai/install/autoware_build_flags
-Invoking command in '/home/chinchia120/autoware.ai/build/autoware_build_flags': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/autoware_build_flags -- -j4 -l4
-Invoked command in '/home/chinchia120/autoware.ai/build/autoware_build_flags' returned '0': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/autoware_build_flags -- -j4 -l4
-Invoking command in '/home/chinchia120/autoware.ai/build/autoware_build_flags': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/autoware_build_flags --target tests -- -j4 -l4
-Invoked command in '/home/chinchia120/autoware.ai/build/autoware_build_flags' returned '0': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/autoware_build_flags --target tests -- -j4 -l4
-Invoking command in '/home/chinchia120/autoware.ai/build/autoware_build_flags': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/autoware_build_flags --target install -- -j4 -l4
-Invoked command in '/home/chinchia120/autoware.ai/build/autoware_build_flags' returned '0': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/autoware_build_flags --target install -- -j4 -l4

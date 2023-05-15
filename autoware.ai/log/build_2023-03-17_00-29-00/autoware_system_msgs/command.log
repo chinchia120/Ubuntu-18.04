@@ -1,8 +1,0 @@
-Invoking command in '/home/chinchia120/autoware.ai/build/autoware_system_msgs': /usr/bin/cmake /home/chinchia120/autoware.ai/src/autoware/messages/autoware_system_msgs -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/chinchia120/autoware.ai/install/autoware_system_msgs
-Invoked command in '/home/chinchia120/autoware.ai/build/autoware_system_msgs' returned '0': /usr/bin/cmake /home/chinchia120/autoware.ai/src/autoware/messages/autoware_system_msgs -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/chinchia120/autoware.ai/install/autoware_system_msgs
-Invoking command in '/home/chinchia120/autoware.ai/build/autoware_system_msgs': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/autoware_system_msgs -- -j4 -l4
-Invoked command in '/home/chinchia120/autoware.ai/build/autoware_system_msgs' returned '0': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/autoware_system_msgs -- -j4 -l4
-Invoking command in '/home/chinchia120/autoware.ai/build/autoware_system_msgs': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/autoware_system_msgs --target tests -- -j4 -l4
-Invoked command in '/home/chinchia120/autoware.ai/build/autoware_system_msgs' returned '0': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/autoware_system_msgs --target tests -- -j4 -l4
-Invoking command in '/home/chinchia120/autoware.ai/build/autoware_system_msgs': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/autoware_system_msgs --target install -- -j4 -l4
-Invoked command in '/home/chinchia120/autoware.ai/build/autoware_system_msgs' returned '0': /usr/bin/cmake --build /home/chinchia120/autoware.ai/build/autoware_system_msgs --target install -- -j4 -l4
