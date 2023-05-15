@@ -11,4 +11,6 @@ int main(int argc, char** argv){
         ROS_INFO("Hello World!");
         ros::Duration(frq).sleep();
     }
+
+    return 0;
 }

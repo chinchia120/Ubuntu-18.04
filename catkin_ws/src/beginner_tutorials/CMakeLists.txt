@@ -163,6 +163,12 @@ target_link_libraries(talker_my_msg ${catkin_LIBRARIES})
 add_executable(ask_id_server src/ask_id_server.cpp)
 target_link_libraries(ask_id_server ${catkin_LIBRARIES})
 
+add_executable(function_spin src/function_spin.cpp)
+target_link_libraries(function_spin ${catkin_LIBRARIES})
+
+add_executable(function_spinOnce src/function_spinOnce.cpp)
+target_link_libraries(function_spinOnce ${catkin_LIBRARIES})
+
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
 ## target back to the shorter version for ease of user use
